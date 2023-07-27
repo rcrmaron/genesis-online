@@ -4,14 +4,8 @@ from .base import BaseService
 
 
 class FindService(BaseService):
-    def __init__(
-        self,
-        session: requests.Session,
-        username: str,
-        password: str,
-        language: Literal["de", "en"] = "en",
-    ) -> None:
-        super().__init__(session, username, password, language)
+    def __init__(self, session: requests.Session) -> None:
+        super().__init__(session)
 
     def endpoints(self) -> list:
         return ["find"]

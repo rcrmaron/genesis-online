@@ -23,12 +23,17 @@ class GenesisOnline:
         language : Literal['de', 'en'], default "en"
             Language for the API results
         """
-        self._instantiated = False
         self.session = requests.Session()
+        self.session.params = {
+            "username": username,
+            "password": password,
+            "language": language,
+        }
         self.username = username
         self.password = password
         self.language = language
-        self._init_services()
+        self.test = TestService(self.session)
+        self.find = FindService(self.session)
 
     @property
     def username(self):
@@ -37,8 +42,7 @@ class GenesisOnline:
     @username.setter
     def username(self, value: str):
         self._username = value
-        if self._instantiated:
-            self._init_services()
+        self.session.params["username"] = value
 
     @property
     def password(self):
@@ -47,8 +51,7 @@ class GenesisOnline:
     @password.setter
     def password(self, value: str):
         self._password = value
-        if self._instantiated:
-            self._init_services()
+        self.session.params["password"] = value
 
     @property
     def language(self):
@@ -57,8 +60,7 @@ class GenesisOnline:
     @language.setter
     def language(self, value: Literal["de", "en"]):
         self._language = value
-        if self._instantiated:
-            self._init_services()
+        self.session.params["language"] = value
 
     def check_api(self) -> dict:
         """Check if API is online."""
@@ -84,13 +86,3 @@ class GenesisOnline:
         """
         response = self.session.get(url)
         return response.json()
-
-    def _init_services(self) -> None:
-        """Initialize API services."""
-        self.test = TestService(
-            self.session, self.username, self.password, self.language
-        )
-        self.find = FindService(
-            self.session, self.username, self.password, self.language
-        )
-        self._instantiated = True
