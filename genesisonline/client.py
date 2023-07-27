@@ -62,6 +62,10 @@ class GenesisOnline:
         self._language = value
         self.session.params["language"] = value
 
+    def services(self) -> list:
+        """Return a list of all available services."""
+        return ["test", "find"]
+
     def check_api(self) -> dict:
         """Check if API is online."""
         return self.test.whoami()
