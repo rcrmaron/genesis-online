@@ -1,6 +1,6 @@
-from typing import Literal
 import requests
 from .base import BaseService
+from ..constants import Endpoints
 
 
 class TestService(BaseService):
@@ -12,8 +12,8 @@ class TestService(BaseService):
 
     def whoami(self, **kwargs) -> dict:
         """Check if API is online."""
-        return super()._request("test_whoami", **kwargs)
+        return super()._request(Endpoints.TEST_WHOAMI, **kwargs)
 
     def logincheck(self, **kwargs) -> dict:
         """Check if login is valid."""
-        return super()._request("test_logincheck", **kwargs)
+        return super()._request(Endpoints.TEST_LOGINCHECK, **kwargs)

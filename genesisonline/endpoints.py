@@ -1,8 +1,31 @@
 """Endpoint paths for the Genesis Online API."""
 
 
-ENDPOINT_PATHS = {
-    "test_whoami": "helloworld/whoami",
-    "test_logincheck": "helloworld/logincheck",
-    "find_find": "find/find",
-}
+class Endpoints:
+    TEST_WHOAMI = "helloworld/whoami"
+    TEST_LOGINCHECK = "helloworld/logincheck"
+    FIND_FIND = "find/find"
+    CATALOGUE_CUBES = "catalogue/cubes"
+    CATALOGUE_CUBES2STATISTIC = "catalogue/cubes2statistic"
+    CATALOGUE_CUBES2VARIABLE = "catalogue/cubes2variable"
+    CATALOGUE_JOBS = "catalogue/jobs"
+    CATALOGUE_MODIFIEDDATA = "catalogue/modifieddata"
+    CATALOGUE_QUALITYSIGNS = "catalogue/qualitysigns"
+    CATALOGUE_RESULTS = "catalogue/results"
+    CATALOGUE_STATISTICS = "catalogue/statistics"
+    CATALOGUE_STATISTICS2VARIABLE = "catalogue/statistics2variable"
+    CATALOGUE_TABLES = "catalogue/tables"
+    CATALOGUE_TABLES2STATISTICS = "catalogue/tables2statistics"
+    CATALOGUE_TABLES2VARIABLES = "catalogue/tables2variables"
+    CATALOGUE_TERMS = "catalogue/terms"
+    CATALOGUE_TIMESERIES = "catalogue/timeseries"
+    CATALOGUE_TIMESERIES2STATISTICS = "catalogue/timeseries2statistics"
+    CATALOGUE_TIMESERIES2VARIABLES = "catalogue/timeseries2variables"
+    CATALOGUE_VALUES = "catalogue/values"
+    CATALOGUE_VALUES2VARIABLE = "catalogue/values2variable"
+    CATALOGUE_VARIABLES = "catalogue/variables"
+    CATALOGUE_VARIABLES2STATISTIC = "catalogue/variables2statistic"
+    CATALOGUE_VARIABLES2TIMESERIES = "catalogue/variables2timeseries"
+    CATALOGUE_VARIABLES2TIMESERIES2STATISTIC = (
+        "catalogue/variables2timeseries2statistic"
+    )

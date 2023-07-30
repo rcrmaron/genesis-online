@@ -1,7 +1,6 @@
 import requests
 from typing import Literal
-from .constants import BASE_URL, ENDPOINT_PATHS
-from .services import TestService, FindService
+from .services import TestService, FindService, CatalogueService
 
 
 class GenesisOnline:
@@ -34,6 +33,7 @@ class GenesisOnline:
         self.language = language
         self.test = TestService(self.session)
         self.find = FindService(self.session)
+        self.catalogue = CatalogueService(self.session)
 
     @property
     def username(self):
@@ -64,7 +64,7 @@ class GenesisOnline:
 
     def services(self) -> list:
         """Return a list of all available services."""
-        return ["test", "find"]
+        return ["test", "find", "catalogue"]
 
     def check_api(self) -> dict:
         """Check if API is online."""

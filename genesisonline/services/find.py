@@ -1,6 +1,6 @@
 import requests
-from typing import Literal
 from .base import BaseService
+from ..constants import Endpoints
 
 
 class FindService(BaseService):
@@ -14,5 +14,9 @@ class FindService(BaseService):
         self, term: str = None, category: str = None, pagelength: str = None, **kwargs
     ) -> dict:
         return super()._request(
-            "find_find", term=term, category=category, pagelength=pagelength, **kwargs
+            Endpoints.FIND_FIND,
+            term=term,
+            category=category,
+            pagelength=pagelength,
+            **kwargs
         )
