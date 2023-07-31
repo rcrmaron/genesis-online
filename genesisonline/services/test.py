@@ -1,6 +1,7 @@
 import requests
 from .base import BaseService
 from ..constants import Endpoints
+from ..utils import get_api_params
 
 
 class TestService(BaseService):
@@ -12,8 +13,10 @@ class TestService(BaseService):
 
     def whoami(self, **kwargs) -> dict:
         """Check if API is online."""
-        return super()._request(Endpoints.TEST_WHOAMI, **kwargs)
+        api_params = get_api_params(locals())
+        return super()._request(Endpoints.TEST_WHOAMI, **api_params)
 
     def logincheck(self, **kwargs) -> dict:
         """Check if login is valid."""
-        return super()._request(Endpoints.TEST_LOGINCHECK, **kwargs)
+        api_params = get_api_params(locals())
+        return super()._request(Endpoints.TEST_LOGINCHECK, **api_params)

@@ -1,6 +1,7 @@
 import requests
 from .base import BaseService
 from ..constants import Endpoints
+from ..utils import get_api_params
 
 
 class FindService(BaseService):
@@ -13,10 +14,5 @@ class FindService(BaseService):
     def find(
         self, term: str = None, category: str = None, pagelength: str = None, **kwargs
     ) -> dict:
-        return super()._request(
-            Endpoints.FIND_FIND,
-            term=term,
-            category=category,
-            pagelength=pagelength,
-            **kwargs
-        )
+        api_params = get_api_params(locals())
+        return super()._request(Endpoints.FIND_FIND, **api_params)
