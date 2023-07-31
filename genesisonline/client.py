@@ -1,10 +1,13 @@
 import requests
 from typing import Literal
+from .constants import API_VERSION
 from .services import TestService, FindService, CatalogueService
 
 
 class GenesisOnline:
     """Object which represents the Genesis Online API."""
+
+    VERSION = API_VERSION
 
     def __init__(
         self, username: str, password: str, language: Literal["de", "en"] = "en"
