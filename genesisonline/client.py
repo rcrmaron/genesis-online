@@ -5,7 +5,22 @@ from .services import TestService, FindService, CatalogueService
 
 
 class GenesisOnline:
-    """Object which represents the Genesis Online API."""
+    """Object which represents the Genesis Online API.
+
+    The RESTful web service is a collection of over 40 methods, which are
+    structured in the following services:
+
+    Attributes
+    ----------
+    test : TestService
+        Service containing methods for testing the API.
+
+    find : FindService
+        Service containing methods for finding information.
+
+    catalogue : CatalogueService
+        Service containing methods for listing objects.
+    """
 
     VERSION = API_VERSION
 
@@ -17,13 +32,13 @@ class GenesisOnline:
         Parameters
         ----------
         username : str
-            Username for login
+            Name of the user according to the GENESIS account.
 
         password : str
-            Password for login
+            Password according to the GENESIS account.
 
         language : Literal['de', 'en'], default "en"
-            Language for the API results
+            Language the user wants the response to be in.
         """
         self.session = requests.Session()
         self.session.params = {

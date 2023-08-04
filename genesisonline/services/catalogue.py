@@ -5,6 +5,8 @@ from ..utils import get_api_params
 
 
 class CatalogueService(BaseService):
+    """Service containing methods for listing objects"""
+
     def __init__(self, session: requests.Session) -> None:
         super().__init__(session)
 
@@ -35,7 +37,21 @@ class CatalogueService(BaseService):
     def cubes(
         self, selection: str = None, area: str = None, pagelength: str = None, **kwargs
     ) -> dict:
-        """Delivers a list of data cubes."""
+        """Returns a list of cubes from `area` according to the parameters set.
+
+        Parameters
+        ----------
+        selection : str
+            Filters the cubes whose code matches `selection`.
+            Between 1-10 characters, supports "*"-notation.
+
+        area : str
+            Domain where the object is stored.
+
+        pagelength : str
+            Maximum number of items that will be returned. Can be between 1-2500.
+            defaults to 100 if `pagelength` is None.
+        """
         api_params = get_api_params(locals())
         return super()._request(Endpoints.CATALOGUE_CUBES, **api_params)
 
@@ -47,7 +63,25 @@ class CatalogueService(BaseService):
         pagelength: str = None,
         **kwargs
     ) -> dict:
-        """Delivers a list of data cubes for a statistic."""
+        """Returns a list of cubes related to the statistics `name` from `area`
+        according to the parameters set.
+
+        Parameters
+        ----------
+        name : str
+            Name of the statistics. Between 1-6 characters.
+
+        selection : str
+            Filters the cubes whose code matches `selection`.
+            Between 1-10 characters, supports "*"-notation.
+
+        area : str
+            Domain where the object is stored.
+
+        pagelength : str
+            Maximum number of items that will be returned. Can be between 1-2500.
+            defaults to 100 if `pagelength` is None.
+        """
         api_params = get_api_params(locals())
         return super()._request(Endpoints.CATALOGUE_CUBES2STATISTIC, **api_params)
 
@@ -59,7 +93,25 @@ class CatalogueService(BaseService):
         pagelength: str = None,
         **kwargs
     ) -> dict:
-        """Delivers a list of data cubes for a variable."""
+        """Returns a list of cubes related to variable `name` from `area`
+        according to the parameters set.
+
+        Parameters
+        ----------
+        name : str
+            Name of the statistics. Between 1-6 characters.
+
+        selection : str
+            Filters the cubes whose code matches `selection`.
+            Between 1-10 characters, supports "*"-notation.
+
+        area : str
+            Domain where the object is stored.
+
+        pagelength : str
+            Maximum number of items that will be returned. Can be between 1-2500.
+            defaults to 100 if `pagelength` is None.
+        """
         api_params = get_api_params(locals())
         return super()._request(Endpoints.CATALOGUE_CUBES2VARIABLE, **api_params)
 

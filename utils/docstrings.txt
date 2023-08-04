@@ -1,0 +1,19 @@
+        term : str
+            Keyword(s) to be searched. Can be any string of characters.
+
+        category : str
+            Category to be searched in.
+
+        pagelength : str
+            Maximum number of items that will be returned. Can be between 1-2500.
+            defaults to 100 if `pagelength` is None.
+
+        selection : str
+            Filters the cubes whose code matches `selection`. 
+            Between 1-10 characters, supports "*"-notation.
+
+        area : str
+            Domain where the object is stored. 
+
+        name : str
+            Name of the statistics. Between 1-6 characters.
