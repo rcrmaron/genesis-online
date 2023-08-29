@@ -1,37 +1,44 @@
 import requests
-from .base import BaseService
-from ..constants import Endpoints
-from ..utils import get_api_params
+from genesisonline.services.base import BaseService
+from genesisonline.constants import Endpoints, JsonKeys
+from genesisonline.exceptions import StandardizationError
 
 
 class FindService(BaseService):
-    """Service containing methods for finding information on objects
+    """Service containing methods for finding information on objects.
 
-    Objects can be tables, variables, statistics or cubes.
+    Objects can be cubes, statistics, tables, timeseries or variables.
     """
+
+    _service = "find"
+    endpoints = ["find"]
 
     def __init__(self, session: requests.Session) -> None:
         super().__init__(session)
 
-    def endpoints(self) -> list:
-        return ["find"]
+    def __str__(self) -> str:
+        return "Service containing methods for finding information on objects."
 
-    def find(
-        self, term: str = None, category: str = None, pagelength: str = None, **kwargs
-    ) -> dict:
-        """Returns lists of objects for a search (term).
+    def find(self, term: str, **api_params) -> dict:
+        return self._request(Endpoints.FIND_FIND, term=term, **api_params)
 
-        Parameters
-        ----------
-        term : str
-            Keyword(s) to be searched. Can be any string of characters.
+    def _request(self, endpoint: str, **api_params) -> dict:
+        response = super().request(endpoint, **api_params)
 
-        category : str
-            Category to be searched in.
+        try:
+            return self._standardize_response(response)
+        except Exception as e:
+            raise StandardizationError(f"Standardization error occured: {e}") from e
 
-        pagelength : str
-            Maximum number of items that will be returned. Can be between 1-2500.
-            defaults to 100 if `pagelength` is None.
-        """
-        api_params = get_api_params(locals())
-        return super()._request(Endpoints.FIND_FIND, **api_params)
+    def _standardize_response(self, response: dict) -> dict:
+        copyright = response.pop(JsonKeys.COPYRIGHT)
+
+        response[JsonKeys.CONTENT] = {
+            JsonKeys.CUBES: response.pop(JsonKeys.CUBES),
+            JsonKeys.STATISTICS: response.pop(JsonKeys.STATISTICS),
+            JsonKeys.TABLES: response.pop(JsonKeys.TABLES),
+            JsonKeys.TIMESERIES: response.pop(JsonKeys.TIMESERIES),
+            JsonKeys.VARIABLES: response.pop(JsonKeys.VARIABLES),
+        }
+        response[JsonKeys.COPYRIGHT] = copyright
+        return response

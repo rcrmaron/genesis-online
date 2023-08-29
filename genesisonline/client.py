@@ -1,7 +1,18 @@
 import requests
-from typing import Literal
-from .constants import API_VERSION
-from .services import TestService, FindService, CatalogueService
+from typing import Any
+from .constants import API_VERSION, JsonKeys
+from .services import (
+    TestService,
+    FindService,
+    CatalogueService,
+    DataService,
+    MetadataService,
+)
+
+try:
+    from typing import Literal
+except ImportError:
+    from typing_extensions import Literal
 
 
 class GenesisOnline:
@@ -20,9 +31,18 @@ class GenesisOnline:
 
     catalogue : CatalogueService
         Service containing methods for listing objects.
+
+    data : DataService
+        Service containing methods for retrieving data.
+
+    metadata : MetadataService
+        Service containing methods for retrieving metadata.
+
+    services : list
+        Overview of all registered services
     """
 
-    VERSION = API_VERSION
+    version = API_VERSION
 
     def __init__(
         self, username: str, password: str, language: Literal["de", "en"] = "en"
@@ -52,6 +72,15 @@ class GenesisOnline:
         self.test = TestService(self.session)
         self.find = FindService(self.session)
         self.catalogue = CatalogueService(self.session)
+        self.data = DataService(self.session)
+        self.metadata = MetadataService(self.session)
+        self.services = [
+            self.test._service,
+            self.find._service,
+            self.catalogue._service,
+            self.data._service,
+            self.metadata._service,
+        ]
 
     @property
     def username(self):
@@ -80,31 +109,14 @@ class GenesisOnline:
         self._language = value
         self.session.params["language"] = value
 
-    def services(self) -> list:
-        """Return a list of all available services."""
-        return ["test", "find", "catalogue"]
-
     def check_api(self) -> dict:
         """Check if API is online."""
-        return self.test.whoami()
+        return self.test.whoami().get(JsonKeys.CONTENT)
 
     def check_login(self) -> dict:
-        """Check if login is valid."""
-        return self.test.logincheck()
+        """Check if API login is valid."""
+        return self.test.logincheck().get(JsonKeys.CONTENT)
 
-    def manual_request(self, url: str) -> dict:
-        """Manually request an API endpoint by providing a preformatted URL.
-
-        This method is mainly intendended for debugging/testing purposes.
-
-        Parameters
-        ----------
-        url : str
-            Preformatted URL to request (requires manual formatting of parameters)
-
-        Returns
-        -------
-        dict : JSON response from the API
-        """
-        response = self.session.get(url)
-        return response.json()
+    def request(self, endpoint: str, **kwargs) -> Any:
+        """Returns unformatted response from specified API `endpoint`"""
+        return self.test.request(endpoint, **kwargs)
