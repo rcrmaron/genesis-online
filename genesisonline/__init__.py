@@ -5,3 +5,5 @@ Federal Statistical Office of Germany by wrapping its official RESTful/JSON API.
 """
 
 from .client import GenesisOnline
+
+__version__ = "0.1.0"
