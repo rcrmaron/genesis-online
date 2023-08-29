@@ -1,0 +1,36 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/data/result?language=en&name=KREISE
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"data\",\"Method\":\"result\"},\"Status\":{\"Code\":104,\"Content\":\"There
+        are no objects matching your selection.\",\"Type\":\"Information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"name\":\"KREISE\",\"area\":\"free\",\"compress\":\"false\",\"language\":\"en\"},\"Object\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '368'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sat, 26 Aug 2023 11:05:26 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+version: 1

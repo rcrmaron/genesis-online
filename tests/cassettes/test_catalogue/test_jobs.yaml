@@ -1,0 +1,394 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/jobs?area=all&language=en&pagelength=20&searchcriterion=code&sortcriterion=code&type=all
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"jobs\"},\"Status\":{\"Code\":104,\"Content\":\"There
+        are no objects matching your selection.\",\"Type\":\"Information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"\",\"searchcriterion\":\"code\",\"sortcriterion\":\"code\",\"type\":\"all\",\"pagelength\":\"20\",\"language\":\"en\",\"area\":\"user\"},\"List\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '428'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2023 14:11:10 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/jobs?language=en&pagelength=20&searchcriterion=code&sortcriterion=code&type=all
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"jobs\"},\"Status\":{\"Code\":104,\"Content\":\"There
+        are no objects matching your selection.\",\"Type\":\"Information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"\",\"searchcriterion\":\"code\",\"sortcriterion\":\"code\",\"type\":\"all\",\"pagelength\":\"20\",\"language\":\"en\",\"area\":\"user\"},\"List\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '428'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2023 14:11:40 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/jobs?area=all&language=en&pagelength=20&searchcriterion=code&sortcriterion=code&type=all
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"jobs\"},\"Status\":{\"Code\":104,\"Content\":\"There
+        are no objects matching your selection.\",\"Type\":\"Information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"\",\"searchcriterion\":\"code\",\"sortcriterion\":\"code\",\"type\":\"all\",\"pagelength\":\"20\",\"language\":\"en\",\"area\":\"user\"},\"List\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '428'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2023 14:12:13 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/jobs?area=all&language=en&pagelength=20&type=all
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"jobs\"},\"Status\":{\"Code\":104,\"Content\":\"There
+        are no objects matching your selection. (At least one parameter contains invalid
+        values. It was changed to perform the service.: searchcriterion, sortcriterion)\",\"Type\":\"Information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"\",\"searchcriterion\":\"type\",\"sortcriterion\":\"type\",\"type\":\"all\",\"pagelength\":\"20\",\"language\":\"en\",\"area\":\"user\"},\"List\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '549'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2023 14:13:53 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/jobs?area=user&language=en&pagelength=20&type=all
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"jobs\"},\"Status\":{\"Code\":104,\"Content\":\"There
+        are no objects matching your selection. (At least one parameter contains invalid
+        values. It was changed to perform the service.: searchcriterion, sortcriterion)\",\"Type\":\"Information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"\",\"searchcriterion\":\"type\",\"sortcriterion\":\"type\",\"type\":\"all\",\"pagelength\":\"20\",\"language\":\"en\",\"area\":\"user\"},\"List\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '549'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2023 14:14:59 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/jobs?language=en&pagelength=20
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"jobs\"},\"Status\":{\"Code\":22,\"Content\":\"successfull
+        (At least one parameter contains invalid values. It was changed to perform
+        the service.: sortcriterion)\",\"Type\":\"Warnung\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"\",\"searchcriterion\":\"code\",\"sortcriterion\":\"type\",\"type\":\"all\",\"pagelength\":\"20\",\"language\":\"en\",\"area\":\"user\"},\"List\":[{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-15\",\"Time\":\"17:38:00\",\"State\":\"finished\",\"Code\":\"51000-0013_113894183\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-15\",\"Time\":\"20:51:00\",\"State\":\"finished\",\"Code\":\"51000-0013_125499451\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-15\",\"Time\":\"21:02:01\",\"State\":\"finished\",\"Code\":\"51000-0013_126149737\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-15\",\"Time\":\"21:09:00\",\"State\":\"finished\",\"Code\":\"51000-0013_126549093\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-15\",\"Time\":\"21:16:00\",\"State\":\"finished\",\"Code\":\"51000-0013_126961061\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-15\",\"Time\":\"21:25:00\",\"State\":\"finished\",\"Code\":\"51000-0013_127505276\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-15\",\"Time\":\"21:30:01\",\"State\":\"finished\",\"Code\":\"51000-0013_127833695\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-17\",\"Time\":\"23:15:00\",\"State\":\"finished\",\"Code\":\"51000-0013_306949073\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-17\",\"Time\":\"23:19:01\",\"State\":\"finished\",\"Code\":\"51000-0013_307151600\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-18\",\"Time\":\"19:07:00\",\"State\":\"finished\",\"Code\":\"51000-0013_378436268\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-18\",\"Time\":\"19:11:01\",\"State\":\"finished\",\"Code\":\"51000-0013_378699592\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-18\",\"Time\":\"19:15:00\",\"State\":\"finished\",\"Code\":\"51000-0013_378925221\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-18\",\"Time\":\"19:18:00\",\"State\":\"finished\",\"Code\":\"51000-0013_379136391\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-19\",\"Time\":\"14:31:00\",\"State\":\"finished\",\"Code\":\"51000-0013_448299401\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-19\",\"Time\":\"14:35:01\",\"State\":\"finished\",\"Code\":\"51000-0013_448506960\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-19\",\"Time\":\"14:40:01\",\"State\":\"finished\",\"Code\":\"51000-0013_448801965\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-19\",\"Time\":\"14:40:00\",\"State\":\"finished\",\"Code\":\"51000-0013_448806343\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-19\",\"Time\":\"14:46:01\",\"State\":\"finished\",\"Code\":\"51000-0013_449209726\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-19\",\"Time\":\"14:46:00\",\"State\":\"finished\",\"Code\":\"51000-0013_449211423\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-20\",\"Time\":\"02:16:00\",\"State\":\"finished\",\"Code\":\"51000-0013_490617296\"}],\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '2830'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Thu, 24 Aug 2023 15:26:13 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/jobs?language=en&pagelength=20
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"jobs\"},\"Status\":{\"Code\":22,\"Content\":\"successfull
+        (At least one parameter contains invalid values. It was changed to perform
+        the service.: sortcriterion)\",\"Type\":\"Warnung\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"\",\"searchcriterion\":\"code\",\"sortcriterion\":\"type\",\"type\":\"all\",\"pagelength\":\"20\",\"language\":\"en\",\"area\":\"user\"},\"List\":[{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"13:05:01\",\"State\":\"finished\",\"Code\":\"51000-0013_047950603\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"13:07:00\",\"State\":\"finished\",\"Code\":\"51000-0013_048064494\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"13:15:00\",\"State\":\"finished\",\"Code\":\"51000-0013_048530285\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-15\",\"Time\":\"17:38:00\",\"State\":\"finished\",\"Code\":\"51000-0013_113894183\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-15\",\"Time\":\"20:51:00\",\"State\":\"finished\",\"Code\":\"51000-0013_125499451\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-15\",\"Time\":\"21:02:01\",\"State\":\"finished\",\"Code\":\"51000-0013_126149737\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-15\",\"Time\":\"21:09:00\",\"State\":\"finished\",\"Code\":\"51000-0013_126549093\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-15\",\"Time\":\"21:16:00\",\"State\":\"finished\",\"Code\":\"51000-0013_126961061\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-15\",\"Time\":\"21:25:00\",\"State\":\"finished\",\"Code\":\"51000-0013_127505276\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-15\",\"Time\":\"21:30:01\",\"State\":\"finished\",\"Code\":\"51000-0013_127833695\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-17\",\"Time\":\"23:15:00\",\"State\":\"finished\",\"Code\":\"51000-0013_306949073\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-17\",\"Time\":\"23:19:01\",\"State\":\"finished\",\"Code\":\"51000-0013_307151600\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-18\",\"Time\":\"19:07:00\",\"State\":\"finished\",\"Code\":\"51000-0013_378436268\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-18\",\"Time\":\"19:11:01\",\"State\":\"finished\",\"Code\":\"51000-0013_378699592\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-18\",\"Time\":\"19:15:00\",\"State\":\"finished\",\"Code\":\"51000-0013_378925221\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-18\",\"Time\":\"19:18:00\",\"State\":\"finished\",\"Code\":\"51000-0013_379136391\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-19\",\"Time\":\"14:31:00\",\"State\":\"finished\",\"Code\":\"51000-0013_448299401\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-19\",\"Time\":\"14:35:01\",\"State\":\"finished\",\"Code\":\"51000-0013_448506960\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-19\",\"Time\":\"14:40:01\",\"State\":\"finished\",\"Code\":\"51000-0013_448801965\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-19\",\"Time\":\"14:40:00\",\"State\":\"finished\",\"Code\":\"51000-0013_448806343\"}],\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '2830'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sat, 26 Aug 2023 11:20:51 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/jobs?language=en&pagelength=20
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"jobs\"},\"Status\":{\"Code\":22,\"Content\":\"successfull
+        (At least one parameter contains invalid values. It was changed to perform
+        the service.: sortcriterion)\",\"Type\":\"Warnung\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"\",\"searchcriterion\":\"code\",\"sortcriterion\":\"type\",\"type\":\"all\",\"pagelength\":\"20\",\"language\":\"en\",\"area\":\"user\"},\"List\":[{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"13:05:01\",\"State\":\"finished\",\"Code\":\"51000-0013_047950603\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"13:07:00\",\"State\":\"finished\",\"Code\":\"51000-0013_048064494\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"13:15:00\",\"State\":\"finished\",\"Code\":\"51000-0013_048530285\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"13:26:01\",\"State\":\"finished\",\"Code\":\"51000-0013_049184725\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"13:40:00\",\"State\":\"finished\",\"Code\":\"51000-0013_050031447\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"14:05:01\",\"State\":\"finished\",\"Code\":\"51000-0013_051533507\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"14:09:00\",\"State\":\"finished\",\"Code\":\"51000-0013_051779094\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"14:14:01\",\"State\":\"finished\",\"Code\":\"51000-0013_052049616\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"20:49:01\",\"State\":\"finished\",\"Code\":\"51000-0013_075747709\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"20:51:00\",\"State\":\"finished\",\"Code\":\"51000-0013_075895139\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"20:54:00\",\"State\":\"finished\",\"Code\":\"51000-0013_076095314\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-25\",\"Time\":\"15:00:01\",\"State\":\"finished\",\"Code\":\"51000-0013_968430739\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-25\",\"Time\":\"15:01:00\",\"State\":\"finished\",\"Code\":\"51000-0013_968510466\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-25\",\"Time\":\"15:02:00\",\"State\":\"finished\",\"Code\":\"51000-0013_968579442\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-25\",\"Time\":\"15:04:00\",\"State\":\"finished\",\"Code\":\"51000-0013_968692012\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-25\",\"Time\":\"15:19:00\",\"State\":\"finished\",\"Code\":\"51000-0013_969544469\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-25\",\"Time\":\"15:20:01\",\"State\":\"finished\",\"Code\":\"51000-0013_969607767\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-25\",\"Time\":\"15:32:01\",\"State\":\"finished\",\"Code\":\"51000-0013_970335639\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-25\",\"Time\":\"15:32:01\",\"State\":\"finished\",\"Code\":\"51000-0013_970359500\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-25\",\"Time\":\"15:52:01\",\"State\":\"finished\",\"Code\":\"51000-0013_971525763\"}],\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '2830'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Mon, 28 Aug 2023 15:56:07 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/jobs?language=en&pagelength=20
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"jobs\"},\"Status\":{\"Code\":22,\"Content\":\"successfull
+        (At least one parameter contains invalid values. It was changed to perform
+        the service.: sortcriterion)\",\"Type\":\"Warnung\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"\",\"searchcriterion\":\"code\",\"sortcriterion\":\"type\",\"type\":\"all\",\"pagelength\":\"20\",\"language\":\"en\",\"area\":\"user\"},\"List\":[{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"13:05:01\",\"State\":\"finished\",\"Code\":\"51000-0013_047950603\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"13:07:00\",\"State\":\"finished\",\"Code\":\"51000-0013_048064494\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"13:15:00\",\"State\":\"finished\",\"Code\":\"51000-0013_048530285\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"13:26:01\",\"State\":\"finished\",\"Code\":\"51000-0013_049184725\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"13:40:00\",\"State\":\"finished\",\"Code\":\"51000-0013_050031447\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"14:05:01\",\"State\":\"finished\",\"Code\":\"51000-0013_051533507\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"14:09:00\",\"State\":\"finished\",\"Code\":\"51000-0013_051779094\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"14:14:01\",\"State\":\"finished\",\"Code\":\"51000-0013_052049616\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"20:49:01\",\"State\":\"finished\",\"Code\":\"51000-0013_075747709\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"20:51:00\",\"State\":\"finished\",\"Code\":\"51000-0013_075895139\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-26\",\"Time\":\"20:54:00\",\"State\":\"finished\",\"Code\":\"51000-0013_076095314\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-28\",\"Time\":\"17:57:00\",\"State\":\"finished\",\"Code\":\"51000-0013_238234426\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-28\",\"Time\":\"18:02:01\",\"State\":\"finished\",\"Code\":\"51000-0013_238573782\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-25\",\"Time\":\"15:00:01\",\"State\":\"finished\",\"Code\":\"51000-0013_968430739\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-25\",\"Time\":\"15:01:00\",\"State\":\"finished\",\"Code\":\"51000-0013_968510466\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-25\",\"Time\":\"15:02:00\",\"State\":\"finished\",\"Code\":\"51000-0013_968579442\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-25\",\"Time\":\"15:04:00\",\"State\":\"finished\",\"Code\":\"51000-0013_968692012\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-25\",\"Time\":\"15:19:00\",\"State\":\"finished\",\"Code\":\"51000-0013_969544469\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-25\",\"Time\":\"15:20:01\",\"State\":\"finished\",\"Code\":\"51000-0013_969607767\"},{\"Content\":\"value
+        retrieval\",\"Date\":\"2023-08-25\",\"Time\":\"15:32:01\",\"State\":\"finished\",\"Code\":\"51000-0013_970335639\"}],\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '2830'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Mon, 28 Aug 2023 17:48:35 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+version: 1

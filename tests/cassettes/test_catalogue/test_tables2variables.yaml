@@ -1,0 +1,41 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/terms?area=all&language=en&name=KREISE&pagelength=20&selection=12%2A
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"terms\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"12*\",\"pagelength\":\"20\",\"language\":\"en\",\"area\":\"all\"},\"List\":[{\"Content\":\"12\"},{\"Content\":\"12
+        - 15 children cared for\"},{\"Content\":\"12 months\"},{\"Content\":\"12 to
+        less than 13 hours\"},{\"Content\":\"12 to under 14 years\"},{\"Content\":\"12
+        to under 15 months\"},{\"Content\":\"12 to under 15 years\"},{\"Content\":\"12
+        to under 24 months\"},{\"Content\":\"12 years\"},{\"Content\":\"12 years and
+        over\"},{\"Content\":\"12,100\"},{\"Content\":\"12.600kwh\"},{\"Content\":\"120\"},{\"Content\":\"120
+        or more sq m\"},{\"Content\":\"120114\"},{\"Content\":\"120116\"},{\"Content\":\"120120\"},{\"Content\":\"120cm\"},{\"Content\":\"120g\"},{\"Content\":\"120gm2\"}],\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '866'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2023 14:45:11 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+version: 1

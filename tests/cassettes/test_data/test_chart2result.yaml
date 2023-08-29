@@ -1,0 +1,274 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/data/chart2result?area=all&chartType=0&drawPoints=false&focus=false&format=png&language=en&name=12411-0001&tops=false&zoom=2
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"data\",\"Method\":\"chart2result\"},\"Status\":{\"Code\":104,\"Content\":\"There
+        are no objects matching your selection.\",\"Type\":\"Information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"name\":\"12411-0001\",\"area\":\"all\",\"charttype\":\"0\",\"drawpoints\":\"false\",\"zoom\":\"2\",\"focus\":\"false\",\"tops\":\"false\",\"language\":\"en\",\"format\":\"png\"},\"Object\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '452'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 10 Aug 2023 11:13:33 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/data/chart2result?area=all&chartType=0&drawPoints=false&focus=false&format=png&language=en&name=12411-0001&tops=false&zoom=2
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"data\",\"Method\":\"chart2result\"},\"Status\":{\"Code\":104,\"Content\":\"There
+        are no objects matching your selection.\",\"Type\":\"Information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"name\":\"12411-0001\",\"area\":\"all\",\"charttype\":\"0\",\"drawpoints\":\"false\",\"zoom\":\"2\",\"focus\":\"false\",\"tops\":\"false\",\"language\":\"en\",\"format\":\"png\"},\"Object\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '452'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 15 Aug 2023 14:52:25 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/data/chart2result?area=all&chartType=0&drawPoints=false&focus=false&format=png&language=en&name=12411-0001&tops=false&zoom=2
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"data\",\"Method\":\"chart2result\"},\"Status\":{\"Code\":104,\"Content\":\"There
+        are no objects matching your selection.\",\"Type\":\"Information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"name\":\"12411-0001\",\"area\":\"all\",\"charttype\":\"0\",\"drawpoints\":\"false\",\"zoom\":\"2\",\"focus\":\"false\",\"tops\":\"false\",\"language\":\"en\",\"format\":\"png\"},\"Object\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '452'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 15 Aug 2023 14:53:48 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/data/chart2result?area=all&chartType=0&drawPoints=false&focus=false&format=png&language=en&name=12411-0001&tops=false&zoom=2
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"data\",\"Method\":\"chart2result\"},\"Status\":{\"Code\":104,\"Content\":\"There
+        are no objects matching your selection.\",\"Type\":\"Information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"name\":\"12411-0001\",\"area\":\"all\",\"charttype\":\"0\",\"drawpoints\":\"false\",\"zoom\":\"2\",\"focus\":\"false\",\"tops\":\"false\",\"language\":\"en\",\"format\":\"png\"},\"Object\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '452'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 15 Aug 2023 14:54:12 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/data/chart2result?language=en&name=12411-0001
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"data\",\"Method\":\"chart2result\"},\"Status\":{\"Code\":104,\"Content\":\"There
+        are no objects matching your selection.\",\"Type\":\"Information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"name\":\"12411-0001\",\"area\":\"free\",\"charttype\":\"0\",\"drawpoints\":\"false\",\"zoom\":\"2\",\"focus\":\"false\",\"tops\":\"false\",\"language\":\"en\",\"format\":\"png\"},\"Object\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '453'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 24 Aug 2023 18:23:59 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/data/chart2result?language=en&name=12411-0001
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"data\",\"Method\":\"chart2result\"},\"Status\":{\"Code\":104,\"Content\":\"There
+        are no objects matching your selection.\",\"Type\":\"Information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"name\":\"12411-0001\",\"area\":\"free\",\"charttype\":\"0\",\"drawpoints\":\"false\",\"zoom\":\"2\",\"focus\":\"false\",\"tops\":\"false\",\"language\":\"en\",\"format\":\"png\"},\"Object\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '453'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 24 Aug 2023 18:27:00 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/data/chart2result?language=en&name=12411-0001
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"data\",\"Method\":\"chart2result\"},\"Status\":{\"Code\":104,\"Content\":\"There
+        are no objects matching your selection.\",\"Type\":\"Information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"name\":\"12411-0001\",\"area\":\"free\",\"charttype\":\"0\",\"drawpoints\":\"false\",\"zoom\":\"2\",\"focus\":\"false\",\"tops\":\"false\",\"language\":\"en\",\"format\":\"png\"},\"Object\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '453'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 24 Aug 2023 18:27:54 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/data/chart2result?language=en&name=12411-0001
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"data\",\"Method\":\"chart2result\"},\"Status\":{\"Code\":104,\"Content\":\"There
+        are no objects matching your selection.\",\"Type\":\"Information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"name\":\"12411-0001\",\"area\":\"free\",\"charttype\":\"0\",\"drawpoints\":\"false\",\"zoom\":\"2\",\"focus\":\"false\",\"tops\":\"false\",\"language\":\"en\",\"format\":\"png\"},\"Object\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '453'
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 26 Aug 2023 11:05:08 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+version: 1

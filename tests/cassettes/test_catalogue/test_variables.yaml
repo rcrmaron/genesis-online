@@ -1,0 +1,193 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/variables?area=all&language=en&pagelength=20&searchcriterion=code&selection=FA%2A&sortcriterion=code
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"variables\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"FA*\",\"area\":\"all\",\"searchcriterion\":\"code\",\"sortcriterion\":\"code\",\"type\":\"all\",\"pagelength\":\"20\",\"language\":\"en\"},\"List\":[{\"Code\":\"FAMAR1\",\"Content\":\"Type
+        of family\",\"Type\":\"Subject\",\"Values\":\"3\",\"Information\":\"false\"},{\"Code\":\"FAMEL1\",\"Content\":\"Marital
+        status of the parents\",\"Type\":\"Subject\",\"Values\":\"2\",\"Information\":\"false\"},{\"Code\":\"FAMEL2\",\"Content\":\"Marital
+        status of the relinquishing parent(s)\",\"Type\":\"Subject\",\"Values\":\"8\",\"Information\":\"true\"},{\"Code\":\"FAMEL3\",\"Content\":\"Marital
+        status of the relinquishing parent(s)\",\"Type\":\"Subject\",\"Values\":\"5\",\"Information\":\"true\"},{\"Code\":\"FAMFM1\",\"Content\":\"Family
+        forms\",\"Type\":\"Subject\",\"Values\":\"7\",\"Information\":\"true\"},{\"Code\":\"FAMFM2\",\"Content\":\"Family
+        forms\",\"Type\":\"Subject\",\"Values\":\"4\",\"Information\":\"true\"},{\"Code\":\"FAMFM3\",\"Content\":\"Family
+        forms\",\"Type\":\"Subject\",\"Values\":\"5\",\"Information\":\"false\"},{\"Code\":\"FAMFM4\",\"Content\":\"Family
+        forms\",\"Type\":\"Subject\",\"Values\":\"3\",\"Information\":\"false\"},{\"Code\":\"FAMIL2\",\"Content\":\"Marital
+        status\",\"Type\":\"Subject\",\"Values\":\"8\",\"Information\":\"false\"},{\"Code\":\"FAMST1\",\"Content\":\"Marital
+        status\",\"Type\":\"Subject\",\"Values\":\"5\",\"Information\":\"true\"},{\"Code\":\"FAMST2\",\"Content\":\"Marital
+        status\",\"Type\":\"Subject\",\"Values\":\"5\",\"Information\":\"true\"},{\"Code\":\"FAMST8\",\"Content\":\"Marital
+        status\",\"Type\":\"Subject\",\"Values\":\"7\",\"Information\":\"true\"},{\"Code\":\"FAMSTD\",\"Content\":\"Marital
+        status\",\"Type\":\"Subject\",\"Values\":\"4\",\"Information\":\"true\"},{\"Code\":\"FAMVT1\",\"Content\":\"Marital
+        status of the father\",\"Type\":\"Subject\",\"Values\":\"2\",\"Information\":\"false\"},{\"Code\":\"FASSV1\",\"Content\":\"Capacity\",\"Type\":\"Subject\",\"Values\":\"4\",\"Information\":\"false\"}],\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '1920'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2023 15:50:06 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/variables?language=en&pagelength=1&selection=FA%2A
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"variables\"},\"Status\":{\"Code\":22,\"Content\":\"successfull
+        (At least one parameter contains invalid values. It was changed to perform
+        the service.: sortcriterion)\",\"Type\":\"Warnung\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"FA*\",\"area\":\"free\",\"searchcriterion\":\"code\",\"sortcriterion\":\"code\",\"type\":\"all\",\"pagelength\":\"1\",\"language\":\"en\"},\"List\":[{\"Code\":\"FAMAR1\",\"Content\":\"Type
+        of family\",\"Type\":\"Subject\",\"Values\":\"3\",\"Information\":\"false\"}],\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '594'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Thu, 24 Aug 2023 15:27:03 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/variables?language=en&pagelength=1&selection=FA%2A
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"variables\"},\"Status\":{\"Code\":22,\"Content\":\"successfull
+        (At least one parameter contains invalid values. It was changed to perform
+        the service.: sortcriterion)\",\"Type\":\"Warnung\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"FA*\",\"area\":\"free\",\"searchcriterion\":\"code\",\"sortcriterion\":\"code\",\"type\":\"all\",\"pagelength\":\"1\",\"language\":\"en\"},\"List\":[{\"Code\":\"FAMAR1\",\"Content\":\"Type
+        of family\",\"Type\":\"Subject\",\"Values\":\"3\",\"Information\":\"false\"}],\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '594'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sat, 26 Aug 2023 11:21:07 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/variables?language=en&pagelength=1&selection=FA%2A
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"variables\"},\"Status\":{\"Code\":22,\"Content\":\"successfull
+        (At least one parameter contains invalid values. It was changed to perform
+        the service.: sortcriterion)\",\"Type\":\"Warnung\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"FA*\",\"area\":\"free\",\"searchcriterion\":\"code\",\"sortcriterion\":\"code\",\"type\":\"all\",\"pagelength\":\"1\",\"language\":\"en\"},\"List\":[{\"Code\":\"FAMAR1\",\"Content\":\"Type
+        of family\",\"Type\":\"Subject\",\"Values\":\"3\",\"Information\":\"false\"}],\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '594'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Mon, 28 Aug 2023 15:56:26 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/variables?language=en&pagelength=1&selection=FA%2A
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"variables\"},\"Status\":{\"Code\":22,\"Content\":\"successfull
+        (At least one parameter contains invalid values. It was changed to perform
+        the service.: sortcriterion)\",\"Type\":\"Warnung\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"FA*\",\"area\":\"free\",\"searchcriterion\":\"code\",\"sortcriterion\":\"code\",\"type\":\"all\",\"pagelength\":\"1\",\"language\":\"en\"},\"List\":[{\"Code\":\"FAMAR1\",\"Content\":\"Type
+        of family\",\"Type\":\"Subject\",\"Values\":\"3\",\"Information\":\"false\"}],\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '594'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Mon, 28 Aug 2023 17:48:52 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+version: 1

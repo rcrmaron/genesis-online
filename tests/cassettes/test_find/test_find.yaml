@@ -1,0 +1,1731 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/find/find?category=cubes&language=en&pagelength=1&term=waste
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"find\",\"Method\":\"find\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"term\":\"waste\",\"category\":\"cubes\",\"pagelength\":\"1\",\"language\":\"en\"},\"Cubes\":[{\"Code\":\"12211BJ116\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, WZ2008 (Sections), Year\",\"State\":\"complete
+        with values\",\"Time\":\"2009 to 2019\",\"LatestUpdate\":\"2021-06-17 16:38:07h\",\"Information\":\"false\"}],\"Statistics\":null,\"Tables\":null,\"Timeseries\":null,\"Variables\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '611'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Tue, 08 Aug 2023 15:12:45 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/find/find?category=cubes&language=en&pagelength=1&term=waste
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"find\",\"Method\":\"find\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"term\":\"waste\",\"category\":\"cubes\",\"pagelength\":\"1\",\"language\":\"en\"},\"Cubes\":[{\"Code\":\"12211BJ116\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, WZ2008 (Sections), Year\",\"State\":\"complete
+        with values\",\"Time\":\"2009 to 2019\",\"LatestUpdate\":\"2021-06-17 16:38:07h\",\"Information\":\"false\"}],\"Statistics\":null,\"Tables\":null,\"Timeseries\":null,\"Variables\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '611'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Tue, 08 Aug 2023 17:39:44 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/find/find?category=cubes&language=en&pagelength=1&term=waste
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"find\",\"Method\":\"find\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"term\":\"waste\",\"category\":\"cubes\",\"pagelength\":\"1\",\"language\":\"en\"},\"Cubes\":[{\"Code\":\"12211BJ116\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, WZ2008 (Sections), Year\",\"State\":\"complete
+        with values\",\"Time\":\"2009 to 2019\",\"LatestUpdate\":\"2021-06-17 16:38:07h\",\"Information\":\"false\"}],\"Statistics\":null,\"Tables\":null,\"Timeseries\":null,\"Variables\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '611'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Tue, 08 Aug 2023 20:45:11 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/find/find?category=cubes&language=en&pagelength=1&term=waste
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"find\",\"Method\":\"find\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"term\":\"waste\",\"category\":\"cubes\",\"pagelength\":\"1\",\"language\":\"en\"},\"Cubes\":[{\"Code\":\"12211BJ116\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, WZ2008 (Sections), Year\",\"State\":\"complete
+        with values\",\"Time\":\"2009 to 2019\",\"LatestUpdate\":\"2021-06-17 16:38:07h\",\"Information\":\"false\"}],\"Statistics\":null,\"Tables\":null,\"Timeseries\":null,\"Variables\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '611'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Tue, 22 Aug 2023 17:48:00 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/find/find?category=cubes&language=en&pagelength=1&term=waste
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"find\",\"Method\":\"find\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"term\":\"waste\",\"category\":\"cubes\",\"pagelength\":\"1\",\"language\":\"en\"},\"Cubes\":[{\"Code\":\"12211BJ116\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, WZ2008 (Sections), Year\",\"State\":\"complete
+        with values\",\"Time\":\"2009 to 2019\",\"LatestUpdate\":\"2021-06-17 16:38:07h\",\"Information\":\"false\"}],\"Statistics\":null,\"Tables\":null,\"Timeseries\":null,\"Variables\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '611'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Tue, 22 Aug 2023 17:49:42 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/find/find?category=cubes&language=en&pagelength=1&term=waste
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"find\",\"Method\":\"find\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"term\":\"waste\",\"category\":\"cubes\",\"pagelength\":\"1\",\"language\":\"en\"},\"Cubes\":[{\"Code\":\"12211BJ116\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, WZ2008 (Sections), Year\",\"State\":\"complete
+        with values\",\"Time\":\"2009 to 2019\",\"LatestUpdate\":\"2021-06-17 16:38:07h\",\"Information\":\"false\"}],\"Statistics\":null,\"Tables\":null,\"Timeseries\":null,\"Variables\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '611'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Mon, 28 Aug 2023 16:02:59 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/find/find?language=en&term=waste
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"find\",\"Method\":\"find\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"term\":\"waste\",\"category\":\"all\",\"pagelength\":\"100\",\"language\":\"en\"},\"Cubes\":[{\"Code\":\"12211BJ116\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, WZ2008 (Sections), Year\",\"State\":\"complete
+        with values\",\"Time\":\"2009 to 2019\",\"LatestUpdate\":\"2021-06-17 16:38:07h\",\"Information\":\"false\"},{\"Code\":\"12211BJ117\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, WZ2008 (Sections), Sex, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2009 to 2019\",\"LatestUpdate\":\"2021-06-17 16:38:16h\",\"Information\":\"false\"},{\"Code\":\"13111BV007\",\"Content\":\"Employees
+        subj. to social insurance contributions, Employees subj. to social insur.
+        at place of work, Germany, WZ2008 (Sections): Employees subj. to soc. insur.,
+        Reference date\",\"State\":\"complete with values\",\"Time\":\"2008-03-31
+        to 2022-12-31\",\"LatestUpdate\":\"2023-08-01 08:40:45h\",\"Information\":\"false\"},{\"Code\":\"13111BV008\",\"Content\":\"Employees
+        subj. to social insurance contributions, Employees subj. to social insur.
+        at place of work, Germany, WZ2008 (Sections): Employees subj. to soc. insur.,
+        Sex, Reference date\",\"State\":\"complete with values\",\"Time\":\"2008-03-31
+        to 2022-12-31\",\"LatestUpdate\":\"2023-08-01 08:40:51h\",\"Information\":\"false\"},{\"Code\":\"13111BV009\",\"Content\":\"Employees
+        subj. to social insurance contributions, Employees subj. to social insur.
+        at place of work, Germany, WZ2008 (Sections): Employees subj. to soc. insur.,
+        Extent of employment, Reference date\",\"State\":\"complete with values\",\"Time\":\"2008-03-31
+        to 2022-12-31\",\"LatestUpdate\":\"2023-08-01 08:41:27h\",\"Information\":\"false\"},{\"Code\":\"13111BV010\",\"Content\":\"Employees
+        subj. to social insurance contributions, Employees subj. to social insur.
+        at place of work, Germany, WZ2008 (Sections): Employees subj. to soc. insur.,
+        Sex, Extent of employment, Reference date\",\"State\":\"complete with values\",\"Time\":\"2008-03-31
+        to 2022-12-31\",\"LatestUpdate\":\"2023-08-01 08:40:31h\",\"Information\":\"false\"},{\"Code\":\"13311BJ002\",\"Content\":\"Regional
+        employment accounts, Persons in employment (domestic concept), Employees (domestic
+        concept), Self-employed persons a. family workers (domestic), Germany, WZ2008
+        (Sections, aggregations): Regional accounts, Year\",\"State\":\"complete with
+        values\",\"Time\":\"1991 to 2022\",\"LatestUpdate\":\"2023-03-16 13:17:37h\",\"Information\":\"false\"},{\"Code\":\"13311LJ002\",\"Content\":\"Regional
+        employment accounts, Persons in employment (domestic concept), Employees (domestic
+        concept), Self-employed persons a. family workers (domestic), L\xE4nder, WZ2008
+        (Sections, aggregations): Regional accounts, Year\",\"State\":\"complete with
+        values\",\"Time\":\"1991 to 2022\",\"LatestUpdate\":\"2023-03-16 13:17:55h\",\"Information\":\"false\"},{\"Code\":\"21311BS009\",\"Content\":\"Statistics
+        of students, Students, Germany, Subject, Semester\",\"State\":\"complete with
+        values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:06:27h\",\"Information\":\"false\"},{\"Code\":\"21311BS010\",\"Content\":\"Statistics
+        of students, Students, Germany, Subject, Sex, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:07:52h\",\"Information\":\"false\"},{\"Code\":\"21311BS011\",\"Content\":\"Statistics
+        of students, Students, Germany, Subject, Nationality, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:08:09h\",\"Information\":\"false\"},{\"Code\":\"21311BS012\",\"Content\":\"Statistics
+        of students, Students, Germany, Subject, Nationality, Sex, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:07:58h\",\"Information\":\"false\"},{\"Code\":\"21311BS109\",\"Content\":\"Statistics
+        of students, First-year students, Subject, Germany, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:08:49h\",\"Information\":\"false\"},{\"Code\":\"21311BS110\",\"Content\":\"Statistics
+        of students, First-year students, Sex, Subject, Germany, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:09:34h\",\"Information\":\"false\"},{\"Code\":\"21311BS111\",\"Content\":\"Statistics
+        of students, First-year students, Nationality, Subject, Germany, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:09:39h\",\"Information\":\"false\"},{\"Code\":\"21311BS112\",\"Content\":\"Statistics
+        of students, First-year students, Sex, Nationality, Subject, Germany, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:09:54h\",\"Information\":\"false\"},{\"Code\":\"21311LS005\",\"Content\":\"Statistics
+        of students, Students, L\xE4nder, Subject, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:03:58h\",\"Information\":\"false\"},{\"Code\":\"21311LS006\",\"Content\":\"Statistics
+        of students, Students, L\xE4nder, Subject, Sex, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:04:42h\",\"Information\":\"false\"},{\"Code\":\"21311LS007\",\"Content\":\"Statistics
+        of students, Students, L\xE4nder, Subject, Nationality, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:03:46h\",\"Information\":\"false\"},{\"Code\":\"21311LS008\",\"Content\":\"Statistics
+        of students, Students, L\xE4nder, Subject, Nationality, Sex, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:04:23h\",\"Information\":\"false\"},{\"Code\":\"21311LS105\",\"Content\":\"Statistics
+        of students, First-year students, Subject, L\xE4nder, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:05:47h\",\"Information\":\"false\"},{\"Code\":\"21311LS106\",\"Content\":\"Statistics
+        of students, First-year students, Sex, Subject, L\xE4nder, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:06:02h\",\"Information\":\"false\"},{\"Code\":\"21311LS107\",\"Content\":\"Statistics
+        of students, First-year students, Nationality, Subject, L\xE4nder, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:05:37h\",\"Information\":\"false\"},{\"Code\":\"21311LS108\",\"Content\":\"Statistics
+        of students, First-year students, Sex, Nationality, Subject, L\xE4nder, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:05:08h\",\"Information\":\"false\"},{\"Code\":\"21321BJ004\",\"Content\":\"Statistics
+        of examinations, Examinations, Germany, Subject, Nationality, Sex, Examination
+        result, Year\",\"State\":\"complete with values\",\"Time\":\"1999 to 2021\",\"LatestUpdate\":\"2022-09-07
+        08:00:40h\",\"Information\":\"false\"},{\"Code\":\"21321LJ004\",\"Content\":\"Statistics
+        of examinations, Examinations, L\xE4nder, Subject, Nationality, Sex, Examination
+        result, Year\",\"State\":\"complete with values\",\"Time\":\"1999 to 2021\",\"LatestUpdate\":\"2022-09-07
+        08:00:54h\",\"Information\":\"false\"},{\"Code\":\"21521B5002\",\"Content\":\"Europ.
+        Contin. Vocational Training Survey (CVTS), Continuing vocational training
+        in enterprises, Germany, Continuing training offered by the enterprises, WZ2008
+        (selected items): CVTS, Year\",\"State\":\"complete with values\",\"Time\":\"2015
+        to 2020\",\"LatestUpdate\":\"2022-12-01 08:00:43h\",\"Information\":\"false\"},{\"Code\":\"21521B5005\",\"Content\":\"Europ.
+        Contin. Vocational Training Survey (CVTS), Rate of participation in training
+        courses in ent., Germany, Sex, WZ2008 (selected items): CVTS, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2015 to 2020\",\"LatestUpdate\":\"2022-12-01 08:00:36h\",\"Information\":\"false\"},{\"Code\":\"21521B5008\",\"Content\":\"Europ.
+        Contin. Vocational Training Survey (CVTS), Most important qualific. in terms
+        of train. hours, Most important future qualifications in enterpr., Germany,
+        Qualification areas, WZ2008 (selected items): CVTS, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2015 to 2020\",\"LatestUpdate\":\"2022-12-01 08:00:46h\",\"Information\":\"false\"},{\"Code\":\"21521B5011\",\"Content\":\"Europ.
+        Contin. Vocational Training Survey (CVTS), Qualification strategies in enterprises,
+        Germany, Measures for future qualification, WZ2008 (selected items): CVTS,
+        Year\",\"State\":\"complete with values\",\"Time\":\"2015 to 2020\",\"LatestUpdate\":\"2022-12-01
+        08:00:47h\",\"Information\":\"false\"},{\"Code\":\"21521B5014\",\"Content\":\"Europ.
+        Contin. Vocational Training Survey (CVTS), Rate of participation in training
+        courses in ent., Enterprises with agreements on continuing training, Enterprises
+        providing initial vocational training, Germany, WZ2008 (selected items): CVTS,
+        Year\",\"State\":\"complete with values\",\"Time\":\"2015 to 2020\",\"LatestUpdate\":\"2022-12-01
+        08:01:32h\",\"Information\":\"false\"},{\"Code\":\"32111BJ001\",\"Content\":\"Survey
+        of waste treatment, Waste treatment plants, Input to waste treatment plants,
+        Wastes generated in the own local unit, Waste delivered from the domestic
+        territory, Waste delivered from abroad, Waste treatment plants with output,
+        Output of waste treatment plants, Wastes to be disposed of, Wastes to be recovered,
+        Waste to preparatory processes, Distribution to other plants, users or traders,
+        Germany, Type of plant, Year\",\"State\":\"complete with values\",\"Time\":\"2006
+        to 2021\",\"LatestUpdate\":\"2023-03-29 15:11:03h\",\"Information\":\"false\"},{\"Code\":\"32111BJ002\",\"Content\":\"Survey
+        of waste treatment, Waste treatment plants, Input to waste treatment plants,
+        Wastes generated in the own local unit, Waste delivered from the domestic
+        territory, Waste delivered from abroad, Waste treatment plants with output,
+        Output of waste treatment plants, Wastes to be disposed of, Wastes to be recovered,
+        Waste to preparatory processes, Distribution to other plants, users or traders,
+        Germany, Type of plant, Year\",\"State\":\"complete with values\",\"Time\":\"2006
+        to 2021\",\"LatestUpdate\":\"2023-03-29 15:12:03h\",\"Information\":\"false\"},{\"Code\":\"32111BJ003\",\"Content\":\"Survey
+        of waste treatment, Waste treatment plants, Input to waste treatment plants,
+        Wastes generated in the own local unit, Waste delivered from the domestic
+        territory, Waste delivered from abroad, Waste treatment plants with output,
+        Output of waste treatment plants, Wastes to be disposed of, Wastes to be recovered,
+        Waste to preparatory processes, Distribution to other plants, users or traders,
+        Germany, Type of plant, Types of waste (EAV 2-digit codes), Year\",\"State\":\"complete
+        with values\",\"Time\":\"2006 to 2021\",\"LatestUpdate\":\"2023-03-29 15:12:16h\",\"Information\":\"false\"},{\"Code\":\"32111BJ004\",\"Content\":\"Survey
+        of waste treatment, Waste treatment plants, Input to waste treatment plants,
+        Wastes generated in the own local unit, Waste delivered from the domestic
+        territory, Waste delivered from abroad, Waste treatment plants with output,
+        Output of waste treatment plants, Wastes to be disposed of, Wastes to be recovered,
+        Waste to preparatory processes, Distribution to other plants, users or traders,
+        Germany, Type of plant, Types of waste (EAV 6- and 8-digit codes), Year\",\"State\":\"complete
+        with values\",\"Time\":\"2006 to 2021\",\"LatestUpdate\":\"2023-03-29 15:12:49h\",\"Information\":\"false\"},{\"Code\":\"32111BJ005\",\"Content\":\"Survey
+        of waste treatment, Waste treatment plants, Input to waste treatment plants,
+        Wastes generated in the own local unit, Waste delivered from the domestic
+        territory, Waste delivered from abroad, Germany, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2017 to 2021\",\"LatestUpdate\":\"2023-03-29 15:12:19h\",\"Information\":\"false\"},{\"Code\":\"32111BJ006\",\"Content\":\"Survey
+        of waste treatment, Waste treatment plants, Input to waste treatment plants,
+        Wastes generated in the own local unit, Waste delivered from the domestic
+        territory, Waste delivered from abroad, Germany, Types of waste (EAV 6- and
+        8-digit codes), Year\",\"State\":\"complete with values\",\"Time\":\"2017
+        to 2021\",\"LatestUpdate\":\"2023-03-29 15:12:11h\",\"Information\":\"false\"},{\"Code\":\"32111LJ001\",\"Content\":\"Survey
+        of waste treatment, Waste treatment plants, Input to waste treatment plants,
+        Wastes generated in the own local unit, Waste delivered from the domestic
+        territory, Waste delivered from abroad, Waste treatment plants with output,
+        Output of waste treatment plants, Wastes to be disposed of, Wastes to be recovered,
+        Waste to preparatory processes, Distribution to other plants, users or traders,
+        L\xE4nder, Type of plant, Year\",\"State\":\"complete with values\",\"Time\":\"2006
+        to 2021\",\"LatestUpdate\":\"2023-03-29 15:12:55h\",\"Information\":\"false\"},{\"Code\":\"32111LJ002\",\"Content\":\"Survey
+        of waste treatment, Waste treatment plants, Input to waste treatment plants,
+        Wastes generated in the own local unit, Waste delivered from the domestic
+        territory, Waste delivered from abroad, L\xE4nder, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2018 to 2021\",\"LatestUpdate\":\"2023-03-29 15:12:22h\",\"Information\":\"false\"},{\"Code\":\"32121BJ001\",\"Content\":\"Survey
+        of public waste management, Amount of household wastes generated, Amount of
+        household wastes generated p. inhabitant, Household wastes disposed of by
+        first recipient, Household wastes recovered by first recipient, Germany, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2004 to 2021\",\"LatestUpdate\":\"2023-04-05 08:39:02h\",\"Information\":\"false\"},{\"Code\":\"32121BJ002\",\"Content\":\"Survey
+        of public waste management, Amount of household wastes generated, Amount of
+        household wastes generated p. inhabitant, Household wastes disposed of by
+        first recipient, Household wastes recovered by first recipient, Germany, Types
+        of waste, Year\",\"State\":\"complete with values\",\"Time\":\"2004 to 2021\",\"LatestUpdate\":\"2023-04-05
+        08:39:14h\",\"Information\":\"false\"},{\"Code\":\"32121BJ003\",\"Content\":\"Survey
+        of public waste management, Amount of household wastes generated, Amount of
+        household wastes generated p. inhabitant, Household wastes disposed of by
+        first recipient, Household wastes recovered by first recipient, Germany, Types
+        of waste, Year\",\"State\":\"complete with values\",\"Time\":\"2004 to 2021\",\"LatestUpdate\":\"2023-04-05
+        08:39:05h\",\"Information\":\"false\"},{\"Code\":\"32121LJ001\",\"Content\":\"Survey
+        of public waste management, Amount of household wastes generated, Amount of
+        household wastes generated p. inhabitant, Household wastes disposed of by
+        first recipient, Household wastes recovered by first recipient, L\xE4nder,
+        Year\",\"State\":\"complete with values\",\"Time\":\"2004 to 2021\",\"LatestUpdate\":\"2023-04-05
+        08:39:11h\",\"Information\":\"false\"},{\"Code\":\"32121LJ002\",\"Content\":\"Survey
+        of public waste management, Amount of household wastes generated, Amount of
+        household wastes generated p. inhabitant, L\xE4nder, Types of waste, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2004 to 2021\",\"LatestUpdate\":\"2023-04-05 08:39:08h\",\"Information\":\"false\"},{\"Code\":\"32141B2001\",\"Content\":\"Processing
+        and utilising site and demolition waste, Demolition waste treatment plants,
+        Input to demolition waste treatment plants, Capacity of demolition waste treatment
+        plants, Demolition waste treatment plants with output, Output of demolition
+        waste treatment plants, Asphalt mixing plants, Input to asphalt mixing plants,
+        Germany, Year\",\"State\":\"complete with values\",\"Time\":\"2006 to 2020\",\"LatestUpdate\":\"2022-05-06
+        15:18:16h\",\"Information\":\"false\"},{\"Code\":\"32141B2002\",\"Content\":\"Processing
+        and utilising site and demolition waste, Demolition waste treatment plants,
+        Input to demolition waste treatment plants, Demolition waste treatment plants
+        with output, Output of demolition waste treatment plants, Germany, Types of
+        waste (EAV 2-digit codes (selection)), Year\",\"State\":\"complete with values\",\"Time\":\"2006
+        to 2020\",\"LatestUpdate\":\"2022-05-06 15:18:23h\",\"Information\":\"false\"},{\"Code\":\"32141B2003\",\"Content\":\"Processing
+        and utilising site and demolition waste, Demolition waste treatment plants,
+        Input to demolition waste treatment plants, Demolition waste treatment plants
+        with output, Output of demolition waste treatment plants, Germany, Types of
+        waste (EAV 6- and 8-digit codes (sel.)), Year\",\"State\":\"complete with
+        values\",\"Time\":\"2006 to 2020\",\"LatestUpdate\":\"2022-05-06 15:18:19h\",\"Information\":\"false\"},{\"Code\":\"32141B2004\",\"Content\":\"Processing
+        and utilising site and demolition waste, Demolition waste treatment plants,
+        Input to demolition waste treatment plants, Capacity of demolition waste treatment
+        plants, Demolition waste treatment plants with output, Output of demolition
+        waste treatment plants, Asphalt mixing plants, Input to asphalt mixing plants,
+        Germany, Type of plant, Year\",\"State\":\"complete with values\",\"Time\":\"2006
+        to 2020\",\"LatestUpdate\":\"2022-05-06 15:18:22h\",\"Information\":\"false\"},{\"Code\":\"32141B2005\",\"Content\":\"Processing
+        and utilising site and demolition waste, Asphalt mixing plants, Input to asphalt
+        mixing plants, Germany, Types of waste (EAV 2-digit codes (selection)), Year\",\"State\":\"complete
+        with values\",\"Time\":\"2006 to 2020\",\"LatestUpdate\":\"2022-05-06 15:18:17h\",\"Information\":\"false\"},{\"Code\":\"32141B2006\",\"Content\":\"Processing
+        and utilising site and demolition waste, Asphalt mixing plants, Input to asphalt
+        mixing plants, Germany, Types of waste (EAV 6- and 8-digit codes (sel.)),
+        Year\",\"State\":\"complete with values\",\"Time\":\"2006 to 2020\",\"LatestUpdate\":\"2022-05-06
+        15:18:24h\",\"Information\":\"false\"},{\"Code\":\"32141L2001\",\"Content\":\"Processing
+        and utilising site and demolition waste, Demolition waste treatment plants,
+        Input to demolition waste treatment plants, Capacity of demolition waste treatment
+        plants, Demolition waste treatment plants with output, Output of demolition
+        waste treatment plants, Asphalt mixing plants, Input to asphalt mixing plants,
+        L\xE4nder, Year\",\"State\":\"complete with values\",\"Time\":\"2006 to 2020\",\"LatestUpdate\":\"2022-05-06
+        15:18:20h\",\"Information\":\"false\"},{\"Code\":\"32151BJ001\",\"Content\":\"Survey
+        of dangerous waste, Waste producers, Waste quantities, Waste quantities generated
+        by primary producers, Germany, Year\",\"State\":\"complete with values\",\"Time\":\"2006
+        to 2021\",\"LatestUpdate\":\"2023-06-29 10:20:21h\",\"Information\":\"false\"},{\"Code\":\"32151BJ002\",\"Content\":\"Survey
+        of dangerous waste, Waste producers, Waste quantities, Waste quantities generated
+        by primary producers, Germany, WZ2003 (Subsections): Waste management, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2006 to 2007\",\"LatestUpdate\":\"2013-08-19 14:27:41h\",\"Information\":\"false\"},{\"Code\":\"32151BJ003\",\"Content\":\"Survey
+        of dangerous waste, Waste producers, Waste quantities, Waste quantities generated
+        by primary producers, Germany, WZ2003 (Subsections): Waste management, Types
+        of waste (EAV 2-digit codes), Year\",\"State\":\"complete with values\",\"Time\":\"2006
+        to 2007\",\"LatestUpdate\":\"2013-08-19 14:27:39h\",\"Information\":\"false\"},{\"Code\":\"32151BJ004\",\"Content\":\"Survey
+        of dangerous waste, Waste producers, Waste quantities, Waste quantities generated
+        by primary producers, Germany, WZ2008 (selected items): Waste management,
+        Year\",\"State\":\"complete with values\",\"Time\":\"2008 to 2021\",\"LatestUpdate\":\"2023-06-29
+        10:20:07h\",\"Information\":\"false\"},{\"Code\":\"32151BJ005\",\"Content\":\"Survey
+        of dangerous waste, Waste producers, Waste quantities, Waste quantities generated
+        by primary producers, Germany, WZ2008 (selected items): Waste management,
+        Types of waste (EAV 2-digit codes), Year\",\"State\":\"complete with values\",\"Time\":\"2008
+        to 2021\",\"LatestUpdate\":\"2023-06-29 10:20:15h\",\"Information\":\"false\"},{\"Code\":\"32151BJ006\",\"Content\":\"Survey
+        of dangerous waste, Waste producers, Waste quantities, Waste quantities generated
+        by primary producers, Germany, Types of waste (EAV 2-digit codes), Year\",\"State\":\"complete
+        with values\",\"Time\":\"2006 to 2021\",\"LatestUpdate\":\"2023-06-29 10:20:10h\",\"Information\":\"false\"},{\"Code\":\"32151BJ007\",\"Content\":\"Survey
+        of dangerous waste, Waste producers, Waste quantities, Waste quantities generated
+        by primary producers, Germany, Types of waste (EAV 6-digit codes), Year\",\"State\":\"complete
+        with values\",\"Time\":\"2006 to 2021\",\"LatestUpdate\":\"2023-06-29 10:20:25h\",\"Information\":\"false\"},{\"Code\":\"32151BJ008\",\"Content\":\"Survey
+        of dangerous waste, Producers of waste quantities primarily recorded, Waste
+        quantity delivered to disposers, Germany, Year\",\"State\":\"complete with
+        values\",\"Time\":\"2005 to 2008\",\"LatestUpdate\":\"2013-08-19 14:01:05h\",\"Information\":\"false\"},{\"Code\":\"32151BJ009\",\"Content\":\"Survey
+        of dangerous waste, Waste quantity delivered to disposers, Regional destination
+        of dangerous waste, Germany, Year\",\"State\":\"complete with values\",\"Time\":\"2005
+        to 2008\",\"LatestUpdate\":\"2013-08-19 14:01:17h\",\"Information\":\"false\"},{\"Code\":\"32151LJ001\",\"Content\":\"Survey
+        of dangerous waste, Waste producers, Waste quantities, Waste quantities generated
+        by primary producers, L\xE4nder, Year\",\"State\":\"complete with values\",\"Time\":\"2006
+        to 2021\",\"LatestUpdate\":\"2023-06-29 10:20:18h\",\"Information\":\"false\"},{\"Code\":\"32151LJ002\",\"Content\":\"Survey
+        of dangerous waste, Producers of waste quantities primarily recorded, Waste
+        quantity delivered to disposers, L\xE4nder, Year\",\"State\":\"complete with
+        values\",\"Time\":\"2005 to 2008\",\"LatestUpdate\":\"2013-08-19 14:01:51h\",\"Information\":\"false\"},{\"Code\":\"32151LJ003\",\"Content\":\"Survey
+        of dangerous waste, Waste quantity delivered to disposers, Regional destination
+        of dangerous waste, L\xE4nder, Year\",\"State\":\"complete with values\",\"Time\":\"2005
+        to 2008\",\"LatestUpdate\":\"2013-08-19 14:01:43h\",\"Information\":\"false\"},{\"Code\":\"32161B4001\",\"Content\":\"Survey
+        of waste production, Local units, Quantity of waste produced, Germany, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2010 to 2018\",\"LatestUpdate\":\"2020-08-05 09:19:28h\",\"Information\":\"false\"},{\"Code\":\"32161B4002\",\"Content\":\"Survey
+        of waste production, Local units, Quantity of waste produced, Germany, Types
+        of waste (EAV 2-digit codes), Year\",\"State\":\"complete with values\",\"Time\":\"2010
+        to 2018\",\"LatestUpdate\":\"2020-08-05 09:19:36h\",\"Information\":\"false\"},{\"Code\":\"32161B4003\",\"Content\":\"Survey
+        of waste production, Local units, Quantity of waste produced, Germany, Types
+        of waste (EAV 6- and 8-digit codes), Year\",\"State\":\"complete with values\",\"Time\":\"2010
+        to 2018\",\"LatestUpdate\":\"2020-08-05 09:19:34h\",\"Information\":\"false\"},{\"Code\":\"32161B4004\",\"Content\":\"Survey
+        of waste production, Local units, Quantity of waste produced, Persons employed,
+        Coverage of local units, Coverage of persons employed, Germany, WZ2008 (2-digit
+        codes): Waste production, Year\",\"State\":\"complete with values\",\"Time\":\"2010
+        to 2018\",\"LatestUpdate\":\"2020-08-05 09:19:30h\",\"Information\":\"false\"},{\"Code\":\"32161B4005\",\"Content\":\"Survey
+        of waste production, Local units, Quantity of waste produced, Germany, Types
+        of waste (EAV 2-digit codes), WZ2008 (2-digit codes): Waste production, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2010 to 2018\",\"LatestUpdate\":\"2020-08-05 09:19:31h\",\"Information\":\"false\"},{\"Code\":\"32161L4001\",\"Content\":\"Survey
+        of waste production, Local units, Quantity of waste produced, L\xE4nder, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2010 to 2018\",\"LatestUpdate\":\"2020-08-05 09:19:35h\",\"Information\":\"false\"},{\"Code\":\"32212B3001\",\"Content\":\"Survey
+        of public waste water disposal, Inhabitants connected to the public sewage
+        system, Waste water, Germany, Type of waste water disposal, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2013 to 2019\",\"LatestUpdate\":\"2022-02-07 10:28:23h\",\"Information\":\"false\"},{\"Code\":\"32212L3001\",\"Content\":\"Survey
+        of public waste water disposal, Inhabitants connected to the public sewage
+        system, Waste water, L\xE4nder, Type of waste water disposal, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2013 to 2019\",\"LatestUpdate\":\"2022-02-07 10:29:23h\",\"Information\":\"false\"},{\"Code\":\"32213B3001\",\"Content\":\"Survey
+        of public waste water treatment, Length of sewage network by location, Waste
+        water treatment plants, Connected population equivalents, Connected inhab.
+        of the connected population equ., Annual quantity of waste water, Dom.a.ind.
+        sewage water of ann. quant. of w. water, Germany, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2022-02-07 10:29:25h\",\"Information\":\"false\"},{\"Code\":\"32213B3002\",\"Content\":\"Survey
+        of public waste water treatment, Waste water treatment plants, Connected population
+        equivalents, Connected inhab. of the connected population equ., Annual quantity
+        of waste water, Dom.a.ind. sewage water of ann. quant. of w. water, Germany,
+        Type of waste water treatment, Year\",\"State\":\"complete with values\",\"Time\":\"2007
+        to 2019\",\"LatestUpdate\":\"2022-02-07 10:29:22h\",\"Information\":\"false\"},{\"Code\":\"32213L3001\",\"Content\":\"Survey
+        of public waste water treatment, Length of sewage network by location, Waste
+        water treatment plants, Connected population equivalents, Connected inhab.
+        of the connected population equ., Annual quantity of waste water, Dom.a.ind.
+        sewage water of ann. quant. of w. water, L\xE4nder, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2022-02-07 10:29:21h\",\"Information\":\"false\"},{\"Code\":\"32213L3002\",\"Content\":\"Survey
+        of public waste water treatment, Waste water treatment plants, Connected population
+        equivalents, Connected inhab. of the connected population equ., Annual quantity
+        of waste water, Dom.a.ind. sewage water of ann. quant. of w. water, Type of
+        waste water treatment, L\xE4nder, Year\",\"State\":\"complete with values\",\"Time\":\"2007
+        to 2019\",\"LatestUpdate\":\"2022-02-07 10:29:26h\",\"Information\":\"false\"},{\"Code\":\"32214LJ001\",\"Content\":\"Survey
+        of public waste water disp. - sewage sludge, Dry matter of sewage sludge fr.
+        waste w.tr.plants, L\xE4nder, Types of sewage sludge disposal, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2006 to 2021\",\"LatestUpdate\":\"2022-12-12 13:30:06h\",\"Information\":\"false\"},{\"Code\":\"32221B3001\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Water quantity, Establishments
+        extracting or purchasing water, Germany, Water extraction and receipt, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2023-03-30 08:03:33h\",\"Information\":\"false\"},{\"Code\":\"32221B3002\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Water quantity, Germany, Own
+        extraction or external procurement, Year\",\"State\":\"complete with values\",\"Time\":\"2007
+        to 2019\",\"LatestUpdate\":\"2023-03-30 08:03:30h\",\"Information\":\"false\"},{\"Code\":\"32221B3003\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Water quantity, Germany, Types
+        of use, Year\",\"State\":\"complete with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2023-03-30
+        08:03:39h\",\"Information\":\"false\"},{\"Code\":\"32221B3004\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Use of freshwater, Germany, Water
+        use, Year\",\"State\":\"complete with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2023-03-30
+        08:03:35h\",\"Information\":\"false\"},{\"Code\":\"32221B3005\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Untreated waste water, Germany,
+        Types of waste water discharge, Year\",\"State\":\"complete with values\",\"Time\":\"2007
+        to 2019\",\"LatestUpdate\":\"2023-03-30 08:03:24h\",\"Information\":\"false\"},{\"Code\":\"32221B3006\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Water quantity, Establishments
+        extracting or purchasing water, Use of freshwater, Untreated waste water,
+        Germany, Year\",\"State\":\"complete with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2023-03-30
+        08:03:47h\",\"Information\":\"false\"},{\"Code\":\"32221L3001\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Water quantity, Establishments
+        extracting or purchasing water, L\xE4nder, Water extraction and receipt, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2023-03-30 08:03:18h\",\"Information\":\"false\"},{\"Code\":\"32221L3002\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Water quantity, L\xE4nder, Own
+        extraction or external procurement, Year\",\"State\":\"complete with values\",\"Time\":\"2007
+        to 2019\",\"LatestUpdate\":\"2023-03-30 08:03:44h\",\"Information\":\"false\"},{\"Code\":\"32221L3003\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Water quantity, L\xE4nder, Types
+        of use, Year\",\"State\":\"complete with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2023-03-30
+        08:04:17h\",\"Information\":\"false\"},{\"Code\":\"32221L3004\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Use of freshwater, Water use,
+        L\xE4nder, Year\",\"State\":\"complete with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2023-03-30
+        08:04:20h\",\"Information\":\"false\"},{\"Code\":\"32221L3005\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Untreated waste water, L\xE4nder,
+        Types of waste water discharge, Year\",\"State\":\"complete with values\",\"Time\":\"2007
+        to 2019\",\"LatestUpdate\":\"2023-03-30 08:03:27h\",\"Information\":\"false\"},{\"Code\":\"32221L3006\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Water quantity, Establishments
+        extracting or purchasing water, Use of freshwater, Untreated waste water,
+        L\xE4nder, Year\",\"State\":\"complete with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2023-03-30
+        08:03:21h\",\"Information\":\"false\"},{\"Code\":\"32251L3001\",\"Content\":\"Survey
+        of households' own water supply and disp., Inhabitants, Inhabitants connected
+        to the public sewage system, Inhab. conn. to central waste water treat. plants,
+        L\xE4nder, Year\",\"State\":\"complete with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2022-02-07
+        10:29:27h\",\"Information\":\"false\"},{\"Code\":\"32511BJ002\",\"Content\":\"Survey
+        of environmental protection investments, Environmental protection investments,
+        WZ2003: Environmental protection investments, Turnover size classes of enterprises,
+        Environmental sectors, Germany, Year\",\"State\":\"complete with values\",\"Time\":\"2003
+        to 2007\",\"LatestUpdate\":\"2016-03-10 11:21:08h\",\"Information\":\"false\"},{\"Code\":\"32511BJ004\",\"Content\":\"Survey
+        of environmental protection investments, Environmental protection investments,
+        WZ2003: Environmental protection investments, Employee size classes of enterprises,
+        Environmental sectors, Germany, Year\",\"State\":\"complete with values\",\"Time\":\"2003
+        to 2007\",\"LatestUpdate\":\"2016-03-10 11:21:58h\",\"Information\":\"false\"},{\"Code\":\"32511BJ101\",\"Content\":\"Survey
+        of environmental protection investments, Enterprises, Enterprises with investments,
+        Enterprises with total environ.protect.investments, Investments, Invest. in
+        enterpr. with total envir. protect.inv., WZ2008: Environmental protection
+        investments, Turnover size classes of enterprises, Germany, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2008 to 2017\",\"LatestUpdate\":\"2019-09-13 14:13:11h\",\"Information\":\"false\"},{\"Code\":\"32511BJ102\",\"Content\":\"Survey
+        of environmental protection investments, Environmental protection investments,
+        WZ2008: Environmental protection investments, Turnover size classes of enterprises,
+        Environmental sectors, Germany, Year\",\"State\":\"complete with values\",\"Time\":\"2008
+        to 2017\",\"LatestUpdate\":\"2019-09-13 14:13:20h\",\"Information\":\"false\"},{\"Code\":\"32511BJ103\",\"Content\":\"Survey
+        of environmental protection investments, Enterprises, Enterprises with investments,
+        Enterprises with total environ.protect.investments, Investments, Invest. in
+        enterpr. with total envir. protect.inv., WZ2008: Environmental protection
+        investments, Employee size classes of enterprises, Germany, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2008 to 2017\",\"LatestUpdate\":\"2019-09-13 14:13:10h\",\"Information\":\"false\"},{\"Code\":\"32511BJ104\",\"Content\":\"Survey
+        of environmental protection investments, Environmental protection investments,
+        WZ2008: Environmental protection investments, Employee size classes of enterprises,
+        Environmental sectors, Germany, Year\",\"State\":\"complete with values\",\"Time\":\"2008
+        to 2017\",\"LatestUpdate\":\"2019-09-13 14:13:16h\",\"Information\":\"false\"},{\"Code\":\"32521B3002\",\"Content\":\"Survey
+        of current environmental protection expend., Current environmental protection
+        exp. in industry, Germany, Environmental sectors, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2013 to 2019\",\"LatestUpdate\":\"2021-10-11 10:22:37h\",\"Information\":\"false\"},{\"Code\":\"32521B3005\",\"Content\":\"Survey
+        of current environmental protection expend., Current environmental protection
+        exp. in industry, Germany, WZ2008 (Sections): Environmental protection exp.,
+        Year\",\"State\":\"complete with values\",\"Time\":\"2013 to 2019\",\"LatestUpdate\":\"2021-10-11
+        10:22:32h\",\"Information\":\"false\"},{\"Code\":\"32521B3006\",\"Content\":\"Survey
+        of current environmental protection expend., Current environmental protection
+        exp. in industry, Germany, WZ2008 (2-digit codes): Environmental prot. exp.,
+        Year\",\"State\":\"complete with values\",\"Time\":\"2013 to 2019\",\"LatestUpdate\":\"2021-10-11
+        10:22:34h\",\"Information\":\"false\"},{\"Code\":\"32521B3008\",\"Content\":\"Survey
+        of current environmental protection expend., Current environmental protection
+        exp. in industry, Germany, Environmental sectors, WZ2008 (Sections): Environmental
+        protection exp., Year\",\"State\":\"complete with values\",\"Time\":\"2013
+        to 2019\",\"LatestUpdate\":\"2021-10-11 10:23:33h\",\"Information\":\"false\"},{\"Code\":\"32521B3009\",\"Content\":\"Survey
+        of current environmental protection expend., Current environmental protection
+        exp. in industry, Germany, Environmental sectors, WZ2008 (2-digit codes):
+        Environmental prot. exp., Year\",\"State\":\"complete with values\",\"Time\":\"2013
+        to 2019\",\"LatestUpdate\":\"2021-10-11 10:23:36h\",\"Information\":\"false\"}],\"Statistics\":[{\"Code\":\"12211\",\"Content\":\"Microcensus\",\"Cubes\":\"483\",\"Information\":\"false\"},{\"Code\":\"13111\",\"Content\":\"Employees
+        subj. to social insurance contributions\",\"Cubes\":\"13\",\"Information\":\"false\"},{\"Code\":\"13311\",\"Content\":\"Regional
+        employment accounts\",\"Cubes\":\"4\",\"Information\":\"false\"},{\"Code\":\"21311\",\"Content\":\"Statistics
+        of students\",\"Cubes\":\"48\",\"Information\":\"false\"},{\"Code\":\"21321\",\"Content\":\"Statistics
+        of examinations\",\"Cubes\":\"5\",\"Information\":\"false\"},{\"Code\":\"21521\",\"Content\":\"Europ.
+        Contin. Vocational Training Survey (CVTS)\",\"Cubes\":\"15\",\"Information\":\"false\"},{\"Code\":\"32111\",\"Content\":\"Survey
+        of waste treatment\",\"Cubes\":\"8\",\"Information\":\"false\"},{\"Code\":\"32121\",\"Content\":\"Survey
+        of public waste management\",\"Cubes\":\"5\",\"Information\":\"false\"},{\"Code\":\"32141\",\"Content\":\"Processing
+        and utilising site and demolition waste\",\"Cubes\":\"7\",\"Information\":\"false\"},{\"Code\":\"32151\",\"Content\":\"Survey
+        of dangerous waste\",\"Cubes\":\"12\",\"Information\":\"false\"},{\"Code\":\"32161\",\"Content\":\"Survey
+        of waste production\",\"Cubes\":\"6\",\"Information\":\"false\"},{\"Code\":\"32212\",\"Content\":\"Survey
+        of public waste water disposal\",\"Cubes\":\"2\",\"Information\":\"false\"},{\"Code\":\"32213\",\"Content\":\"Survey
+        of public waste water treatment\",\"Cubes\":\"4\",\"Information\":\"false\"},{\"Code\":\"32214\",\"Content\":\"Survey
+        of public waste water disp. - sewage sludge\",\"Cubes\":\"1\",\"Information\":\"false\"},{\"Code\":\"32221\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp.\",\"Cubes\":\"12\",\"Information\":\"false\"},{\"Code\":\"32251\",\"Content\":\"Survey
+        of households' own water supply and disp.\",\"Cubes\":\"1\",\"Information\":\"false\"},{\"Code\":\"32511\",\"Content\":\"Survey
+        of environmental protection investments\",\"Cubes\":\"8\",\"Information\":\"false\"},{\"Code\":\"32521\",\"Content\":\"Survey
+        of current environmental protection expend.\",\"Cubes\":\"11\",\"Information\":\"false\"},{\"Code\":\"32531\",\"Content\":\"Survey
+        of environmental protect. goods a. services\",\"Cubes\":\"12\",\"Information\":\"false\"},{\"Code\":\"42111\",\"Content\":\"Monthly
+        report on manufacturing\",\"Cubes\":\"28\",\"Information\":\"false\"},{\"Code\":\"42231\",\"Content\":\"Survey
+        of investments in manufacturing, mining\",\"Cubes\":\"9\",\"Information\":\"false\"},{\"Code\":\"42251\",\"Content\":\"Cost
+        structure survey in manufacturing, mining\",\"Cubes\":\"12\",\"Information\":\"false\"},{\"Code\":\"43211\",\"Content\":\"Survey
+        of investments: energy and water supply\",\"Cubes\":\"1\",\"Information\":\"false\"},{\"Code\":\"43221\",\"Content\":\"Cost
+        structure survey: energy and water supply\",\"Cubes\":\"1\",\"Information\":\"false\"},{\"Code\":\"43311\",\"Content\":\"Monthly
+        survey of electricity and heat production\",\"Cubes\":\"4\",\"Information\":\"false\"},{\"Code\":\"43312\",\"Content\":\"Survey
+        among electricity supply system operators\",\"Cubes\":\"4\",\"Information\":\"false\"},{\"Code\":\"43351\",\"Content\":\"Survey
+        of electricity a. heat production in manuf.\",\"Cubes\":\"8\",\"Information\":\"false\"},{\"Code\":\"43411\",\"Content\":\"Survey
+        of heat production and use\",\"Cubes\":\"1\",\"Information\":\"false\"},{\"Code\":\"43531\",\"Content\":\"Energy
+        use by local units in manufacturing\",\"Cubes\":\"5\",\"Information\":\"false\"},{\"Code\":\"45211\",\"Content\":\"Monthly
+        statistics: wholesale and commission trade\",\"Cubes\":\"17\",\"Information\":\"false\"},{\"Code\":\"45341\",\"Content\":\"Annual
+        statistics of wholesale and retail trade\",\"Cubes\":\"16\",\"Information\":\"false\"},{\"Code\":\"46131\",\"Content\":\"Statistics
+        of freight transport by rail\",\"Cubes\":\"25\",\"Information\":\"false\"},{\"Code\":\"46321\",\"Content\":\"Stat.
+        of freight transport on inland waterways\",\"Cubes\":\"27\",\"Information\":\"false\"},{\"Code\":\"46331\",\"Content\":\"Statistics
+        of maritime transport\",\"Cubes\":\"32\",\"Information\":\"false\"},{\"Code\":\"48112\",\"Content\":\"Cross-sectoral
+        business statistics\",\"Cubes\":\"5\",\"Information\":\"false\"},{\"Code\":\"48121\",\"Content\":\"Statistics
+        on small and medium-sized enterprises\",\"Cubes\":\"12\",\"Information\":\"false\"},{\"Code\":\"48131\",\"Content\":\"Inward
+        foreign affiliates statistics\",\"Cubes\":\"4\",\"Information\":\"false\"},{\"Code\":\"51000\",\"Content\":\"Foreign
+        trade\",\"Cubes\":\"79\",\"Information\":\"false\"},{\"Code\":\"52111\",\"Content\":\"Business
+        register system\",\"Cubes\":\"10\",\"Information\":\"false\"},{\"Code\":\"52411\",\"Content\":\"Statistics
+        on filed insolvency proceedings\",\"Cubes\":\"49\",\"Information\":\"false\"},{\"Code\":\"52551\",\"Content\":\"Cost
+        structure stat. of other service activities\",\"Cubes\":\"15\",\"Information\":\"false\"},{\"Code\":\"52911\",\"Content\":\"Information
+        and communication techn.in enterprises\",\"Cubes\":\"4\",\"Information\":\"false\"},{\"Code\":\"61281\",\"Content\":\"Index
+        of selling prices in wholesale trade\",\"Cubes\":\"6\",\"Information\":\"false\"},{\"Code\":\"62111\",\"Content\":\"Structure
+        of earnings survey\",\"Cubes\":\"56\",\"Information\":\"false\"},{\"Code\":\"62221\",\"Content\":\"Quarterly
+        index of agreed earnings a.working hours\",\"Cubes\":\"4\",\"Information\":\"false\"},{\"Code\":\"62231\",\"Content\":\"Monthly
+        index of agreed earnings and working hours\",\"Cubes\":\"2\",\"Information\":\"false\"},{\"Code\":\"62321\",\"Content\":\"Quarterly
+        earnings survey\",\"Cubes\":\"8\",\"Information\":\"false\"},{\"Code\":\"62361\",\"Content\":\"Earnings
+        survey\",\"Cubes\":\"146\",\"Information\":\"false\"},{\"Code\":\"62411\",\"Content\":\"Labour
+        cost survey\",\"Cubes\":\"24\",\"Information\":\"false\"},{\"Code\":\"62421\",\"Content\":\"Labour
+        cost index\",\"Cubes\":\"2\",\"Information\":\"false\"},{\"Code\":\"62431\",\"Content\":\"Annual
+        estimate of labour costs\",\"Cubes\":\"1\",\"Information\":\"false\"},{\"Code\":\"71811\",\"Content\":\"Ann.
+        accounts of extra budgets a. other public FEU\",\"Cubes\":\"72\",\"Information\":\"false\"},{\"Code\":\"73211\",\"Content\":\"Corporation
+        tax statistics\",\"Cubes\":\"5\",\"Information\":\"false\"},{\"Code\":\"73311\",\"Content\":\"Turnover
+        tax statistics (advance returns)\",\"Cubes\":\"36\",\"Information\":\"false\"},{\"Code\":\"73321\",\"Content\":\"Turnover
+        tax statistics (assessments)\",\"Cubes\":\"15\",\"Information\":\"false\"},{\"Code\":\"73511\",\"Content\":\"Trade
+        tax statistics\",\"Cubes\":\"8\",\"Information\":\"false\"},{\"Code\":\"81000\",\"Content\":\"National
+        accounts of the Federation\",\"Cubes\":\"69\",\"Information\":\"false\"},{\"Code\":\"81511\",\"Content\":\"Input-output
+        accounts\",\"Cubes\":\"6\",\"Information\":\"false\"},{\"Code\":\"82111\",\"Content\":\"Regional
+        accounts (L\xE4nder): production approach\",\"Cubes\":\"4\",\"Information\":\"false\"},{\"Code\":\"85111\",\"Content\":\"Air
+        emission accounts\",\"Cubes\":\"1\",\"Information\":\"false\"},{\"Code\":\"85131\",\"Content\":\"Individual
+        materials\",\"Cubes\":\"7\",\"Information\":\"false\"},{\"Code\":\"85141\",\"Content\":\"Water
+        accounts\",\"Cubes\":\"2\",\"Information\":\"false\"},{\"Code\":\"85411\",\"Content\":\"Expenditure
+        and fixed assets for environ. protect.\",\"Cubes\":\"3\",\"Information\":\"false\"},{\"Code\":\"85421\",\"Content\":\"Environmental
+        taxes and charges\",\"Cubes\":\"4\",\"Information\":\"false\"}],\"Tables\":[{\"Code\":\"12211-9008\",\"Content\":\"Persons
+        in employment: Germany, years (until 2019), economic\\nsections (WZ2008),
+        sex\",\"Time\":\"\"},{\"Code\":\"13111-0003\",\"Content\":\"Employees subject
+        to social insurance contributions at their\\nplace of work: Germany, reference
+        date, sex, economic\\nsections\",\"Time\":\"\"},{\"Code\":\"13111-0004\",\"Content\":\"Employees
+        subject to social insurance contributions at their\\nplace of work: Germany,
+        reference date, sex, extent of\\nemployment, economic sections\",\"Time\":\"\"},{\"Code\":\"13311-0001\",\"Content\":\"Persons
+        in employment, employees, self-employed persons and\\nfamily workers (domestic
+        concept): Germany, years,\\neconomic sections\",\"Time\":\"\"},{\"Code\":\"13311-0002\",\"Content\":\"Persons
+        in employment, employees, self-employed persons and\\nfamily workers (domestic
+        concept): L\xE4nder, years,\\neconomic sections\",\"Time\":\"\"},{\"Code\":\"21311-0003\",\"Content\":\"Students:
+        Germany, semester, nationality, sex, subject\",\"Time\":\"\"},{\"Code\":\"21311-0006\",\"Content\":\"Students:
+        L\xE4nder, semester, nationality, sex, subject\",\"Time\":\"\"},{\"Code\":\"21311-0012\",\"Content\":\"First-year
+        students: Germany, semester, nationality, sex,\\nsubject\",\"Time\":\"\"},{\"Code\":\"21311-0015\",\"Content\":\"First-year
+        students: L\xE4nder, semester, nationality, sex,\\nsubject\",\"Time\":\"\"},{\"Code\":\"21321-0003\",\"Content\":\"Examinations
+        at institutions of higher education: Germany,\\nyears, nationality, sex, examination
+        result, subject\",\"Time\":\"\"},{\"Code\":\"21321-0006\",\"Content\":\"Examinations
+        at institutions of higher education: L\xE4nder,\\nyears, nationality, sex,
+        examination result, subject\",\"Time\":\"\"},{\"Code\":\"21521-0001\",\"Content\":\"Continuing
+        vocational training in enterprises: Germany,\\nyears, continuing training
+        offered by the enterprises,\\neconomic sections\",\"Time\":\"\"},{\"Code\":\"21521-0003\",\"Content\":\"Rate
+        of participation in training courses offered by the\\nenterprises: Germany,
+        years, sex, economic sections\",\"Time\":\"\"},{\"Code\":\"21521-0005\",\"Content\":\"Most
+        important qualifications in terms of training hours:\\nGermany, years, qualification
+        areas, economic sections\",\"Time\":\"\"},{\"Code\":\"21521-0007\",\"Content\":\"Most
+        important future qualifications in enterprises:\\nGermany, years, qualification
+        areas, economic sections\",\"Time\":\"\"},{\"Code\":\"21521-0009\",\"Content\":\"Qualification
+        strategies in enterprises: Germany, years,\\nmeasures for future qualification,
+        economic sections\",\"Time\":\"\"},{\"Code\":\"21521-0011\",\"Content\":\"Enterprises
+        with agreements on continuing training,\\nenterprises providing initial vocational
+        training: Germany,\\nyears, economic sections\",\"Time\":\"\"},{\"Code\":\"32111-0001\",\"Content\":\"Waste
+        treatment: Germany, years\",\"Time\":\"\"},{\"Code\":\"32111-0002\",\"Content\":\"Waste
+        treatment: Germany, years, types of waste\",\"Time\":\"\"},{\"Code\":\"32111-0003\",\"Content\":\"Waste
+        treatment: Germany, years, type of plant\",\"Time\":\"\"},{\"Code\":\"32111-0004\",\"Content\":\"Waste
+        treatment: Germany, years, type of plant,\\ntypes of waste\",\"Time\":\"\"},{\"Code\":\"32111-0010\",\"Content\":\"Waste
+        treatment: L\xE4nder, years\",\"Time\":\"\"},{\"Code\":\"32111-0011\",\"Content\":\"Waste
+        treatment: L\xE4nder, years, type of plant\",\"Time\":\"\"},{\"Code\":\"32121-0001\",\"Content\":\"Amount
+        of household wastes generated: Germany, years,\\ntypes of waste\",\"Time\":\"\"},{\"Code\":\"32121-0002\",\"Content\":\"Amount
+        of household wastes generated: L\xE4nder, years\",\"Time\":\"\"},{\"Code\":\"32121-0003\",\"Content\":\"Amount
+        of household wastes generated: L\xE4nder, years,\\ntypes of waste\",\"Time\":\"\"},{\"Code\":\"32141-0001\",\"Content\":\"Demolition
+        waste treatment plants, asphalt mixing plants:\\nGermany, years, type of plant\",\"Time\":\"\"},{\"Code\":\"32141-0002\",\"Content\":\"Demolition
+        waste treatment plants: Germany, years,\\ntypes of waste\",\"Time\":\"\"},{\"Code\":\"32141-0003\",\"Content\":\"Asphalt
+        mixing plants: Germany, years, types of waste\",\"Time\":\"\"},{\"Code\":\"32141-0004\",\"Content\":\"Demolition
+        waste treatment plants, asphalt mixing plants:\\nL\xE4nder, years\",\"Time\":\"\"},{\"Code\":\"32151-0001\",\"Content\":\"Waste
+        producers, waste quantities (dangerous waste):\\nGermany, years, economic
+        activities, types of waste\\n(EAV 2-digit codes)\",\"Time\":\"\"},{\"Code\":\"32151-0002\",\"Content\":\"Waste
+        producers, waste quantities (dangerous waste):\\nGermany, years, types of
+        waste (EAV 2- and 6-digit codes)\",\"Time\":\"\"},{\"Code\":\"32151-0003\",\"Content\":\"Waste
+        producers, waste quantities (dangerous waste):\\nL\xE4nder, years\",\"Time\":\"\"},{\"Code\":\"32151-0004\",\"Content\":\"Producers
+        of waste quantities primarily recorded,\\nwaste quantity delivered to disposers
+        (dangerous waste):\\nGermany, years (until 2008)\",\"Time\":\"\"},{\"Code\":\"32151-0005\",\"Content\":\"Producers
+        of waste quantities primarily recorded,\\nwaste quantity delivered to disposers
+        (dangerous waste):\\nL\xE4nder, years (until 2008)\",\"Time\":\"\"},{\"Code\":\"32161-0001\",\"Content\":\"Local
+        units, quantity of waste produced: Germany, years,\\ntypes of waste\",\"Time\":\"\"},{\"Code\":\"32161-0002\",\"Content\":\"Local
+        units, quantity of waste produced: Germany, years,\\neconomic activities,
+        types of waste\",\"Time\":\"\"},{\"Code\":\"32161-0003\",\"Content\":\"Local
+        units, quantity of waste produced, persons employed,\\ncoverage of local units,
+        coverage of persons employed:\\nGermany, years, economic activities\",\"Time\":\"\"},{\"Code\":\"32161-0004\",\"Content\":\"Local
+        units, quantity of waste produced: L\xE4nder, years\",\"Time\":\"\"},{\"Code\":\"32212-0001\",\"Content\":\"Inhabitants
+        connected to the public sewage system,\\nwaste water: L\xE4nder, years, type
+        of waste water disposal\",\"Time\":\"\"},{\"Code\":\"32213-0001\",\"Content\":\"Length
+        of sewage network, waste water treatment plants,\\nconnected population equivalents,
+        annual quantity of waste\\nwater, sewage water: L\xE4nder, years\",\"Time\":\"\"},{\"Code\":\"32213-0002\",\"Content\":\"Waste
+        water treatment plants, connected population\\nequivalents, annual quantity
+        of waste water, sewage water:\\nL\xE4nder, years, type of waste water treatment\",\"Time\":\"\"},{\"Code\":\"32214-0001\",\"Content\":\"Dry
+        matter of sewage sludge disposed of directly from\\nwaste water treatment
+        plants: L\xE4nder, years,\\ntypes of sewage sludge disposal\",\"Time\":\"\"},{\"Code\":\"32221-0001\",\"Content\":\"Water
+        quantity, establishments extracting or purchasing\\nwater: L\xE4nder, years,
+        water extraction and receipt\",\"Time\":\"\"},{\"Code\":\"32221-0002\",\"Content\":\"Water
+        quantity: L\xE4nder, years, own extraction or external\\nprocurement\",\"Time\":\"\"},{\"Code\":\"32221-0003\",\"Content\":\"Water
+        quantity: L\xE4nder, years, types of use\",\"Time\":\"\"},{\"Code\":\"32221-0004\",\"Content\":\"Use
+        of freshwater: L\xE4nder, years, water use\",\"Time\":\"\"},{\"Code\":\"32221-0005\",\"Content\":\"Untreated
+        waste water: L\xE4nder, years, types of waste water\\ndischarge\",\"Time\":\"\"},{\"Code\":\"32251-0001\",\"Content\":\"Inhabitants
+        connected to the public sewage system,\\nInhabitants connected to central
+        waste water treatment\\nplants: L\xE4nder, years\",\"Time\":\"\"},{\"Code\":\"32511-0001\",\"Content\":\"Enterprises
+        and investments in environmental protection:\\nGermany, years, turnover /
+        employee size classes of\\nenterprises, economic activities\",\"Time\":\"\"},{\"Code\":\"32511-0002\",\"Content\":\"Environmental
+        protection investments: Germany, years,\\nturnover / employee size classes
+        of enterprises,\\nenvironmental sectors, economic activities\",\"Time\":\"\"},{\"Code\":\"32521-0001\",\"Content\":\"Current
+        environmental protection expenditures in industry\\n(except construction):
+        Germany, years, environmental sectors\",\"Time\":\"\"},{\"Code\":\"32521-0002\",\"Content\":\"Current
+        environmental protection expenditures in industry\\n(except construction):
+        Germany, years, economic activities\",\"Time\":\"\"},{\"Code\":\"32521-0003\",\"Content\":\"Current
+        environmental protection expenditures in industry\\n(except construction):
+        Germany, years, environmental\\nsectors, economic activities\",\"Time\":\"\"},{\"Code\":\"32521-0004\",\"Content\":\"Current
+        environmental protection expenditures in industry\\n(except construction):
+        Germany, years, employee size\\nclasses, economic activities\",\"Time\":\"\"},{\"Code\":\"32531-0002\",\"Content\":\"Units,
+        persons employed, turnover in environmental\\nprotection: Germany, years,
+        economic activities\",\"Time\":\"\"},{\"Code\":\"32531-0004\",\"Content\":\"Environmental
+        protection turnover: Germany, years,\\nenvironmental sectors\",\"Time\":\"\"},{\"Code\":\"32531-0005\",\"Content\":\"Environmental
+        protection turnover: Germany, years,\\nenvironmental sectors, origin of the
+        turnover, economic\\nactivities\",\"Time\":\"\"},{\"Code\":\"32531-0013\",\"Content\":\"Environmental
+        protection turnover: L\xE4nder, years,\\nenvironmental sectors\",\"Time\":\"\"},{\"Code\":\"42111-0103\",\"Content\":\"Persons
+        employed and turnover of local units in\\nmanufacturing: Germany, years, economic
+        activities\\n(WZ2003 2-/3-/4-digit codes)\",\"Time\":\"\"},{\"Code\":\"42111-0104\",\"Content\":\"Persons
+        employed and turnover of local units in\\nmanufacturing: Germany, months,
+        economic activities\\n(WZ2003 2-/3-/4-digit codes)\",\"Time\":\"\"},{\"Code\":\"42111-0105\",\"Content\":\"Persons
+        employed and turnover of local units in\\nmanufacturing: Germany, years, economic
+        activities\\n(WZ2003 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42111-0106\",\"Content\":\"Persons
+        employed and turnover of local units in\\nmanufacturing: Germany, months,
+        economic activities\\n(WZ2003 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42111-0108\",\"Content\":\"Persons
+        employed and turnover of local units in\\nmanufacturing: FT/NL, years, economic
+        activities\\n(WZ2003 2-/3-/4-digit codes)\",\"Time\":\"\"},{\"Code\":\"42111-0109\",\"Content\":\"Persons
+        employed and turnover of local units in\\nmanufacturing: FT/NL, years, economic
+        activities\\n(WZ2003 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42111-0123\",\"Content\":\"Persons
+        employed and turnover of local kind-of-activity\\nunits in manufacturing:
+        Germany, years, economic activities\\n(WZ2003 2-/3-/4-digit codes)\",\"Time\":\"\"},{\"Code\":\"42111-0124\",\"Content\":\"Persons
+        employed and turnover of local kind-of-activity\\nunits in manufacturing:
+        Germany, months, economic activities\\n(WZ2003 2-/3-/4-digit codes)\",\"Time\":\"\"},{\"Code\":\"42111-0125\",\"Content\":\"Persons
+        employed and turnover of local kind-of-activity\\nunits in manufacturing:
+        Germany, years, economic activities\\n(WZ2003 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42111-0126\",\"Content\":\"Persons
+        employed and turnover of local kind-of-activity\\nunits in manufacturing:
+        Germany, months, economic activities\\n(WZ2003 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42111-0128\",\"Content\":\"Persons
+        employed and turnover of local kind-of-activity\\nunits in manufacturing:
+        FT/NL, years, economic activities\\n(WZ2003 2-/3-/4-digit codes)\",\"Time\":\"\"},{\"Code\":\"42111-0129\",\"Content\":\"Persons
+        employed and turnover of local kind-of-activity\\nunits in manufacturing:
+        FT/NL, years, economic activities\\n(WZ2003 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42231-0001\",\"Content\":\"Enterprises,
+        persons employed, turnover and investments in\\nmanufacturing and mining:
+        Germany, years, economic\\nactivities (2-/3-/4-digit codes)\",\"Time\":\"\"},{\"Code\":\"42231-0002\",\"Content\":\"Enterprises,
+        persons employed, turnover and investments in\\nmanufacturing and mining:
+        Germany, years, economic\\nactivities (WZ1993 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42231-0003\",\"Content\":\"Enterprises,
+        persons employed, turnover and investments in\\nmanufacturing and mining:
+        Germany, years, economic\\nactivities (WZ2003 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42231-0011\",\"Content\":\"Local
+        units, persons employed, turnover and investments in\\nmanufacturing and mining:
+        Germany, years, economic\\nactivities (2-/3-/4-digit codes)\",\"Time\":\"\"},{\"Code\":\"42231-0012\",\"Content\":\"Local
+        units, persons employed, turnover and investments in\\nmanufacturing and mining:
+        Germany, years, economic\\nactivities (WZ1993 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42231-0013\",\"Content\":\"Local
+        units, persons employed, turnover and investments in\\nmanufacturing and mining:
+        Germany, years, economic\\nactivities (WZ2003 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42251-0001\",\"Content\":\"Persons
+        employed, turnover, output and value added of\\nenterprises in manufacturing:
+        Germany, years, economic\\nactivities (2-/3-/4-digit codes)\",\"Time\":\"\"},{\"Code\":\"42251-0002\",\"Content\":\"Persons
+        employed, turnover, output and value added of\\nenterprises in manufacturing:
+        Germany, years, economic\\nactivities (WZ2003 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42251-0004\",\"Content\":\"Cost
+        structure of enterprises in manufacturing: Germany,\\nyears, economic activities
+        (2-/3-/4-digit codes)\",\"Time\":\"\"},{\"Code\":\"42251-0005\",\"Content\":\"Cost
+        structure of enterprises in manufacturing: Germany,\\nyears, economic activities
+        (WZ2003 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"43211-0001\",\"Content\":\"Investments
+        of enterprises in the energy and water supply\\nsector: Germany, years, economic
+        activities\",\"Time\":\"\"},{\"Code\":\"43221-0001\",\"Content\":\"Persons
+        employed, turnover, output and value added\\nof enterprises in the energy
+        and water supply sector:\\nGermany, years, economic activities\",\"Time\":\"\"},{\"Code\":\"43311-0001\",\"Content\":\"Electricity
+        production, net production of heat, fuel input:\\nGermany, years, energy carriers\",\"Time\":\"\"},{\"Code\":\"43311-0002\",\"Content\":\"Electricity
+        production, net production of heat, fuel input:\\nGermany, months, energy
+        carriers\",\"Time\":\"\"},{\"Code\":\"43312-0001\",\"Content\":\"Electricity
+        feed-in systems, net nominal capacity,\\nelectricity feed-in: Germany, months,
+        energy carriers\",\"Time\":\"\"},{\"Code\":\"43351-0002\",\"Content\":\"Local
+        units, declared net capacity: Germany, years, economic activities, main energy
+        carriers\",\"Time\":\"\"},{\"Code\":\"43351-0004\",\"Content\":\"Electricity
+        production, net production of heat, combined heat and power generation: Germany,
+        years, economic activities, energy carriers\",\"Time\":\"\"},{\"Code\":\"43351-0005\",\"Content\":\"Fuel
+        input: Germany, years, economic activities, energy\\ncarriers\",\"Time\":\"\"},{\"Code\":\"43411-0001\",\"Content\":\"Net
+        production of heat, fuel input, purchase of fuels,\\nstock of fuels in heating
+        plants: Germany, years, energy\\ncarriers\",\"Time\":\"\"},{\"Code\":\"43531-0001\",\"Content\":\"Energy
+        use by local units in manufacturing: Germany, years, use of the energy consumed,
+        economic activities, energy carriers\",\"Time\":\"\"},{\"Code\":\"45211-0001\",\"Content\":\"Persons
+        employed in wholesale trade: Germany, years,\\neconomic activities\",\"Time\":\"\"},{\"Code\":\"45211-0002\",\"Content\":\"Persons
+        employed in wholesale trade: Germany,\\nmonths/quarters/half-years, economic
+        activities\",\"Time\":\"\"},{\"Code\":\"45211-0003\",\"Content\":\"Turnover
+        in wholesale trade: Germany, years, price types,\\neconomic activities\",\"Time\":\"\"},{\"Code\":\"45211-0004\",\"Content\":\"Turnover
+        in wholesale trade: Germany, \\nmonths/quarters/half-years, price types, economic\\nactivities\",\"Time\":\"\"},{\"Code\":\"45211-0005\",\"Content\":\"Turnover
+        in wholesale trade: Germany, months, price types,\\noriginal and adjusted
+        data, economic activities\",\"Time\":\"\"},{\"Code\":\"45341-0001\",\"Content\":\"Enterprises,
+        persons employed, turnover and other business\\nand economic figures in trade:
+        Germany, years, economic\\nactivities\",\"Time\":\"\"},{\"Code\":\"45341-0002\",\"Content\":\"Enterprises,
+        persons employed, turnover and other business\\nand economic figures in trade:
+        Germany, years, economic\\nactivities, employee size classes\",\"Time\":\"\"},{\"Code\":\"45341-0003\",\"Content\":\"Enterprises,
+        persons employed, turnover and other business\\nand economic figures in trade:
+        Germany, years, economic\\nactivities, turnover size classes\",\"Time\":\"\"},{\"Code\":\"45341-0004\",\"Content\":\"Persons
+        employed in the trade sector: Germany, years,\\noccupational status, sex,
+        economic activities\",\"Time\":\"\"}],\"Timeseries\":null,\"Variables\":[{\"Code\":\"ABF001\",\"Content\":\"Input
+        to waste treatment plants\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF002\",\"Content\":\"Wastes
+        generated in the own local unit\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF003\",\"Content\":\"Waste
+        delivered from the domestic territory\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF004\",\"Content\":\"Waste
+        delivered from abroad\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF005\",\"Content\":\"Output
+        of waste treatment plants\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF006\",\"Content\":\"Wastes
+        to be disposed of\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF007\",\"Content\":\"Wastes
+        to be recovered\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF008\",\"Content\":\"Household
+        wastes disposed of by first recipient\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF009\",\"Content\":\"Household
+        wastes recovered by first recipient\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF010\",\"Content\":\"Waste
+        producers\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF011\",\"Content\":\"Waste
+        quantities\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF012\",\"Content\":\"Waste
+        quantities generated by primary producers\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF014\",\"Content\":\"Quantity
+        of waste produced\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"true\"},{\"Code\":\"ABF015\",\"Content\":\"Waste
+        to preparatory processes\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABFAT1\",\"Content\":\"Types
+        of waste\",\"Type\":\"Subject\",\"Values\":\"5\",\"Information\":\"false\"},{\"Code\":\"ABFAT2\",\"Content\":\"Types
+        of waste\",\"Type\":\"Subject\",\"Values\":\"14\",\"Information\":\"false\"},{\"Code\":\"ABG004\",\"Content\":\"Distribution
+        to other plants, users or traders\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"AEW006\",\"Content\":\"Producers
+        of waste quantities primarily recorded\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"true\"},{\"Code\":\"AEW007\",\"Content\":\"Waste
+        quantity delivered to disposers\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"AFGBE1\",\"Content\":\"Functions\",\"Type\":\"Subject\",\"Values\":\"14\",\"Information\":\"false\"},{\"Code\":\"ANL007\",\"Content\":\"Waste
+        treatment plants\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ANL008\",\"Content\":\"Waste
+        treatment plants with output\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ANL009\",\"Content\":\"Demolition
+        waste treatment plants\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ANL010\",\"Content\":\"Demolition
+        waste treatment plants with output\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ANLAT1\",\"Content\":\"Type
+        of plant\",\"Type\":\"Subject\",\"Values\":\"15\",\"Information\":\"false\"},{\"Code\":\"ANLAT2\",\"Content\":\"Type
+        of plant\",\"Type\":\"Subject\",\"Values\":\"39\",\"Information\":\"false\"},{\"Code\":\"AUF007\",\"Content\":\"Amount
+        of household wastes generated\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"AUF008\",\"Content\":\"Amount
+        of household wastes generated p. inhabitant\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"BAU012\",\"Content\":\"Input
+        to demolition waste treatment plants\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"BAU013\",\"Content\":\"Capacity
+        of demolition waste treatment plants\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"BAU014\",\"Content\":\"Output
+        of demolition waste treatment plants\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"BEV049\",\"Content\":\"Inhab.
+        conn. to central waste water treat. plants\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"true\"},{\"Code\":\"BHAWAT\",\"Content\":\"Type
+        of waste water treatment\",\"Type\":\"Subject\",\"Values\":\"2\",\"Information\":\"false\"},{\"Code\":\"BILSF1\",\"Content\":\"Subject\",\"Type\":\"Subject\",\"Values\":\"293\",\"Information\":\"true\"},{\"Code\":\"CF00A2\",\"Content\":\"Functions
+        of government (COFOG), groups\",\"Type\":\"Subject\",\"Values\":\"69\",\"Information\":\"true\"},{\"Code\":\"CP08H1\",\"Content\":\"CPA
+        2008: products for trade\",\"Type\":\"Subject\",\"Values\":\"97\",\"Information\":\"true\"},{\"Code\":\"CP08I1\",\"Content\":\"CPA
+        2008: homogeneous branches\",\"Type\":\"Subject\",\"Values\":\"72\",\"Information\":\"false\"},{\"Code\":\"CP08P1\",\"Content\":\"CPA
+        2008: Paper waste and metal waste\",\"Type\":\"Subject\",\"Values\":\"10\",\"Information\":\"false\"},{\"Code\":\"CP08U1\",\"Content\":\"CPA
+        2008: homogeneous branches (env.-econ. acc.)\",\"Type\":\"Subject\",\"Values\":\"29\",\"Information\":\"true\"},{\"Code\":\"CP08U2\",\"Content\":\"CPA
+        2008: homogeneous branches (env.-econ. acc.)\",\"Type\":\"Subject\",\"Values\":\"49\",\"Information\":\"true\"},{\"Code\":\"CP08U3\",\"Content\":\"CPA
+        2008: homogeneous branches (env.-econ. acc.)\",\"Type\":\"Subject\",\"Values\":\"48\",\"Information\":\"true\"},{\"Code\":\"EAVXB2\",\"Content\":\"Types
+        of waste (EAV 2-digit codes)\",\"Type\":\"Subject\",\"Values\":\"21\",\"Information\":\"false\"},{\"Code\":\"EAVXB6\",\"Content\":\"Types
+        of waste (EAV 6- and 8-digit codes)\",\"Type\":\"Subject\",\"Values\":\"892\",\"Information\":\"false\"},{\"Code\":\"EAVXC2\",\"Content\":\"Types
+        of waste (EAV 2-digit codes (selection))\",\"Type\":\"Subject\",\"Values\":\"14\",\"Information\":\"false\"},{\"Code\":\"EAVXC6\",\"Content\":\"Types
+        of waste (EAV 6- and 8-digit codes (sel.))\",\"Type\":\"Subject\",\"Values\":\"118\",\"Information\":\"false\"},{\"Code\":\"EAVXD2\",\"Content\":\"Types
+        of waste (EAV 2-digit codes (selection))\",\"Type\":\"Subject\",\"Values\":\"5\",\"Information\":\"false\"},{\"Code\":\"EAVXD6\",\"Content\":\"Types
+        of waste (EAV 6- and 8-digit codes (sel.))\",\"Type\":\"Subject\",\"Values\":\"16\",\"Information\":\"false\"},{\"Code\":\"EAVXG2\",\"Content\":\"Types
+        of waste (EAV 2-digit codes)\",\"Type\":\"Subject\",\"Values\":\"20\",\"Information\":\"false\"},{\"Code\":\"EAVXG6\",\"Content\":\"Types
+        of waste (EAV 6-digit codes)\",\"Type\":\"Subject\",\"Values\":\"408\",\"Information\":\"false\"},{\"Code\":\"EGW3\",\"Content\":\"Commodity
+        groups (EGW 2002: 3-digit codes)\",\"Type\":\"Subject\",\"Values\":\"212\",\"Information\":\"true\"},{\"Code\":\"ENRG01\",\"Content\":\"Main
+        energy carriers\",\"Type\":\"Subject\",\"Values\":\"41\",\"Information\":\"false\"},{\"Code\":\"ENRG02\",\"Content\":\"Energy
+        carriers\",\"Type\":\"Subject\",\"Values\":\"41\",\"Information\":\"false\"},{\"Code\":\"ENRG03\",\"Content\":\"Energy
+        carriers\",\"Type\":\"Subject\",\"Values\":\"51\",\"Information\":\"false\"},{\"Code\":\"ENRG05\",\"Content\":\"Energy
+        carriers\",\"Type\":\"Subject\",\"Values\":\"39\",\"Information\":\"false\"},{\"Code\":\"ENRG06\",\"Content\":\"Energy
+        carriers\",\"Type\":\"Subject\",\"Values\":\"35\",\"Information\":\"false\"},{\"Code\":\"ENRG07\",\"Content\":\"Energy
+        carriers\",\"Type\":\"Subject\",\"Values\":\"45\",\"Information\":\"false\"},{\"Code\":\"ENRG08\",\"Content\":\"Energy
+        carriers\",\"Type\":\"Subject\",\"Values\":\"42\",\"Information\":\"false\"},{\"Code\":\"GV1\",\"Content\":\"Classif.
+        of Goods for Transport Statist.-Divisions\",\"Type\":\"Subject\",\"Values\":\"10\",\"Information\":\"true\"},{\"Code\":\"GV2\",\"Content\":\"Classif.of
+        Goods f. Transport Statist.-Main groups\",\"Type\":\"Subject\",\"Values\":\"58\",\"Information\":\"true\"},{\"Code\":\"GV3\",\"Content\":\"Classif.
+        of Goods for Transport Statistics -Groups\",\"Type\":\"Subject\",\"Values\":\"176\",\"Information\":\"true\"},{\"Code\":\"GVZ1\",\"Content\":\"Stand.
+        Goods Class. Transp. St. (div.)(until 2010)\",\"Type\":\"Subject\",\"Values\":\"11\",\"Information\":\"true\"},{\"Code\":\"IKTNZ1\",\"Content\":\"Use
+        of ICT\",\"Type\":\"Subject\",\"Values\":\"257\",\"Information\":\"false\"},{\"Code\":\"KB10A3\",\"Content\":\"Occupations
+        (KB2010), 3-digit codes\",\"Type\":\"Subject\",\"Values\":\"144\",\"Information\":\"true\"},{\"Code\":\"KB10A5\",\"Content\":\"Occupations
+        (KB2010), 5-digit codes\",\"Type\":\"Subject\",\"Values\":\"1300\",\"Information\":\"true\"},{\"Code\":\"MATGR1\",\"Content\":\"Material
+        grade and types of raw materials\",\"Type\":\"Subject\",\"Values\":\"60\",\"Information\":\"false\"},{\"Code\":\"NST7A2\",\"Content\":\"NST-2007
+        Classification of Goods (Divisions)\",\"Type\":\"Subject\",\"Values\":\"20\",\"Information\":\"true\"},{\"Code\":\"NST7A3\",\"Content\":\"NST-2007
+        Classification of Goods (Groups)\",\"Type\":\"Subject\",\"Values\":\"81\",\"Information\":\"false\"},{\"Code\":\"NST7B2\",\"Content\":\"NST-2007
+        Classification of Goods (Division aggr.)\",\"Type\":\"Subject\",\"Values\":\"10\",\"Information\":\"false\"},{\"Code\":\"RVUEA1\",\"Content\":\"Regional
+        destination of dangerous waste\",\"Type\":\"Subject\",\"Values\":\"2\",\"Information\":\"false\"},{\"Code\":\"SITC\",\"Content\":\"SITC
+        (3-digit codes): Foreign trade\",\"Type\":\"Subject\",\"Values\":\"269\",\"Information\":\"true\"},{\"Code\":\"SITC2A\",\"Content\":\"SITC
+        (2-digit codes): Foreign trade\",\"Type\":\"Subject\",\"Values\":\"72\",\"Information\":\"true\"},{\"Code\":\"SPALTE\",\"Content\":\"Input
+        of homogeneous branches, final uses\",\"Type\":\"Subject\",\"Values\":\"20\",\"Information\":\"false\"},{\"Code\":\"SPL001\",\"Content\":\"Input
+        of homogeneous branches, final uses\",\"Type\":\"Subject\",\"Values\":\"84\",\"Information\":\"false\"},{\"Code\":\"SPL002\",\"Content\":\"Input
+        of homogeneous branches, final uses\",\"Type\":\"Subject\",\"Values\":\"86\",\"Information\":\"false\"},{\"Code\":\"SPL003\",\"Content\":\"Input
+        of homogeneous branches, final uses\",\"Type\":\"Subject\",\"Values\":\"86\",\"Information\":\"false\"},{\"Code\":\"TRM001\",\"Content\":\"Dry
+        matter of sewage sludge fr. waste w.tr.plants\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"true\"},{\"Code\":\"UMWBR1\",\"Content\":\"Environmental
+        sectors\",\"Type\":\"Subject\",\"Values\":\"7\",\"Information\":\"false\"},{\"Code\":\"UMWBR2\",\"Content\":\"Environmental
+        sectors\",\"Type\":\"Subject\",\"Values\":\"8\",\"Information\":\"false\"},{\"Code\":\"UMWBR5\",\"Content\":\"Environmental
+        sectors\",\"Type\":\"Subject\",\"Values\":\"6\",\"Information\":\"false\"},{\"Code\":\"WAM2\",\"Content\":\"Commodity
+        Class. Foreign Trade Stat.(2-digit cod.)\",\"Type\":\"Subject\",\"Values\":\"98\",\"Information\":\"true\"},{\"Code\":\"WAM4\",\"Content\":\"Commodity
+        Class. Foreign Trade Stat.(4-digit cod.)\",\"Type\":\"Subject\",\"Values\":\"1626\",\"Information\":\"true\"},{\"Code\":\"WAS009\",\"Content\":\"Dom.a.ind.
+        sewage water of ann. quant. of w. water\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"true\"},{\"Code\":\"WAS010\",\"Content\":\"Waste
+        water\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"true\"},{\"Code\":\"WAS012\",\"Content\":\"Untreated
+        waste water\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"WAS017\",\"Content\":\"Waste
+        water\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"WASEL2\",\"Content\":\"Types
+        of waste water discharge\",\"Type\":\"Subject\",\"Values\":\"2\",\"Information\":\"false\"},{\"Code\":\"WASEL3\",\"Content\":\"Types
+        of waste water discharge\",\"Type\":\"Subject\",\"Values\":\"4\",\"Information\":\"false\"},{\"Code\":\"WASEN1\",\"Content\":\"Type
+        of waste water disposal\",\"Type\":\"Subject\",\"Values\":\"3\",\"Information\":\"false\"},{\"Code\":\"WASNW6\",\"Content\":\"Annual
+        quantity of waste water\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"true\"},{\"Code\":\"WASNW8\",\"Content\":\"Waste
+        water treatment plants\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"true\"},{\"Code\":\"WZ03G5\",\"Content\":\"WZ2003
+        (Subsections): Waste management\",\"Type\":\"Subject\",\"Values\":\"29\",\"Information\":\"false\"},{\"Code\":\"WZ03M3\",\"Content\":\"WZ2003
+        (3-digit codes): Survey of investments\",\"Type\":\"Subject\",\"Values\":\"116\",\"Information\":\"false\"},{\"Code\":\"WZ03M4\",\"Content\":\"WZ2003
+        (4-digit codes): Survey of investments\",\"Type\":\"Subject\",\"Values\":\"258\",\"Information\":\"false\"},{\"Code\":\"WZ03T3\",\"Content\":\"WZ2003
+        (3 digits): Cost structure in manufacturing\",\"Type\":\"Subject\",\"Values\":\"116\",\"Information\":\"false\"},{\"Code\":\"WZ03T4\",\"Content\":\"WZ2003
+        (4 digits): Cost structure in manufacturing\",\"Type\":\"Subject\",\"Values\":\"260\",\"Information\":\"false\"},{\"Code\":\"WZ03V8\",\"Content\":\"WZ2003
+        (selected items): Insolvencies\",\"Type\":\"Subject\",\"Values\":\"94\",\"Information\":\"false\"},{\"Code\":\"WZ03W7\",\"Content\":\"WZ2003:
+        Cost structure statistics\",\"Type\":\"Subject\",\"Values\":\"26\",\"Information\":\"false\"},{\"Code\":\"WZ03X3\",\"Content\":\"WZ2003
+        (3-digit codes): Manufacturing\",\"Type\":\"Subject\",\"Values\":\"116\",\"Information\":\"false\"},{\"Code\":\"WZ03X4\",\"Content\":\"WZ2003
+        (4-digit codes): Manufacturing\",\"Type\":\"Subject\",\"Values\":\"258\",\"Information\":\"false\"},{\"Code\":\"WZ08A5\",\"Content\":\"WZ2008
+        (5-digit codes (Subclasses))\",\"Type\":\"Subject\",\"Values\":\"839\",\"Information\":\"false\"}],\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Mon, 28 Aug 2023 17:25:12 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+      Transfer-Encoding:
+      - chunked
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/find/find?language=en&term=waste
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"find\",\"Method\":\"find\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"term\":\"waste\",\"category\":\"all\",\"pagelength\":\"100\",\"language\":\"en\"},\"Cubes\":[{\"Code\":\"12211BJ116\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, WZ2008 (Sections), Year\",\"State\":\"complete
+        with values\",\"Time\":\"2009 to 2019\",\"LatestUpdate\":\"2021-06-17 16:38:07h\",\"Information\":\"false\"},{\"Code\":\"12211BJ117\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, WZ2008 (Sections), Sex, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2009 to 2019\",\"LatestUpdate\":\"2021-06-17 16:38:16h\",\"Information\":\"false\"},{\"Code\":\"13111BV007\",\"Content\":\"Employees
+        subj. to social insurance contributions, Employees subj. to social insur.
+        at place of work, Germany, WZ2008 (Sections): Employees subj. to soc. insur.,
+        Reference date\",\"State\":\"complete with values\",\"Time\":\"2008-03-31
+        to 2022-12-31\",\"LatestUpdate\":\"2023-08-01 08:40:45h\",\"Information\":\"false\"},{\"Code\":\"13111BV008\",\"Content\":\"Employees
+        subj. to social insurance contributions, Employees subj. to social insur.
+        at place of work, Germany, WZ2008 (Sections): Employees subj. to soc. insur.,
+        Sex, Reference date\",\"State\":\"complete with values\",\"Time\":\"2008-03-31
+        to 2022-12-31\",\"LatestUpdate\":\"2023-08-01 08:40:51h\",\"Information\":\"false\"},{\"Code\":\"13111BV009\",\"Content\":\"Employees
+        subj. to social insurance contributions, Employees subj. to social insur.
+        at place of work, Germany, WZ2008 (Sections): Employees subj. to soc. insur.,
+        Extent of employment, Reference date\",\"State\":\"complete with values\",\"Time\":\"2008-03-31
+        to 2022-12-31\",\"LatestUpdate\":\"2023-08-01 08:41:27h\",\"Information\":\"false\"},{\"Code\":\"13111BV010\",\"Content\":\"Employees
+        subj. to social insurance contributions, Employees subj. to social insur.
+        at place of work, Germany, WZ2008 (Sections): Employees subj. to soc. insur.,
+        Sex, Extent of employment, Reference date\",\"State\":\"complete with values\",\"Time\":\"2008-03-31
+        to 2022-12-31\",\"LatestUpdate\":\"2023-08-01 08:40:31h\",\"Information\":\"false\"},{\"Code\":\"13311BJ002\",\"Content\":\"Regional
+        employment accounts, Persons in employment (domestic concept), Employees (domestic
+        concept), Self-employed persons a. family workers (domestic), Germany, WZ2008
+        (Sections, aggregations): Regional accounts, Year\",\"State\":\"complete with
+        values\",\"Time\":\"1991 to 2022\",\"LatestUpdate\":\"2023-03-16 13:17:37h\",\"Information\":\"false\"},{\"Code\":\"13311LJ002\",\"Content\":\"Regional
+        employment accounts, Persons in employment (domestic concept), Employees (domestic
+        concept), Self-employed persons a. family workers (domestic), L\xE4nder, WZ2008
+        (Sections, aggregations): Regional accounts, Year\",\"State\":\"complete with
+        values\",\"Time\":\"1991 to 2022\",\"LatestUpdate\":\"2023-03-16 13:17:55h\",\"Information\":\"false\"},{\"Code\":\"21311BS009\",\"Content\":\"Statistics
+        of students, Students, Germany, Subject, Semester\",\"State\":\"complete with
+        values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:06:27h\",\"Information\":\"false\"},{\"Code\":\"21311BS010\",\"Content\":\"Statistics
+        of students, Students, Germany, Subject, Sex, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:07:52h\",\"Information\":\"false\"},{\"Code\":\"21311BS011\",\"Content\":\"Statistics
+        of students, Students, Germany, Subject, Nationality, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:08:09h\",\"Information\":\"false\"},{\"Code\":\"21311BS012\",\"Content\":\"Statistics
+        of students, Students, Germany, Subject, Nationality, Sex, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:07:58h\",\"Information\":\"false\"},{\"Code\":\"21311BS109\",\"Content\":\"Statistics
+        of students, First-year students, Subject, Germany, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:08:49h\",\"Information\":\"false\"},{\"Code\":\"21311BS110\",\"Content\":\"Statistics
+        of students, First-year students, Sex, Subject, Germany, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:09:34h\",\"Information\":\"false\"},{\"Code\":\"21311BS111\",\"Content\":\"Statistics
+        of students, First-year students, Nationality, Subject, Germany, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:09:39h\",\"Information\":\"false\"},{\"Code\":\"21311BS112\",\"Content\":\"Statistics
+        of students, First-year students, Sex, Nationality, Subject, Germany, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:09:54h\",\"Information\":\"false\"},{\"Code\":\"21311LS005\",\"Content\":\"Statistics
+        of students, Students, L\xE4nder, Subject, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:03:58h\",\"Information\":\"false\"},{\"Code\":\"21311LS006\",\"Content\":\"Statistics
+        of students, Students, L\xE4nder, Subject, Sex, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:04:42h\",\"Information\":\"false\"},{\"Code\":\"21311LS007\",\"Content\":\"Statistics
+        of students, Students, L\xE4nder, Subject, Nationality, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:03:46h\",\"Information\":\"false\"},{\"Code\":\"21311LS008\",\"Content\":\"Statistics
+        of students, Students, L\xE4nder, Subject, Nationality, Sex, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:04:23h\",\"Information\":\"false\"},{\"Code\":\"21311LS105\",\"Content\":\"Statistics
+        of students, First-year students, Subject, L\xE4nder, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:05:47h\",\"Information\":\"false\"},{\"Code\":\"21311LS106\",\"Content\":\"Statistics
+        of students, First-year students, Sex, Subject, L\xE4nder, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:06:02h\",\"Information\":\"false\"},{\"Code\":\"21311LS107\",\"Content\":\"Statistics
+        of students, First-year students, Nationality, Subject, L\xE4nder, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:05:37h\",\"Information\":\"false\"},{\"Code\":\"21311LS108\",\"Content\":\"Statistics
+        of students, First-year students, Sex, Nationality, Subject, L\xE4nder, Semester\",\"State\":\"complete
+        with values\",\"Time\":\"WT 1998/99 to WT 2022/23\",\"LatestUpdate\":\"2023-08-08
+        08:05:08h\",\"Information\":\"false\"},{\"Code\":\"21321BJ004\",\"Content\":\"Statistics
+        of examinations, Examinations, Germany, Subject, Nationality, Sex, Examination
+        result, Year\",\"State\":\"complete with values\",\"Time\":\"1999 to 2021\",\"LatestUpdate\":\"2022-09-07
+        08:00:40h\",\"Information\":\"false\"},{\"Code\":\"21321LJ004\",\"Content\":\"Statistics
+        of examinations, Examinations, L\xE4nder, Subject, Nationality, Sex, Examination
+        result, Year\",\"State\":\"complete with values\",\"Time\":\"1999 to 2021\",\"LatestUpdate\":\"2022-09-07
+        08:00:54h\",\"Information\":\"false\"},{\"Code\":\"21521B5002\",\"Content\":\"Europ.
+        Contin. Vocational Training Survey (CVTS), Continuing vocational training
+        in enterprises, Germany, Continuing training offered by the enterprises, WZ2008
+        (selected items): CVTS, Year\",\"State\":\"complete with values\",\"Time\":\"2015
+        to 2020\",\"LatestUpdate\":\"2022-12-01 08:00:43h\",\"Information\":\"false\"},{\"Code\":\"21521B5005\",\"Content\":\"Europ.
+        Contin. Vocational Training Survey (CVTS), Rate of participation in training
+        courses in ent., Germany, Sex, WZ2008 (selected items): CVTS, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2015 to 2020\",\"LatestUpdate\":\"2022-12-01 08:00:36h\",\"Information\":\"false\"},{\"Code\":\"21521B5008\",\"Content\":\"Europ.
+        Contin. Vocational Training Survey (CVTS), Most important qualific. in terms
+        of train. hours, Most important future qualifications in enterpr., Germany,
+        Qualification areas, WZ2008 (selected items): CVTS, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2015 to 2020\",\"LatestUpdate\":\"2022-12-01 08:00:46h\",\"Information\":\"false\"},{\"Code\":\"21521B5011\",\"Content\":\"Europ.
+        Contin. Vocational Training Survey (CVTS), Qualification strategies in enterprises,
+        Germany, Measures for future qualification, WZ2008 (selected items): CVTS,
+        Year\",\"State\":\"complete with values\",\"Time\":\"2015 to 2020\",\"LatestUpdate\":\"2022-12-01
+        08:00:47h\",\"Information\":\"false\"},{\"Code\":\"21521B5014\",\"Content\":\"Europ.
+        Contin. Vocational Training Survey (CVTS), Rate of participation in training
+        courses in ent., Enterprises with agreements on continuing training, Enterprises
+        providing initial vocational training, Germany, WZ2008 (selected items): CVTS,
+        Year\",\"State\":\"complete with values\",\"Time\":\"2015 to 2020\",\"LatestUpdate\":\"2022-12-01
+        08:01:32h\",\"Information\":\"false\"},{\"Code\":\"32111BJ001\",\"Content\":\"Survey
+        of waste treatment, Waste treatment plants, Input to waste treatment plants,
+        Wastes generated in the own local unit, Waste delivered from the domestic
+        territory, Waste delivered from abroad, Waste treatment plants with output,
+        Output of waste treatment plants, Wastes to be disposed of, Wastes to be recovered,
+        Waste to preparatory processes, Distribution to other plants, users or traders,
+        Germany, Type of plant, Year\",\"State\":\"complete with values\",\"Time\":\"2006
+        to 2021\",\"LatestUpdate\":\"2023-03-29 15:11:03h\",\"Information\":\"false\"},{\"Code\":\"32111BJ002\",\"Content\":\"Survey
+        of waste treatment, Waste treatment plants, Input to waste treatment plants,
+        Wastes generated in the own local unit, Waste delivered from the domestic
+        territory, Waste delivered from abroad, Waste treatment plants with output,
+        Output of waste treatment plants, Wastes to be disposed of, Wastes to be recovered,
+        Waste to preparatory processes, Distribution to other plants, users or traders,
+        Germany, Type of plant, Year\",\"State\":\"complete with values\",\"Time\":\"2006
+        to 2021\",\"LatestUpdate\":\"2023-03-29 15:12:03h\",\"Information\":\"false\"},{\"Code\":\"32111BJ003\",\"Content\":\"Survey
+        of waste treatment, Waste treatment plants, Input to waste treatment plants,
+        Wastes generated in the own local unit, Waste delivered from the domestic
+        territory, Waste delivered from abroad, Waste treatment plants with output,
+        Output of waste treatment plants, Wastes to be disposed of, Wastes to be recovered,
+        Waste to preparatory processes, Distribution to other plants, users or traders,
+        Germany, Type of plant, Types of waste (EAV 2-digit codes), Year\",\"State\":\"complete
+        with values\",\"Time\":\"2006 to 2021\",\"LatestUpdate\":\"2023-03-29 15:12:16h\",\"Information\":\"false\"},{\"Code\":\"32111BJ004\",\"Content\":\"Survey
+        of waste treatment, Waste treatment plants, Input to waste treatment plants,
+        Wastes generated in the own local unit, Waste delivered from the domestic
+        territory, Waste delivered from abroad, Waste treatment plants with output,
+        Output of waste treatment plants, Wastes to be disposed of, Wastes to be recovered,
+        Waste to preparatory processes, Distribution to other plants, users or traders,
+        Germany, Type of plant, Types of waste (EAV 6- and 8-digit codes), Year\",\"State\":\"complete
+        with values\",\"Time\":\"2006 to 2021\",\"LatestUpdate\":\"2023-03-29 15:12:49h\",\"Information\":\"false\"},{\"Code\":\"32111BJ005\",\"Content\":\"Survey
+        of waste treatment, Waste treatment plants, Input to waste treatment plants,
+        Wastes generated in the own local unit, Waste delivered from the domestic
+        territory, Waste delivered from abroad, Germany, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2017 to 2021\",\"LatestUpdate\":\"2023-03-29 15:12:19h\",\"Information\":\"false\"},{\"Code\":\"32111BJ006\",\"Content\":\"Survey
+        of waste treatment, Waste treatment plants, Input to waste treatment plants,
+        Wastes generated in the own local unit, Waste delivered from the domestic
+        territory, Waste delivered from abroad, Germany, Types of waste (EAV 6- and
+        8-digit codes), Year\",\"State\":\"complete with values\",\"Time\":\"2017
+        to 2021\",\"LatestUpdate\":\"2023-03-29 15:12:11h\",\"Information\":\"false\"},{\"Code\":\"32111LJ001\",\"Content\":\"Survey
+        of waste treatment, Waste treatment plants, Input to waste treatment plants,
+        Wastes generated in the own local unit, Waste delivered from the domestic
+        territory, Waste delivered from abroad, Waste treatment plants with output,
+        Output of waste treatment plants, Wastes to be disposed of, Wastes to be recovered,
+        Waste to preparatory processes, Distribution to other plants, users or traders,
+        L\xE4nder, Type of plant, Year\",\"State\":\"complete with values\",\"Time\":\"2006
+        to 2021\",\"LatestUpdate\":\"2023-03-29 15:12:55h\",\"Information\":\"false\"},{\"Code\":\"32111LJ002\",\"Content\":\"Survey
+        of waste treatment, Waste treatment plants, Input to waste treatment plants,
+        Wastes generated in the own local unit, Waste delivered from the domestic
+        territory, Waste delivered from abroad, L\xE4nder, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2018 to 2021\",\"LatestUpdate\":\"2023-03-29 15:12:22h\",\"Information\":\"false\"},{\"Code\":\"32121BJ001\",\"Content\":\"Survey
+        of public waste management, Amount of household wastes generated, Amount of
+        household wastes generated p. inhabitant, Household wastes disposed of by
+        first recipient, Household wastes recovered by first recipient, Germany, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2004 to 2021\",\"LatestUpdate\":\"2023-04-05 08:39:02h\",\"Information\":\"false\"},{\"Code\":\"32121BJ002\",\"Content\":\"Survey
+        of public waste management, Amount of household wastes generated, Amount of
+        household wastes generated p. inhabitant, Household wastes disposed of by
+        first recipient, Household wastes recovered by first recipient, Germany, Types
+        of waste, Year\",\"State\":\"complete with values\",\"Time\":\"2004 to 2021\",\"LatestUpdate\":\"2023-04-05
+        08:39:14h\",\"Information\":\"false\"},{\"Code\":\"32121BJ003\",\"Content\":\"Survey
+        of public waste management, Amount of household wastes generated, Amount of
+        household wastes generated p. inhabitant, Household wastes disposed of by
+        first recipient, Household wastes recovered by first recipient, Germany, Types
+        of waste, Year\",\"State\":\"complete with values\",\"Time\":\"2004 to 2021\",\"LatestUpdate\":\"2023-04-05
+        08:39:05h\",\"Information\":\"false\"},{\"Code\":\"32121LJ001\",\"Content\":\"Survey
+        of public waste management, Amount of household wastes generated, Amount of
+        household wastes generated p. inhabitant, Household wastes disposed of by
+        first recipient, Household wastes recovered by first recipient, L\xE4nder,
+        Year\",\"State\":\"complete with values\",\"Time\":\"2004 to 2021\",\"LatestUpdate\":\"2023-04-05
+        08:39:11h\",\"Information\":\"false\"},{\"Code\":\"32121LJ002\",\"Content\":\"Survey
+        of public waste management, Amount of household wastes generated, Amount of
+        household wastes generated p. inhabitant, L\xE4nder, Types of waste, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2004 to 2021\",\"LatestUpdate\":\"2023-04-05 08:39:08h\",\"Information\":\"false\"},{\"Code\":\"32141B2001\",\"Content\":\"Processing
+        and utilising site and demolition waste, Demolition waste treatment plants,
+        Input to demolition waste treatment plants, Capacity of demolition waste treatment
+        plants, Demolition waste treatment plants with output, Output of demolition
+        waste treatment plants, Asphalt mixing plants, Input to asphalt mixing plants,
+        Germany, Year\",\"State\":\"complete with values\",\"Time\":\"2006 to 2020\",\"LatestUpdate\":\"2022-05-06
+        15:18:16h\",\"Information\":\"false\"},{\"Code\":\"32141B2002\",\"Content\":\"Processing
+        and utilising site and demolition waste, Demolition waste treatment plants,
+        Input to demolition waste treatment plants, Demolition waste treatment plants
+        with output, Output of demolition waste treatment plants, Germany, Types of
+        waste (EAV 2-digit codes (selection)), Year\",\"State\":\"complete with values\",\"Time\":\"2006
+        to 2020\",\"LatestUpdate\":\"2022-05-06 15:18:23h\",\"Information\":\"false\"},{\"Code\":\"32141B2003\",\"Content\":\"Processing
+        and utilising site and demolition waste, Demolition waste treatment plants,
+        Input to demolition waste treatment plants, Demolition waste treatment plants
+        with output, Output of demolition waste treatment plants, Germany, Types of
+        waste (EAV 6- and 8-digit codes (sel.)), Year\",\"State\":\"complete with
+        values\",\"Time\":\"2006 to 2020\",\"LatestUpdate\":\"2022-05-06 15:18:19h\",\"Information\":\"false\"},{\"Code\":\"32141B2004\",\"Content\":\"Processing
+        and utilising site and demolition waste, Demolition waste treatment plants,
+        Input to demolition waste treatment plants, Capacity of demolition waste treatment
+        plants, Demolition waste treatment plants with output, Output of demolition
+        waste treatment plants, Asphalt mixing plants, Input to asphalt mixing plants,
+        Germany, Type of plant, Year\",\"State\":\"complete with values\",\"Time\":\"2006
+        to 2020\",\"LatestUpdate\":\"2022-05-06 15:18:22h\",\"Information\":\"false\"},{\"Code\":\"32141B2005\",\"Content\":\"Processing
+        and utilising site and demolition waste, Asphalt mixing plants, Input to asphalt
+        mixing plants, Germany, Types of waste (EAV 2-digit codes (selection)), Year\",\"State\":\"complete
+        with values\",\"Time\":\"2006 to 2020\",\"LatestUpdate\":\"2022-05-06 15:18:17h\",\"Information\":\"false\"},{\"Code\":\"32141B2006\",\"Content\":\"Processing
+        and utilising site and demolition waste, Asphalt mixing plants, Input to asphalt
+        mixing plants, Germany, Types of waste (EAV 6- and 8-digit codes (sel.)),
+        Year\",\"State\":\"complete with values\",\"Time\":\"2006 to 2020\",\"LatestUpdate\":\"2022-05-06
+        15:18:24h\",\"Information\":\"false\"},{\"Code\":\"32141L2001\",\"Content\":\"Processing
+        and utilising site and demolition waste, Demolition waste treatment plants,
+        Input to demolition waste treatment plants, Capacity of demolition waste treatment
+        plants, Demolition waste treatment plants with output, Output of demolition
+        waste treatment plants, Asphalt mixing plants, Input to asphalt mixing plants,
+        L\xE4nder, Year\",\"State\":\"complete with values\",\"Time\":\"2006 to 2020\",\"LatestUpdate\":\"2022-05-06
+        15:18:20h\",\"Information\":\"false\"},{\"Code\":\"32151BJ001\",\"Content\":\"Survey
+        of dangerous waste, Waste producers, Waste quantities, Waste quantities generated
+        by primary producers, Germany, Year\",\"State\":\"complete with values\",\"Time\":\"2006
+        to 2021\",\"LatestUpdate\":\"2023-06-29 10:20:21h\",\"Information\":\"false\"},{\"Code\":\"32151BJ002\",\"Content\":\"Survey
+        of dangerous waste, Waste producers, Waste quantities, Waste quantities generated
+        by primary producers, Germany, WZ2003 (Subsections): Waste management, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2006 to 2007\",\"LatestUpdate\":\"2013-08-19 14:27:41h\",\"Information\":\"false\"},{\"Code\":\"32151BJ003\",\"Content\":\"Survey
+        of dangerous waste, Waste producers, Waste quantities, Waste quantities generated
+        by primary producers, Germany, WZ2003 (Subsections): Waste management, Types
+        of waste (EAV 2-digit codes), Year\",\"State\":\"complete with values\",\"Time\":\"2006
+        to 2007\",\"LatestUpdate\":\"2013-08-19 14:27:39h\",\"Information\":\"false\"},{\"Code\":\"32151BJ004\",\"Content\":\"Survey
+        of dangerous waste, Waste producers, Waste quantities, Waste quantities generated
+        by primary producers, Germany, WZ2008 (selected items): Waste management,
+        Year\",\"State\":\"complete with values\",\"Time\":\"2008 to 2021\",\"LatestUpdate\":\"2023-06-29
+        10:20:07h\",\"Information\":\"false\"},{\"Code\":\"32151BJ005\",\"Content\":\"Survey
+        of dangerous waste, Waste producers, Waste quantities, Waste quantities generated
+        by primary producers, Germany, WZ2008 (selected items): Waste management,
+        Types of waste (EAV 2-digit codes), Year\",\"State\":\"complete with values\",\"Time\":\"2008
+        to 2021\",\"LatestUpdate\":\"2023-06-29 10:20:15h\",\"Information\":\"false\"},{\"Code\":\"32151BJ006\",\"Content\":\"Survey
+        of dangerous waste, Waste producers, Waste quantities, Waste quantities generated
+        by primary producers, Germany, Types of waste (EAV 2-digit codes), Year\",\"State\":\"complete
+        with values\",\"Time\":\"2006 to 2021\",\"LatestUpdate\":\"2023-06-29 10:20:10h\",\"Information\":\"false\"},{\"Code\":\"32151BJ007\",\"Content\":\"Survey
+        of dangerous waste, Waste producers, Waste quantities, Waste quantities generated
+        by primary producers, Germany, Types of waste (EAV 6-digit codes), Year\",\"State\":\"complete
+        with values\",\"Time\":\"2006 to 2021\",\"LatestUpdate\":\"2023-06-29 10:20:25h\",\"Information\":\"false\"},{\"Code\":\"32151BJ008\",\"Content\":\"Survey
+        of dangerous waste, Producers of waste quantities primarily recorded, Waste
+        quantity delivered to disposers, Germany, Year\",\"State\":\"complete with
+        values\",\"Time\":\"2005 to 2008\",\"LatestUpdate\":\"2013-08-19 14:01:05h\",\"Information\":\"false\"},{\"Code\":\"32151BJ009\",\"Content\":\"Survey
+        of dangerous waste, Waste quantity delivered to disposers, Regional destination
+        of dangerous waste, Germany, Year\",\"State\":\"complete with values\",\"Time\":\"2005
+        to 2008\",\"LatestUpdate\":\"2013-08-19 14:01:17h\",\"Information\":\"false\"},{\"Code\":\"32151LJ001\",\"Content\":\"Survey
+        of dangerous waste, Waste producers, Waste quantities, Waste quantities generated
+        by primary producers, L\xE4nder, Year\",\"State\":\"complete with values\",\"Time\":\"2006
+        to 2021\",\"LatestUpdate\":\"2023-06-29 10:20:18h\",\"Information\":\"false\"},{\"Code\":\"32151LJ002\",\"Content\":\"Survey
+        of dangerous waste, Producers of waste quantities primarily recorded, Waste
+        quantity delivered to disposers, L\xE4nder, Year\",\"State\":\"complete with
+        values\",\"Time\":\"2005 to 2008\",\"LatestUpdate\":\"2013-08-19 14:01:51h\",\"Information\":\"false\"},{\"Code\":\"32151LJ003\",\"Content\":\"Survey
+        of dangerous waste, Waste quantity delivered to disposers, Regional destination
+        of dangerous waste, L\xE4nder, Year\",\"State\":\"complete with values\",\"Time\":\"2005
+        to 2008\",\"LatestUpdate\":\"2013-08-19 14:01:43h\",\"Information\":\"false\"},{\"Code\":\"32161B4001\",\"Content\":\"Survey
+        of waste production, Local units, Quantity of waste produced, Germany, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2010 to 2018\",\"LatestUpdate\":\"2020-08-05 09:19:28h\",\"Information\":\"false\"},{\"Code\":\"32161B4002\",\"Content\":\"Survey
+        of waste production, Local units, Quantity of waste produced, Germany, Types
+        of waste (EAV 2-digit codes), Year\",\"State\":\"complete with values\",\"Time\":\"2010
+        to 2018\",\"LatestUpdate\":\"2020-08-05 09:19:36h\",\"Information\":\"false\"},{\"Code\":\"32161B4003\",\"Content\":\"Survey
+        of waste production, Local units, Quantity of waste produced, Germany, Types
+        of waste (EAV 6- and 8-digit codes), Year\",\"State\":\"complete with values\",\"Time\":\"2010
+        to 2018\",\"LatestUpdate\":\"2020-08-05 09:19:34h\",\"Information\":\"false\"},{\"Code\":\"32161B4004\",\"Content\":\"Survey
+        of waste production, Local units, Quantity of waste produced, Persons employed,
+        Coverage of local units, Coverage of persons employed, Germany, WZ2008 (2-digit
+        codes): Waste production, Year\",\"State\":\"complete with values\",\"Time\":\"2010
+        to 2018\",\"LatestUpdate\":\"2020-08-05 09:19:30h\",\"Information\":\"false\"},{\"Code\":\"32161B4005\",\"Content\":\"Survey
+        of waste production, Local units, Quantity of waste produced, Germany, Types
+        of waste (EAV 2-digit codes), WZ2008 (2-digit codes): Waste production, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2010 to 2018\",\"LatestUpdate\":\"2020-08-05 09:19:31h\",\"Information\":\"false\"},{\"Code\":\"32161L4001\",\"Content\":\"Survey
+        of waste production, Local units, Quantity of waste produced, L\xE4nder, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2010 to 2018\",\"LatestUpdate\":\"2020-08-05 09:19:35h\",\"Information\":\"false\"},{\"Code\":\"32212B3001\",\"Content\":\"Survey
+        of public waste water disposal, Inhabitants connected to the public sewage
+        system, Waste water, Germany, Type of waste water disposal, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2013 to 2019\",\"LatestUpdate\":\"2022-02-07 10:28:23h\",\"Information\":\"false\"},{\"Code\":\"32212L3001\",\"Content\":\"Survey
+        of public waste water disposal, Inhabitants connected to the public sewage
+        system, Waste water, L\xE4nder, Type of waste water disposal, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2013 to 2019\",\"LatestUpdate\":\"2022-02-07 10:29:23h\",\"Information\":\"false\"},{\"Code\":\"32213B3001\",\"Content\":\"Survey
+        of public waste water treatment, Length of sewage network by location, Waste
+        water treatment plants, Connected population equivalents, Connected inhab.
+        of the connected population equ., Annual quantity of waste water, Dom.a.ind.
+        sewage water of ann. quant. of w. water, Germany, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2022-02-07 10:29:25h\",\"Information\":\"false\"},{\"Code\":\"32213B3002\",\"Content\":\"Survey
+        of public waste water treatment, Waste water treatment plants, Connected population
+        equivalents, Connected inhab. of the connected population equ., Annual quantity
+        of waste water, Dom.a.ind. sewage water of ann. quant. of w. water, Germany,
+        Type of waste water treatment, Year\",\"State\":\"complete with values\",\"Time\":\"2007
+        to 2019\",\"LatestUpdate\":\"2022-02-07 10:29:22h\",\"Information\":\"false\"},{\"Code\":\"32213L3001\",\"Content\":\"Survey
+        of public waste water treatment, Length of sewage network by location, Waste
+        water treatment plants, Connected population equivalents, Connected inhab.
+        of the connected population equ., Annual quantity of waste water, Dom.a.ind.
+        sewage water of ann. quant. of w. water, L\xE4nder, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2022-02-07 10:29:21h\",\"Information\":\"false\"},{\"Code\":\"32213L3002\",\"Content\":\"Survey
+        of public waste water treatment, Waste water treatment plants, Connected population
+        equivalents, Connected inhab. of the connected population equ., Annual quantity
+        of waste water, Dom.a.ind. sewage water of ann. quant. of w. water, Type of
+        waste water treatment, L\xE4nder, Year\",\"State\":\"complete with values\",\"Time\":\"2007
+        to 2019\",\"LatestUpdate\":\"2022-02-07 10:29:26h\",\"Information\":\"false\"},{\"Code\":\"32214LJ001\",\"Content\":\"Survey
+        of public waste water disp. - sewage sludge, Dry matter of sewage sludge fr.
+        waste w.tr.plants, L\xE4nder, Types of sewage sludge disposal, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2006 to 2021\",\"LatestUpdate\":\"2022-12-12 13:30:06h\",\"Information\":\"false\"},{\"Code\":\"32221B3001\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Water quantity, Establishments
+        extracting or purchasing water, Germany, Water extraction and receipt, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2023-03-30 08:03:33h\",\"Information\":\"false\"},{\"Code\":\"32221B3002\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Water quantity, Germany, Own
+        extraction or external procurement, Year\",\"State\":\"complete with values\",\"Time\":\"2007
+        to 2019\",\"LatestUpdate\":\"2023-03-30 08:03:30h\",\"Information\":\"false\"},{\"Code\":\"32221B3003\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Water quantity, Germany, Types
+        of use, Year\",\"State\":\"complete with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2023-03-30
+        08:03:39h\",\"Information\":\"false\"},{\"Code\":\"32221B3004\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Use of freshwater, Germany, Water
+        use, Year\",\"State\":\"complete with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2023-03-30
+        08:03:35h\",\"Information\":\"false\"},{\"Code\":\"32221B3005\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Untreated waste water, Germany,
+        Types of waste water discharge, Year\",\"State\":\"complete with values\",\"Time\":\"2007
+        to 2019\",\"LatestUpdate\":\"2023-03-30 08:03:24h\",\"Information\":\"false\"},{\"Code\":\"32221B3006\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Water quantity, Establishments
+        extracting or purchasing water, Use of freshwater, Untreated waste water,
+        Germany, Year\",\"State\":\"complete with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2023-03-30
+        08:03:47h\",\"Information\":\"false\"},{\"Code\":\"32221L3001\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Water quantity, Establishments
+        extracting or purchasing water, L\xE4nder, Water extraction and receipt, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2023-03-30 08:03:18h\",\"Information\":\"false\"},{\"Code\":\"32221L3002\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Water quantity, L\xE4nder, Own
+        extraction or external procurement, Year\",\"State\":\"complete with values\",\"Time\":\"2007
+        to 2019\",\"LatestUpdate\":\"2023-03-30 08:03:44h\",\"Information\":\"false\"},{\"Code\":\"32221L3003\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Water quantity, L\xE4nder, Types
+        of use, Year\",\"State\":\"complete with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2023-03-30
+        08:04:17h\",\"Information\":\"false\"},{\"Code\":\"32221L3004\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Use of freshwater, Water use,
+        L\xE4nder, Year\",\"State\":\"complete with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2023-03-30
+        08:04:20h\",\"Information\":\"false\"},{\"Code\":\"32221L3005\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Untreated waste water, L\xE4nder,
+        Types of waste water discharge, Year\",\"State\":\"complete with values\",\"Time\":\"2007
+        to 2019\",\"LatestUpdate\":\"2023-03-30 08:03:27h\",\"Information\":\"false\"},{\"Code\":\"32221L3006\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp., Water quantity, Establishments
+        extracting or purchasing water, Use of freshwater, Untreated waste water,
+        L\xE4nder, Year\",\"State\":\"complete with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2023-03-30
+        08:03:21h\",\"Information\":\"false\"},{\"Code\":\"32251L3001\",\"Content\":\"Survey
+        of households' own water supply and disp., Inhabitants, Inhabitants connected
+        to the public sewage system, Inhab. conn. to central waste water treat. plants,
+        L\xE4nder, Year\",\"State\":\"complete with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2022-02-07
+        10:29:27h\",\"Information\":\"false\"},{\"Code\":\"32511BJ002\",\"Content\":\"Survey
+        of environmental protection investments, Environmental protection investments,
+        WZ2003: Environmental protection investments, Turnover size classes of enterprises,
+        Environmental sectors, Germany, Year\",\"State\":\"complete with values\",\"Time\":\"2003
+        to 2007\",\"LatestUpdate\":\"2016-03-10 11:21:08h\",\"Information\":\"false\"},{\"Code\":\"32511BJ004\",\"Content\":\"Survey
+        of environmental protection investments, Environmental protection investments,
+        WZ2003: Environmental protection investments, Employee size classes of enterprises,
+        Environmental sectors, Germany, Year\",\"State\":\"complete with values\",\"Time\":\"2003
+        to 2007\",\"LatestUpdate\":\"2016-03-10 11:21:58h\",\"Information\":\"false\"},{\"Code\":\"32511BJ101\",\"Content\":\"Survey
+        of environmental protection investments, Enterprises, Enterprises with investments,
+        Enterprises with total environ.protect.investments, Investments, Invest. in
+        enterpr. with total envir. protect.inv., WZ2008: Environmental protection
+        investments, Turnover size classes of enterprises, Germany, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2008 to 2017\",\"LatestUpdate\":\"2019-09-13 14:13:11h\",\"Information\":\"false\"},{\"Code\":\"32511BJ102\",\"Content\":\"Survey
+        of environmental protection investments, Environmental protection investments,
+        WZ2008: Environmental protection investments, Turnover size classes of enterprises,
+        Environmental sectors, Germany, Year\",\"State\":\"complete with values\",\"Time\":\"2008
+        to 2017\",\"LatestUpdate\":\"2019-09-13 14:13:20h\",\"Information\":\"false\"},{\"Code\":\"32511BJ103\",\"Content\":\"Survey
+        of environmental protection investments, Enterprises, Enterprises with investments,
+        Enterprises with total environ.protect.investments, Investments, Invest. in
+        enterpr. with total envir. protect.inv., WZ2008: Environmental protection
+        investments, Employee size classes of enterprises, Germany, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2008 to 2017\",\"LatestUpdate\":\"2019-09-13 14:13:10h\",\"Information\":\"false\"},{\"Code\":\"32511BJ104\",\"Content\":\"Survey
+        of environmental protection investments, Environmental protection investments,
+        WZ2008: Environmental protection investments, Employee size classes of enterprises,
+        Environmental sectors, Germany, Year\",\"State\":\"complete with values\",\"Time\":\"2008
+        to 2017\",\"LatestUpdate\":\"2019-09-13 14:13:16h\",\"Information\":\"false\"},{\"Code\":\"32521B3002\",\"Content\":\"Survey
+        of current environmental protection expend., Current environmental protection
+        exp. in industry, Germany, Environmental sectors, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2013 to 2019\",\"LatestUpdate\":\"2021-10-11 10:22:37h\",\"Information\":\"false\"},{\"Code\":\"32521B3005\",\"Content\":\"Survey
+        of current environmental protection expend., Current environmental protection
+        exp. in industry, Germany, WZ2008 (Sections): Environmental protection exp.,
+        Year\",\"State\":\"complete with values\",\"Time\":\"2013 to 2019\",\"LatestUpdate\":\"2021-10-11
+        10:22:32h\",\"Information\":\"false\"},{\"Code\":\"32521B3006\",\"Content\":\"Survey
+        of current environmental protection expend., Current environmental protection
+        exp. in industry, Germany, WZ2008 (2-digit codes): Environmental prot. exp.,
+        Year\",\"State\":\"complete with values\",\"Time\":\"2013 to 2019\",\"LatestUpdate\":\"2021-10-11
+        10:22:34h\",\"Information\":\"false\"},{\"Code\":\"32521B3008\",\"Content\":\"Survey
+        of current environmental protection expend., Current environmental protection
+        exp. in industry, Germany, Environmental sectors, WZ2008 (Sections): Environmental
+        protection exp., Year\",\"State\":\"complete with values\",\"Time\":\"2013
+        to 2019\",\"LatestUpdate\":\"2021-10-11 10:23:33h\",\"Information\":\"false\"},{\"Code\":\"32521B3009\",\"Content\":\"Survey
+        of current environmental protection expend., Current environmental protection
+        exp. in industry, Germany, Environmental sectors, WZ2008 (2-digit codes):
+        Environmental prot. exp., Year\",\"State\":\"complete with values\",\"Time\":\"2013
+        to 2019\",\"LatestUpdate\":\"2021-10-11 10:23:36h\",\"Information\":\"false\"}],\"Statistics\":[{\"Code\":\"12211\",\"Content\":\"Microcensus\",\"Cubes\":\"483\",\"Information\":\"false\"},{\"Code\":\"13111\",\"Content\":\"Employees
+        subj. to social insurance contributions\",\"Cubes\":\"13\",\"Information\":\"false\"},{\"Code\":\"13311\",\"Content\":\"Regional
+        employment accounts\",\"Cubes\":\"4\",\"Information\":\"false\"},{\"Code\":\"21311\",\"Content\":\"Statistics
+        of students\",\"Cubes\":\"48\",\"Information\":\"false\"},{\"Code\":\"21321\",\"Content\":\"Statistics
+        of examinations\",\"Cubes\":\"5\",\"Information\":\"false\"},{\"Code\":\"21521\",\"Content\":\"Europ.
+        Contin. Vocational Training Survey (CVTS)\",\"Cubes\":\"15\",\"Information\":\"false\"},{\"Code\":\"32111\",\"Content\":\"Survey
+        of waste treatment\",\"Cubes\":\"8\",\"Information\":\"false\"},{\"Code\":\"32121\",\"Content\":\"Survey
+        of public waste management\",\"Cubes\":\"5\",\"Information\":\"false\"},{\"Code\":\"32141\",\"Content\":\"Processing
+        and utilising site and demolition waste\",\"Cubes\":\"7\",\"Information\":\"false\"},{\"Code\":\"32151\",\"Content\":\"Survey
+        of dangerous waste\",\"Cubes\":\"12\",\"Information\":\"false\"},{\"Code\":\"32161\",\"Content\":\"Survey
+        of waste production\",\"Cubes\":\"6\",\"Information\":\"false\"},{\"Code\":\"32212\",\"Content\":\"Survey
+        of public waste water disposal\",\"Cubes\":\"2\",\"Information\":\"false\"},{\"Code\":\"32213\",\"Content\":\"Survey
+        of public waste water treatment\",\"Cubes\":\"4\",\"Information\":\"false\"},{\"Code\":\"32214\",\"Content\":\"Survey
+        of public waste water disp. - sewage sludge\",\"Cubes\":\"1\",\"Information\":\"false\"},{\"Code\":\"32221\",\"Content\":\"Survey
+        of non-publ. water supp., waste water disp.\",\"Cubes\":\"12\",\"Information\":\"false\"},{\"Code\":\"32251\",\"Content\":\"Survey
+        of households' own water supply and disp.\",\"Cubes\":\"1\",\"Information\":\"false\"},{\"Code\":\"32511\",\"Content\":\"Survey
+        of environmental protection investments\",\"Cubes\":\"8\",\"Information\":\"false\"},{\"Code\":\"32521\",\"Content\":\"Survey
+        of current environmental protection expend.\",\"Cubes\":\"11\",\"Information\":\"false\"},{\"Code\":\"32531\",\"Content\":\"Survey
+        of environmental protect. goods a. services\",\"Cubes\":\"12\",\"Information\":\"false\"},{\"Code\":\"42111\",\"Content\":\"Monthly
+        report on manufacturing\",\"Cubes\":\"28\",\"Information\":\"false\"},{\"Code\":\"42231\",\"Content\":\"Survey
+        of investments in manufacturing, mining\",\"Cubes\":\"9\",\"Information\":\"false\"},{\"Code\":\"42251\",\"Content\":\"Cost
+        structure survey in manufacturing, mining\",\"Cubes\":\"12\",\"Information\":\"false\"},{\"Code\":\"43211\",\"Content\":\"Survey
+        of investments: energy and water supply\",\"Cubes\":\"1\",\"Information\":\"false\"},{\"Code\":\"43221\",\"Content\":\"Cost
+        structure survey: energy and water supply\",\"Cubes\":\"1\",\"Information\":\"false\"},{\"Code\":\"43311\",\"Content\":\"Monthly
+        survey of electricity and heat production\",\"Cubes\":\"4\",\"Information\":\"false\"},{\"Code\":\"43312\",\"Content\":\"Survey
+        among electricity supply system operators\",\"Cubes\":\"4\",\"Information\":\"false\"},{\"Code\":\"43351\",\"Content\":\"Survey
+        of electricity a. heat production in manuf.\",\"Cubes\":\"8\",\"Information\":\"false\"},{\"Code\":\"43411\",\"Content\":\"Survey
+        of heat production and use\",\"Cubes\":\"1\",\"Information\":\"false\"},{\"Code\":\"43531\",\"Content\":\"Energy
+        use by local units in manufacturing\",\"Cubes\":\"5\",\"Information\":\"false\"},{\"Code\":\"45211\",\"Content\":\"Monthly
+        statistics: wholesale and commission trade\",\"Cubes\":\"17\",\"Information\":\"false\"},{\"Code\":\"45341\",\"Content\":\"Annual
+        statistics of wholesale and retail trade\",\"Cubes\":\"16\",\"Information\":\"false\"},{\"Code\":\"46131\",\"Content\":\"Statistics
+        of freight transport by rail\",\"Cubes\":\"25\",\"Information\":\"false\"},{\"Code\":\"46321\",\"Content\":\"Stat.
+        of freight transport on inland waterways\",\"Cubes\":\"27\",\"Information\":\"false\"},{\"Code\":\"46331\",\"Content\":\"Statistics
+        of maritime transport\",\"Cubes\":\"32\",\"Information\":\"false\"},{\"Code\":\"48112\",\"Content\":\"Cross-sectoral
+        business statistics\",\"Cubes\":\"5\",\"Information\":\"false\"},{\"Code\":\"48121\",\"Content\":\"Statistics
+        on small and medium-sized enterprises\",\"Cubes\":\"12\",\"Information\":\"false\"},{\"Code\":\"48131\",\"Content\":\"Inward
+        foreign affiliates statistics\",\"Cubes\":\"4\",\"Information\":\"false\"},{\"Code\":\"51000\",\"Content\":\"Foreign
+        trade\",\"Cubes\":\"79\",\"Information\":\"false\"},{\"Code\":\"52111\",\"Content\":\"Business
+        register system\",\"Cubes\":\"10\",\"Information\":\"false\"},{\"Code\":\"52411\",\"Content\":\"Statistics
+        on filed insolvency proceedings\",\"Cubes\":\"49\",\"Information\":\"false\"},{\"Code\":\"52551\",\"Content\":\"Cost
+        structure stat. of other service activities\",\"Cubes\":\"15\",\"Information\":\"false\"},{\"Code\":\"52911\",\"Content\":\"Information
+        and communication techn.in enterprises\",\"Cubes\":\"4\",\"Information\":\"false\"},{\"Code\":\"61281\",\"Content\":\"Index
+        of selling prices in wholesale trade\",\"Cubes\":\"6\",\"Information\":\"false\"},{\"Code\":\"62111\",\"Content\":\"Structure
+        of earnings survey\",\"Cubes\":\"56\",\"Information\":\"false\"},{\"Code\":\"62221\",\"Content\":\"Quarterly
+        index of agreed earnings a.working hours\",\"Cubes\":\"4\",\"Information\":\"false\"},{\"Code\":\"62231\",\"Content\":\"Monthly
+        index of agreed earnings and working hours\",\"Cubes\":\"2\",\"Information\":\"false\"},{\"Code\":\"62321\",\"Content\":\"Quarterly
+        earnings survey\",\"Cubes\":\"8\",\"Information\":\"false\"},{\"Code\":\"62361\",\"Content\":\"Earnings
+        survey\",\"Cubes\":\"146\",\"Information\":\"false\"},{\"Code\":\"62411\",\"Content\":\"Labour
+        cost survey\",\"Cubes\":\"24\",\"Information\":\"false\"},{\"Code\":\"62421\",\"Content\":\"Labour
+        cost index\",\"Cubes\":\"2\",\"Information\":\"false\"},{\"Code\":\"62431\",\"Content\":\"Annual
+        estimate of labour costs\",\"Cubes\":\"1\",\"Information\":\"false\"},{\"Code\":\"71811\",\"Content\":\"Ann.
+        accounts of extra budgets a. other public FEU\",\"Cubes\":\"72\",\"Information\":\"false\"},{\"Code\":\"73211\",\"Content\":\"Corporation
+        tax statistics\",\"Cubes\":\"5\",\"Information\":\"false\"},{\"Code\":\"73311\",\"Content\":\"Turnover
+        tax statistics (advance returns)\",\"Cubes\":\"36\",\"Information\":\"false\"},{\"Code\":\"73321\",\"Content\":\"Turnover
+        tax statistics (assessments)\",\"Cubes\":\"15\",\"Information\":\"false\"},{\"Code\":\"73511\",\"Content\":\"Trade
+        tax statistics\",\"Cubes\":\"8\",\"Information\":\"false\"},{\"Code\":\"81000\",\"Content\":\"National
+        accounts of the Federation\",\"Cubes\":\"69\",\"Information\":\"false\"},{\"Code\":\"81511\",\"Content\":\"Input-output
+        accounts\",\"Cubes\":\"6\",\"Information\":\"false\"},{\"Code\":\"82111\",\"Content\":\"Regional
+        accounts (L\xE4nder): production approach\",\"Cubes\":\"4\",\"Information\":\"false\"},{\"Code\":\"85111\",\"Content\":\"Air
+        emission accounts\",\"Cubes\":\"1\",\"Information\":\"false\"},{\"Code\":\"85131\",\"Content\":\"Individual
+        materials\",\"Cubes\":\"7\",\"Information\":\"false\"},{\"Code\":\"85141\",\"Content\":\"Water
+        accounts\",\"Cubes\":\"2\",\"Information\":\"false\"},{\"Code\":\"85411\",\"Content\":\"Expenditure
+        and fixed assets for environ. protect.\",\"Cubes\":\"3\",\"Information\":\"false\"},{\"Code\":\"85421\",\"Content\":\"Environmental
+        taxes and charges\",\"Cubes\":\"4\",\"Information\":\"false\"}],\"Tables\":[{\"Code\":\"12211-9008\",\"Content\":\"Persons
+        in employment: Germany, years (until 2019), economic\\nsections (WZ2008),
+        sex\",\"Time\":\"\"},{\"Code\":\"13111-0003\",\"Content\":\"Employees subject
+        to social insurance contributions at their\\nplace of work: Germany, reference
+        date, sex, economic\\nsections\",\"Time\":\"\"},{\"Code\":\"13111-0004\",\"Content\":\"Employees
+        subject to social insurance contributions at their\\nplace of work: Germany,
+        reference date, sex, extent of\\nemployment, economic sections\",\"Time\":\"\"},{\"Code\":\"13311-0001\",\"Content\":\"Persons
+        in employment, employees, self-employed persons and\\nfamily workers (domestic
+        concept): Germany, years,\\neconomic sections\",\"Time\":\"\"},{\"Code\":\"13311-0002\",\"Content\":\"Persons
+        in employment, employees, self-employed persons and\\nfamily workers (domestic
+        concept): L\xE4nder, years,\\neconomic sections\",\"Time\":\"\"},{\"Code\":\"21311-0003\",\"Content\":\"Students:
+        Germany, semester, nationality, sex, subject\",\"Time\":\"\"},{\"Code\":\"21311-0006\",\"Content\":\"Students:
+        L\xE4nder, semester, nationality, sex, subject\",\"Time\":\"\"},{\"Code\":\"21311-0012\",\"Content\":\"First-year
+        students: Germany, semester, nationality, sex,\\nsubject\",\"Time\":\"\"},{\"Code\":\"21311-0015\",\"Content\":\"First-year
+        students: L\xE4nder, semester, nationality, sex,\\nsubject\",\"Time\":\"\"},{\"Code\":\"21321-0003\",\"Content\":\"Examinations
+        at institutions of higher education: Germany,\\nyears, nationality, sex, examination
+        result, subject\",\"Time\":\"\"},{\"Code\":\"21321-0006\",\"Content\":\"Examinations
+        at institutions of higher education: L\xE4nder,\\nyears, nationality, sex,
+        examination result, subject\",\"Time\":\"\"},{\"Code\":\"21521-0001\",\"Content\":\"Continuing
+        vocational training in enterprises: Germany,\\nyears, continuing training
+        offered by the enterprises,\\neconomic sections\",\"Time\":\"\"},{\"Code\":\"21521-0003\",\"Content\":\"Rate
+        of participation in training courses offered by the\\nenterprises: Germany,
+        years, sex, economic sections\",\"Time\":\"\"},{\"Code\":\"21521-0005\",\"Content\":\"Most
+        important qualifications in terms of training hours:\\nGermany, years, qualification
+        areas, economic sections\",\"Time\":\"\"},{\"Code\":\"21521-0007\",\"Content\":\"Most
+        important future qualifications in enterprises:\\nGermany, years, qualification
+        areas, economic sections\",\"Time\":\"\"},{\"Code\":\"21521-0009\",\"Content\":\"Qualification
+        strategies in enterprises: Germany, years,\\nmeasures for future qualification,
+        economic sections\",\"Time\":\"\"},{\"Code\":\"21521-0011\",\"Content\":\"Enterprises
+        with agreements on continuing training,\\nenterprises providing initial vocational
+        training: Germany,\\nyears, economic sections\",\"Time\":\"\"},{\"Code\":\"32111-0001\",\"Content\":\"Waste
+        treatment: Germany, years\",\"Time\":\"\"},{\"Code\":\"32111-0002\",\"Content\":\"Waste
+        treatment: Germany, years, types of waste\",\"Time\":\"\"},{\"Code\":\"32111-0003\",\"Content\":\"Waste
+        treatment: Germany, years, type of plant\",\"Time\":\"\"},{\"Code\":\"32111-0004\",\"Content\":\"Waste
+        treatment: Germany, years, type of plant,\\ntypes of waste\",\"Time\":\"\"},{\"Code\":\"32111-0010\",\"Content\":\"Waste
+        treatment: L\xE4nder, years\",\"Time\":\"\"},{\"Code\":\"32111-0011\",\"Content\":\"Waste
+        treatment: L\xE4nder, years, type of plant\",\"Time\":\"\"},{\"Code\":\"32121-0001\",\"Content\":\"Amount
+        of household wastes generated: Germany, years,\\ntypes of waste\",\"Time\":\"\"},{\"Code\":\"32121-0002\",\"Content\":\"Amount
+        of household wastes generated: L\xE4nder, years\",\"Time\":\"\"},{\"Code\":\"32121-0003\",\"Content\":\"Amount
+        of household wastes generated: L\xE4nder, years,\\ntypes of waste\",\"Time\":\"\"},{\"Code\":\"32141-0001\",\"Content\":\"Demolition
+        waste treatment plants, asphalt mixing plants:\\nGermany, years, type of plant\",\"Time\":\"\"},{\"Code\":\"32141-0002\",\"Content\":\"Demolition
+        waste treatment plants: Germany, years,\\ntypes of waste\",\"Time\":\"\"},{\"Code\":\"32141-0003\",\"Content\":\"Asphalt
+        mixing plants: Germany, years, types of waste\",\"Time\":\"\"},{\"Code\":\"32141-0004\",\"Content\":\"Demolition
+        waste treatment plants, asphalt mixing plants:\\nL\xE4nder, years\",\"Time\":\"\"},{\"Code\":\"32151-0001\",\"Content\":\"Waste
+        producers, waste quantities (dangerous waste):\\nGermany, years, economic
+        activities, types of waste\\n(EAV 2-digit codes)\",\"Time\":\"\"},{\"Code\":\"32151-0002\",\"Content\":\"Waste
+        producers, waste quantities (dangerous waste):\\nGermany, years, types of
+        waste (EAV 2- and 6-digit codes)\",\"Time\":\"\"},{\"Code\":\"32151-0003\",\"Content\":\"Waste
+        producers, waste quantities (dangerous waste):\\nL\xE4nder, years\",\"Time\":\"\"},{\"Code\":\"32151-0004\",\"Content\":\"Producers
+        of waste quantities primarily recorded,\\nwaste quantity delivered to disposers
+        (dangerous waste):\\nGermany, years (until 2008)\",\"Time\":\"\"},{\"Code\":\"32151-0005\",\"Content\":\"Producers
+        of waste quantities primarily recorded,\\nwaste quantity delivered to disposers
+        (dangerous waste):\\nL\xE4nder, years (until 2008)\",\"Time\":\"\"},{\"Code\":\"32161-0001\",\"Content\":\"Local
+        units, quantity of waste produced: Germany, years,\\ntypes of waste\",\"Time\":\"\"},{\"Code\":\"32161-0002\",\"Content\":\"Local
+        units, quantity of waste produced: Germany, years,\\neconomic activities,
+        types of waste\",\"Time\":\"\"},{\"Code\":\"32161-0003\",\"Content\":\"Local
+        units, quantity of waste produced, persons employed,\\ncoverage of local units,
+        coverage of persons employed:\\nGermany, years, economic activities\",\"Time\":\"\"},{\"Code\":\"32161-0004\",\"Content\":\"Local
+        units, quantity of waste produced: L\xE4nder, years\",\"Time\":\"\"},{\"Code\":\"32212-0001\",\"Content\":\"Inhabitants
+        connected to the public sewage system,\\nwaste water: L\xE4nder, years, type
+        of waste water disposal\",\"Time\":\"\"},{\"Code\":\"32213-0001\",\"Content\":\"Length
+        of sewage network, waste water treatment plants,\\nconnected population equivalents,
+        annual quantity of waste\\nwater, sewage water: L\xE4nder, years\",\"Time\":\"\"},{\"Code\":\"32213-0002\",\"Content\":\"Waste
+        water treatment plants, connected population\\nequivalents, annual quantity
+        of waste water, sewage water:\\nL\xE4nder, years, type of waste water treatment\",\"Time\":\"\"},{\"Code\":\"32214-0001\",\"Content\":\"Dry
+        matter of sewage sludge disposed of directly from\\nwaste water treatment
+        plants: L\xE4nder, years,\\ntypes of sewage sludge disposal\",\"Time\":\"\"},{\"Code\":\"32221-0001\",\"Content\":\"Water
+        quantity, establishments extracting or purchasing\\nwater: L\xE4nder, years,
+        water extraction and receipt\",\"Time\":\"\"},{\"Code\":\"32221-0002\",\"Content\":\"Water
+        quantity: L\xE4nder, years, own extraction or external\\nprocurement\",\"Time\":\"\"},{\"Code\":\"32221-0003\",\"Content\":\"Water
+        quantity: L\xE4nder, years, types of use\",\"Time\":\"\"},{\"Code\":\"32221-0004\",\"Content\":\"Use
+        of freshwater: L\xE4nder, years, water use\",\"Time\":\"\"},{\"Code\":\"32221-0005\",\"Content\":\"Untreated
+        waste water: L\xE4nder, years, types of waste water\\ndischarge\",\"Time\":\"\"},{\"Code\":\"32251-0001\",\"Content\":\"Inhabitants
+        connected to the public sewage system,\\nInhabitants connected to central
+        waste water treatment\\nplants: L\xE4nder, years\",\"Time\":\"\"},{\"Code\":\"32511-0001\",\"Content\":\"Enterprises
+        and investments in environmental protection:\\nGermany, years, turnover /
+        employee size classes of\\nenterprises, economic activities\",\"Time\":\"\"},{\"Code\":\"32511-0002\",\"Content\":\"Environmental
+        protection investments: Germany, years,\\nturnover / employee size classes
+        of enterprises,\\nenvironmental sectors, economic activities\",\"Time\":\"\"},{\"Code\":\"32521-0001\",\"Content\":\"Current
+        environmental protection expenditures in industry\\n(except construction):
+        Germany, years, environmental sectors\",\"Time\":\"\"},{\"Code\":\"32521-0002\",\"Content\":\"Current
+        environmental protection expenditures in industry\\n(except construction):
+        Germany, years, economic activities\",\"Time\":\"\"},{\"Code\":\"32521-0003\",\"Content\":\"Current
+        environmental protection expenditures in industry\\n(except construction):
+        Germany, years, environmental\\nsectors, economic activities\",\"Time\":\"\"},{\"Code\":\"32521-0004\",\"Content\":\"Current
+        environmental protection expenditures in industry\\n(except construction):
+        Germany, years, employee size\\nclasses, economic activities\",\"Time\":\"\"},{\"Code\":\"32531-0002\",\"Content\":\"Units,
+        persons employed, turnover in environmental\\nprotection: Germany, years,
+        economic activities\",\"Time\":\"\"},{\"Code\":\"32531-0004\",\"Content\":\"Environmental
+        protection turnover: Germany, years,\\nenvironmental sectors\",\"Time\":\"\"},{\"Code\":\"32531-0005\",\"Content\":\"Environmental
+        protection turnover: Germany, years,\\nenvironmental sectors, origin of the
+        turnover, economic\\nactivities\",\"Time\":\"\"},{\"Code\":\"32531-0013\",\"Content\":\"Environmental
+        protection turnover: L\xE4nder, years,\\nenvironmental sectors\",\"Time\":\"\"},{\"Code\":\"42111-0103\",\"Content\":\"Persons
+        employed and turnover of local units in\\nmanufacturing: Germany, years, economic
+        activities\\n(WZ2003 2-/3-/4-digit codes)\",\"Time\":\"\"},{\"Code\":\"42111-0104\",\"Content\":\"Persons
+        employed and turnover of local units in\\nmanufacturing: Germany, months,
+        economic activities\\n(WZ2003 2-/3-/4-digit codes)\",\"Time\":\"\"},{\"Code\":\"42111-0105\",\"Content\":\"Persons
+        employed and turnover of local units in\\nmanufacturing: Germany, years, economic
+        activities\\n(WZ2003 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42111-0106\",\"Content\":\"Persons
+        employed and turnover of local units in\\nmanufacturing: Germany, months,
+        economic activities\\n(WZ2003 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42111-0108\",\"Content\":\"Persons
+        employed and turnover of local units in\\nmanufacturing: FT/NL, years, economic
+        activities\\n(WZ2003 2-/3-/4-digit codes)\",\"Time\":\"\"},{\"Code\":\"42111-0109\",\"Content\":\"Persons
+        employed and turnover of local units in\\nmanufacturing: FT/NL, years, economic
+        activities\\n(WZ2003 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42111-0123\",\"Content\":\"Persons
+        employed and turnover of local kind-of-activity\\nunits in manufacturing:
+        Germany, years, economic activities\\n(WZ2003 2-/3-/4-digit codes)\",\"Time\":\"\"},{\"Code\":\"42111-0124\",\"Content\":\"Persons
+        employed and turnover of local kind-of-activity\\nunits in manufacturing:
+        Germany, months, economic activities\\n(WZ2003 2-/3-/4-digit codes)\",\"Time\":\"\"},{\"Code\":\"42111-0125\",\"Content\":\"Persons
+        employed and turnover of local kind-of-activity\\nunits in manufacturing:
+        Germany, years, economic activities\\n(WZ2003 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42111-0126\",\"Content\":\"Persons
+        employed and turnover of local kind-of-activity\\nunits in manufacturing:
+        Germany, months, economic activities\\n(WZ2003 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42111-0128\",\"Content\":\"Persons
+        employed and turnover of local kind-of-activity\\nunits in manufacturing:
+        FT/NL, years, economic activities\\n(WZ2003 2-/3-/4-digit codes)\",\"Time\":\"\"},{\"Code\":\"42111-0129\",\"Content\":\"Persons
+        employed and turnover of local kind-of-activity\\nunits in manufacturing:
+        FT/NL, years, economic activities\\n(WZ2003 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42231-0001\",\"Content\":\"Enterprises,
+        persons employed, turnover and investments in\\nmanufacturing and mining:
+        Germany, years, economic\\nactivities (2-/3-/4-digit codes)\",\"Time\":\"\"},{\"Code\":\"42231-0002\",\"Content\":\"Enterprises,
+        persons employed, turnover and investments in\\nmanufacturing and mining:
+        Germany, years, economic\\nactivities (WZ1993 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42231-0003\",\"Content\":\"Enterprises,
+        persons employed, turnover and investments in\\nmanufacturing and mining:
+        Germany, years, economic\\nactivities (WZ2003 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42231-0011\",\"Content\":\"Local
+        units, persons employed, turnover and investments in\\nmanufacturing and mining:
+        Germany, years, economic\\nactivities (2-/3-/4-digit codes)\",\"Time\":\"\"},{\"Code\":\"42231-0012\",\"Content\":\"Local
+        units, persons employed, turnover and investments in\\nmanufacturing and mining:
+        Germany, years, economic\\nactivities (WZ1993 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42231-0013\",\"Content\":\"Local
+        units, persons employed, turnover and investments in\\nmanufacturing and mining:
+        Germany, years, economic\\nactivities (WZ2003 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42251-0001\",\"Content\":\"Persons
+        employed, turnover, output and value added of\\nenterprises in manufacturing:
+        Germany, years, economic\\nactivities (2-/3-/4-digit codes)\",\"Time\":\"\"},{\"Code\":\"42251-0002\",\"Content\":\"Persons
+        employed, turnover, output and value added of\\nenterprises in manufacturing:
+        Germany, years, economic\\nactivities (WZ2003 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"42251-0004\",\"Content\":\"Cost
+        structure of enterprises in manufacturing: Germany,\\nyears, economic activities
+        (2-/3-/4-digit codes)\",\"Time\":\"\"},{\"Code\":\"42251-0005\",\"Content\":\"Cost
+        structure of enterprises in manufacturing: Germany,\\nyears, economic activities
+        (WZ2003 2-4-digit hierarchy)\",\"Time\":\"\"},{\"Code\":\"43211-0001\",\"Content\":\"Investments
+        of enterprises in the energy and water supply\\nsector: Germany, years, economic
+        activities\",\"Time\":\"\"},{\"Code\":\"43221-0001\",\"Content\":\"Persons
+        employed, turnover, output and value added\\nof enterprises in the energy
+        and water supply sector:\\nGermany, years, economic activities\",\"Time\":\"\"},{\"Code\":\"43311-0001\",\"Content\":\"Electricity
+        production, net production of heat, fuel input:\\nGermany, years, energy carriers\",\"Time\":\"\"},{\"Code\":\"43311-0002\",\"Content\":\"Electricity
+        production, net production of heat, fuel input:\\nGermany, months, energy
+        carriers\",\"Time\":\"\"},{\"Code\":\"43312-0001\",\"Content\":\"Electricity
+        feed-in systems, net nominal capacity,\\nelectricity feed-in: Germany, months,
+        energy carriers\",\"Time\":\"\"},{\"Code\":\"43351-0002\",\"Content\":\"Local
+        units, declared net capacity: Germany, years, economic activities, main energy
+        carriers\",\"Time\":\"\"},{\"Code\":\"43351-0004\",\"Content\":\"Electricity
+        production, net production of heat, combined heat and power generation: Germany,
+        years, economic activities, energy carriers\",\"Time\":\"\"},{\"Code\":\"43351-0005\",\"Content\":\"Fuel
+        input: Germany, years, economic activities, energy\\ncarriers\",\"Time\":\"\"},{\"Code\":\"43411-0001\",\"Content\":\"Net
+        production of heat, fuel input, purchase of fuels,\\nstock of fuels in heating
+        plants: Germany, years, energy\\ncarriers\",\"Time\":\"\"},{\"Code\":\"43531-0001\",\"Content\":\"Energy
+        use by local units in manufacturing: Germany, years, use of the energy consumed,
+        economic activities, energy carriers\",\"Time\":\"\"},{\"Code\":\"45211-0001\",\"Content\":\"Persons
+        employed in wholesale trade: Germany, years,\\neconomic activities\",\"Time\":\"\"},{\"Code\":\"45211-0002\",\"Content\":\"Persons
+        employed in wholesale trade: Germany,\\nmonths/quarters/half-years, economic
+        activities\",\"Time\":\"\"},{\"Code\":\"45211-0003\",\"Content\":\"Turnover
+        in wholesale trade: Germany, years, price types,\\neconomic activities\",\"Time\":\"\"},{\"Code\":\"45211-0004\",\"Content\":\"Turnover
+        in wholesale trade: Germany, \\nmonths/quarters/half-years, price types, economic\\nactivities\",\"Time\":\"\"},{\"Code\":\"45211-0005\",\"Content\":\"Turnover
+        in wholesale trade: Germany, months, price types,\\noriginal and adjusted
+        data, economic activities\",\"Time\":\"\"},{\"Code\":\"45341-0001\",\"Content\":\"Enterprises,
+        persons employed, turnover and other business\\nand economic figures in trade:
+        Germany, years, economic\\nactivities\",\"Time\":\"\"},{\"Code\":\"45341-0002\",\"Content\":\"Enterprises,
+        persons employed, turnover and other business\\nand economic figures in trade:
+        Germany, years, economic\\nactivities, employee size classes\",\"Time\":\"\"},{\"Code\":\"45341-0003\",\"Content\":\"Enterprises,
+        persons employed, turnover and other business\\nand economic figures in trade:
+        Germany, years, economic\\nactivities, turnover size classes\",\"Time\":\"\"},{\"Code\":\"45341-0004\",\"Content\":\"Persons
+        employed in the trade sector: Germany, years,\\noccupational status, sex,
+        economic activities\",\"Time\":\"\"}],\"Timeseries\":null,\"Variables\":[{\"Code\":\"ABF001\",\"Content\":\"Input
+        to waste treatment plants\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF002\",\"Content\":\"Wastes
+        generated in the own local unit\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF003\",\"Content\":\"Waste
+        delivered from the domestic territory\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF004\",\"Content\":\"Waste
+        delivered from abroad\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF005\",\"Content\":\"Output
+        of waste treatment plants\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF006\",\"Content\":\"Wastes
+        to be disposed of\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF007\",\"Content\":\"Wastes
+        to be recovered\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF008\",\"Content\":\"Household
+        wastes disposed of by first recipient\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF009\",\"Content\":\"Household
+        wastes recovered by first recipient\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF010\",\"Content\":\"Waste
+        producers\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF011\",\"Content\":\"Waste
+        quantities\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF012\",\"Content\":\"Waste
+        quantities generated by primary producers\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABF014\",\"Content\":\"Quantity
+        of waste produced\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"true\"},{\"Code\":\"ABF015\",\"Content\":\"Waste
+        to preparatory processes\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ABFAT1\",\"Content\":\"Types
+        of waste\",\"Type\":\"Subject\",\"Values\":\"5\",\"Information\":\"false\"},{\"Code\":\"ABFAT2\",\"Content\":\"Types
+        of waste\",\"Type\":\"Subject\",\"Values\":\"14\",\"Information\":\"false\"},{\"Code\":\"ABG004\",\"Content\":\"Distribution
+        to other plants, users or traders\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"AEW006\",\"Content\":\"Producers
+        of waste quantities primarily recorded\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"true\"},{\"Code\":\"AEW007\",\"Content\":\"Waste
+        quantity delivered to disposers\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"AFGBE1\",\"Content\":\"Functions\",\"Type\":\"Subject\",\"Values\":\"14\",\"Information\":\"false\"},{\"Code\":\"ANL007\",\"Content\":\"Waste
+        treatment plants\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ANL008\",\"Content\":\"Waste
+        treatment plants with output\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ANL009\",\"Content\":\"Demolition
+        waste treatment plants\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ANL010\",\"Content\":\"Demolition
+        waste treatment plants with output\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"ANLAT1\",\"Content\":\"Type
+        of plant\",\"Type\":\"Subject\",\"Values\":\"15\",\"Information\":\"false\"},{\"Code\":\"ANLAT2\",\"Content\":\"Type
+        of plant\",\"Type\":\"Subject\",\"Values\":\"39\",\"Information\":\"false\"},{\"Code\":\"AUF007\",\"Content\":\"Amount
+        of household wastes generated\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"AUF008\",\"Content\":\"Amount
+        of household wastes generated p. inhabitant\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"BAU012\",\"Content\":\"Input
+        to demolition waste treatment plants\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"BAU013\",\"Content\":\"Capacity
+        of demolition waste treatment plants\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"BAU014\",\"Content\":\"Output
+        of demolition waste treatment plants\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"BEV049\",\"Content\":\"Inhab.
+        conn. to central waste water treat. plants\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"true\"},{\"Code\":\"BHAWAT\",\"Content\":\"Type
+        of waste water treatment\",\"Type\":\"Subject\",\"Values\":\"2\",\"Information\":\"false\"},{\"Code\":\"BILSF1\",\"Content\":\"Subject\",\"Type\":\"Subject\",\"Values\":\"293\",\"Information\":\"true\"},{\"Code\":\"CF00A2\",\"Content\":\"Functions
+        of government (COFOG), groups\",\"Type\":\"Subject\",\"Values\":\"69\",\"Information\":\"true\"},{\"Code\":\"CP08H1\",\"Content\":\"CPA
+        2008: products for trade\",\"Type\":\"Subject\",\"Values\":\"97\",\"Information\":\"true\"},{\"Code\":\"CP08I1\",\"Content\":\"CPA
+        2008: homogeneous branches\",\"Type\":\"Subject\",\"Values\":\"72\",\"Information\":\"false\"},{\"Code\":\"CP08P1\",\"Content\":\"CPA
+        2008: Paper waste and metal waste\",\"Type\":\"Subject\",\"Values\":\"10\",\"Information\":\"false\"},{\"Code\":\"CP08U1\",\"Content\":\"CPA
+        2008: homogeneous branches (env.-econ. acc.)\",\"Type\":\"Subject\",\"Values\":\"29\",\"Information\":\"true\"},{\"Code\":\"CP08U2\",\"Content\":\"CPA
+        2008: homogeneous branches (env.-econ. acc.)\",\"Type\":\"Subject\",\"Values\":\"49\",\"Information\":\"true\"},{\"Code\":\"CP08U3\",\"Content\":\"CPA
+        2008: homogeneous branches (env.-econ. acc.)\",\"Type\":\"Subject\",\"Values\":\"48\",\"Information\":\"true\"},{\"Code\":\"EAVXB2\",\"Content\":\"Types
+        of waste (EAV 2-digit codes)\",\"Type\":\"Subject\",\"Values\":\"21\",\"Information\":\"false\"},{\"Code\":\"EAVXB6\",\"Content\":\"Types
+        of waste (EAV 6- and 8-digit codes)\",\"Type\":\"Subject\",\"Values\":\"892\",\"Information\":\"false\"},{\"Code\":\"EAVXC2\",\"Content\":\"Types
+        of waste (EAV 2-digit codes (selection))\",\"Type\":\"Subject\",\"Values\":\"14\",\"Information\":\"false\"},{\"Code\":\"EAVXC6\",\"Content\":\"Types
+        of waste (EAV 6- and 8-digit codes (sel.))\",\"Type\":\"Subject\",\"Values\":\"118\",\"Information\":\"false\"},{\"Code\":\"EAVXD2\",\"Content\":\"Types
+        of waste (EAV 2-digit codes (selection))\",\"Type\":\"Subject\",\"Values\":\"5\",\"Information\":\"false\"},{\"Code\":\"EAVXD6\",\"Content\":\"Types
+        of waste (EAV 6- and 8-digit codes (sel.))\",\"Type\":\"Subject\",\"Values\":\"16\",\"Information\":\"false\"},{\"Code\":\"EAVXG2\",\"Content\":\"Types
+        of waste (EAV 2-digit codes)\",\"Type\":\"Subject\",\"Values\":\"20\",\"Information\":\"false\"},{\"Code\":\"EAVXG6\",\"Content\":\"Types
+        of waste (EAV 6-digit codes)\",\"Type\":\"Subject\",\"Values\":\"408\",\"Information\":\"false\"},{\"Code\":\"EGW3\",\"Content\":\"Commodity
+        groups (EGW 2002: 3-digit codes)\",\"Type\":\"Subject\",\"Values\":\"212\",\"Information\":\"true\"},{\"Code\":\"ENRG01\",\"Content\":\"Main
+        energy carriers\",\"Type\":\"Subject\",\"Values\":\"41\",\"Information\":\"false\"},{\"Code\":\"ENRG02\",\"Content\":\"Energy
+        carriers\",\"Type\":\"Subject\",\"Values\":\"41\",\"Information\":\"false\"},{\"Code\":\"ENRG03\",\"Content\":\"Energy
+        carriers\",\"Type\":\"Subject\",\"Values\":\"51\",\"Information\":\"false\"},{\"Code\":\"ENRG05\",\"Content\":\"Energy
+        carriers\",\"Type\":\"Subject\",\"Values\":\"39\",\"Information\":\"false\"},{\"Code\":\"ENRG06\",\"Content\":\"Energy
+        carriers\",\"Type\":\"Subject\",\"Values\":\"35\",\"Information\":\"false\"},{\"Code\":\"ENRG07\",\"Content\":\"Energy
+        carriers\",\"Type\":\"Subject\",\"Values\":\"45\",\"Information\":\"false\"},{\"Code\":\"ENRG08\",\"Content\":\"Energy
+        carriers\",\"Type\":\"Subject\",\"Values\":\"42\",\"Information\":\"false\"},{\"Code\":\"GV1\",\"Content\":\"Classif.
+        of Goods for Transport Statist.-Divisions\",\"Type\":\"Subject\",\"Values\":\"10\",\"Information\":\"true\"},{\"Code\":\"GV2\",\"Content\":\"Classif.of
+        Goods f. Transport Statist.-Main groups\",\"Type\":\"Subject\",\"Values\":\"58\",\"Information\":\"true\"},{\"Code\":\"GV3\",\"Content\":\"Classif.
+        of Goods for Transport Statistics -Groups\",\"Type\":\"Subject\",\"Values\":\"176\",\"Information\":\"true\"},{\"Code\":\"GVZ1\",\"Content\":\"Stand.
+        Goods Class. Transp. St. (div.)(until 2010)\",\"Type\":\"Subject\",\"Values\":\"11\",\"Information\":\"true\"},{\"Code\":\"IKTNZ1\",\"Content\":\"Use
+        of ICT\",\"Type\":\"Subject\",\"Values\":\"257\",\"Information\":\"false\"},{\"Code\":\"KB10A3\",\"Content\":\"Occupations
+        (KB2010), 3-digit codes\",\"Type\":\"Subject\",\"Values\":\"144\",\"Information\":\"true\"},{\"Code\":\"KB10A5\",\"Content\":\"Occupations
+        (KB2010), 5-digit codes\",\"Type\":\"Subject\",\"Values\":\"1300\",\"Information\":\"true\"},{\"Code\":\"MATGR1\",\"Content\":\"Material
+        grade and types of raw materials\",\"Type\":\"Subject\",\"Values\":\"60\",\"Information\":\"false\"},{\"Code\":\"NST7A2\",\"Content\":\"NST-2007
+        Classification of Goods (Divisions)\",\"Type\":\"Subject\",\"Values\":\"20\",\"Information\":\"true\"},{\"Code\":\"NST7A3\",\"Content\":\"NST-2007
+        Classification of Goods (Groups)\",\"Type\":\"Subject\",\"Values\":\"81\",\"Information\":\"false\"},{\"Code\":\"NST7B2\",\"Content\":\"NST-2007
+        Classification of Goods (Division aggr.)\",\"Type\":\"Subject\",\"Values\":\"10\",\"Information\":\"false\"},{\"Code\":\"RVUEA1\",\"Content\":\"Regional
+        destination of dangerous waste\",\"Type\":\"Subject\",\"Values\":\"2\",\"Information\":\"false\"},{\"Code\":\"SITC\",\"Content\":\"SITC
+        (3-digit codes): Foreign trade\",\"Type\":\"Subject\",\"Values\":\"269\",\"Information\":\"true\"},{\"Code\":\"SITC2A\",\"Content\":\"SITC
+        (2-digit codes): Foreign trade\",\"Type\":\"Subject\",\"Values\":\"72\",\"Information\":\"true\"},{\"Code\":\"SPALTE\",\"Content\":\"Input
+        of homogeneous branches, final uses\",\"Type\":\"Subject\",\"Values\":\"20\",\"Information\":\"false\"},{\"Code\":\"SPL001\",\"Content\":\"Input
+        of homogeneous branches, final uses\",\"Type\":\"Subject\",\"Values\":\"84\",\"Information\":\"false\"},{\"Code\":\"SPL002\",\"Content\":\"Input
+        of homogeneous branches, final uses\",\"Type\":\"Subject\",\"Values\":\"86\",\"Information\":\"false\"},{\"Code\":\"SPL003\",\"Content\":\"Input
+        of homogeneous branches, final uses\",\"Type\":\"Subject\",\"Values\":\"86\",\"Information\":\"false\"},{\"Code\":\"TRM001\",\"Content\":\"Dry
+        matter of sewage sludge fr. waste w.tr.plants\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"true\"},{\"Code\":\"UMWBR1\",\"Content\":\"Environmental
+        sectors\",\"Type\":\"Subject\",\"Values\":\"7\",\"Information\":\"false\"},{\"Code\":\"UMWBR2\",\"Content\":\"Environmental
+        sectors\",\"Type\":\"Subject\",\"Values\":\"8\",\"Information\":\"false\"},{\"Code\":\"UMWBR5\",\"Content\":\"Environmental
+        sectors\",\"Type\":\"Subject\",\"Values\":\"6\",\"Information\":\"false\"},{\"Code\":\"WAM2\",\"Content\":\"Commodity
+        Class. Foreign Trade Stat.(2-digit cod.)\",\"Type\":\"Subject\",\"Values\":\"98\",\"Information\":\"true\"},{\"Code\":\"WAM4\",\"Content\":\"Commodity
+        Class. Foreign Trade Stat.(4-digit cod.)\",\"Type\":\"Subject\",\"Values\":\"1626\",\"Information\":\"true\"},{\"Code\":\"WAS009\",\"Content\":\"Dom.a.ind.
+        sewage water of ann. quant. of w. water\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"true\"},{\"Code\":\"WAS010\",\"Content\":\"Waste
+        water\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"true\"},{\"Code\":\"WAS012\",\"Content\":\"Untreated
+        waste water\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"WAS017\",\"Content\":\"Waste
+        water\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"false\"},{\"Code\":\"WASEL2\",\"Content\":\"Types
+        of waste water discharge\",\"Type\":\"Subject\",\"Values\":\"2\",\"Information\":\"false\"},{\"Code\":\"WASEL3\",\"Content\":\"Types
+        of waste water discharge\",\"Type\":\"Subject\",\"Values\":\"4\",\"Information\":\"false\"},{\"Code\":\"WASEN1\",\"Content\":\"Type
+        of waste water disposal\",\"Type\":\"Subject\",\"Values\":\"3\",\"Information\":\"false\"},{\"Code\":\"WASNW6\",\"Content\":\"Annual
+        quantity of waste water\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"true\"},{\"Code\":\"WASNW8\",\"Content\":\"Waste
+        water treatment plants\",\"Type\":\"Value\",\"Values\":\"-1\",\"Information\":\"true\"},{\"Code\":\"WZ03G5\",\"Content\":\"WZ2003
+        (Subsections): Waste management\",\"Type\":\"Subject\",\"Values\":\"29\",\"Information\":\"false\"},{\"Code\":\"WZ03M3\",\"Content\":\"WZ2003
+        (3-digit codes): Survey of investments\",\"Type\":\"Subject\",\"Values\":\"116\",\"Information\":\"false\"},{\"Code\":\"WZ03M4\",\"Content\":\"WZ2003
+        (4-digit codes): Survey of investments\",\"Type\":\"Subject\",\"Values\":\"258\",\"Information\":\"false\"},{\"Code\":\"WZ03T3\",\"Content\":\"WZ2003
+        (3 digits): Cost structure in manufacturing\",\"Type\":\"Subject\",\"Values\":\"116\",\"Information\":\"false\"},{\"Code\":\"WZ03T4\",\"Content\":\"WZ2003
+        (4 digits): Cost structure in manufacturing\",\"Type\":\"Subject\",\"Values\":\"260\",\"Information\":\"false\"},{\"Code\":\"WZ03V8\",\"Content\":\"WZ2003
+        (selected items): Insolvencies\",\"Type\":\"Subject\",\"Values\":\"94\",\"Information\":\"false\"},{\"Code\":\"WZ03W7\",\"Content\":\"WZ2003:
+        Cost structure statistics\",\"Type\":\"Subject\",\"Values\":\"26\",\"Information\":\"false\"},{\"Code\":\"WZ03X3\",\"Content\":\"WZ2003
+        (3-digit codes): Manufacturing\",\"Type\":\"Subject\",\"Values\":\"116\",\"Information\":\"false\"},{\"Code\":\"WZ03X4\",\"Content\":\"WZ2003
+        (4-digit codes): Manufacturing\",\"Type\":\"Subject\",\"Values\":\"258\",\"Information\":\"false\"},{\"Code\":\"WZ08A5\",\"Content\":\"WZ2008
+        (5-digit codes (Subclasses))\",\"Type\":\"Subject\",\"Values\":\"839\",\"Information\":\"false\"}],\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Mon, 28 Aug 2023 17:26:58 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+      Transfer-Encoding:
+      - chunked
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/find/find?category=cubes&language=en&pagelength=1&term=waste
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"find\",\"Method\":\"find\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"term\":\"waste\",\"category\":\"cubes\",\"pagelength\":\"1\",\"language\":\"en\"},\"Cubes\":[{\"Code\":\"12211BJ116\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, WZ2008 (Sections), Year\",\"State\":\"complete
+        with values\",\"Time\":\"2009 to 2019\",\"LatestUpdate\":\"2021-06-17 16:38:07h\",\"Information\":\"false\"}],\"Statistics\":null,\"Tables\":null,\"Timeseries\":null,\"Variables\":null,\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '611'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Mon, 28 Aug 2023 17:31:43 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+version: 1

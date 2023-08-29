@@ -1,0 +1,1178 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/modifieddata?date=20.02.2020&language=en&type=all
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"modifieddata\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"\",\"type\":\"all\",\"date\":\"20.02.2020\",\"pagelength\":\"100\",\"language\":\"en\",\"area\":\"all\"},\"List\":[{\"Code\":\"22221\",\"Content\":\"Recipients
+        of benefits for asylum seekers\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2021-12-31\"},{\"Code\":\"24221\",\"Content\":\"Stat.
+        on criminal proc. and administr. fine proc.\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2022\"},{\"Code\":\"24231\",\"Content\":\"Statistics
+        on civil matters\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2022\"},{\"Code\":\"24271\",\"Content\":\"Social
+        jurisdiction statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2022\"},{\"Code\":\"24281\",\"Content\":\"Labour
+        jurisdiction statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2022\"},{\"Code\":\"42191\",\"Content\":\"Indices
+        based on truck toll collection\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"46251\",\"Content\":\"Statistics of motor vehicles and
+        trailers\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2023 Jul\"},{\"Code\":\"21311\",\"Content\":\"Statistics
+        of students\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2022/23
+        WT\"},{\"Code\":\"22162\",\"Content\":\"Integration assistance: expendit.,
+        revenue (SC IX)\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2022\"},{\"Code\":\"42121\",\"Content\":\"Monthly
+        production survey in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"46331\",\"Content\":\"Statistics of maritime transport\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        May\"},{\"Code\":\"61111\",\"Content\":\"Consumer price index for Germany\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"61121\",\"Content\":\"Harmonised index of consumer prices\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"61131\",\"Content\":\"Retail price index\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"41331\",\"Content\":\"Slaughtering and carcass weight statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"42153\",\"Content\":\"Indices of production in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"43111\",\"Content\":\"Monthly report: energy and water
+        supply\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023 Jun\"},{\"Code\":\"43311\",\"Content\":\"Monthly
+        survey of electricity and heat production\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023
+        May\"},{\"Code\":\"43312\",\"Content\":\"Survey among electricity supply system
+        operators\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023
+        May\"},{\"Code\":\"21411\",\"Content\":\"Assistance pursuant to the Fed. Training
+        Ass. Act\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2022\"},{\"Code\":\"41321\",\"Content\":\"Poultry
+        statistics: hatchery survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"41322\",\"Content\":\"Poultry statistics: poultry slaughterhouse
+        survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023 Jun\"},{\"Code\":\"42151\",\"Content\":\"Indices
+        of new orders in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"42152\",\"Content\":\"Indices of turnover in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"47414\",\"Content\":\"Short-term statistics of service
+        activities\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023
+        May\"},{\"Code\":\"41271\",\"Content\":\"Land use survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2023\"},{\"Code\":\"43381\",\"Content\":\"Survey
+        of sewage gas extraction, utilis., distrib.\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2022\"},{\"Code\":\"43391\",\"Content\":\"Survey
+        of the distribution of liquefied gas\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2022\"},{\"Code\":\"51000\",\"Content\":\"Foreign
+        trade (calendar and seasonally adjusted)\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"52111\",\"Content\":\"Business register system\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2021\"},{\"Code\":\"22151-0004\",\"Content\":\"Recipients
+        of basic security benefits: Germany,\\nreference month per quarter, location
+        of benefit provision,\\nsex, age groups\",\"Type\":\"New Tables\",\"Date\":\"2023-08-02\",\"Added\":\"\"},{\"Code\":\"22151-0033\",\"Content\":\"Recipients
+        of basic security benefits: L\xE4nder, reference\\nmonth per quarter, location
+        of benefit provision, sex, age\\ngroups\",\"Type\":\"New Tables\",\"Date\":\"2023-08-02\",\"Added\":\"\"},{\"Code\":\"22518\",\"Content\":\"Stat.
+        of prot. mand. in cases of child endangerm.\",\"Type\":\"Updates\",\"Date\":\"2023-08-02\",\"Added\":\"2022\"},{\"Code\":\"22971\",\"Content\":\"Statistics
+        of homeless people accommodated\",\"Type\":\"Updates\",\"Date\":\"2023-08-02\",\"Added\":\"2023-01-31\"},{\"Code\":\"13111\",\"Content\":\"Employees
+        subj. to social insurance contributions\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2022-12-31\"},{\"Code\":\"13211\",\"Content\":\"Labour
+        market stat. of the Fed. Employment Agency\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"13231\",\"Content\":\"Unemployment statistics based on
+        the ILO concept\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"13321\",\"Content\":\"Employment accounts\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"31231\",\"Content\":\"Stock of residential buildings and
+        dwellings\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2022-12-31\"},{\"Code\":\"45211\",\"Content\":\"Monthly
+        statistics: wholesale and commission trade\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        May\"},{\"Code\":\"45214\",\"Content\":\"Monthly statistics of motor vehicle
+        trade\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023 May\"},{\"Code\":\"62361\",\"Content\":\"Earnings
+        survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023 Jun\"},{\"Code\":\"71211\",\"Content\":\"Statistics
+        on tax revenue\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"73421\",\"Content\":\"Beer tax statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"22211\",\"Content\":\"Benefits for asylum seekers: expenditure,
+        revenue\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2022\"},{\"Code\":\"45212\",\"Content\":\"Monthly
+        statistics of retail trade\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61411\",\"Content\":\"Index of import prices\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61421\",\"Content\":\"Index of export prices\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"62231\",\"Content\":\"Monthly index of agreed earnings
+        and working hours\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"22221\",\"Content\":\"Recipients of benefits for asylum
+        seekers\",\"Type\":\"New Statistics\",\"Date\":\"2023-07-28\",\"Added\":\"\"},{\"Code\":\"46421\",\"Content\":\"Statistics
+        of air transport performance\\n\",\"Type\":\"Updates\",\"Date\":\"2023-07-28\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"71321\",\"Content\":\"Annual debt of the overall public
+        budget\",\"Type\":\"Updates\",\"Date\":\"2023-07-28\",\"Added\":\"2022-12-31\"},{\"Code\":\"71329\",\"Content\":\"Annual
+        debt of other public funds, inst., enterpr.\",\"Type\":\"Updates\",\"Date\":\"2023-07-28\",\"Added\":\"2022-12-31\"},{\"Code\":\"73411\",\"Content\":\"Tobacco
+        tax statistics\",\"Type\":\"Updates\",\"Date\":\"2023-07-28\",\"Added\":\"2023
+        Q2\"},{\"Code\":\"21241\",\"Content\":\"Nursing training statistics\",\"Type\":\"Updates\",\"Date\":\"2023-07-27\",\"Added\":\"2022-12-31\"},{\"Code\":\"46271\",\"Content\":\"Statistics
+        of interurban roads\",\"Type\":\"Updates\",\"Date\":\"2023-07-26\",\"Added\":\"2023-01-01\"},{\"Code\":\"12621\",\"Content\":\"Life
+        tables\",\"Type\":\"Updates\",\"Date\":\"2023-07-25\",\"Added\":\"2020/22\"},{\"Code\":\"44111\",\"Content\":\"Monthly
+        report on the main construction industry\\n\",\"Type\":\"Updates\",\"Date\":\"2023-07-25\",\"Added\":\"2023
+        May\"},{\"Code\":\"46321\",\"Content\":\"Stat. of freight transport on inland
+        waterways\",\"Type\":\"Updates\",\"Date\":\"2023-07-25\",\"Added\":\"2023
+        Apr\"},{\"Code\":\"12711\",\"Content\":\"Migration statistics\",\"Type\":\"Updates\",\"Date\":\"2023-07-24\",\"Added\":\"2023
+        Apr\"},{\"Code\":\"45412\",\"Content\":\"Monthly tourism survey\",\"Type\":\"Updates\",\"Date\":\"2023-07-24\",\"Added\":\"2023
+        May\"},{\"Code\":\"73432\",\"Content\":\"Electricity tax statistics\",\"Type\":\"Updates\",\"Date\":\"2023-07-24\",\"Added\":\"2021\"},{\"Code\":\"61241\",\"Content\":\"Index
+        of producer prices of industrial products\",\"Type\":\"Updates\",\"Date\":\"2023-07-20\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"22521\",\"Content\":\"Statistics of adoptions\",\"Type\":\"Updates\",\"Date\":\"2023-07-19\",\"Added\":\"2022\"},{\"Code\":\"24261\",\"Content\":\"Fiscal
+        jurisdiction statistics\",\"Type\":\"Updates\",\"Date\":\"2023-07-19\",\"Added\":\"2022\"},{\"Code\":\"42113\",\"Content\":\"Ranges
+        of the stock of orders in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-07-19\",\"Added\":\"2023
+        May\"},{\"Code\":\"42155\",\"Content\":\"Indices of the stock of orders in
+        manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-07-19\",\"Added\":\"2023
+        May\"},{\"Code\":\"45213\",\"Content\":\"Monthly statistics: accommodation
+        a. food services\",\"Type\":\"Updates\",\"Date\":\"2023-07-19\",\"Added\":\"2023
+        May\"},{\"Code\":\"31111\",\"Content\":\"Statistics of building permits\",\"Type\":\"Updates\",\"Date\":\"2023-07-18\",\"Added\":\"2023
+        May\"},{\"Code\":\"41323\",\"Content\":\"Poultry statistics: enterprises with
+        laying hens\",\"Type\":\"Updates\",\"Date\":\"2023-07-18\",\"Added\":\"2023
+        May\"},{\"Code\":\"43211\",\"Content\":\"Survey of investments: energy and
+        water supply\",\"Type\":\"Updates\",\"Date\":\"2023-07-18\",\"Added\":\"2021\"},{\"Code\":\"43213\",\"Content\":\"Investments
+        in gas supply of gas enterprises\",\"Type\":\"Updates\",\"Date\":\"2023-07-18\",\"Added\":\"2021\"},{\"Code\":\"73611\",\"Content\":\"Inheritance
+        tax and gift tax statistics\",\"Type\":\"Updates\",\"Date\":\"2023-07-18\",\"Added\":\"2022\"},{\"Code\":\"42111\",\"Content\":\"Monthly
+        report on manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-07-17\",\"Added\":\"2023
+        May\"},{\"Code\":\"71231-0003\",\"Content\":\"Capacity of non-personal taxes:
+        Germany, years, types of\\nnon-personal taxes\",\"Type\":\"New Tables\",\"Date\":\"2023-07-17\",\"Added\":\"\"},{\"Code\":\"71231-0012\",\"Content\":\"Capacity
+        of non-personal taxes: L\xE4nder, years, types of\\nnon-personal taxes\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-17\",\"Added\":\"\"},{\"Code\":\"22522\",\"Content\":\"Statistics
+        of childmind. approval, guardian., etc.\",\"Type\":\"Updates\",\"Date\":\"2023-07-14\",\"Added\":\"2022\"},{\"Code\":\"41215-0001\",\"Content\":\"Holdings
+        with vegetable growing, cultivated area, harvested\\nquantity: Germany, years\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0002\",\"Content\":\"Holdings
+        with outdoor vegetable growing, cultivated area,\\nharvested quantity: Germany,
+        years, types of vegetables\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0003\",\"Content\":\"Holdings
+        with vegetable growing under protective cover,\\ncultivated area, harvested
+        quantity: Germany, years, types\\nof vegetables\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0010\",\"Content\":\"Holdings
+        with vegetable growing, cultivated area, harvested\\nquantity: L\xE4nder,
+        years\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0011\",\"Content\":\"Holdings
+        with outdoor vegetable growing, cultivated area,\\nharvested quantity: L\xE4nder,
+        years, types of vegetables\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0012\",\"Content\":\"Holdings
+        with vegetable growing under protective cover,\\ncultivated area, harvested
+        quantity: L\xE4nder, years, types\\nof vegetables\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"45413\",\"Content\":\"Statistics
+        on tourism demand\",\"Type\":\"Updates\",\"Date\":\"2023-07-14\",\"Added\":\"2022\"},{\"Code\":\"46231\",\"Content\":\"Statistics
+        of freight transport by road\",\"Type\":\"Updates\",\"Date\":\"2023-07-14\",\"Added\":\"2023
+        Feb\"},{\"Code\":\"61211\",\"Content\":\"Index of producer prices of agricultural
+        products\",\"Type\":\"Updates\",\"Date\":\"2023-07-14\",\"Added\":\"2023 May\"},{\"Code\":\"61231\",\"Content\":\"Index
+        of producer prices of logging products\",\"Type\":\"Updates\",\"Date\":\"2023-07-14\",\"Added\":\"2023
+        May\"},{\"Code\":\"61281\",\"Content\":\"Index of selling prices in wholesale
+        trade\",\"Type\":\"Updates\",\"Date\":\"2023-07-14\",\"Added\":\"2023 Jun\"},{\"Code\":\"22151\",\"Content\":\"Basic
+        security in old age,reduced earning capacity\",\"Type\":\"Updates\",\"Date\":\"2023-07-13\",\"Added\":\"2023
+        Mar\"},{\"Code\":\"43321\",\"Content\":\"Monthly survey of gas supply\",\"Type\":\"Updates\",\"Date\":\"2023-07-13\",\"Added\":\"2023
+        May\"},{\"Code\":\"52411\",\"Content\":\"Statistics on filed insolvency proceedings\",\"Type\":\"Updates\",\"Date\":\"2023-07-13\",\"Added\":\"2023
+        Apr\"},{\"Code\":\"46241\",\"Content\":\"Statistics of road traffic accidents\",\"Type\":\"Updates\",\"Date\":\"2023-07-12\",\"Added\":\"2022\"},{\"Code\":\"51000\",\"Content\":\"Foreign
+        trade (Revision: October 2022 - March 2023)\",\"Type\":\"Updates\",\"Date\":\"2023-07-12\",\"Added\":\"2023
+        May\"},{\"Code\":\"62361-0009\",\"Content\":\"Nominal wage index for full-time
+        employees: Germany, months,\\nquintiles\",\"Type\":\"New Tables\",\"Date\":\"2023-07-12\",\"Added\":\"\"},{\"Code\":\"62361-0018\",\"Content\":\"Nominal
+        wage index for full-time employees: Germany,\\nquarters, quintiles\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-12\",\"Added\":\"\"},{\"Code\":\"12411\",\"Content\":\"Current
+        updating of population figures\",\"Type\":\"Updates\",\"Date\":\"2023-07-11\",\"Added\":\"2023-03-31\"},{\"Code\":\"43511\",\"Content\":\"Survey
+        of coal imports\",\"Type\":\"Updates\",\"Date\":\"2023-07-11\",\"Added\":\"2023
+        May\"},{\"Code\":\"71211\",\"Content\":\"Statistics on tax revenue\",\"Type\":\"Updates\",\"Date\":\"2023-07-11\",\"Added\":\"2023
+        Q1\"},{\"Code\":\"71211-0003\",\"Content\":\"Revenue from taxes: Germany,
+        quarters, types of taxes prior\\nto distribution\",\"Type\":\"New Tables\",\"Date\":\"2023-07-11\",\"Added\":\"\"},{\"Code\":\"71211-0004\",\"Content\":\"Revenue
+        from taxes: Germany, quarters, types of taxes by\\ndistribution of taxes\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-11\",\"Added\":\"\"},{\"Code\":\"71211-0103\",\"Content\":\"Revenue
+        from taxes: L\xE4nder, quarters, types of taxes prior\\nto distribution\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-11\",\"Added\":\"\"},{\"Code\":\"71211-0104\",\"Content\":\"Revenue
+        from taxes: L\xE4nder, quarters, types of taxes by\\ndistribution of taxes\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-11\",\"Added\":\"\"},{\"Code\":\"73431\",\"Content\":\"Energy
+        tax statistics\",\"Type\":\"Updates\",\"Date\":\"2023-07-11\",\"Added\":\"2022\"},{\"Code\":\"61261\",\"Content\":\"Price
+        indices for the construction industry\",\"Type\":\"Updates\",\"Date\":\"2023-07-10\",\"Added\":\"2023
+        May\"},{\"Code\":\"46911\",\"Content\":\"Pipeline statistics\",\"Type\":\"Updates\",\"Date\":\"2023-07-07\",\"Added\":\"2023
+        May\"},{\"Code\":\"21821\",\"Content\":\"Reports on research and development\",\"Type\":\"Updates\",\"Date\":\"2023-07-06\",\"Added\":\"2021\"},{\"Code\":\"11111\",\"Content\":\"Recording
+        of territorial status\",\"Type\":\"Updates\",\"Date\":\"2023-07-05\",\"Added\":\"2021-12-31\"},{\"Code\":\"21351\",\"Content\":\"Statistics
+        of habilitations\",\"Type\":\"Updates\",\"Date\":\"2023-07-04\",\"Added\":\"2022\"},{\"Code\":\"81511\",\"Content\":\"Input-output
+        accounts\",\"Type\":\"Updates\",\"Date\":\"2023-07-04\",\"Added\":\"2020\"},{\"Code\":\"32531-0005\",\"Content\":\"Environmental
+        protection turnover: Germany, years,\\nenvironmental sectors, origin of the
+        turnover, economic\\nactivities\",\"Type\":\"New Tables\",\"Date\":\"2023-07-03\",\"Added\":\"\"},{\"Code\":\"21421\",\"Content\":\"Assistance
+        pursuant to Upgrading Training Ass. Act\",\"Type\":\"Updates\",\"Date\":\"2023-06-30\",\"Added\":\"2022\"},{\"Code\":\"22922\",\"Content\":\"Statistics
+        of parental allowance\",\"Type\":\"Updates\",\"Date\":\"2023-06-30\",\"Added\":\"2023
+        Q1\"},{\"Code\":\"46131\",\"Content\":\"Statistics of freight transport by
+        rail\",\"Type\":\"Updates\",\"Date\":\"2023-06-30\",\"Added\":\"2023 Apr\"},{\"Code\":\"73141\",\"Content\":\"Statistics
+        of pension benefit notifications\",\"Type\":\"Updates\",\"Date\":\"2023-06-30\",\"Added\":\"2022\"},{\"Code\":\"22125\",\"Content\":\"Recip.
+        of benefits f. educ. a. particip.(SC,XII,3)\",\"Type\":\"Updates\",\"Date\":\"2023-06-29\",\"Added\":\"2023
+        Q1\"},{\"Code\":\"32151\",\"Content\":\"Survey of dangerous waste\",\"Type\":\"Updates\",\"Date\":\"2023-06-29\",\"Added\":\"2021\"},{\"Code\":\"41215-0004\",\"Content\":\"Holdings
+        with strawberry growing, cultivated area, harvested\\nquantity: Germany, years,
+        type of cultivation\",\"Type\":\"New Tables\",\"Date\":\"2023-06-29\",\"Added\":\"\"},{\"Code\":\"41215-0005\",\"Content\":\"Holdings
+        with strawberry growing (fully organic), cultivated\\narea, harvested quantity:
+        Germany, years, type of\\ncultivation\",\"Type\":\"New Tables\",\"Date\":\"2023-06-29\",\"Added\":\"\"},{\"Code\":\"41215-0013\",\"Content\":\"Holdings
+        with strawberry growing, cultivated area, harvested\\nquantity: L\xE4nder,
+        years, type of cultivation\",\"Type\":\"New Tables\",\"Date\":\"2023-06-29\",\"Added\":\"\"},{\"Code\":\"41215-0014\",\"Content\":\"Holdings
+        with strawberry growing (fully organic), cultivated\\narea, harvested quantity:
+        L\xE4nder, years, type of cultivation\",\"Type\":\"New Tables\",\"Date\":\"2023-06-29\",\"Added\":\"\"},{\"Code\":\"41243\",\"Content\":\"Crop
+        production report: tree fruit\",\"Type\":\"Updates\",\"Date\":\"2023-06-29\",\"Added\":\"2023\"},{\"Code\":\"63511\",\"Content\":\"Statistics
+        on overindebtedness\",\"Type\":\"Updates\",\"Date\":\"2023-06-29\",\"Added\":\"2022\"},{\"Code\":\"46331-0005\",\"Content\":\"Goods
+        transshipped (maritime transport): Germany, years,\\ncostal areas of loading,
+        costal areas of unloading,\\nmain traffic relations, classification of goods
+        (groups)\",\"Type\":\"New Tables\",\"Date\":\"2023-06-28\",\"Added\":\"\"},{\"Code\":\"32531-0002\",\"Content\":\"Units,
+        persons employed, turnover in environmental\\nprotection: Germany, years,
+        economic activities\",\"Type\":\"New Tables\",\"Date\":\"2023-06-27\",\"Added\":\"\"},{\"Code\":\"73431-0001\",\"Content\":\"Taxed
+        energy products: Germany, years\",\"Type\":\"New Tables\",\"Date\":\"2023-06-27\",\"Added\":\"\"},{\"Code\":\"85221\",\"Content\":\"Extent
+        of the ecosystems\",\"Type\":\"New Statistics\",\"Date\":\"2023-06-23\",\"Added\":\"\"},{\"Code\":\"12612-0050\",\"Content\":\"Women:
+        Germany, woman's year of birth, number of children\",\"Type\":\"New Tables\",\"Date\":\"2023-06-14\",\"Added\":\"\"},{\"Code\":\"12612-0051\",\"Content\":\"Average
+        number of children per woman, average number of\\nchildren per mother: Germany,
+        woman's year of birth\",\"Type\":\"New Tables\",\"Date\":\"2023-06-14\",\"Added\":\"\"},{\"Code\":\"12612-0052\",\"Content\":\"Childless
+        rate: L\xE4nder (aggregates), years, age groups of\\nthe women\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-06-14\",\"Added\":\"\"},{\"Code\":\"62361-0500\",\"Content\":\"Employees:
+        Germany, reference month, type of collective wage\\nagreement, economic activities\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0501\",\"Content\":\"Local
+        units: Germany, reference month, type of collective\\nwage agreement, economic
+        activities\",\"Type\":\"New Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0510\",\"Content\":\"Employees:
+        Former territory of the Federal Republic / New\\nL\xE4nder, reference month,
+        type of collective wage agreement,\\neconomic activities\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0511\",\"Content\":\"Local
+        units: Former territory of the Federal Republic / New\\nL\xE4nder, reference
+        month, type of collective wage agreement,\\neconomic activities\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0520\",\"Content\":\"Employees:
+        L\xE4nder, reference month, type of collective wage\\nagreement, economic
+        activities\",\"Type\":\"New Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0521\",\"Content\":\"Local
+        units: L\xE4nder, reference month, type of collective\\nwage agreement, economic
+        activities\",\"Type\":\"New Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0001\",\"Content\":\"Real
+        wage index, nominal wage index: Germany, months\",\"Type\":\"New Tables\",\"Date\":\"2023-05-30\",\"Added\":\"\"},{\"Code\":\"62361-0002\",\"Content\":\"Nominal
+        wage index: Germany, months, economic activities\",\"Type\":\"New Tables\",\"Date\":\"2023-05-30\",\"Added\":\"\"},{\"Code\":\"62361-0003\",\"Content\":\"Nominal
+        wage index: Germany, months, sex\",\"Type\":\"New Tables\",\"Date\":\"2023-05-30\",\"Added\":\"\"},{\"Code\":\"62361-0004\",\"Content\":\"Nominal
+        wage index: Germany, months, extent of employment\",\"Type\":\"New Tables\",\"Date\":\"2023-05-30\",\"Added\":\"\"},{\"Code\":\"62361-0005\",\"Content\":\"Nominal
+        wage index: Germany, months, vocational training\\nqualification\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-05-30\",\"Added\":\"\"},{\"Code\":\"62361-0006\",\"Content\":\"Nominal
+        wage index: Former territory of the Federal Republic\\n/ New L\xE4nder, months\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-05-30\",\"Added\":\"\"},{\"Code\":\"62361-0007\",\"Content\":\"Index
+        of average gross earnings: Germany, months, economic\\nactivities\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-05-30\",\"Added\":\"\"},{\"Code\":\"62361-0008\",\"Content\":\"Index
+        of average gross earnings: Former territory of the\\nFederal Republic / New
+        L\xE4nder, months, economic\\nactivities\",\"Type\":\"New Tables\",\"Date\":\"2023-05-30\",\"Added\":\"\"},{\"Code\":\"22971-0007\",\"Content\":\"Homeless
+        people accommodated: Germany, reference date,\\nnationality, household type,
+        household size\",\"Type\":\"New Tables\",\"Date\":\"2023-05-26\",\"Added\":\"\"},{\"Code\":\"22971-0008\",\"Content\":\"Homeless
+        people accommodated: Germany, reference date,\\nsex, household type, household
+        size\",\"Type\":\"New Tables\",\"Date\":\"2023-05-26\",\"Added\":\"\"},{\"Code\":\"73141\",\"Content\":\"Statistics
+        of pension benefit notifications\",\"Type\":\"New Statistics\",\"Date\":\"2023-05-19\",\"Added\":\"\"},{\"Code\":\"73411-0001\",\"Content\":\"Taxation
+        of tobacco products (cigarettes, cigars/cigarillos,\\nfine-cut tobacco, pipe
+        tobacco): Germany, years, tax\\nstamps\",\"Type\":\"New Tables\",\"Date\":\"2023-05-03\",\"Added\":\"\"},{\"Code\":\"73411-0002\",\"Content\":\"Taxation
+        of tobacco products (water pipe tobacco, heated\\ntobacco, substitutes): Germany,
+        years, tax stamps\",\"Type\":\"New Tables\",\"Date\":\"2023-05-03\",\"Added\":\"\"},{\"Code\":\"73411-0003\",\"Content\":\"Taxation
+        of tobacco products (cigarettes, cigars/cigarillos,\\nfine-cut tobacco, pipe
+        tobacco): Germany, quarters, tax\\nstamps\",\"Type\":\"New Tables\",\"Date\":\"2023-05-03\",\"Added\":\"\"},{\"Code\":\"73411-0004\",\"Content\":\"Taxation
+        of tobacco products (water pipe tobacco, heated\\ntobacco, substitutes): Germany,
+        quarters, tax stamps\",\"Type\":\"New Tables\",\"Date\":\"2023-05-03\",\"Added\":\"\"},null,null,null,null,null],\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2023 14:28:42 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+      Transfer-Encoding:
+      - chunked
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/modifieddata?date=20.02.2020&language=en&type=all
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"modifieddata\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"\",\"type\":\"all\",\"date\":\"20.02.2020\",\"pagelength\":\"100\",\"language\":\"en\",\"area\":\"all\"},\"List\":[{\"Code\":\"46321\",\"Content\":\"Stat.
+        of freight transport on inland waterways\",\"Type\":\"Updates\",\"Date\":\"2023-08-24\",\"Added\":\"2023
+        May\"},{\"Code\":\"22541\",\"Content\":\"Children and persons employed in
+        day care facil.\",\"Type\":\"New Statistics\",\"Date\":\"2023-08-23\",\"Added\":\"\"},{\"Code\":\"21211\",\"Content\":\"Statistics
+        of vocational training\",\"Type\":\"Updates\",\"Date\":\"2023-08-22\",\"Added\":\"2022\"},{\"Code\":\"12711\",\"Content\":\"Migration
+        statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-21\",\"Added\":\"2023
+        May\"},{\"Code\":\"45412\",\"Content\":\"Monthly tourism survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-21\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61241\",\"Content\":\"Index of producer prices of industrial
+        products\",\"Type\":\"Updates\",\"Date\":\"2023-08-21\",\"Added\":\"2023 Jul\"},{\"Code\":\"71231\",\"Content\":\"Comparison
+        of non-personal taxes\",\"Type\":\"Updates\",\"Date\":\"2023-08-21\",\"Added\":\"2022\"},{\"Code\":\"21352\",\"Content\":\"Statistics
+        of doctoral students\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2022-12-01\"},{\"Code\":\"31111\",\"Content\":\"Statistics
+        of building permits\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"41243\",\"Content\":\"Crop production report: tree fruit\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023\"},{\"Code\":\"41313\",\"Content\":\"Livestock
+        survey - pigs\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023-05\"},{\"Code\":\"41323\",\"Content\":\"Poultry
+        statistics: enterprises with laying hens\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"42113\",\"Content\":\"Ranges of the stock of orders in
+        manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"42155\",\"Content\":\"Indices of the stock of orders in
+        manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61511\",\"Content\":\"Statistics of purchase values of
+        building land\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2022
+        Q4\"},{\"Code\":\"21381\",\"Content\":\"Indicators of higher education statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2021\"},{\"Code\":\"22121\",\"Content\":\"Statistics
+        of recipients of subsistence payments\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2022-31-12\"},{\"Code\":\"43511\",\"Content\":\"Survey
+        of coal imports\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"44111-0010\",\"Content\":\"Turnover from construction activities
+        (value and volume\\nindex) in the main constr. ind. (local units with 20 or
+        more\\npersons employed): Germany, years, types of construction\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-08-17\",\"Added\":\"\"},{\"Code\":\"44111-0011\",\"Content\":\"Turnover
+        from construction activities (value and volume\\nindex) in the main constr.
+        ind. (local units with 20 or more\\npersons employed): Germany, months, types
+        of construction\",\"Type\":\"New Tables\",\"Date\":\"2023-08-17\",\"Added\":\"\"},{\"Code\":\"45213\",\"Content\":\"Monthly
+        statistics: accommodation a. food services\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"46911\",\"Content\":\"Pipeline statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"48112\",\"Content\":\"Cross-sectoral business statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2021\"},{\"Code\":\"52411\",\"Content\":\"Statistics
+        on filed insolvency proceedings\",\"Type\":\"New Statistics\",\"Date\":\"2023-08-17\",\"Added\":\"\"},{\"Code\":\"81000\",\"Content\":\"National
+        accounts of the Fed. (employment)\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2023
+        Q2\"},{\"Code\":\"31231\",\"Content\":\"Stock of residential buildings and
+        dwellings\",\"Type\":\"New Statistics\",\"Date\":\"2023-08-16\",\"Added\":\"\"},{\"Code\":\"42111\",\"Content\":\"Monthly
+        report on manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-16\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"79994\",\"Content\":\"Public procurement statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-16\",\"Added\":\"2021
+        Q4\"},{\"Code\":\"22111\",\"Content\":\"Public assistance expenditure and
+        revenue\",\"Type\":\"Updates\",\"Date\":\"2023-08-15\",\"Added\":\"2022\"},{\"Code\":\"45211\",\"Content\":\"Monthly
+        statistics: wholesale and commission trade\",\"Type\":\"Updates\",\"Date\":\"2023-08-15\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61211\",\"Content\":\"Index of producer prices of agricultural
+        products\",\"Type\":\"Updates\",\"Date\":\"2023-08-14\",\"Added\":\"2023 Jun\"},{\"Code\":\"61231\",\"Content\":\"Index
+        of producer prices of logging products\",\"Type\":\"Updates\",\"Date\":\"2023-08-14\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61281\",\"Content\":\"Index of selling prices in wholesale
+        trade\",\"Type\":\"Updates\",\"Date\":\"2023-08-14\",\"Added\":\"2023 Jul\"},{\"Code\":\"48112-0001\",\"Content\":\"Enterprises
+        (EU), persons employed, turnover and other\\nbusiness and economic figures:
+        Germany, years, economic\\nactivities (WZ2008 1-/2-/3-/4-digit codes)\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-08-11\",\"Added\":\"\"},{\"Code\":\"48112-0002\",\"Content\":\"Enterprises
+        (EU), persons employed, turnover and other\\nbusiness and economic figures:
+        Germany, years, economic\\nactivities (WZ2008 1-4-digit hierarchy)\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-08-11\",\"Added\":\"\"},{\"Code\":\"51000\",\"Content\":\"Foreign
+        trade (Revision: November 2022 - April 2023)\",\"Type\":\"Updates\",\"Date\":\"2023-08-11\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"52311\",\"Content\":\"Statistics of business notifications\",\"Type\":\"Updates\",\"Date\":\"2023-08-11\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"52411\",\"Content\":\"Statistics on filed insolvency proceedings\",\"Type\":\"Updates\",\"Date\":\"2023-08-11\",\"Added\":\"2023
+        May\"},{\"Code\":\"61311\",\"Content\":\"Producer price indices for services
+        (sea)\",\"Type\":\"Updates\",\"Date\":\"2023-08-11\",\"Added\":\"2023 Jun\"},{\"Code\":\"71211\",\"Content\":\"Statistics
+        on tax revenue\",\"Type\":\"Updates\",\"Date\":\"2023-08-11\",\"Added\":\"2023
+        Q1\"},{\"Code\":\"12611\",\"Content\":\"Statistics of marriages\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023
+        May\"},{\"Code\":\"12612\",\"Content\":\"Birth statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023
+        May\"},{\"Code\":\"12613\",\"Content\":\"Death statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023
+        May\"},{\"Code\":\"21241\",\"Content\":\"Nursing training statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2022-12-31\"},{\"Code\":\"21611\",\"Content\":\"Cultural
+        statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2022\"},{\"Code\":\"43321\",\"Content\":\"Monthly
+        survey of gas supply\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"44151\",\"Content\":\"Short-term stat. on the main construction
+        industry\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023 May\"},{\"Code\":\"45212\",\"Content\":\"Monthly
+        statistics of retail trade\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"46231\",\"Content\":\"Statistics of freight transport by
+        road\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023 Mar\"},{\"Code\":\"22221\",\"Content\":\"Recipients
+        of benefits for asylum seekers\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2021-12-31\"},{\"Code\":\"24221\",\"Content\":\"Stat.
+        on criminal proc. and administr. fine proc.\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2022\"},{\"Code\":\"24231\",\"Content\":\"Statistics
+        on civil matters\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2022\"},{\"Code\":\"24271\",\"Content\":\"Social
+        jurisdiction statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2022\"},{\"Code\":\"24281\",\"Content\":\"Labour
+        jurisdiction statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2022\"},{\"Code\":\"42191\",\"Content\":\"Indices
+        based on truck toll collection\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"46251\",\"Content\":\"Statistics of motor vehicles and
+        trailers\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2023 Jul\"},{\"Code\":\"21311\",\"Content\":\"Statistics
+        of students\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2022/23
+        WT\"},{\"Code\":\"22162\",\"Content\":\"Integration assistance: expendit.,
+        revenue (SC IX)\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2022\"},{\"Code\":\"42121\",\"Content\":\"Monthly
+        production survey in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"46331\",\"Content\":\"Statistics of maritime transport\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        May\"},{\"Code\":\"61111\",\"Content\":\"Consumer price index for Germany\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"61121\",\"Content\":\"Harmonised index of consumer prices\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"61131\",\"Content\":\"Retail price index\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"41331\",\"Content\":\"Slaughtering and carcass weight statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"42153\",\"Content\":\"Indices of production in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"43111\",\"Content\":\"Monthly report: energy and water
+        supply\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023 Jun\"},{\"Code\":\"43311\",\"Content\":\"Monthly
+        survey of electricity and heat production\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023
+        May\"},{\"Code\":\"43312\",\"Content\":\"Survey among electricity supply system
+        operators\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023
+        May\"},{\"Code\":\"21411\",\"Content\":\"Assistance pursuant to the Fed. Training
+        Ass. Act\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2022\"},{\"Code\":\"41321\",\"Content\":\"Poultry
+        statistics: hatchery survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"41322\",\"Content\":\"Poultry statistics: poultry slaughterhouse
+        survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023 Jun\"},{\"Code\":\"42151\",\"Content\":\"Indices
+        of new orders in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"42152\",\"Content\":\"Indices of turnover in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"47414\",\"Content\":\"Short-term statistics of service
+        activities\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023
+        May\"},{\"Code\":\"41271\",\"Content\":\"Land use survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2023\"},{\"Code\":\"43381\",\"Content\":\"Survey
+        of sewage gas extraction, utilis., distrib.\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2022\"},{\"Code\":\"43391\",\"Content\":\"Survey
+        of the distribution of liquefied gas\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2022\"},{\"Code\":\"51000\",\"Content\":\"Foreign
+        trade (calendar and seasonally adjusted)\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"52111\",\"Content\":\"Business register system\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2021\"},{\"Code\":\"22151-0004\",\"Content\":\"Recipients
+        of basic security benefits: Germany,\\nreference month per quarter, location
+        of benefit provision,\\nsex, age groups\",\"Type\":\"New Tables\",\"Date\":\"2023-08-02\",\"Added\":\"\"},{\"Code\":\"22151-0033\",\"Content\":\"Recipients
+        of basic security benefits: L\xE4nder, reference\\nmonth per quarter, location
+        of benefit provision, sex, age\\ngroups\",\"Type\":\"New Tables\",\"Date\":\"2023-08-02\",\"Added\":\"\"},{\"Code\":\"22518\",\"Content\":\"Stat.
+        of prot. mand. in cases of child endangerm.\",\"Type\":\"Updates\",\"Date\":\"2023-08-02\",\"Added\":\"2022\"},{\"Code\":\"22971\",\"Content\":\"Statistics
+        of homeless people accommodated\",\"Type\":\"Updates\",\"Date\":\"2023-08-02\",\"Added\":\"2023-01-31\"},{\"Code\":\"13111\",\"Content\":\"Employees
+        subj. to social insurance contributions\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2022-12-31\"},{\"Code\":\"13211\",\"Content\":\"Labour
+        market stat. of the Fed. Employment Agency\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"13231\",\"Content\":\"Unemployment statistics based on
+        the ILO concept\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"13321\",\"Content\":\"Employment accounts\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"31231\",\"Content\":\"Stock of residential buildings and
+        dwellings\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2022-12-31\"},{\"Code\":\"45214\",\"Content\":\"Monthly
+        statistics of motor vehicle trade\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        May\"},{\"Code\":\"62361\",\"Content\":\"Earnings survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"71211\",\"Content\":\"Statistics on tax revenue\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"73421\",\"Content\":\"Beer tax statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"22211\",\"Content\":\"Benefits for asylum seekers: expenditure,
+        revenue\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2022\"},{\"Code\":\"61411\",\"Content\":\"Index
+        of import prices\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61421\",\"Content\":\"Index of export prices\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"62231\",\"Content\":\"Monthly index of agreed earnings
+        and working hours\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"22221\",\"Content\":\"Recipients of benefits for asylum
+        seekers\",\"Type\":\"New Statistics\",\"Date\":\"2023-07-28\",\"Added\":\"\"},{\"Code\":\"46421\",\"Content\":\"Statistics
+        of air transport performance\\n\",\"Type\":\"Updates\",\"Date\":\"2023-07-28\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"71231-0003\",\"Content\":\"Capacity of non-personal taxes:
+        Germany, years, types of\\nnon-personal taxes\",\"Type\":\"New Tables\",\"Date\":\"2023-07-17\",\"Added\":\"\"},{\"Code\":\"71231-0012\",\"Content\":\"Capacity
+        of non-personal taxes: L\xE4nder, years, types of\\nnon-personal taxes\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-17\",\"Added\":\"\"},{\"Code\":\"41215-0001\",\"Content\":\"Holdings
+        with vegetable growing, cultivated area, harvested\\nquantity: Germany, years\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0002\",\"Content\":\"Holdings
+        with outdoor vegetable growing, cultivated area,\\nharvested quantity: Germany,
+        years, types of vegetables\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0003\",\"Content\":\"Holdings
+        with vegetable growing under protective cover,\\ncultivated area, harvested
+        quantity: Germany, years, types\\nof vegetables\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0010\",\"Content\":\"Holdings
+        with vegetable growing, cultivated area, harvested\\nquantity: L\xE4nder,
+        years\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0011\",\"Content\":\"Holdings
+        with outdoor vegetable growing, cultivated area,\\nharvested quantity: L\xE4nder,
+        years, types of vegetables\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0012\",\"Content\":\"Holdings
+        with vegetable growing under protective cover,\\ncultivated area, harvested
+        quantity: L\xE4nder, years, types\\nof vegetables\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"62361-0009\",\"Content\":\"Nominal
+        wage index for full-time employees: Germany, months,\\nquintiles\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-12\",\"Added\":\"\"},{\"Code\":\"62361-0018\",\"Content\":\"Nominal
+        wage index for full-time employees: Germany,\\nquarters, quintiles\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-12\",\"Added\":\"\"},{\"Code\":\"71211-0003\",\"Content\":\"Revenue
+        from taxes: Germany, quarters, types of taxes prior\\nto distribution\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-11\",\"Added\":\"\"},{\"Code\":\"71211-0004\",\"Content\":\"Revenue
+        from taxes: Germany, quarters, types of taxes by\\ndistribution of taxes\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-11\",\"Added\":\"\"},{\"Code\":\"71211-0103\",\"Content\":\"Revenue
+        from taxes: L\xE4nder, quarters, types of taxes prior\\nto distribution\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-11\",\"Added\":\"\"},{\"Code\":\"71211-0104\",\"Content\":\"Revenue
+        from taxes: L\xE4nder, quarters, types of taxes by\\ndistribution of taxes\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-11\",\"Added\":\"\"},{\"Code\":\"32531-0005\",\"Content\":\"Environmental
+        protection turnover: Germany, years,\\nenvironmental sectors, origin of the
+        turnover, economic\\nactivities\",\"Type\":\"New Tables\",\"Date\":\"2023-07-03\",\"Added\":\"\"},{\"Code\":\"41215-0004\",\"Content\":\"Holdings
+        with strawberry growing, cultivated area, harvested\\nquantity: Germany, years,
+        type of cultivation\",\"Type\":\"New Tables\",\"Date\":\"2023-06-29\",\"Added\":\"\"},{\"Code\":\"41215-0005\",\"Content\":\"Holdings
+        with strawberry growing (fully organic), cultivated\\narea, harvested quantity:
+        Germany, years, type of\\ncultivation\",\"Type\":\"New Tables\",\"Date\":\"2023-06-29\",\"Added\":\"\"},{\"Code\":\"41215-0013\",\"Content\":\"Holdings
+        with strawberry growing, cultivated area, harvested\\nquantity: L\xE4nder,
+        years, type of cultivation\",\"Type\":\"New Tables\",\"Date\":\"2023-06-29\",\"Added\":\"\"},{\"Code\":\"41215-0014\",\"Content\":\"Holdings
+        with strawberry growing (fully organic), cultivated\\narea, harvested quantity:
+        L\xE4nder, years, type of cultivation\",\"Type\":\"New Tables\",\"Date\":\"2023-06-29\",\"Added\":\"\"},{\"Code\":\"46331-0005\",\"Content\":\"Goods
+        transshipped (maritime transport): Germany, years,\\ncostal areas of loading,
+        costal areas of unloading,\\nmain traffic relations, classification of goods
+        (groups)\",\"Type\":\"New Tables\",\"Date\":\"2023-06-28\",\"Added\":\"\"},{\"Code\":\"32531-0002\",\"Content\":\"Units,
+        persons employed, turnover in environmental\\nprotection: Germany, years,
+        economic activities\",\"Type\":\"New Tables\",\"Date\":\"2023-06-27\",\"Added\":\"\"},{\"Code\":\"73431-0001\",\"Content\":\"Taxed
+        energy products: Germany, years\",\"Type\":\"New Tables\",\"Date\":\"2023-06-27\",\"Added\":\"\"},{\"Code\":\"85221\",\"Content\":\"Extent
+        of the ecosystems\",\"Type\":\"New Statistics\",\"Date\":\"2023-06-23\",\"Added\":\"\"},{\"Code\":\"12612-0050\",\"Content\":\"Women:
+        Germany, woman's year of birth, number of children\",\"Type\":\"New Tables\",\"Date\":\"2023-06-14\",\"Added\":\"\"},{\"Code\":\"12612-0051\",\"Content\":\"Average
+        number of children per woman, average number of\\nchildren per mother: Germany,
+        woman's year of birth\",\"Type\":\"New Tables\",\"Date\":\"2023-06-14\",\"Added\":\"\"},{\"Code\":\"12612-0052\",\"Content\":\"Childless
+        rate: L\xE4nder (aggregates), years, age groups of\\nthe women\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-06-14\",\"Added\":\"\"},{\"Code\":\"62361-0500\",\"Content\":\"Employees:
+        Germany, reference month, type of collective wage\\nagreement, economic activities\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0501\",\"Content\":\"Local
+        units: Germany, reference month, type of collective\\nwage agreement, economic
+        activities\",\"Type\":\"New Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0510\",\"Content\":\"Employees:
+        Former territory of the Federal Republic / New\\nL\xE4nder, reference month,
+        type of collective wage agreement,\\neconomic activities\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0511\",\"Content\":\"Local
+        units: Former territory of the Federal Republic / New\\nL\xE4nder, reference
+        month, type of collective wage agreement,\\neconomic activities\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0520\",\"Content\":\"Employees:
+        L\xE4nder, reference month, type of collective wage\\nagreement, economic
+        activities\",\"Type\":\"New Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0521\",\"Content\":\"Local
+        units: L\xE4nder, reference month, type of collective\\nwage agreement, economic
+        activities\",\"Type\":\"New Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},null],\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Thu, 24 Aug 2023 15:26:17 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+      Transfer-Encoding:
+      - chunked
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/modifieddata?date=20.02.2020&language=en&type=all
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"modifieddata\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"\",\"type\":\"all\",\"date\":\"20.02.2020\",\"pagelength\":\"100\",\"language\":\"en\",\"area\":\"all\"},\"List\":[{\"Code\":\"21821\",\"Content\":\"Reports
+        on research and development\",\"Type\":\"Updates\",\"Date\":\"2023-08-25\",\"Added\":\"2021\"},{\"Code\":\"44111\",\"Content\":\"Monthly
+        report on the main construction industry\\n\",\"Type\":\"Updates\",\"Date\":\"2023-08-25\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"71211\",\"Content\":\"Statistics on tax revenue\",\"Type\":\"Updates\",\"Date\":\"2023-08-25\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"81000\",\"Content\":\"National accounts of the Federation\",\"Type\":\"Updates\",\"Date\":\"2023-08-25\",\"Added\":\"2023
+        Q2\"},{\"Code\":\"46321\",\"Content\":\"Stat. of freight transport on inland
+        waterways\",\"Type\":\"Updates\",\"Date\":\"2023-08-24\",\"Added\":\"2023
+        May\"},{\"Code\":\"22541\",\"Content\":\"Children and persons employed in
+        day care facil.\",\"Type\":\"New Statistics\",\"Date\":\"2023-08-23\",\"Added\":\"\"},{\"Code\":\"21211\",\"Content\":\"Statistics
+        of vocational training\",\"Type\":\"Updates\",\"Date\":\"2023-08-22\",\"Added\":\"2022\"},{\"Code\":\"12711\",\"Content\":\"Migration
+        statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-21\",\"Added\":\"2023
+        May\"},{\"Code\":\"45412\",\"Content\":\"Monthly tourism survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-21\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61241\",\"Content\":\"Index of producer prices of industrial
+        products\",\"Type\":\"Updates\",\"Date\":\"2023-08-21\",\"Added\":\"2023 Jul\"},{\"Code\":\"71231\",\"Content\":\"Comparison
+        of non-personal taxes\",\"Type\":\"Updates\",\"Date\":\"2023-08-21\",\"Added\":\"2022\"},{\"Code\":\"21352\",\"Content\":\"Statistics
+        of doctoral students\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2022-12-01\"},{\"Code\":\"31111\",\"Content\":\"Statistics
+        of building permits\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"41243\",\"Content\":\"Crop production report: tree fruit\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023\"},{\"Code\":\"41313\",\"Content\":\"Livestock
+        survey - pigs\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023-05\"},{\"Code\":\"41323\",\"Content\":\"Poultry
+        statistics: enterprises with laying hens\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"42113\",\"Content\":\"Ranges of the stock of orders in
+        manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"42155\",\"Content\":\"Indices of the stock of orders in
+        manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61511\",\"Content\":\"Statistics of purchase values of
+        building land\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2022
+        Q4\"},{\"Code\":\"21381\",\"Content\":\"Indicators of higher education statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2021\"},{\"Code\":\"22121\",\"Content\":\"Statistics
+        of recipients of subsistence payments\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2022-31-12\"},{\"Code\":\"43511\",\"Content\":\"Survey
+        of coal imports\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"44111-0010\",\"Content\":\"Turnover from construction activities
+        (value and volume\\nindex) in the main constr. ind. (local units with 20 or
+        more\\npersons employed): Germany, years, types of construction\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-08-17\",\"Added\":\"\"},{\"Code\":\"44111-0011\",\"Content\":\"Turnover
+        from construction activities (value and volume\\nindex) in the main constr.
+        ind. (local units with 20 or more\\npersons employed): Germany, months, types
+        of construction\",\"Type\":\"New Tables\",\"Date\":\"2023-08-17\",\"Added\":\"\"},{\"Code\":\"45213\",\"Content\":\"Monthly
+        statistics: accommodation a. food services\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"46911\",\"Content\":\"Pipeline statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"48112\",\"Content\":\"Cross-sectoral business statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2021\"},{\"Code\":\"52411\",\"Content\":\"Statistics
+        on filed insolvency proceedings\",\"Type\":\"New Statistics\",\"Date\":\"2023-08-17\",\"Added\":\"\"},{\"Code\":\"31231\",\"Content\":\"Stock
+        of residential buildings and dwellings\",\"Type\":\"New Statistics\",\"Date\":\"2023-08-16\",\"Added\":\"\"},{\"Code\":\"42111\",\"Content\":\"Monthly
+        report on manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-16\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"79994\",\"Content\":\"Public procurement statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-16\",\"Added\":\"2021
+        Q4\"},{\"Code\":\"22111\",\"Content\":\"Public assistance expenditure and
+        revenue\",\"Type\":\"Updates\",\"Date\":\"2023-08-15\",\"Added\":\"2022\"},{\"Code\":\"45211\",\"Content\":\"Monthly
+        statistics: wholesale and commission trade\",\"Type\":\"Updates\",\"Date\":\"2023-08-15\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61211\",\"Content\":\"Index of producer prices of agricultural
+        products\",\"Type\":\"Updates\",\"Date\":\"2023-08-14\",\"Added\":\"2023 Jun\"},{\"Code\":\"61231\",\"Content\":\"Index
+        of producer prices of logging products\",\"Type\":\"Updates\",\"Date\":\"2023-08-14\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61281\",\"Content\":\"Index of selling prices in wholesale
+        trade\",\"Type\":\"Updates\",\"Date\":\"2023-08-14\",\"Added\":\"2023 Jul\"},{\"Code\":\"48112-0001\",\"Content\":\"Enterprises
+        (EU), persons employed, turnover and other\\nbusiness and economic figures:
+        Germany, years, economic\\nactivities (WZ2008 1-/2-/3-/4-digit codes)\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-08-11\",\"Added\":\"\"},{\"Code\":\"48112-0002\",\"Content\":\"Enterprises
+        (EU), persons employed, turnover and other\\nbusiness and economic figures:
+        Germany, years, economic\\nactivities (WZ2008 1-4-digit hierarchy)\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-08-11\",\"Added\":\"\"},{\"Code\":\"51000\",\"Content\":\"Foreign
+        trade (Revision: November 2022 - April 2023)\",\"Type\":\"Updates\",\"Date\":\"2023-08-11\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"52311\",\"Content\":\"Statistics of business notifications\",\"Type\":\"Updates\",\"Date\":\"2023-08-11\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"52411\",\"Content\":\"Statistics on filed insolvency proceedings\",\"Type\":\"Updates\",\"Date\":\"2023-08-11\",\"Added\":\"2023
+        May\"},{\"Code\":\"61311\",\"Content\":\"Producer price indices for services
+        (sea)\",\"Type\":\"Updates\",\"Date\":\"2023-08-11\",\"Added\":\"2023 Jun\"},{\"Code\":\"12611\",\"Content\":\"Statistics
+        of marriages\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023
+        May\"},{\"Code\":\"12612\",\"Content\":\"Birth statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023
+        May\"},{\"Code\":\"12613\",\"Content\":\"Death statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023
+        May\"},{\"Code\":\"21241\",\"Content\":\"Nursing training statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2022-12-31\"},{\"Code\":\"21611\",\"Content\":\"Cultural
+        statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2022\"},{\"Code\":\"43321\",\"Content\":\"Monthly
+        survey of gas supply\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"44151\",\"Content\":\"Short-term stat. on the main construction
+        industry\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023 May\"},{\"Code\":\"45212\",\"Content\":\"Monthly
+        statistics of retail trade\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"46231\",\"Content\":\"Statistics of freight transport by
+        road\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023 Mar\"},{\"Code\":\"22221\",\"Content\":\"Recipients
+        of benefits for asylum seekers\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2021-12-31\"},{\"Code\":\"24221\",\"Content\":\"Stat.
+        on criminal proc. and administr. fine proc.\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2022\"},{\"Code\":\"24231\",\"Content\":\"Statistics
+        on civil matters\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2022\"},{\"Code\":\"24271\",\"Content\":\"Social
+        jurisdiction statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2022\"},{\"Code\":\"24281\",\"Content\":\"Labour
+        jurisdiction statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2022\"},{\"Code\":\"42191\",\"Content\":\"Indices
+        based on truck toll collection\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"46251\",\"Content\":\"Statistics of motor vehicles and
+        trailers\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2023 Jul\"},{\"Code\":\"21311\",\"Content\":\"Statistics
+        of students\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2022/23
+        WT\"},{\"Code\":\"22162\",\"Content\":\"Integration assistance: expendit.,
+        revenue (SC IX)\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2022\"},{\"Code\":\"42121\",\"Content\":\"Monthly
+        production survey in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"46331\",\"Content\":\"Statistics of maritime transport\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        May\"},{\"Code\":\"61111\",\"Content\":\"Consumer price index for Germany\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"61121\",\"Content\":\"Harmonised index of consumer prices\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"61131\",\"Content\":\"Retail price index\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"41331\",\"Content\":\"Slaughtering and carcass weight statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"42153\",\"Content\":\"Indices of production in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"43111\",\"Content\":\"Monthly report: energy and water
+        supply\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023 Jun\"},{\"Code\":\"43311\",\"Content\":\"Monthly
+        survey of electricity and heat production\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023
+        May\"},{\"Code\":\"43312\",\"Content\":\"Survey among electricity supply system
+        operators\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023
+        May\"},{\"Code\":\"21411\",\"Content\":\"Assistance pursuant to the Fed. Training
+        Ass. Act\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2022\"},{\"Code\":\"41321\",\"Content\":\"Poultry
+        statistics: hatchery survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"41322\",\"Content\":\"Poultry statistics: poultry slaughterhouse
+        survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023 Jun\"},{\"Code\":\"42151\",\"Content\":\"Indices
+        of new orders in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"42152\",\"Content\":\"Indices of turnover in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"47414\",\"Content\":\"Short-term statistics of service
+        activities\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023
+        May\"},{\"Code\":\"41271\",\"Content\":\"Land use survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2023\"},{\"Code\":\"43381\",\"Content\":\"Survey
+        of sewage gas extraction, utilis., distrib.\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2022\"},{\"Code\":\"43391\",\"Content\":\"Survey
+        of the distribution of liquefied gas\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2022\"},{\"Code\":\"51000\",\"Content\":\"Foreign
+        trade (calendar and seasonally adjusted)\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"52111\",\"Content\":\"Business register system\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2021\"},{\"Code\":\"22151-0004\",\"Content\":\"Recipients
+        of basic security benefits: Germany,\\nreference month per quarter, location
+        of benefit provision,\\nsex, age groups\",\"Type\":\"New Tables\",\"Date\":\"2023-08-02\",\"Added\":\"\"},{\"Code\":\"22151-0033\",\"Content\":\"Recipients
+        of basic security benefits: L\xE4nder, reference\\nmonth per quarter, location
+        of benefit provision, sex, age\\ngroups\",\"Type\":\"New Tables\",\"Date\":\"2023-08-02\",\"Added\":\"\"},{\"Code\":\"22518\",\"Content\":\"Stat.
+        of prot. mand. in cases of child endangerm.\",\"Type\":\"Updates\",\"Date\":\"2023-08-02\",\"Added\":\"2022\"},{\"Code\":\"22971\",\"Content\":\"Statistics
+        of homeless people accommodated\",\"Type\":\"Updates\",\"Date\":\"2023-08-02\",\"Added\":\"2023-01-31\"},{\"Code\":\"13111\",\"Content\":\"Employees
+        subj. to social insurance contributions\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2022-12-31\"},{\"Code\":\"13211\",\"Content\":\"Labour
+        market stat. of the Fed. Employment Agency\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"13231\",\"Content\":\"Unemployment statistics based on
+        the ILO concept\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"13321\",\"Content\":\"Employment accounts\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"31231\",\"Content\":\"Stock of residential buildings and
+        dwellings\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2022-12-31\"},{\"Code\":\"45214\",\"Content\":\"Monthly
+        statistics of motor vehicle trade\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        May\"},{\"Code\":\"62361\",\"Content\":\"Earnings survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"73421\",\"Content\":\"Beer tax statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"22211\",\"Content\":\"Benefits for asylum seekers: expenditure,
+        revenue\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2022\"},{\"Code\":\"61411\",\"Content\":\"Index
+        of import prices\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61421\",\"Content\":\"Index of export prices\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"62231\",\"Content\":\"Monthly index of agreed earnings
+        and working hours\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"22221\",\"Content\":\"Recipients of benefits for asylum
+        seekers\",\"Type\":\"New Statistics\",\"Date\":\"2023-07-28\",\"Added\":\"\"},{\"Code\":\"46421\",\"Content\":\"Statistics
+        of air transport performance\\n\",\"Type\":\"Updates\",\"Date\":\"2023-07-28\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"71231-0003\",\"Content\":\"Capacity of non-personal taxes:
+        Germany, years, types of\\nnon-personal taxes\",\"Type\":\"New Tables\",\"Date\":\"2023-07-17\",\"Added\":\"\"},{\"Code\":\"71231-0012\",\"Content\":\"Capacity
+        of non-personal taxes: L\xE4nder, years, types of\\nnon-personal taxes\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-17\",\"Added\":\"\"},{\"Code\":\"41215-0001\",\"Content\":\"Holdings
+        with vegetable growing, cultivated area, harvested\\nquantity: Germany, years\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0002\",\"Content\":\"Holdings
+        with outdoor vegetable growing, cultivated area,\\nharvested quantity: Germany,
+        years, types of vegetables\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0003\",\"Content\":\"Holdings
+        with vegetable growing under protective cover,\\ncultivated area, harvested
+        quantity: Germany, years, types\\nof vegetables\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0010\",\"Content\":\"Holdings
+        with vegetable growing, cultivated area, harvested\\nquantity: L\xE4nder,
+        years\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0011\",\"Content\":\"Holdings
+        with outdoor vegetable growing, cultivated area,\\nharvested quantity: L\xE4nder,
+        years, types of vegetables\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0012\",\"Content\":\"Holdings
+        with vegetable growing under protective cover,\\ncultivated area, harvested
+        quantity: L\xE4nder, years, types\\nof vegetables\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"62361-0009\",\"Content\":\"Nominal
+        wage index for full-time employees: Germany, months,\\nquintiles\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-12\",\"Added\":\"\"},{\"Code\":\"62361-0018\",\"Content\":\"Nominal
+        wage index for full-time employees: Germany,\\nquarters, quintiles\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-12\",\"Added\":\"\"},{\"Code\":\"71211-0003\",\"Content\":\"Revenue
+        from taxes: Germany, quarters, types of taxes prior\\nto distribution\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-11\",\"Added\":\"\"},{\"Code\":\"71211-0004\",\"Content\":\"Revenue
+        from taxes: Germany, quarters, types of taxes by\\ndistribution of taxes\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-11\",\"Added\":\"\"},{\"Code\":\"71211-0103\",\"Content\":\"Revenue
+        from taxes: L\xE4nder, quarters, types of taxes prior\\nto distribution\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-11\",\"Added\":\"\"},{\"Code\":\"71211-0104\",\"Content\":\"Revenue
+        from taxes: L\xE4nder, quarters, types of taxes by\\ndistribution of taxes\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-11\",\"Added\":\"\"},{\"Code\":\"32531-0005\",\"Content\":\"Environmental
+        protection turnover: Germany, years,\\nenvironmental sectors, origin of the
+        turnover, economic\\nactivities\",\"Type\":\"New Tables\",\"Date\":\"2023-07-03\",\"Added\":\"\"},{\"Code\":\"41215-0004\",\"Content\":\"Holdings
+        with strawberry growing, cultivated area, harvested\\nquantity: Germany, years,
+        type of cultivation\",\"Type\":\"New Tables\",\"Date\":\"2023-06-29\",\"Added\":\"\"},{\"Code\":\"41215-0005\",\"Content\":\"Holdings
+        with strawberry growing (fully organic), cultivated\\narea, harvested quantity:
+        Germany, years, type of\\ncultivation\",\"Type\":\"New Tables\",\"Date\":\"2023-06-29\",\"Added\":\"\"},{\"Code\":\"41215-0013\",\"Content\":\"Holdings
+        with strawberry growing, cultivated area, harvested\\nquantity: L\xE4nder,
+        years, type of cultivation\",\"Type\":\"New Tables\",\"Date\":\"2023-06-29\",\"Added\":\"\"},{\"Code\":\"41215-0014\",\"Content\":\"Holdings
+        with strawberry growing (fully organic), cultivated\\narea, harvested quantity:
+        L\xE4nder, years, type of cultivation\",\"Type\":\"New Tables\",\"Date\":\"2023-06-29\",\"Added\":\"\"},{\"Code\":\"46331-0005\",\"Content\":\"Goods
+        transshipped (maritime transport): Germany, years,\\ncostal areas of loading,
+        costal areas of unloading,\\nmain traffic relations, classification of goods
+        (groups)\",\"Type\":\"New Tables\",\"Date\":\"2023-06-28\",\"Added\":\"\"},{\"Code\":\"32531-0002\",\"Content\":\"Units,
+        persons employed, turnover in environmental\\nprotection: Germany, years,
+        economic activities\",\"Type\":\"New Tables\",\"Date\":\"2023-06-27\",\"Added\":\"\"},{\"Code\":\"73431-0001\",\"Content\":\"Taxed
+        energy products: Germany, years\",\"Type\":\"New Tables\",\"Date\":\"2023-06-27\",\"Added\":\"\"},{\"Code\":\"85221\",\"Content\":\"Extent
+        of the ecosystems\",\"Type\":\"New Statistics\",\"Date\":\"2023-06-23\",\"Added\":\"\"},{\"Code\":\"12612-0050\",\"Content\":\"Women:
+        Germany, woman's year of birth, number of children\",\"Type\":\"New Tables\",\"Date\":\"2023-06-14\",\"Added\":\"\"},{\"Code\":\"12612-0051\",\"Content\":\"Average
+        number of children per woman, average number of\\nchildren per mother: Germany,
+        woman's year of birth\",\"Type\":\"New Tables\",\"Date\":\"2023-06-14\",\"Added\":\"\"},{\"Code\":\"12612-0052\",\"Content\":\"Childless
+        rate: L\xE4nder (aggregates), years, age groups of\\nthe women\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-06-14\",\"Added\":\"\"},{\"Code\":\"62361-0500\",\"Content\":\"Employees:
+        Germany, reference month, type of collective wage\\nagreement, economic activities\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0501\",\"Content\":\"Local
+        units: Germany, reference month, type of collective\\nwage agreement, economic
+        activities\",\"Type\":\"New Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0510\",\"Content\":\"Employees:
+        Former territory of the Federal Republic / New\\nL\xE4nder, reference month,
+        type of collective wage agreement,\\neconomic activities\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0511\",\"Content\":\"Local
+        units: Former territory of the Federal Republic / New\\nL\xE4nder, reference
+        month, type of collective wage agreement,\\neconomic activities\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0520\",\"Content\":\"Employees:
+        L\xE4nder, reference month, type of collective wage\\nagreement, economic
+        activities\",\"Type\":\"New Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0521\",\"Content\":\"Local
+        units: L\xE4nder, reference month, type of collective\\nwage agreement, economic
+        activities\",\"Type\":\"New Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"}],\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sat, 26 Aug 2023 11:20:53 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+      Transfer-Encoding:
+      - chunked
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/modifieddata?date=20.02.2020&language=en&type=all
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"modifieddata\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"\",\"type\":\"all\",\"date\":\"20.02.2020\",\"pagelength\":\"100\",\"language\":\"en\",\"area\":\"all\"},\"List\":[{\"Code\":\"44141\",\"Content\":\"Stock
+        of orders in the main construction industry\",\"Type\":\"Updates\",\"Date\":\"2023-08-28\",\"Added\":\"2023
+        Q2\"},{\"Code\":\"61243\",\"Content\":\"Average prices of electricity and
+        natural gas\",\"Type\":\"Updates\",\"Date\":\"2023-08-28\",\"Added\":\"2022
+        H2\"},{\"Code\":\"21821\",\"Content\":\"Reports on research and development\",\"Type\":\"Updates\",\"Date\":\"2023-08-25\",\"Added\":\"2021\"},{\"Code\":\"44111\",\"Content\":\"Monthly
+        report on the main construction industry\\n\",\"Type\":\"Updates\",\"Date\":\"2023-08-25\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"71211\",\"Content\":\"Statistics on tax revenue\",\"Type\":\"Updates\",\"Date\":\"2023-08-25\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"81000\",\"Content\":\"National accounts of the Federation\",\"Type\":\"Updates\",\"Date\":\"2023-08-25\",\"Added\":\"2023
+        Q2\"},{\"Code\":\"46321\",\"Content\":\"Stat. of freight transport on inland
+        waterways\",\"Type\":\"Updates\",\"Date\":\"2023-08-24\",\"Added\":\"2023
+        May\"},{\"Code\":\"22541\",\"Content\":\"Children and persons employed in
+        day care facil.\",\"Type\":\"New Statistics\",\"Date\":\"2023-08-23\",\"Added\":\"\"},{\"Code\":\"21211\",\"Content\":\"Statistics
+        of vocational training\",\"Type\":\"Updates\",\"Date\":\"2023-08-22\",\"Added\":\"2022\"},{\"Code\":\"12711\",\"Content\":\"Migration
+        statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-21\",\"Added\":\"2023
+        May\"},{\"Code\":\"45412\",\"Content\":\"Monthly tourism survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-21\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61241\",\"Content\":\"Index of producer prices of industrial
+        products\",\"Type\":\"Updates\",\"Date\":\"2023-08-21\",\"Added\":\"2023 Jul\"},{\"Code\":\"71231\",\"Content\":\"Comparison
+        of non-personal taxes\",\"Type\":\"Updates\",\"Date\":\"2023-08-21\",\"Added\":\"2022\"},{\"Code\":\"21352\",\"Content\":\"Statistics
+        of doctoral students\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2022-12-01\"},{\"Code\":\"31111\",\"Content\":\"Statistics
+        of building permits\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"41243\",\"Content\":\"Crop production report: tree fruit\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023\"},{\"Code\":\"41313\",\"Content\":\"Livestock
+        survey - pigs\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023-05\"},{\"Code\":\"41323\",\"Content\":\"Poultry
+        statistics: enterprises with laying hens\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"42113\",\"Content\":\"Ranges of the stock of orders in
+        manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"42155\",\"Content\":\"Indices of the stock of orders in
+        manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61511\",\"Content\":\"Statistics of purchase values of
+        building land\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2022
+        Q4\"},{\"Code\":\"21381\",\"Content\":\"Indicators of higher education statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2021\"},{\"Code\":\"22121\",\"Content\":\"Statistics
+        of recipients of subsistence payments\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2022-31-12\"},{\"Code\":\"43511\",\"Content\":\"Survey
+        of coal imports\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"44111-0010\",\"Content\":\"Turnover from construction activities
+        (value and volume\\nindex) in the main constr. ind. (local units with 20 or
+        more\\npersons employed): Germany, years, types of construction\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-08-17\",\"Added\":\"\"},{\"Code\":\"44111-0011\",\"Content\":\"Turnover
+        from construction activities (value and volume\\nindex) in the main constr.
+        ind. (local units with 20 or more\\npersons employed): Germany, months, types
+        of construction\",\"Type\":\"New Tables\",\"Date\":\"2023-08-17\",\"Added\":\"\"},{\"Code\":\"45213\",\"Content\":\"Monthly
+        statistics: accommodation a. food services\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"46911\",\"Content\":\"Pipeline statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"48112\",\"Content\":\"Cross-sectoral business statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2021\"},{\"Code\":\"52411\",\"Content\":\"Statistics
+        on filed insolvency proceedings\",\"Type\":\"New Statistics\",\"Date\":\"2023-08-17\",\"Added\":\"\"},{\"Code\":\"31231\",\"Content\":\"Stock
+        of residential buildings and dwellings\",\"Type\":\"New Statistics\",\"Date\":\"2023-08-16\",\"Added\":\"\"},{\"Code\":\"42111\",\"Content\":\"Monthly
+        report on manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-16\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"79994\",\"Content\":\"Public procurement statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-16\",\"Added\":\"2021
+        Q4\"},{\"Code\":\"22111\",\"Content\":\"Public assistance expenditure and
+        revenue\",\"Type\":\"Updates\",\"Date\":\"2023-08-15\",\"Added\":\"2022\"},{\"Code\":\"45211\",\"Content\":\"Monthly
+        statistics: wholesale and commission trade\",\"Type\":\"Updates\",\"Date\":\"2023-08-15\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61211\",\"Content\":\"Index of producer prices of agricultural
+        products\",\"Type\":\"Updates\",\"Date\":\"2023-08-14\",\"Added\":\"2023 Jun\"},{\"Code\":\"61231\",\"Content\":\"Index
+        of producer prices of logging products\",\"Type\":\"Updates\",\"Date\":\"2023-08-14\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61281\",\"Content\":\"Index of selling prices in wholesale
+        trade\",\"Type\":\"Updates\",\"Date\":\"2023-08-14\",\"Added\":\"2023 Jul\"},{\"Code\":\"48112-0001\",\"Content\":\"Enterprises
+        (EU), persons employed, turnover and other\\nbusiness and economic figures:
+        Germany, years, economic\\nactivities (WZ2008 1-/2-/3-/4-digit codes)\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-08-11\",\"Added\":\"\"},{\"Code\":\"48112-0002\",\"Content\":\"Enterprises
+        (EU), persons employed, turnover and other\\nbusiness and economic figures:
+        Germany, years, economic\\nactivities (WZ2008 1-4-digit hierarchy)\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-08-11\",\"Added\":\"\"},{\"Code\":\"51000\",\"Content\":\"Foreign
+        trade (Revision: November 2022 - April 2023)\",\"Type\":\"Updates\",\"Date\":\"2023-08-11\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"52311\",\"Content\":\"Statistics of business notifications\",\"Type\":\"Updates\",\"Date\":\"2023-08-11\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"52411\",\"Content\":\"Statistics on filed insolvency proceedings\",\"Type\":\"Updates\",\"Date\":\"2023-08-11\",\"Added\":\"2023
+        May\"},{\"Code\":\"61311\",\"Content\":\"Producer price indices for services
+        (sea)\",\"Type\":\"Updates\",\"Date\":\"2023-08-11\",\"Added\":\"2023 Jun\"},{\"Code\":\"12611\",\"Content\":\"Statistics
+        of marriages\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023
+        May\"},{\"Code\":\"12612\",\"Content\":\"Birth statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023
+        May\"},{\"Code\":\"12613\",\"Content\":\"Death statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023
+        May\"},{\"Code\":\"21241\",\"Content\":\"Nursing training statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2022-12-31\"},{\"Code\":\"21611\",\"Content\":\"Cultural
+        statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2022\"},{\"Code\":\"43321\",\"Content\":\"Monthly
+        survey of gas supply\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"44151\",\"Content\":\"Short-term stat. on the main construction
+        industry\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023 May\"},{\"Code\":\"45212\",\"Content\":\"Monthly
+        statistics of retail trade\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"46231\",\"Content\":\"Statistics of freight transport by
+        road\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023 Mar\"},{\"Code\":\"22221\",\"Content\":\"Recipients
+        of benefits for asylum seekers\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2021-12-31\"},{\"Code\":\"24221\",\"Content\":\"Stat.
+        on criminal proc. and administr. fine proc.\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2022\"},{\"Code\":\"24231\",\"Content\":\"Statistics
+        on civil matters\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2022\"},{\"Code\":\"24271\",\"Content\":\"Social
+        jurisdiction statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2022\"},{\"Code\":\"24281\",\"Content\":\"Labour
+        jurisdiction statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2022\"},{\"Code\":\"42191\",\"Content\":\"Indices
+        based on truck toll collection\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"46251\",\"Content\":\"Statistics of motor vehicles and
+        trailers\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2023 Jul\"},{\"Code\":\"21311\",\"Content\":\"Statistics
+        of students\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2022/23
+        WT\"},{\"Code\":\"22162\",\"Content\":\"Integration assistance: expendit.,
+        revenue (SC IX)\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2022\"},{\"Code\":\"42121\",\"Content\":\"Monthly
+        production survey in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"46331\",\"Content\":\"Statistics of maritime transport\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        May\"},{\"Code\":\"61111\",\"Content\":\"Consumer price index for Germany\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"61121\",\"Content\":\"Harmonised index of consumer prices\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"61131\",\"Content\":\"Retail price index\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"41331\",\"Content\":\"Slaughtering and carcass weight statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"42153\",\"Content\":\"Indices of production in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"43111\",\"Content\":\"Monthly report: energy and water
+        supply\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023 Jun\"},{\"Code\":\"43311\",\"Content\":\"Monthly
+        survey of electricity and heat production\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023
+        May\"},{\"Code\":\"43312\",\"Content\":\"Survey among electricity supply system
+        operators\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023
+        May\"},{\"Code\":\"21411\",\"Content\":\"Assistance pursuant to the Fed. Training
+        Ass. Act\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2022\"},{\"Code\":\"41321\",\"Content\":\"Poultry
+        statistics: hatchery survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"41322\",\"Content\":\"Poultry statistics: poultry slaughterhouse
+        survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023 Jun\"},{\"Code\":\"42151\",\"Content\":\"Indices
+        of new orders in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"42152\",\"Content\":\"Indices of turnover in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"47414\",\"Content\":\"Short-term statistics of service
+        activities\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023
+        May\"},{\"Code\":\"41271\",\"Content\":\"Land use survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2023\"},{\"Code\":\"43381\",\"Content\":\"Survey
+        of sewage gas extraction, utilis., distrib.\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2022\"},{\"Code\":\"43391\",\"Content\":\"Survey
+        of the distribution of liquefied gas\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2022\"},{\"Code\":\"51000\",\"Content\":\"Foreign
+        trade (calendar and seasonally adjusted)\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"52111\",\"Content\":\"Business register system\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2021\"},{\"Code\":\"22151-0004\",\"Content\":\"Recipients
+        of basic security benefits: Germany,\\nreference month per quarter, location
+        of benefit provision,\\nsex, age groups\",\"Type\":\"New Tables\",\"Date\":\"2023-08-02\",\"Added\":\"\"},{\"Code\":\"22151-0033\",\"Content\":\"Recipients
+        of basic security benefits: L\xE4nder, reference\\nmonth per quarter, location
+        of benefit provision, sex, age\\ngroups\",\"Type\":\"New Tables\",\"Date\":\"2023-08-02\",\"Added\":\"\"},{\"Code\":\"22518\",\"Content\":\"Stat.
+        of prot. mand. in cases of child endangerm.\",\"Type\":\"Updates\",\"Date\":\"2023-08-02\",\"Added\":\"2022\"},{\"Code\":\"22971\",\"Content\":\"Statistics
+        of homeless people accommodated\",\"Type\":\"Updates\",\"Date\":\"2023-08-02\",\"Added\":\"2023-01-31\"},{\"Code\":\"13111\",\"Content\":\"Employees
+        subj. to social insurance contributions\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2022-12-31\"},{\"Code\":\"13211\",\"Content\":\"Labour
+        market stat. of the Fed. Employment Agency\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"13231\",\"Content\":\"Unemployment statistics based on
+        the ILO concept\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"13321\",\"Content\":\"Employment accounts\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"31231\",\"Content\":\"Stock of residential buildings and
+        dwellings\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2022-12-31\"},{\"Code\":\"45214\",\"Content\":\"Monthly
+        statistics of motor vehicle trade\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        May\"},{\"Code\":\"73421\",\"Content\":\"Beer tax statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"22211\",\"Content\":\"Benefits for asylum seekers: expenditure,
+        revenue\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2022\"},{\"Code\":\"61411\",\"Content\":\"Index
+        of import prices\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61421\",\"Content\":\"Index of export prices\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"62231\",\"Content\":\"Monthly index of agreed earnings
+        and working hours\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"22221\",\"Content\":\"Recipients of benefits for asylum
+        seekers\",\"Type\":\"New Statistics\",\"Date\":\"2023-07-28\",\"Added\":\"\"},{\"Code\":\"46421\",\"Content\":\"Statistics
+        of air transport performance\\n\",\"Type\":\"Updates\",\"Date\":\"2023-07-28\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"71231-0003\",\"Content\":\"Capacity of non-personal taxes:
+        Germany, years, types of\\nnon-personal taxes\",\"Type\":\"New Tables\",\"Date\":\"2023-07-17\",\"Added\":\"\"},{\"Code\":\"71231-0012\",\"Content\":\"Capacity
+        of non-personal taxes: L\xE4nder, years, types of\\nnon-personal taxes\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-17\",\"Added\":\"\"},{\"Code\":\"41215-0001\",\"Content\":\"Holdings
+        with vegetable growing, cultivated area, harvested\\nquantity: Germany, years\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0002\",\"Content\":\"Holdings
+        with outdoor vegetable growing, cultivated area,\\nharvested quantity: Germany,
+        years, types of vegetables\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0003\",\"Content\":\"Holdings
+        with vegetable growing under protective cover,\\ncultivated area, harvested
+        quantity: Germany, years, types\\nof vegetables\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0010\",\"Content\":\"Holdings
+        with vegetable growing, cultivated area, harvested\\nquantity: L\xE4nder,
+        years\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0011\",\"Content\":\"Holdings
+        with outdoor vegetable growing, cultivated area,\\nharvested quantity: L\xE4nder,
+        years, types of vegetables\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0012\",\"Content\":\"Holdings
+        with vegetable growing under protective cover,\\ncultivated area, harvested
+        quantity: L\xE4nder, years, types\\nof vegetables\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"62361-0009\",\"Content\":\"Nominal
+        wage index for full-time employees: Germany, months,\\nquintiles\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-12\",\"Added\":\"\"},{\"Code\":\"62361-0018\",\"Content\":\"Nominal
+        wage index for full-time employees: Germany,\\nquarters, quintiles\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-12\",\"Added\":\"\"},{\"Code\":\"71211-0003\",\"Content\":\"Revenue
+        from taxes: Germany, quarters, types of taxes prior\\nto distribution\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-11\",\"Added\":\"\"},{\"Code\":\"71211-0004\",\"Content\":\"Revenue
+        from taxes: Germany, quarters, types of taxes by\\ndistribution of taxes\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-11\",\"Added\":\"\"},{\"Code\":\"71211-0103\",\"Content\":\"Revenue
+        from taxes: L\xE4nder, quarters, types of taxes prior\\nto distribution\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-11\",\"Added\":\"\"},{\"Code\":\"71211-0104\",\"Content\":\"Revenue
+        from taxes: L\xE4nder, quarters, types of taxes by\\ndistribution of taxes\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-11\",\"Added\":\"\"},{\"Code\":\"32531-0005\",\"Content\":\"Environmental
+        protection turnover: Germany, years,\\nenvironmental sectors, origin of the
+        turnover, economic\\nactivities\",\"Type\":\"New Tables\",\"Date\":\"2023-07-03\",\"Added\":\"\"},{\"Code\":\"41215-0004\",\"Content\":\"Holdings
+        with strawberry growing, cultivated area, harvested\\nquantity: Germany, years,
+        type of cultivation\",\"Type\":\"New Tables\",\"Date\":\"2023-06-29\",\"Added\":\"\"},{\"Code\":\"41215-0005\",\"Content\":\"Holdings
+        with strawberry growing (fully organic), cultivated\\narea, harvested quantity:
+        Germany, years, type of\\ncultivation\",\"Type\":\"New Tables\",\"Date\":\"2023-06-29\",\"Added\":\"\"},{\"Code\":\"41215-0013\",\"Content\":\"Holdings
+        with strawberry growing, cultivated area, harvested\\nquantity: L\xE4nder,
+        years, type of cultivation\",\"Type\":\"New Tables\",\"Date\":\"2023-06-29\",\"Added\":\"\"},{\"Code\":\"41215-0014\",\"Content\":\"Holdings
+        with strawberry growing (fully organic), cultivated\\narea, harvested quantity:
+        L\xE4nder, years, type of cultivation\",\"Type\":\"New Tables\",\"Date\":\"2023-06-29\",\"Added\":\"\"},{\"Code\":\"46331-0005\",\"Content\":\"Goods
+        transshipped (maritime transport): Germany, years,\\ncostal areas of loading,
+        costal areas of unloading,\\nmain traffic relations, classification of goods
+        (groups)\",\"Type\":\"New Tables\",\"Date\":\"2023-06-28\",\"Added\":\"\"},{\"Code\":\"32531-0002\",\"Content\":\"Units,
+        persons employed, turnover in environmental\\nprotection: Germany, years,
+        economic activities\",\"Type\":\"New Tables\",\"Date\":\"2023-06-27\",\"Added\":\"\"},{\"Code\":\"73431-0001\",\"Content\":\"Taxed
+        energy products: Germany, years\",\"Type\":\"New Tables\",\"Date\":\"2023-06-27\",\"Added\":\"\"},{\"Code\":\"85221\",\"Content\":\"Extent
+        of the ecosystems\",\"Type\":\"New Statistics\",\"Date\":\"2023-06-23\",\"Added\":\"\"},{\"Code\":\"12612-0050\",\"Content\":\"Women:
+        Germany, woman's year of birth, number of children\",\"Type\":\"New Tables\",\"Date\":\"2023-06-14\",\"Added\":\"\"},{\"Code\":\"12612-0051\",\"Content\":\"Average
+        number of children per woman, average number of\\nchildren per mother: Germany,
+        woman's year of birth\",\"Type\":\"New Tables\",\"Date\":\"2023-06-14\",\"Added\":\"\"},{\"Code\":\"12612-0052\",\"Content\":\"Childless
+        rate: L\xE4nder (aggregates), years, age groups of\\nthe women\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-06-14\",\"Added\":\"\"},{\"Code\":\"62361-0500\",\"Content\":\"Employees:
+        Germany, reference month, type of collective wage\\nagreement, economic activities\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0501\",\"Content\":\"Local
+        units: Germany, reference month, type of collective\\nwage agreement, economic
+        activities\",\"Type\":\"New Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0510\",\"Content\":\"Employees:
+        Former territory of the Federal Republic / New\\nL\xE4nder, reference month,
+        type of collective wage agreement,\\neconomic activities\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0511\",\"Content\":\"Local
+        units: Former territory of the Federal Republic / New\\nL\xE4nder, reference
+        month, type of collective wage agreement,\\neconomic activities\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0520\",\"Content\":\"Employees:
+        L\xE4nder, reference month, type of collective wage\\nagreement, economic
+        activities\",\"Type\":\"New Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0521\",\"Content\":\"Local
+        units: L\xE4nder, reference month, type of collective\\nwage agreement, economic
+        activities\",\"Type\":\"New Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},null,null],\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Mon, 28 Aug 2023 15:56:09 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+      Transfer-Encoding:
+      - chunked
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/modifieddata?date=20.02.2020&language=en&type=all
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"modifieddata\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"\",\"type\":\"all\",\"date\":\"20.02.2020\",\"pagelength\":\"100\",\"language\":\"en\",\"area\":\"all\"},\"List\":[{\"Code\":\"44141\",\"Content\":\"Stock
+        of orders in the main construction industry\",\"Type\":\"Updates\",\"Date\":\"2023-08-28\",\"Added\":\"2023
+        Q2\"},{\"Code\":\"61243\",\"Content\":\"Average prices of electricity and
+        natural gas\",\"Type\":\"Updates\",\"Date\":\"2023-08-28\",\"Added\":\"2022
+        H2\"},{\"Code\":\"21821\",\"Content\":\"Reports on research and development\",\"Type\":\"Updates\",\"Date\":\"2023-08-25\",\"Added\":\"2021\"},{\"Code\":\"44111\",\"Content\":\"Monthly
+        report on the main construction industry\\n\",\"Type\":\"Updates\",\"Date\":\"2023-08-25\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"71211\",\"Content\":\"Statistics on tax revenue\",\"Type\":\"Updates\",\"Date\":\"2023-08-25\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"81000\",\"Content\":\"National accounts of the Federation\",\"Type\":\"Updates\",\"Date\":\"2023-08-25\",\"Added\":\"2023
+        Q2\"},{\"Code\":\"46321\",\"Content\":\"Stat. of freight transport on inland
+        waterways\",\"Type\":\"Updates\",\"Date\":\"2023-08-24\",\"Added\":\"2023
+        May\"},{\"Code\":\"22541\",\"Content\":\"Children and persons employed in
+        day care facil.\",\"Type\":\"New Statistics\",\"Date\":\"2023-08-23\",\"Added\":\"\"},{\"Code\":\"21211\",\"Content\":\"Statistics
+        of vocational training\",\"Type\":\"Updates\",\"Date\":\"2023-08-22\",\"Added\":\"2022\"},{\"Code\":\"12711\",\"Content\":\"Migration
+        statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-21\",\"Added\":\"2023
+        May\"},{\"Code\":\"45412\",\"Content\":\"Monthly tourism survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-21\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61241\",\"Content\":\"Index of producer prices of industrial
+        products\",\"Type\":\"Updates\",\"Date\":\"2023-08-21\",\"Added\":\"2023 Jul\"},{\"Code\":\"71231\",\"Content\":\"Comparison
+        of non-personal taxes\",\"Type\":\"Updates\",\"Date\":\"2023-08-21\",\"Added\":\"2022\"},{\"Code\":\"21352\",\"Content\":\"Statistics
+        of doctoral students\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2022-12-01\"},{\"Code\":\"31111\",\"Content\":\"Statistics
+        of building permits\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"41243\",\"Content\":\"Crop production report: tree fruit\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023\"},{\"Code\":\"41313\",\"Content\":\"Livestock
+        survey - pigs\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023-05\"},{\"Code\":\"41323\",\"Content\":\"Poultry
+        statistics: enterprises with laying hens\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"42113\",\"Content\":\"Ranges of the stock of orders in
+        manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"42155\",\"Content\":\"Indices of the stock of orders in
+        manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61511\",\"Content\":\"Statistics of purchase values of
+        building land\",\"Type\":\"Updates\",\"Date\":\"2023-08-18\",\"Added\":\"2022
+        Q4\"},{\"Code\":\"21381\",\"Content\":\"Indicators of higher education statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2021\"},{\"Code\":\"22121\",\"Content\":\"Statistics
+        of recipients of subsistence payments\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2022-31-12\"},{\"Code\":\"43511\",\"Content\":\"Survey
+        of coal imports\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"44111-0010\",\"Content\":\"Turnover from construction activities
+        (value and volume\\nindex) in the main constr. ind. (local units with 20 or
+        more\\npersons employed): Germany, years, types of construction\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-08-17\",\"Added\":\"\"},{\"Code\":\"44111-0011\",\"Content\":\"Turnover
+        from construction activities (value and volume\\nindex) in the main constr.
+        ind. (local units with 20 or more\\npersons employed): Germany, months, types
+        of construction\",\"Type\":\"New Tables\",\"Date\":\"2023-08-17\",\"Added\":\"\"},{\"Code\":\"45213\",\"Content\":\"Monthly
+        statistics: accommodation a. food services\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"46911\",\"Content\":\"Pipeline statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"48112\",\"Content\":\"Cross-sectoral business statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-17\",\"Added\":\"2021\"},{\"Code\":\"52411\",\"Content\":\"Statistics
+        on filed insolvency proceedings\",\"Type\":\"New Statistics\",\"Date\":\"2023-08-17\",\"Added\":\"\"},{\"Code\":\"31231\",\"Content\":\"Stock
+        of residential buildings and dwellings\",\"Type\":\"New Statistics\",\"Date\":\"2023-08-16\",\"Added\":\"\"},{\"Code\":\"42111\",\"Content\":\"Monthly
+        report on manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-16\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"79994\",\"Content\":\"Public procurement statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-16\",\"Added\":\"2021
+        Q4\"},{\"Code\":\"22111\",\"Content\":\"Public assistance expenditure and
+        revenue\",\"Type\":\"Updates\",\"Date\":\"2023-08-15\",\"Added\":\"2022\"},{\"Code\":\"45211\",\"Content\":\"Monthly
+        statistics: wholesale and commission trade\",\"Type\":\"Updates\",\"Date\":\"2023-08-15\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61211\",\"Content\":\"Index of producer prices of agricultural
+        products\",\"Type\":\"Updates\",\"Date\":\"2023-08-14\",\"Added\":\"2023 Jun\"},{\"Code\":\"61231\",\"Content\":\"Index
+        of producer prices of logging products\",\"Type\":\"Updates\",\"Date\":\"2023-08-14\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61281\",\"Content\":\"Index of selling prices in wholesale
+        trade\",\"Type\":\"Updates\",\"Date\":\"2023-08-14\",\"Added\":\"2023 Jul\"},{\"Code\":\"48112-0001\",\"Content\":\"Enterprises
+        (EU), persons employed, turnover and other\\nbusiness and economic figures:
+        Germany, years, economic\\nactivities (WZ2008 1-/2-/3-/4-digit codes)\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-08-11\",\"Added\":\"\"},{\"Code\":\"48112-0002\",\"Content\":\"Enterprises
+        (EU), persons employed, turnover and other\\nbusiness and economic figures:
+        Germany, years, economic\\nactivities (WZ2008 1-4-digit hierarchy)\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-08-11\",\"Added\":\"\"},{\"Code\":\"51000\",\"Content\":\"Foreign
+        trade (Revision: November 2022 - April 2023)\",\"Type\":\"Updates\",\"Date\":\"2023-08-11\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"52311\",\"Content\":\"Statistics of business notifications\",\"Type\":\"Updates\",\"Date\":\"2023-08-11\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"52411\",\"Content\":\"Statistics on filed insolvency proceedings\",\"Type\":\"Updates\",\"Date\":\"2023-08-11\",\"Added\":\"2023
+        May\"},{\"Code\":\"61311\",\"Content\":\"Producer price indices for services
+        (sea)\",\"Type\":\"Updates\",\"Date\":\"2023-08-11\",\"Added\":\"2023 Jun\"},{\"Code\":\"12611\",\"Content\":\"Statistics
+        of marriages\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023
+        May\"},{\"Code\":\"12612\",\"Content\":\"Birth statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023
+        May\"},{\"Code\":\"12613\",\"Content\":\"Death statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023
+        May\"},{\"Code\":\"21241\",\"Content\":\"Nursing training statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2022-12-31\"},{\"Code\":\"21611\",\"Content\":\"Cultural
+        statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2022\"},{\"Code\":\"43321\",\"Content\":\"Monthly
+        survey of gas supply\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"44151\",\"Content\":\"Short-term stat. on the main construction
+        industry\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023 May\"},{\"Code\":\"45212\",\"Content\":\"Monthly
+        statistics of retail trade\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"46231\",\"Content\":\"Statistics of freight transport by
+        road\",\"Type\":\"Updates\",\"Date\":\"2023-08-10\",\"Added\":\"2023 Mar\"},{\"Code\":\"22221\",\"Content\":\"Recipients
+        of benefits for asylum seekers\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2021-12-31\"},{\"Code\":\"24221\",\"Content\":\"Stat.
+        on criminal proc. and administr. fine proc.\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2022\"},{\"Code\":\"24231\",\"Content\":\"Statistics
+        on civil matters\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2022\"},{\"Code\":\"24271\",\"Content\":\"Social
+        jurisdiction statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2022\"},{\"Code\":\"24281\",\"Content\":\"Labour
+        jurisdiction statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2022\"},{\"Code\":\"42191\",\"Content\":\"Indices
+        based on truck toll collection\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"46251\",\"Content\":\"Statistics of motor vehicles and
+        trailers\",\"Type\":\"Updates\",\"Date\":\"2023-08-09\",\"Added\":\"2023 Jul\"},{\"Code\":\"21311\",\"Content\":\"Statistics
+        of students\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2022/23
+        WT\"},{\"Code\":\"22162\",\"Content\":\"Integration assistance: expendit.,
+        revenue (SC IX)\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2022\"},{\"Code\":\"42121\",\"Content\":\"Monthly
+        production survey in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"46331\",\"Content\":\"Statistics of maritime transport\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        May\"},{\"Code\":\"61111\",\"Content\":\"Consumer price index for Germany\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"61121\",\"Content\":\"Harmonised index of consumer prices\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"61131\",\"Content\":\"Retail price index\",\"Type\":\"Updates\",\"Date\":\"2023-08-08\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"41331\",\"Content\":\"Slaughtering and carcass weight statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"42153\",\"Content\":\"Indices of production in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"43111\",\"Content\":\"Monthly report: energy and water
+        supply\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023 Jun\"},{\"Code\":\"43311\",\"Content\":\"Monthly
+        survey of electricity and heat production\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023
+        May\"},{\"Code\":\"43312\",\"Content\":\"Survey among electricity supply system
+        operators\",\"Type\":\"Updates\",\"Date\":\"2023-08-07\",\"Added\":\"2023
+        May\"},{\"Code\":\"21411\",\"Content\":\"Assistance pursuant to the Fed. Training
+        Ass. Act\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2022\"},{\"Code\":\"41321\",\"Content\":\"Poultry
+        statistics: hatchery survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"41322\",\"Content\":\"Poultry statistics: poultry slaughterhouse
+        survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023 Jun\"},{\"Code\":\"42151\",\"Content\":\"Indices
+        of new orders in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"42152\",\"Content\":\"Indices of turnover in manufacturing\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"47414\",\"Content\":\"Short-term statistics of service
+        activities\",\"Type\":\"Updates\",\"Date\":\"2023-08-04\",\"Added\":\"2023
+        May\"},{\"Code\":\"41271\",\"Content\":\"Land use survey\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2023\"},{\"Code\":\"43381\",\"Content\":\"Survey
+        of sewage gas extraction, utilis., distrib.\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2022\"},{\"Code\":\"43391\",\"Content\":\"Survey
+        of the distribution of liquefied gas\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2022\"},{\"Code\":\"51000\",\"Content\":\"Foreign
+        trade (calendar and seasonally adjusted)\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"52111\",\"Content\":\"Business register system\",\"Type\":\"Updates\",\"Date\":\"2023-08-03\",\"Added\":\"2021\"},{\"Code\":\"22151-0004\",\"Content\":\"Recipients
+        of basic security benefits: Germany,\\nreference month per quarter, location
+        of benefit provision,\\nsex, age groups\",\"Type\":\"New Tables\",\"Date\":\"2023-08-02\",\"Added\":\"\"},{\"Code\":\"22151-0033\",\"Content\":\"Recipients
+        of basic security benefits: L\xE4nder, reference\\nmonth per quarter, location
+        of benefit provision, sex, age\\ngroups\",\"Type\":\"New Tables\",\"Date\":\"2023-08-02\",\"Added\":\"\"},{\"Code\":\"22518\",\"Content\":\"Stat.
+        of prot. mand. in cases of child endangerm.\",\"Type\":\"Updates\",\"Date\":\"2023-08-02\",\"Added\":\"2022\"},{\"Code\":\"22971\",\"Content\":\"Statistics
+        of homeless people accommodated\",\"Type\":\"Updates\",\"Date\":\"2023-08-02\",\"Added\":\"2023-01-31\"},{\"Code\":\"13111\",\"Content\":\"Employees
+        subj. to social insurance contributions\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2022-12-31\"},{\"Code\":\"13211\",\"Content\":\"Labour
+        market stat. of the Fed. Employment Agency\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"13231\",\"Content\":\"Unemployment statistics based on
+        the ILO concept\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"13321\",\"Content\":\"Employment accounts\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"31231\",\"Content\":\"Stock of residential buildings and
+        dwellings\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2022-12-31\"},{\"Code\":\"45214\",\"Content\":\"Monthly
+        statistics of motor vehicle trade\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        May\"},{\"Code\":\"73421\",\"Content\":\"Beer tax statistics\",\"Type\":\"Updates\",\"Date\":\"2023-08-01\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"22211\",\"Content\":\"Benefits for asylum seekers: expenditure,
+        revenue\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2022\"},{\"Code\":\"61411\",\"Content\":\"Index
+        of import prices\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"61421\",\"Content\":\"Index of export prices\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"62231\",\"Content\":\"Monthly index of agreed earnings
+        and working hours\",\"Type\":\"Updates\",\"Date\":\"2023-07-31\",\"Added\":\"2023
+        Jul\"},{\"Code\":\"22221\",\"Content\":\"Recipients of benefits for asylum
+        seekers\",\"Type\":\"New Statistics\",\"Date\":\"2023-07-28\",\"Added\":\"\"},{\"Code\":\"46421\",\"Content\":\"Statistics
+        of air transport performance\\n\",\"Type\":\"Updates\",\"Date\":\"2023-07-28\",\"Added\":\"2023
+        Jun\"},{\"Code\":\"71231-0003\",\"Content\":\"Capacity of non-personal taxes:
+        Germany, years, types of\\nnon-personal taxes\",\"Type\":\"New Tables\",\"Date\":\"2023-07-17\",\"Added\":\"\"},{\"Code\":\"71231-0012\",\"Content\":\"Capacity
+        of non-personal taxes: L\xE4nder, years, types of\\nnon-personal taxes\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-17\",\"Added\":\"\"},{\"Code\":\"41215-0001\",\"Content\":\"Holdings
+        with vegetable growing, cultivated area, harvested\\nquantity: Germany, years\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0002\",\"Content\":\"Holdings
+        with outdoor vegetable growing, cultivated area,\\nharvested quantity: Germany,
+        years, types of vegetables\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0003\",\"Content\":\"Holdings
+        with vegetable growing under protective cover,\\ncultivated area, harvested
+        quantity: Germany, years, types\\nof vegetables\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0010\",\"Content\":\"Holdings
+        with vegetable growing, cultivated area, harvested\\nquantity: L\xE4nder,
+        years\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0011\",\"Content\":\"Holdings
+        with outdoor vegetable growing, cultivated area,\\nharvested quantity: L\xE4nder,
+        years, types of vegetables\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"41215-0012\",\"Content\":\"Holdings
+        with vegetable growing under protective cover,\\ncultivated area, harvested
+        quantity: L\xE4nder, years, types\\nof vegetables\",\"Type\":\"New Tables\",\"Date\":\"2023-07-14\",\"Added\":\"\"},{\"Code\":\"62361-0009\",\"Content\":\"Nominal
+        wage index for full-time employees: Germany, months,\\nquintiles\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-12\",\"Added\":\"\"},{\"Code\":\"62361-0018\",\"Content\":\"Nominal
+        wage index for full-time employees: Germany,\\nquarters, quintiles\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-12\",\"Added\":\"\"},{\"Code\":\"71211-0003\",\"Content\":\"Revenue
+        from taxes: Germany, quarters, types of taxes prior\\nto distribution\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-11\",\"Added\":\"\"},{\"Code\":\"71211-0004\",\"Content\":\"Revenue
+        from taxes: Germany, quarters, types of taxes by\\ndistribution of taxes\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-11\",\"Added\":\"\"},{\"Code\":\"71211-0103\",\"Content\":\"Revenue
+        from taxes: L\xE4nder, quarters, types of taxes prior\\nto distribution\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-11\",\"Added\":\"\"},{\"Code\":\"71211-0104\",\"Content\":\"Revenue
+        from taxes: L\xE4nder, quarters, types of taxes by\\ndistribution of taxes\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-07-11\",\"Added\":\"\"},{\"Code\":\"32531-0005\",\"Content\":\"Environmental
+        protection turnover: Germany, years,\\nenvironmental sectors, origin of the
+        turnover, economic\\nactivities\",\"Type\":\"New Tables\",\"Date\":\"2023-07-03\",\"Added\":\"\"},{\"Code\":\"41215-0004\",\"Content\":\"Holdings
+        with strawberry growing, cultivated area, harvested\\nquantity: Germany, years,
+        type of cultivation\",\"Type\":\"New Tables\",\"Date\":\"2023-06-29\",\"Added\":\"\"},{\"Code\":\"41215-0005\",\"Content\":\"Holdings
+        with strawberry growing (fully organic), cultivated\\narea, harvested quantity:
+        Germany, years, type of\\ncultivation\",\"Type\":\"New Tables\",\"Date\":\"2023-06-29\",\"Added\":\"\"},{\"Code\":\"41215-0013\",\"Content\":\"Holdings
+        with strawberry growing, cultivated area, harvested\\nquantity: L\xE4nder,
+        years, type of cultivation\",\"Type\":\"New Tables\",\"Date\":\"2023-06-29\",\"Added\":\"\"},{\"Code\":\"41215-0014\",\"Content\":\"Holdings
+        with strawberry growing (fully organic), cultivated\\narea, harvested quantity:
+        L\xE4nder, years, type of cultivation\",\"Type\":\"New Tables\",\"Date\":\"2023-06-29\",\"Added\":\"\"},{\"Code\":\"46331-0005\",\"Content\":\"Goods
+        transshipped (maritime transport): Germany, years,\\ncostal areas of loading,
+        costal areas of unloading,\\nmain traffic relations, classification of goods
+        (groups)\",\"Type\":\"New Tables\",\"Date\":\"2023-06-28\",\"Added\":\"\"},{\"Code\":\"32531-0002\",\"Content\":\"Units,
+        persons employed, turnover in environmental\\nprotection: Germany, years,
+        economic activities\",\"Type\":\"New Tables\",\"Date\":\"2023-06-27\",\"Added\":\"\"},{\"Code\":\"73431-0001\",\"Content\":\"Taxed
+        energy products: Germany, years\",\"Type\":\"New Tables\",\"Date\":\"2023-06-27\",\"Added\":\"\"},{\"Code\":\"85221\",\"Content\":\"Extent
+        of the ecosystems\",\"Type\":\"New Statistics\",\"Date\":\"2023-06-23\",\"Added\":\"\"},{\"Code\":\"12612-0050\",\"Content\":\"Women:
+        Germany, woman's year of birth, number of children\",\"Type\":\"New Tables\",\"Date\":\"2023-06-14\",\"Added\":\"\"},{\"Code\":\"12612-0051\",\"Content\":\"Average
+        number of children per woman, average number of\\nchildren per mother: Germany,
+        woman's year of birth\",\"Type\":\"New Tables\",\"Date\":\"2023-06-14\",\"Added\":\"\"},{\"Code\":\"12612-0052\",\"Content\":\"Childless
+        rate: L\xE4nder (aggregates), years, age groups of\\nthe women\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-06-14\",\"Added\":\"\"},{\"Code\":\"62361-0500\",\"Content\":\"Employees:
+        Germany, reference month, type of collective wage\\nagreement, economic activities\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0501\",\"Content\":\"Local
+        units: Germany, reference month, type of collective\\nwage agreement, economic
+        activities\",\"Type\":\"New Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0510\",\"Content\":\"Employees:
+        Former territory of the Federal Republic / New\\nL\xE4nder, reference month,
+        type of collective wage agreement,\\neconomic activities\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0511\",\"Content\":\"Local
+        units: Former territory of the Federal Republic / New\\nL\xE4nder, reference
+        month, type of collective wage agreement,\\neconomic activities\",\"Type\":\"New
+        Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0520\",\"Content\":\"Employees:
+        L\xE4nder, reference month, type of collective wage\\nagreement, economic
+        activities\",\"Type\":\"New Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},{\"Code\":\"62361-0521\",\"Content\":\"Local
+        units: L\xE4nder, reference month, type of collective\\nwage agreement, economic
+        activities\",\"Type\":\"New Tables\",\"Date\":\"2023-06-02\",\"Added\":\"\"},null,null],\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Mon, 28 Aug 2023 17:49:42 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+      Transfer-Encoding:
+      - chunked
+    status:
+      code: 200
+      message: '200'
+version: 1

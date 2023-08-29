@@ -1,0 +1,677 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/tables?language=en
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"tables\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"\",\"area\":\"free\",\"searchcriterion\":\"code\",\"sortcriterion\":\"code\",\"pagelength\":\"100\",\"language\":\"en\"},\"List\":[{\"Code\":\"11111-0001\",\"Content\":\"Size
+        of territory: L\xE4nder, reference date\",\"Time\":\"1995-12-31 to 2021-12-31\"},{\"Code\":\"11111-0002\",\"Content\":\"Size
+        of territory: Administrative districts, reference date\",\"Time\":\"1995-12-31
+        to 2021-12-31\"},{\"Code\":\"12111-0001\",\"Content\":\"Population (Census):
+        Germany, reference date, nationality,\\nsex\",\"Time\":\"\"},{\"Code\":\"12111-0002\",\"Content\":\"Population
+        (Census): Germany, reference date, nationality,\\nage groups\",\"Time\":\"\"},{\"Code\":\"12111-0003\",\"Content\":\"Population
+        (Census): Germany, reference date, nationality,\\nmarital status\",\"Time\":\"\"},{\"Code\":\"12111-0004\",\"Content\":\"Population
+        (Census): Germany, reference date, sex,\\nage groups\",\"Time\":\"\"},{\"Code\":\"12111-0005\",\"Content\":\"Population
+        (Census): Germany, reference date, sex,\\nmarital status\",\"Time\":\"\"},{\"Code\":\"12111-0006\",\"Content\":\"Population
+        (Census): Germany, reference date,\\nmarital status, age groups\",\"Time\":\"\"},{\"Code\":\"12111-0101\",\"Content\":\"Population
+        (Census): L\xE4nder, reference date, nationality,\\nsex\",\"Time\":\"\"},{\"Code\":\"12111-0102\",\"Content\":\"Population
+        (Census): L\xE4nder, reference date, nationality,\\nage groups\",\"Time\":\"\"},{\"Code\":\"12111-0103\",\"Content\":\"Population
+        (Census): L\xE4nder, reference date, nationality,\\nmarital status\",\"Time\":\"\"},{\"Code\":\"12111-0104\",\"Content\":\"Population
+        (Census): L\xE4nder, reference date, sex,\\nage groups\",\"Time\":\"\"},{\"Code\":\"12111-0105\",\"Content\":\"Population
+        (Census): L\xE4nder, reference date, sex,\\nmarital status\",\"Time\":\"\"},{\"Code\":\"12111-0106\",\"Content\":\"Population
+        (Census): L\xE4nder, reference date, marital status,\\nage groups\",\"Time\":\"\"},{\"Code\":\"12211-0001\",\"Content\":\"Population,
+        persons in employment, unemployed persons, econ.\\nactive population, econ.
+        inactive population from primary\\nresidence households: Germany, years, sex,
+        age groups\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0002\",\"Content\":\"Population,
+        persons in employment, unemployed persons, econ.\\nactive population, econ.
+        inactive population from prim. res.\\nhh.: Germany, years, main source of
+        livelihood, age groups\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0003\",\"Content\":\"Population,
+        persons in employment, unemployed persons, econ.\\nactive population, econ.
+        inactive pop. from prim. res. hh.:\\nGermany, years, sex, size classes pers.
+        monthly net income\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0004\",\"Content\":\"Persons
+        in employment from primary residence households:\\nGermany, years, sex, age
+        groups, occupational status\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0005\",\"Content\":\"Persons
+        in employment from primary residence households:\\nGermany, years, sex, occupational
+        status, type of hours\\nworked, size classes of the hours worked per week\",\"Time\":\"2020
+        to 2022\"},{\"Code\":\"12211-0006\",\"Content\":\"Hours worked per week by
+        persons in employment from primary\\nresidence households: Germany, years,
+        sex, occupational\\nstatus, type of hours worked\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0007\",\"Content\":\"Persons
+        in employment from primary residence households:\\nGermany, years, sex, age
+        groups, employment forms\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0008\",\"Content\":\"Persons
+        in employment from primary residence households:\\nGermany, years, sex, occupational
+        status, size classes of\\npersonal monthly net income\",\"Time\":\"2020 to
+        2022\"},{\"Code\":\"12211-0009\",\"Content\":\"Persons in employment from
+        primary residence households:\\nGermany, years, sex, occupational status,
+        occupations\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0010\",\"Content\":\"Persons
+        in paid employment from primary residence\\nhouseholds: Germany, years, sex,
+        age groups, extent of\\nemployment\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0011\",\"Content\":\"Unemployed
+        persons from primary residence households:\\nGermany, years, sex, age groups,
+        duration of unemployment\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0100\",\"Content\":\"Population
+        aged 15 and over in primary residence households:\\nGermany, years, sex, age
+        groups, general school education\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0101\",\"Content\":\"Population
+        aged 15 and over in primary residence households:\\nGermany, years, sex, age
+        groups, vocational qualification\\nattained\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0102\",\"Content\":\"Population
+        aged 15 and over in primary residence households:\\nGermany, years, sex, age
+        groups, educational attainment\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0200\",\"Content\":\"Population
+        in primary residence households: Germany, years,\\nsex, age groups, migration
+        status\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0201\",\"Content\":\"Population
+        in primary residence households: Germany, years,\\nsex, marital status, migration
+        status\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0202\",\"Content\":\"Persons
+        with migration background (broader sense) in \\nprimary residence households:
+        Germany, years, sex, country\\nof birth or parents country of birth\",\"Time\":\"2020
+        to 2022\"},{\"Code\":\"12211-0203\",\"Content\":\"Population in primary residence
+        households: Germany, years,\\nsex, migration status\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0204\",\"Content\":\"Population
+        in primary residence households: Germany, years,\\nsex, labour participation,
+        migration status\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0205\",\"Content\":\"Population
+        aged 15 and over in primary residence households:\\nGermany, years, sex, highest
+        general school leaving\\ncertificate, migration status\",\"Time\":\"2020 to
+        2022\"},{\"Code\":\"12211-0206\",\"Content\":\"Population aged 15 and over
+        in primary residence households:\\nGermany, years, sex, vocational qualification
+        attained,\\nmigration status\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0300\",\"Content\":\"Primary
+        residence households: Germany, years, household\\nsize, household net income
+        classes\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0301\",\"Content\":\"Primary
+        residence households, household members: Germany,\\nyears, household net income
+        classes\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0302\",\"Content\":\"Household
+        members in primary residence households: Germany,\\nyears, sex, age groups,
+        household size\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0310\",\"Content\":\"Secondary
+        residence households: Germany, years, household\\nsize, municipality size
+        classes\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0311\",\"Content\":\"Secondary
+        residence households, household members: Germany,\\nyears, municipality size
+        classes\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0400\",\"Content\":\"Population
+        in families or living arrangements in primary\\nresidence households: Germany,
+        years, sex, family and living\\narrangements\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0401\",\"Content\":\"Mothers
+        and fathers in primary residence households:\\nGermany, years, age groups,
+        family forms\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0402\",\"Content\":\"Children
+        in primary residence households: Germany, years,\\nsex, number of siblings,
+        family forms\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0403\",\"Content\":\"Children
+        in primary residence households: Germany, years,\\nsex, age groups, family
+        forms\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0404\",\"Content\":\"Children
+        in primary residence households: Germany, years,\\nsex, school education or
+        vocational training, family forms\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0405\",\"Content\":\"Women
+        and men in primary residence households without\\nchildren in the household:
+        Germany, years, age groups,\\nliving arrangements\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0420\",\"Content\":\"Living
+        arrangements in primary residence households:\\nGermany, years, family and
+        living arrangements\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0421\",\"Content\":\"Couples
+        in primary residence households: Germany, years,\\ntype of couple, presence
+        of children\",\"Time\":\"\"},{\"Code\":\"12211-0422\",\"Content\":\"Families
+        in primary residence households: Germany, years,\\nfamily forms, age of the
+        youngest child\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0423\",\"Content\":\"Families
+        in primary residence households: Germany, years,\\nfamily forms, age of the
+        youngest child, number of children\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0424\",\"Content\":\"Lone
+        parents in primary residence households: Germany,\\nyears, sex, age of the
+        youngest child\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0900\",\"Content\":\"Population
+        in collective living quarters: Germany, years, main status, sex, age groups\",\"Time\":\"2017
+        to 2022\"},{\"Code\":\"12211-0901\",\"Content\":\"Population in collective
+        living quarters: Germany, years, type of collective living quarter, sex\",\"Time\":\"2017
+        to 2022\"},{\"Code\":\"12211-0902\",\"Content\":\"Population in collective
+        living quarters: L\xE4nder, years, main status, sex, age groups\",\"Time\":\"2017
+        to 2022\"},{\"Code\":\"12211-0903\",\"Content\":\"Population in collective
+        living quarters: L\xE4nder, years, type of collective living quarter, sex\",\"Time\":\"2017
+        to 2022\"},{\"Code\":\"12211-1001\",\"Content\":\"Population, persons in employment,
+        unemployed persons, econ.\\nactive population, econ. inactive population from
+        primary\\nresidence households: L\xE4nder, years, sex, age groups\",\"Time\":\"2021
+        to 2022\"},{\"Code\":\"12211-1002\",\"Content\":\"Population, persons in employment,
+        unemployed persons, econ.\\nactive population, econ. inactive population from
+        prim. res.\\nhh.: L\xE4nder, years, main source of livelihood, age groups\",\"Time\":\"2021
+        to 2022\"},{\"Code\":\"12211-1003\",\"Content\":\"Population, persons in employment,
+        unemployed persons, econ.\\nactive population, econ. inactive pop. from prim.
+        res. hh.:\\nL\xE4nder, years, sex, size classes pers. monthly net income\",\"Time\":\"2021
+        to 2022\"},{\"Code\":\"12211-1004\",\"Content\":\"Persons in employment from
+        primary residence households:\\nL\xE4nder, years, sex, age groups, occupational
+        status\",\"Time\":\"2021 to 2022\"},{\"Code\":\"12211-9000\",\"Content\":\"Population,
+        persons in employment, unemployed persons,\\neconomically active population,
+        econ. inactive population \\n(aged 15 to under 65): Germany, years (until
+        2019), sex\",\"Time\":\"1959-10 to 2019\"},{\"Code\":\"12211-9001\",\"Content\":\"Population,
+        persons in employment, unemployed persons,\\neconomically active population,
+        economically inactive\\npopulation: Germany, years (until 2019), age groups\",\"Time\":\"1991-04
+        to 2019\"},{\"Code\":\"12211-9002\",\"Content\":\"Population, persons in employment,
+        unemployed persons:\\nGermany, years (until 2019), sex, age groups\",\"Time\":\"1991-04
+        to 2019\"},{\"Code\":\"12211-9003\",\"Content\":\"Population, persons in employment,
+        unemployed persons,\\neconomically inactive population: Germany, years (until\\n2019),
+        main source of livelihood, sex\",\"Time\":\"1961-10 to 2019\"},{\"Code\":\"12211-9004\",\"Content\":\"Population,
+        persons in employment, unemployed persons,\\neconomically active population,
+        economically inactive\\npopulation: L\xE4nder, years (until 2019)\",\"Time\":\"1991-04
+        to 2019\"},{\"Code\":\"12211-9005\",\"Content\":\"Persons in employment: Germany,
+        years (until 2019),\\noccupational status, sex\",\"Time\":\"1957-10 to 2019\"},{\"Code\":\"12211-9006\",\"Content\":\"Persons
+        in employment: Germany, years (until 2019),\\noccupational status, age groups\",\"Time\":\"1991-04
+        to 2019\"},{\"Code\":\"12211-9007\",\"Content\":\"Persons in employment: Germany,
+        years (until 2009),\\neconomic subsectors (WZ2003), sex\",\"Time\":\"2003-05
+        to 2009\"},{\"Code\":\"12211-9008\",\"Content\":\"Persons in employment: Germany,
+        years (until 2019), economic\\nsections (WZ2008), sex\",\"Time\":\"2009 to
+        2019\"},{\"Code\":\"12211-9009\",\"Content\":\"Persons in paid employment:
+        Germany, years (until 2019),\\ntype of employment contract, sex\",\"Time\":\"1985-06
+        to 2019\"},{\"Code\":\"12211-9010\",\"Content\":\"Persons in paid employment:
+        Germany, years (until 2019),\\nextent of employment, sex\",\"Time\":\"1985-06
+        to 2019\"},{\"Code\":\"12211-9011\",\"Content\":\"Self-employed persons: Germany,
+        years (until 2019), number\\nof persons employed, sex\",\"Time\":\"1980-04
+        to 2019\"},{\"Code\":\"12211-9012\",\"Content\":\"Population (aged 15 and
+        over): Germany, years (until 2019),\\nsex, age groups, general school education\",\"Time\":\"2005
+        to 2019\"},{\"Code\":\"12211-9013\",\"Content\":\"Population (aged 15 and
+        over): Germany, years (until 2019),\\nsex, age groups, vocational qualification
+        attained\",\"Time\":\"2005 to 2019\"},{\"Code\":\"12211-9014\",\"Content\":\"Population
+        (aged 15 and over): L\xE4nder, years (until 2019),\\nsex, general school education\",\"Time\":\"2005
+        to 2019\"},{\"Code\":\"12211-9015\",\"Content\":\"Population (aged 15 and
+        over): L\xE4nder, years (until 2019),\\nsex, vocational qualification attained\",\"Time\":\"2005
+        to 2019\"},{\"Code\":\"12211-9016\",\"Content\":\"Population: Germany, years
+        (until 2019), sex, type of health\\ninsurance\",\"Time\":\"2007 to 2019\"},{\"Code\":\"12211-9017\",\"Content\":\"Population:
+        Germany, years (until 2019), sex, health\\ninsurance institutions / health
+        insurance\",\"Time\":\"2007 to 2019\"},{\"Code\":\"12211-9018\",\"Content\":\"Average
+        body height, average body weight, average\\nBody-Mass-Index: Germany, years
+        (until 2017), sex, marital\\nstatus, age groups\",\"Time\":\"2005 to 2017\"},{\"Code\":\"12211-9019\",\"Content\":\"Body-Mass-Index:
+        Germany, years (until 2017), weight\\nclassification, sex, marital status,
+        age groups\",\"Time\":\"2005 to 2017\"},{\"Code\":\"12211-9020\",\"Content\":\"Households,
+        household members: Germany, years (until 2019)\",\"Time\":\"1961-06 to 2019\"},{\"Code\":\"12211-9021\",\"Content\":\"Households,
+        household members: Germany, years (until 2019),\\nmunicipality size classes\",\"Time\":\"1974-04
+        to 2019\"},{\"Code\":\"12211-9022\",\"Content\":\"Households: Germany, years
+        (until 2019), household size\",\"Time\":\"1961-06 to 2019\"},{\"Code\":\"12211-9023\",\"Content\":\"Households:
+        Germany, years (until 2019), household size,\\nmunicipality size classes\",\"Time\":\"1974-04
+        to 2019\"},{\"Code\":\"12211-9024\",\"Content\":\"Households: Germany, years
+        (until 2019), children under 18\\nyears of age\",\"Time\":\"1968-04 to 2019\"},{\"Code\":\"12211-9025\",\"Content\":\"Households:
+        Germany, years (until 2019), sex of the\\nreference person, household net
+        income classes\",\"Time\":\"2002-04 to 2019\"},{\"Code\":\"12211-9026\",\"Content\":\"Households:
+        Germany, years (until 2019), household size, sex\\nof the reference person,
+        household net income classes\",\"Time\":\"2002-04 to 2019\"},{\"Code\":\"12211-9027\",\"Content\":\"Households:
+        Germany, years (until 2019), household size, age\\nof the reference person\",\"Time\":\"1968-04
+        to 2019\"},{\"Code\":\"12211-9028\",\"Content\":\"Households: Germany, years
+        (until 2019), household size,\\nmarital status of the reference person\",\"Time\":\"1972-04
+        to 2019\"},{\"Code\":\"12211-9029\",\"Content\":\"Households: Germany, years
+        (until 2019), sex, age and\\nmarital status of the reference person\",\"Time\":\"1968-04
+        to 2019\"},{\"Code\":\"12211-9030\",\"Content\":\"Households: Germany, years
+        (until 2019), household size,\\nlabour force participation of the reference
+        person\",\"Time\":\"1968-04 to 2019\"},{\"Code\":\"12211-9031\",\"Content\":\"Households:
+        Germany, years (until 2019), household size,\\noccupational status of the
+        reference person\",\"Time\":\"1968-04 to 2019\"},{\"Code\":\"12211-9032\",\"Content\":\"Households:
+        Former territory of the Federal Republic /\\nNew L\xE4nder, years (until 2019),
+        household size\",\"Time\":\"1991-04 to 2019\"},{\"Code\":\"12211-9033\",\"Content\":\"Households:
+        L\xE4nder, years (until 2019)\",\"Time\":\"1970-05 to 2019\"},{\"Code\":\"12211-9034\",\"Content\":\"Households:
+        L\xE4nder, years (until 2019), household size\",\"Time\":\"1991-04 to 2019\"},{\"Code\":\"12211-9035\",\"Content\":\"Population
+        in private households: Germany, years (until\\n2019), household size, marital
+        status\",\"Time\":\"1972-04 to 2019\"},{\"Code\":\"12211-9036\",\"Content\":\"Population
+        in private households: Germany, years (until\\n2019), household size, age
+        groups\",\"Time\":\"1972-04 to 2019\"},{\"Code\":\"12211-9037\",\"Content\":\"Population
+        in private households: Germany, years (until\\n2019), household size, sex,
+        age groups\",\"Time\":\"1972-04 to 2019\"},{\"Code\":\"12211-9038\",\"Content\":\"Population
+        in private households: Germany, years (until\\n2019), sex, age groups\",\"Time\":\"1972-04
+        to 2019\"},{\"Code\":\"12211-9039\",\"Content\":\"Population in private households:
+        Germany, years (until\\n2019), sex, marital status, age groups\",\"Time\":\"1972-04
+        to 2019\"},{\"Code\":\"12211-9040\",\"Content\":\"Population in families /
+        living arrangements:\\nFormer territory of the Federal Republic / New L\xE4nder,\\nyears
+        (until 2019), living arrangements\",\"Time\":\"1996-04 to 2019\"}],\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Mon, 28 Aug 2023 14:51:30 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+      Transfer-Encoding:
+      - chunked
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/tables?language=en
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"tables\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"\",\"area\":\"free\",\"searchcriterion\":\"code\",\"sortcriterion\":\"code\",\"pagelength\":\"100\",\"language\":\"en\"},\"List\":[{\"Code\":\"11111-0001\",\"Content\":\"Size
+        of territory: L\xE4nder, reference date\",\"Time\":\"1995-12-31 to 2021-12-31\"},{\"Code\":\"11111-0002\",\"Content\":\"Size
+        of territory: Administrative districts, reference date\",\"Time\":\"1995-12-31
+        to 2021-12-31\"},{\"Code\":\"12111-0001\",\"Content\":\"Population (Census):
+        Germany, reference date, nationality,\\nsex\",\"Time\":\"\"},{\"Code\":\"12111-0002\",\"Content\":\"Population
+        (Census): Germany, reference date, nationality,\\nage groups\",\"Time\":\"\"},{\"Code\":\"12111-0003\",\"Content\":\"Population
+        (Census): Germany, reference date, nationality,\\nmarital status\",\"Time\":\"\"},{\"Code\":\"12111-0004\",\"Content\":\"Population
+        (Census): Germany, reference date, sex,\\nage groups\",\"Time\":\"\"},{\"Code\":\"12111-0005\",\"Content\":\"Population
+        (Census): Germany, reference date, sex,\\nmarital status\",\"Time\":\"\"},{\"Code\":\"12111-0006\",\"Content\":\"Population
+        (Census): Germany, reference date,\\nmarital status, age groups\",\"Time\":\"\"},{\"Code\":\"12111-0101\",\"Content\":\"Population
+        (Census): L\xE4nder, reference date, nationality,\\nsex\",\"Time\":\"\"},{\"Code\":\"12111-0102\",\"Content\":\"Population
+        (Census): L\xE4nder, reference date, nationality,\\nage groups\",\"Time\":\"\"},{\"Code\":\"12111-0103\",\"Content\":\"Population
+        (Census): L\xE4nder, reference date, nationality,\\nmarital status\",\"Time\":\"\"},{\"Code\":\"12111-0104\",\"Content\":\"Population
+        (Census): L\xE4nder, reference date, sex,\\nage groups\",\"Time\":\"\"},{\"Code\":\"12111-0105\",\"Content\":\"Population
+        (Census): L\xE4nder, reference date, sex,\\nmarital status\",\"Time\":\"\"},{\"Code\":\"12111-0106\",\"Content\":\"Population
+        (Census): L\xE4nder, reference date, marital status,\\nage groups\",\"Time\":\"\"},{\"Code\":\"12211-0001\",\"Content\":\"Population,
+        persons in employment, unemployed persons, econ.\\nactive population, econ.
+        inactive population from primary\\nresidence households: Germany, years, sex,
+        age groups\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0002\",\"Content\":\"Population,
+        persons in employment, unemployed persons, econ.\\nactive population, econ.
+        inactive population from prim. res.\\nhh.: Germany, years, main source of
+        livelihood, age groups\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0003\",\"Content\":\"Population,
+        persons in employment, unemployed persons, econ.\\nactive population, econ.
+        inactive pop. from prim. res. hh.:\\nGermany, years, sex, size classes pers.
+        monthly net income\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0004\",\"Content\":\"Persons
+        in employment from primary residence households:\\nGermany, years, sex, age
+        groups, occupational status\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0005\",\"Content\":\"Persons
+        in employment from primary residence households:\\nGermany, years, sex, occupational
+        status, type of hours\\nworked, size classes of the hours worked per week\",\"Time\":\"2020
+        to 2022\"},{\"Code\":\"12211-0006\",\"Content\":\"Hours worked per week by
+        persons in employment from primary\\nresidence households: Germany, years,
+        sex, occupational\\nstatus, type of hours worked\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0007\",\"Content\":\"Persons
+        in employment from primary residence households:\\nGermany, years, sex, age
+        groups, employment forms\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0008\",\"Content\":\"Persons
+        in employment from primary residence households:\\nGermany, years, sex, occupational
+        status, size classes of\\npersonal monthly net income\",\"Time\":\"2020 to
+        2022\"},{\"Code\":\"12211-0009\",\"Content\":\"Persons in employment from
+        primary residence households:\\nGermany, years, sex, occupational status,
+        occupations\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0010\",\"Content\":\"Persons
+        in paid employment from primary residence\\nhouseholds: Germany, years, sex,
+        age groups, extent of\\nemployment\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0011\",\"Content\":\"Unemployed
+        persons from primary residence households:\\nGermany, years, sex, age groups,
+        duration of unemployment\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0100\",\"Content\":\"Population
+        aged 15 and over in primary residence households:\\nGermany, years, sex, age
+        groups, general school education\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0101\",\"Content\":\"Population
+        aged 15 and over in primary residence households:\\nGermany, years, sex, age
+        groups, vocational qualification\\nattained\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0102\",\"Content\":\"Population
+        aged 15 and over in primary residence households:\\nGermany, years, sex, age
+        groups, educational attainment\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0200\",\"Content\":\"Population
+        in primary residence households: Germany, years,\\nsex, age groups, migration
+        status\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0201\",\"Content\":\"Population
+        in primary residence households: Germany, years,\\nsex, marital status, migration
+        status\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0202\",\"Content\":\"Persons
+        with migration background (broader sense) in \\nprimary residence households:
+        Germany, years, sex, country\\nof birth or parents country of birth\",\"Time\":\"2020
+        to 2022\"},{\"Code\":\"12211-0203\",\"Content\":\"Population in primary residence
+        households: Germany, years,\\nsex, migration status\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0204\",\"Content\":\"Population
+        in primary residence households: Germany, years,\\nsex, labour participation,
+        migration status\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0205\",\"Content\":\"Population
+        aged 15 and over in primary residence households:\\nGermany, years, sex, highest
+        general school leaving\\ncertificate, migration status\",\"Time\":\"2020 to
+        2022\"},{\"Code\":\"12211-0206\",\"Content\":\"Population aged 15 and over
+        in primary residence households:\\nGermany, years, sex, vocational qualification
+        attained,\\nmigration status\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0300\",\"Content\":\"Primary
+        residence households: Germany, years, household\\nsize, household net income
+        classes\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0301\",\"Content\":\"Primary
+        residence households, household members: Germany,\\nyears, household net income
+        classes\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0302\",\"Content\":\"Household
+        members in primary residence households: Germany,\\nyears, sex, age groups,
+        household size\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0310\",\"Content\":\"Secondary
+        residence households: Germany, years, household\\nsize, municipality size
+        classes\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0311\",\"Content\":\"Secondary
+        residence households, household members: Germany,\\nyears, municipality size
+        classes\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0400\",\"Content\":\"Population
+        in families or living arrangements in primary\\nresidence households: Germany,
+        years, sex, family and living\\narrangements\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0401\",\"Content\":\"Mothers
+        and fathers in primary residence households:\\nGermany, years, age groups,
+        family forms\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0402\",\"Content\":\"Children
+        in primary residence households: Germany, years,\\nsex, number of siblings,
+        family forms\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0403\",\"Content\":\"Children
+        in primary residence households: Germany, years,\\nsex, age groups, family
+        forms\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0404\",\"Content\":\"Children
+        in primary residence households: Germany, years,\\nsex, school education or
+        vocational training, family forms\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0405\",\"Content\":\"Women
+        and men in primary residence households without\\nchildren in the household:
+        Germany, years, age groups,\\nliving arrangements\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0420\",\"Content\":\"Living
+        arrangements in primary residence households:\\nGermany, years, family and
+        living arrangements\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0421\",\"Content\":\"Couples
+        in primary residence households: Germany, years,\\ntype of couple, presence
+        of children\",\"Time\":\"\"},{\"Code\":\"12211-0422\",\"Content\":\"Families
+        in primary residence households: Germany, years,\\nfamily forms, age of the
+        youngest child\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0423\",\"Content\":\"Families
+        in primary residence households: Germany, years,\\nfamily forms, age of the
+        youngest child, number of children\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0424\",\"Content\":\"Lone
+        parents in primary residence households: Germany,\\nyears, sex, age of the
+        youngest child\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0900\",\"Content\":\"Population
+        in collective living quarters: Germany, years, main status, sex, age groups\",\"Time\":\"2017
+        to 2022\"},{\"Code\":\"12211-0901\",\"Content\":\"Population in collective
+        living quarters: Germany, years, type of collective living quarter, sex\",\"Time\":\"2017
+        to 2022\"},{\"Code\":\"12211-0902\",\"Content\":\"Population in collective
+        living quarters: L\xE4nder, years, main status, sex, age groups\",\"Time\":\"2017
+        to 2022\"},{\"Code\":\"12211-0903\",\"Content\":\"Population in collective
+        living quarters: L\xE4nder, years, type of collective living quarter, sex\",\"Time\":\"2017
+        to 2022\"},{\"Code\":\"12211-1001\",\"Content\":\"Population, persons in employment,
+        unemployed persons, econ.\\nactive population, econ. inactive population from
+        primary\\nresidence households: L\xE4nder, years, sex, age groups\",\"Time\":\"2021
+        to 2022\"},{\"Code\":\"12211-1002\",\"Content\":\"Population, persons in employment,
+        unemployed persons, econ.\\nactive population, econ. inactive population from
+        prim. res.\\nhh.: L\xE4nder, years, main source of livelihood, age groups\",\"Time\":\"2021
+        to 2022\"},{\"Code\":\"12211-1003\",\"Content\":\"Population, persons in employment,
+        unemployed persons, econ.\\nactive population, econ. inactive pop. from prim.
+        res. hh.:\\nL\xE4nder, years, sex, size classes pers. monthly net income\",\"Time\":\"2021
+        to 2022\"},{\"Code\":\"12211-1004\",\"Content\":\"Persons in employment from
+        primary residence households:\\nL\xE4nder, years, sex, age groups, occupational
+        status\",\"Time\":\"2021 to 2022\"},{\"Code\":\"12211-9000\",\"Content\":\"Population,
+        persons in employment, unemployed persons,\\neconomically active population,
+        econ. inactive population \\n(aged 15 to under 65): Germany, years (until
+        2019), sex\",\"Time\":\"1959-10 to 2019\"},{\"Code\":\"12211-9001\",\"Content\":\"Population,
+        persons in employment, unemployed persons,\\neconomically active population,
+        economically inactive\\npopulation: Germany, years (until 2019), age groups\",\"Time\":\"1991-04
+        to 2019\"},{\"Code\":\"12211-9002\",\"Content\":\"Population, persons in employment,
+        unemployed persons:\\nGermany, years (until 2019), sex, age groups\",\"Time\":\"1991-04
+        to 2019\"},{\"Code\":\"12211-9003\",\"Content\":\"Population, persons in employment,
+        unemployed persons,\\neconomically inactive population: Germany, years (until\\n2019),
+        main source of livelihood, sex\",\"Time\":\"1961-10 to 2019\"},{\"Code\":\"12211-9004\",\"Content\":\"Population,
+        persons in employment, unemployed persons,\\neconomically active population,
+        economically inactive\\npopulation: L\xE4nder, years (until 2019)\",\"Time\":\"1991-04
+        to 2019\"},{\"Code\":\"12211-9005\",\"Content\":\"Persons in employment: Germany,
+        years (until 2019),\\noccupational status, sex\",\"Time\":\"1957-10 to 2019\"},{\"Code\":\"12211-9006\",\"Content\":\"Persons
+        in employment: Germany, years (until 2019),\\noccupational status, age groups\",\"Time\":\"1991-04
+        to 2019\"},{\"Code\":\"12211-9007\",\"Content\":\"Persons in employment: Germany,
+        years (until 2009),\\neconomic subsectors (WZ2003), sex\",\"Time\":\"2003-05
+        to 2009\"},{\"Code\":\"12211-9008\",\"Content\":\"Persons in employment: Germany,
+        years (until 2019), economic\\nsections (WZ2008), sex\",\"Time\":\"2009 to
+        2019\"},{\"Code\":\"12211-9009\",\"Content\":\"Persons in paid employment:
+        Germany, years (until 2019),\\ntype of employment contract, sex\",\"Time\":\"1985-06
+        to 2019\"},{\"Code\":\"12211-9010\",\"Content\":\"Persons in paid employment:
+        Germany, years (until 2019),\\nextent of employment, sex\",\"Time\":\"1985-06
+        to 2019\"},{\"Code\":\"12211-9011\",\"Content\":\"Self-employed persons: Germany,
+        years (until 2019), number\\nof persons employed, sex\",\"Time\":\"1980-04
+        to 2019\"},{\"Code\":\"12211-9012\",\"Content\":\"Population (aged 15 and
+        over): Germany, years (until 2019),\\nsex, age groups, general school education\",\"Time\":\"2005
+        to 2019\"},{\"Code\":\"12211-9013\",\"Content\":\"Population (aged 15 and
+        over): Germany, years (until 2019),\\nsex, age groups, vocational qualification
+        attained\",\"Time\":\"2005 to 2019\"},{\"Code\":\"12211-9014\",\"Content\":\"Population
+        (aged 15 and over): L\xE4nder, years (until 2019),\\nsex, general school education\",\"Time\":\"2005
+        to 2019\"},{\"Code\":\"12211-9015\",\"Content\":\"Population (aged 15 and
+        over): L\xE4nder, years (until 2019),\\nsex, vocational qualification attained\",\"Time\":\"2005
+        to 2019\"},{\"Code\":\"12211-9016\",\"Content\":\"Population: Germany, years
+        (until 2019), sex, type of health\\ninsurance\",\"Time\":\"2007 to 2019\"},{\"Code\":\"12211-9017\",\"Content\":\"Population:
+        Germany, years (until 2019), sex, health\\ninsurance institutions / health
+        insurance\",\"Time\":\"2007 to 2019\"},{\"Code\":\"12211-9018\",\"Content\":\"Average
+        body height, average body weight, average\\nBody-Mass-Index: Germany, years
+        (until 2017), sex, marital\\nstatus, age groups\",\"Time\":\"2005 to 2017\"},{\"Code\":\"12211-9019\",\"Content\":\"Body-Mass-Index:
+        Germany, years (until 2017), weight\\nclassification, sex, marital status,
+        age groups\",\"Time\":\"2005 to 2017\"},{\"Code\":\"12211-9020\",\"Content\":\"Households,
+        household members: Germany, years (until 2019)\",\"Time\":\"1961-06 to 2019\"},{\"Code\":\"12211-9021\",\"Content\":\"Households,
+        household members: Germany, years (until 2019),\\nmunicipality size classes\",\"Time\":\"1974-04
+        to 2019\"},{\"Code\":\"12211-9022\",\"Content\":\"Households: Germany, years
+        (until 2019), household size\",\"Time\":\"1961-06 to 2019\"},{\"Code\":\"12211-9023\",\"Content\":\"Households:
+        Germany, years (until 2019), household size,\\nmunicipality size classes\",\"Time\":\"1974-04
+        to 2019\"},{\"Code\":\"12211-9024\",\"Content\":\"Households: Germany, years
+        (until 2019), children under 18\\nyears of age\",\"Time\":\"1968-04 to 2019\"},{\"Code\":\"12211-9025\",\"Content\":\"Households:
+        Germany, years (until 2019), sex of the\\nreference person, household net
+        income classes\",\"Time\":\"2002-04 to 2019\"},{\"Code\":\"12211-9026\",\"Content\":\"Households:
+        Germany, years (until 2019), household size, sex\\nof the reference person,
+        household net income classes\",\"Time\":\"2002-04 to 2019\"},{\"Code\":\"12211-9027\",\"Content\":\"Households:
+        Germany, years (until 2019), household size, age\\nof the reference person\",\"Time\":\"1968-04
+        to 2019\"},{\"Code\":\"12211-9028\",\"Content\":\"Households: Germany, years
+        (until 2019), household size,\\nmarital status of the reference person\",\"Time\":\"1972-04
+        to 2019\"},{\"Code\":\"12211-9029\",\"Content\":\"Households: Germany, years
+        (until 2019), sex, age and\\nmarital status of the reference person\",\"Time\":\"1968-04
+        to 2019\"},{\"Code\":\"12211-9030\",\"Content\":\"Households: Germany, years
+        (until 2019), household size,\\nlabour force participation of the reference
+        person\",\"Time\":\"1968-04 to 2019\"},{\"Code\":\"12211-9031\",\"Content\":\"Households:
+        Germany, years (until 2019), household size,\\noccupational status of the
+        reference person\",\"Time\":\"1968-04 to 2019\"},{\"Code\":\"12211-9032\",\"Content\":\"Households:
+        Former territory of the Federal Republic /\\nNew L\xE4nder, years (until 2019),
+        household size\",\"Time\":\"1991-04 to 2019\"},{\"Code\":\"12211-9033\",\"Content\":\"Households:
+        L\xE4nder, years (until 2019)\",\"Time\":\"1970-05 to 2019\"},{\"Code\":\"12211-9034\",\"Content\":\"Households:
+        L\xE4nder, years (until 2019), household size\",\"Time\":\"1991-04 to 2019\"},{\"Code\":\"12211-9035\",\"Content\":\"Population
+        in private households: Germany, years (until\\n2019), household size, marital
+        status\",\"Time\":\"1972-04 to 2019\"},{\"Code\":\"12211-9036\",\"Content\":\"Population
+        in private households: Germany, years (until\\n2019), household size, age
+        groups\",\"Time\":\"1972-04 to 2019\"},{\"Code\":\"12211-9037\",\"Content\":\"Population
+        in private households: Germany, years (until\\n2019), household size, sex,
+        age groups\",\"Time\":\"1972-04 to 2019\"},{\"Code\":\"12211-9038\",\"Content\":\"Population
+        in private households: Germany, years (until\\n2019), sex, age groups\",\"Time\":\"1972-04
+        to 2019\"},{\"Code\":\"12211-9039\",\"Content\":\"Population in private households:
+        Germany, years (until\\n2019), sex, marital status, age groups\",\"Time\":\"1972-04
+        to 2019\"},{\"Code\":\"12211-9040\",\"Content\":\"Population in families /
+        living arrangements:\\nFormer territory of the Federal Republic / New L\xE4nder,\\nyears
+        (until 2019), living arrangements\",\"Time\":\"1996-04 to 2019\"}],\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Mon, 28 Aug 2023 14:57:43 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+      Transfer-Encoding:
+      - chunked
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/tables?language=en
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"tables\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"\",\"area\":\"free\",\"searchcriterion\":\"code\",\"sortcriterion\":\"code\",\"pagelength\":\"100\",\"language\":\"en\"},\"List\":[{\"Code\":\"11111-0001\",\"Content\":\"Size
+        of territory: L\xE4nder, reference date\",\"Time\":\"1995-12-31 to 2021-12-31\"},{\"Code\":\"11111-0002\",\"Content\":\"Size
+        of territory: Administrative districts, reference date\",\"Time\":\"1995-12-31
+        to 2021-12-31\"},{\"Code\":\"12111-0001\",\"Content\":\"Population (Census):
+        Germany, reference date, nationality,\\nsex\",\"Time\":\"\"},{\"Code\":\"12111-0002\",\"Content\":\"Population
+        (Census): Germany, reference date, nationality,\\nage groups\",\"Time\":\"\"},{\"Code\":\"12111-0003\",\"Content\":\"Population
+        (Census): Germany, reference date, nationality,\\nmarital status\",\"Time\":\"\"},{\"Code\":\"12111-0004\",\"Content\":\"Population
+        (Census): Germany, reference date, sex,\\nage groups\",\"Time\":\"\"},{\"Code\":\"12111-0005\",\"Content\":\"Population
+        (Census): Germany, reference date, sex,\\nmarital status\",\"Time\":\"\"},{\"Code\":\"12111-0006\",\"Content\":\"Population
+        (Census): Germany, reference date,\\nmarital status, age groups\",\"Time\":\"\"},{\"Code\":\"12111-0101\",\"Content\":\"Population
+        (Census): L\xE4nder, reference date, nationality,\\nsex\",\"Time\":\"\"},{\"Code\":\"12111-0102\",\"Content\":\"Population
+        (Census): L\xE4nder, reference date, nationality,\\nage groups\",\"Time\":\"\"},{\"Code\":\"12111-0103\",\"Content\":\"Population
+        (Census): L\xE4nder, reference date, nationality,\\nmarital status\",\"Time\":\"\"},{\"Code\":\"12111-0104\",\"Content\":\"Population
+        (Census): L\xE4nder, reference date, sex,\\nage groups\",\"Time\":\"\"},{\"Code\":\"12111-0105\",\"Content\":\"Population
+        (Census): L\xE4nder, reference date, sex,\\nmarital status\",\"Time\":\"\"},{\"Code\":\"12111-0106\",\"Content\":\"Population
+        (Census): L\xE4nder, reference date, marital status,\\nage groups\",\"Time\":\"\"},{\"Code\":\"12211-0001\",\"Content\":\"Population,
+        persons in employment, unemployed persons, econ.\\nactive population, econ.
+        inactive population from primary\\nresidence households: Germany, years, sex,
+        age groups\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0002\",\"Content\":\"Population,
+        persons in employment, unemployed persons, econ.\\nactive population, econ.
+        inactive population from prim. res.\\nhh.: Germany, years, main source of
+        livelihood, age groups\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0003\",\"Content\":\"Population,
+        persons in employment, unemployed persons, econ.\\nactive population, econ.
+        inactive pop. from prim. res. hh.:\\nGermany, years, sex, size classes pers.
+        monthly net income\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0004\",\"Content\":\"Persons
+        in employment from primary residence households:\\nGermany, years, sex, age
+        groups, occupational status\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0005\",\"Content\":\"Persons
+        in employment from primary residence households:\\nGermany, years, sex, occupational
+        status, type of hours\\nworked, size classes of the hours worked per week\",\"Time\":\"2020
+        to 2022\"},{\"Code\":\"12211-0006\",\"Content\":\"Hours worked per week by
+        persons in employment from primary\\nresidence households: Germany, years,
+        sex, occupational\\nstatus, type of hours worked\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0007\",\"Content\":\"Persons
+        in employment from primary residence households:\\nGermany, years, sex, age
+        groups, employment forms\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0008\",\"Content\":\"Persons
+        in employment from primary residence households:\\nGermany, years, sex, occupational
+        status, size classes of\\npersonal monthly net income\",\"Time\":\"2020 to
+        2022\"},{\"Code\":\"12211-0009\",\"Content\":\"Persons in employment from
+        primary residence households:\\nGermany, years, sex, occupational status,
+        occupations\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0010\",\"Content\":\"Persons
+        in paid employment from primary residence\\nhouseholds: Germany, years, sex,
+        age groups, extent of\\nemployment\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0011\",\"Content\":\"Unemployed
+        persons from primary residence households:\\nGermany, years, sex, age groups,
+        duration of unemployment\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0100\",\"Content\":\"Population
+        aged 15 and over in primary residence households:\\nGermany, years, sex, age
+        groups, general school education\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0101\",\"Content\":\"Population
+        aged 15 and over in primary residence households:\\nGermany, years, sex, age
+        groups, vocational qualification\\nattained\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0102\",\"Content\":\"Population
+        aged 15 and over in primary residence households:\\nGermany, years, sex, age
+        groups, educational attainment\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0200\",\"Content\":\"Population
+        in primary residence households: Germany, years,\\nsex, age groups, migration
+        status\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0201\",\"Content\":\"Population
+        in primary residence households: Germany, years,\\nsex, marital status, migration
+        status\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0202\",\"Content\":\"Persons
+        with migration background (broader sense) in \\nprimary residence households:
+        Germany, years, sex, country\\nof birth or parents country of birth\",\"Time\":\"2020
+        to 2022\"},{\"Code\":\"12211-0203\",\"Content\":\"Population in primary residence
+        households: Germany, years,\\nsex, migration status\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0204\",\"Content\":\"Population
+        in primary residence households: Germany, years,\\nsex, labour participation,
+        migration status\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0205\",\"Content\":\"Population
+        aged 15 and over in primary residence households:\\nGermany, years, sex, highest
+        general school leaving\\ncertificate, migration status\",\"Time\":\"2020 to
+        2022\"},{\"Code\":\"12211-0206\",\"Content\":\"Population aged 15 and over
+        in primary residence households:\\nGermany, years, sex, vocational qualification
+        attained,\\nmigration status\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0300\",\"Content\":\"Primary
+        residence households: Germany, years, household\\nsize, household net income
+        classes\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0301\",\"Content\":\"Primary
+        residence households, household members: Germany,\\nyears, household net income
+        classes\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0302\",\"Content\":\"Household
+        members in primary residence households: Germany,\\nyears, sex, age groups,
+        household size\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0310\",\"Content\":\"Secondary
+        residence households: Germany, years, household\\nsize, municipality size
+        classes\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0311\",\"Content\":\"Secondary
+        residence households, household members: Germany,\\nyears, municipality size
+        classes\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0400\",\"Content\":\"Population
+        in families or living arrangements in primary\\nresidence households: Germany,
+        years, sex, family and living\\narrangements\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0401\",\"Content\":\"Mothers
+        and fathers in primary residence households:\\nGermany, years, age groups,
+        family forms\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0402\",\"Content\":\"Children
+        in primary residence households: Germany, years,\\nsex, number of siblings,
+        family forms\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0403\",\"Content\":\"Children
+        in primary residence households: Germany, years,\\nsex, age groups, family
+        forms\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0404\",\"Content\":\"Children
+        in primary residence households: Germany, years,\\nsex, school education or
+        vocational training, family forms\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0405\",\"Content\":\"Women
+        and men in primary residence households without\\nchildren in the household:
+        Germany, years, age groups,\\nliving arrangements\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0420\",\"Content\":\"Living
+        arrangements in primary residence households:\\nGermany, years, family and
+        living arrangements\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0421\",\"Content\":\"Couples
+        in primary residence households: Germany, years,\\ntype of couple, presence
+        of children\",\"Time\":\"\"},{\"Code\":\"12211-0422\",\"Content\":\"Families
+        in primary residence households: Germany, years,\\nfamily forms, age of the
+        youngest child\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0423\",\"Content\":\"Families
+        in primary residence households: Germany, years,\\nfamily forms, age of the
+        youngest child, number of children\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0424\",\"Content\":\"Lone
+        parents in primary residence households: Germany,\\nyears, sex, age of the
+        youngest child\",\"Time\":\"2020 to 2022\"},{\"Code\":\"12211-0900\",\"Content\":\"Population
+        in collective living quarters: Germany, years, main status, sex, age groups\",\"Time\":\"2017
+        to 2022\"},{\"Code\":\"12211-0901\",\"Content\":\"Population in collective
+        living quarters: Germany, years, type of collective living quarter, sex\",\"Time\":\"2017
+        to 2022\"},{\"Code\":\"12211-0902\",\"Content\":\"Population in collective
+        living quarters: L\xE4nder, years, main status, sex, age groups\",\"Time\":\"2017
+        to 2022\"},{\"Code\":\"12211-0903\",\"Content\":\"Population in collective
+        living quarters: L\xE4nder, years, type of collective living quarter, sex\",\"Time\":\"2017
+        to 2022\"},{\"Code\":\"12211-1001\",\"Content\":\"Population, persons in employment,
+        unemployed persons, econ.\\nactive population, econ. inactive population from
+        primary\\nresidence households: L\xE4nder, years, sex, age groups\",\"Time\":\"2021
+        to 2022\"},{\"Code\":\"12211-1002\",\"Content\":\"Population, persons in employment,
+        unemployed persons, econ.\\nactive population, econ. inactive population from
+        prim. res.\\nhh.: L\xE4nder, years, main source of livelihood, age groups\",\"Time\":\"2021
+        to 2022\"},{\"Code\":\"12211-1003\",\"Content\":\"Population, persons in employment,
+        unemployed persons, econ.\\nactive population, econ. inactive pop. from prim.
+        res. hh.:\\nL\xE4nder, years, sex, size classes pers. monthly net income\",\"Time\":\"2021
+        to 2022\"},{\"Code\":\"12211-1004\",\"Content\":\"Persons in employment from
+        primary residence households:\\nL\xE4nder, years, sex, age groups, occupational
+        status\",\"Time\":\"2021 to 2022\"},{\"Code\":\"12211-9000\",\"Content\":\"Population,
+        persons in employment, unemployed persons,\\neconomically active population,
+        econ. inactive population \\n(aged 15 to under 65): Germany, years (until
+        2019), sex\",\"Time\":\"1959-10 to 2019\"},{\"Code\":\"12211-9001\",\"Content\":\"Population,
+        persons in employment, unemployed persons,\\neconomically active population,
+        economically inactive\\npopulation: Germany, years (until 2019), age groups\",\"Time\":\"1991-04
+        to 2019\"},{\"Code\":\"12211-9002\",\"Content\":\"Population, persons in employment,
+        unemployed persons:\\nGermany, years (until 2019), sex, age groups\",\"Time\":\"1991-04
+        to 2019\"},{\"Code\":\"12211-9003\",\"Content\":\"Population, persons in employment,
+        unemployed persons,\\neconomically inactive population: Germany, years (until\\n2019),
+        main source of livelihood, sex\",\"Time\":\"1961-10 to 2019\"},{\"Code\":\"12211-9004\",\"Content\":\"Population,
+        persons in employment, unemployed persons,\\neconomically active population,
+        economically inactive\\npopulation: L\xE4nder, years (until 2019)\",\"Time\":\"1991-04
+        to 2019\"},{\"Code\":\"12211-9005\",\"Content\":\"Persons in employment: Germany,
+        years (until 2019),\\noccupational status, sex\",\"Time\":\"1957-10 to 2019\"},{\"Code\":\"12211-9006\",\"Content\":\"Persons
+        in employment: Germany, years (until 2019),\\noccupational status, age groups\",\"Time\":\"1991-04
+        to 2019\"},{\"Code\":\"12211-9007\",\"Content\":\"Persons in employment: Germany,
+        years (until 2009),\\neconomic subsectors (WZ2003), sex\",\"Time\":\"2003-05
+        to 2009\"},{\"Code\":\"12211-9008\",\"Content\":\"Persons in employment: Germany,
+        years (until 2019), economic\\nsections (WZ2008), sex\",\"Time\":\"2009 to
+        2019\"},{\"Code\":\"12211-9009\",\"Content\":\"Persons in paid employment:
+        Germany, years (until 2019),\\ntype of employment contract, sex\",\"Time\":\"1985-06
+        to 2019\"},{\"Code\":\"12211-9010\",\"Content\":\"Persons in paid employment:
+        Germany, years (until 2019),\\nextent of employment, sex\",\"Time\":\"1985-06
+        to 2019\"},{\"Code\":\"12211-9011\",\"Content\":\"Self-employed persons: Germany,
+        years (until 2019), number\\nof persons employed, sex\",\"Time\":\"1980-04
+        to 2019\"},{\"Code\":\"12211-9012\",\"Content\":\"Population (aged 15 and
+        over): Germany, years (until 2019),\\nsex, age groups, general school education\",\"Time\":\"2005
+        to 2019\"},{\"Code\":\"12211-9013\",\"Content\":\"Population (aged 15 and
+        over): Germany, years (until 2019),\\nsex, age groups, vocational qualification
+        attained\",\"Time\":\"2005 to 2019\"},{\"Code\":\"12211-9014\",\"Content\":\"Population
+        (aged 15 and over): L\xE4nder, years (until 2019),\\nsex, general school education\",\"Time\":\"2005
+        to 2019\"},{\"Code\":\"12211-9015\",\"Content\":\"Population (aged 15 and
+        over): L\xE4nder, years (until 2019),\\nsex, vocational qualification attained\",\"Time\":\"2005
+        to 2019\"},{\"Code\":\"12211-9016\",\"Content\":\"Population: Germany, years
+        (until 2019), sex, type of health\\ninsurance\",\"Time\":\"2007 to 2019\"},{\"Code\":\"12211-9017\",\"Content\":\"Population:
+        Germany, years (until 2019), sex, health\\ninsurance institutions / health
+        insurance\",\"Time\":\"2007 to 2019\"},{\"Code\":\"12211-9018\",\"Content\":\"Average
+        body height, average body weight, average\\nBody-Mass-Index: Germany, years
+        (until 2017), sex, marital\\nstatus, age groups\",\"Time\":\"2005 to 2017\"},{\"Code\":\"12211-9019\",\"Content\":\"Body-Mass-Index:
+        Germany, years (until 2017), weight\\nclassification, sex, marital status,
+        age groups\",\"Time\":\"2005 to 2017\"},{\"Code\":\"12211-9020\",\"Content\":\"Households,
+        household members: Germany, years (until 2019)\",\"Time\":\"1961-06 to 2019\"},{\"Code\":\"12211-9021\",\"Content\":\"Households,
+        household members: Germany, years (until 2019),\\nmunicipality size classes\",\"Time\":\"1974-04
+        to 2019\"},{\"Code\":\"12211-9022\",\"Content\":\"Households: Germany, years
+        (until 2019), household size\",\"Time\":\"1961-06 to 2019\"},{\"Code\":\"12211-9023\",\"Content\":\"Households:
+        Germany, years (until 2019), household size,\\nmunicipality size classes\",\"Time\":\"1974-04
+        to 2019\"},{\"Code\":\"12211-9024\",\"Content\":\"Households: Germany, years
+        (until 2019), children under 18\\nyears of age\",\"Time\":\"1968-04 to 2019\"},{\"Code\":\"12211-9025\",\"Content\":\"Households:
+        Germany, years (until 2019), sex of the\\nreference person, household net
+        income classes\",\"Time\":\"2002-04 to 2019\"},{\"Code\":\"12211-9026\",\"Content\":\"Households:
+        Germany, years (until 2019), household size, sex\\nof the reference person,
+        household net income classes\",\"Time\":\"2002-04 to 2019\"},{\"Code\":\"12211-9027\",\"Content\":\"Households:
+        Germany, years (until 2019), household size, age\\nof the reference person\",\"Time\":\"1968-04
+        to 2019\"},{\"Code\":\"12211-9028\",\"Content\":\"Households: Germany, years
+        (until 2019), household size,\\nmarital status of the reference person\",\"Time\":\"1972-04
+        to 2019\"},{\"Code\":\"12211-9029\",\"Content\":\"Households: Germany, years
+        (until 2019), sex, age and\\nmarital status of the reference person\",\"Time\":\"1968-04
+        to 2019\"},{\"Code\":\"12211-9030\",\"Content\":\"Households: Germany, years
+        (until 2019), household size,\\nlabour force participation of the reference
+        person\",\"Time\":\"1968-04 to 2019\"},{\"Code\":\"12211-9031\",\"Content\":\"Households:
+        Germany, years (until 2019), household size,\\noccupational status of the
+        reference person\",\"Time\":\"1968-04 to 2019\"},{\"Code\":\"12211-9032\",\"Content\":\"Households:
+        Former territory of the Federal Republic /\\nNew L\xE4nder, years (until 2019),
+        household size\",\"Time\":\"1991-04 to 2019\"},{\"Code\":\"12211-9033\",\"Content\":\"Households:
+        L\xE4nder, years (until 2019)\",\"Time\":\"1970-05 to 2019\"},{\"Code\":\"12211-9034\",\"Content\":\"Households:
+        L\xE4nder, years (until 2019), household size\",\"Time\":\"1991-04 to 2019\"},{\"Code\":\"12211-9035\",\"Content\":\"Population
+        in private households: Germany, years (until\\n2019), household size, marital
+        status\",\"Time\":\"1972-04 to 2019\"},{\"Code\":\"12211-9036\",\"Content\":\"Population
+        in private households: Germany, years (until\\n2019), household size, age
+        groups\",\"Time\":\"1972-04 to 2019\"},{\"Code\":\"12211-9037\",\"Content\":\"Population
+        in private households: Germany, years (until\\n2019), household size, sex,
+        age groups\",\"Time\":\"1972-04 to 2019\"},{\"Code\":\"12211-9038\",\"Content\":\"Population
+        in private households: Germany, years (until\\n2019), sex, age groups\",\"Time\":\"1972-04
+        to 2019\"},{\"Code\":\"12211-9039\",\"Content\":\"Population in private households:
+        Germany, years (until\\n2019), sex, marital status, age groups\",\"Time\":\"1972-04
+        to 2019\"},{\"Code\":\"12211-9040\",\"Content\":\"Population in families /
+        living arrangements:\\nFormer territory of the Federal Republic / New L\xE4nder,\\nyears
+        (until 2019), living arrangements\",\"Time\":\"1996-04 to 2019\"}],\"Copyright\":\"\xA9
+        Federal Statistical Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Mon, 28 Aug 2023 17:05:12 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+      Transfer-Encoding:
+      - chunked
+    status:
+      code: 200
+      message: '200'
+version: 1

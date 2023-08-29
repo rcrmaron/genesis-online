@@ -1,0 +1,728 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/cubes?areaXYZ=all&language=en&selectionXYZ=124%2A
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"cubes\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"\",\"area\":\"free\",\"pagelength\":\"100\",\"language\":\"en\"},\"List\":[{\"Code\":\"11111BJ001\",\"Content\":\"Recording
+        of territorial status, Size of territory, Germany, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"1995-12-31 to 2021-12-31\",\"LatestUpdate\":\"2023-07-05
+        15:02:25h\",\"Information\":\"false\"},{\"Code\":\"11111KJ001\",\"Content\":\"Recording
+        of territorial status, Size of territory, Administrative districts, Reference
+        date\",\"State\":\"complete with values\",\"Time\":\"1995-12-31 to 2021-12-31\",\"LatestUpdate\":\"2023-07-05
+        15:02:19h\",\"Information\":\"false\"},{\"Code\":\"11111LJ001\",\"Content\":\"Recording
+        of territorial status, Size of territory, L\xE4nder, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"1995-12-31 to 2021-12-31\",\"LatestUpdate\":\"2023-07-05
+        15:02:22h\",\"Information\":\"false\"},{\"Code\":\"12111B1001\",\"Content\":\"Census,
+        Population (Census), Germany, Reference date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2017-10-12
+        14:40:27h\",\"Information\":\"false\"},{\"Code\":\"12111B1002\",\"Content\":\"Census,
+        Population (Census), Germany, Nationality, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:01:20h\",\"Information\":\"false\"},{\"Code\":\"12111B1003\",\"Content\":\"Census,
+        Population (Census), Germany, Sex, Reference date\",\"State\":\"complete with
+        values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2018-03-02 14:22:34h\",\"Information\":\"false\"},{\"Code\":\"12111B1004\",\"Content\":\"Census,
+        Population (Census), Germany, Age groups (under 3 - 75 years and over), Reference
+        date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2018-03-02
+        14:18:48h\",\"Information\":\"false\"},{\"Code\":\"12111B1005\",\"Content\":\"Census,
+        Population (Census), Germany, Age groups (under 18 - 65 years and over), Reference
+        date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10
+        08:01:24h\",\"Information\":\"false\"},{\"Code\":\"12111B1006\",\"Content\":\"Census,
+        Population (Census), Germany, Marital status, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:01:26h\",\"Information\":\"false\"},{\"Code\":\"12111B1007\",\"Content\":\"Census,
+        Population (Census), Germany, Nationality, Sex, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:01:28h\",\"Information\":\"false\"},{\"Code\":\"12111B1008\",\"Content\":\"Census,
+        Population (Census), Germany, Nationality, Age groups (under 3 - 75 years
+        and over), Reference date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10
+        08:01:29h\",\"Information\":\"false\"},{\"Code\":\"12111B1009\",\"Content\":\"Census,
+        Population (Census), Germany, Nationality, Marital status, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:01:30h\",\"Information\":\"false\"},{\"Code\":\"12111B1010\",\"Content\":\"Census,
+        Population (Census), Germany, Sex, Age groups (under 3 - 75 years and over),
+        Reference date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10
+        08:01:17h\",\"Information\":\"false\"},{\"Code\":\"12111B1011\",\"Content\":\"Census,
+        Population (Census), Germany, Sex, Marital status, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:00:54h\",\"Information\":\"false\"},{\"Code\":\"12111B1012\",\"Content\":\"Census,
+        Population (Census), Germany, Age groups (under 18 - 65 years and over), Marital
+        status, Reference date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10
+        08:00:55h\",\"Information\":\"false\"},{\"Code\":\"12111L1001\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Reference date\",\"State\":\"complete with
+        values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:00:57h\",\"Information\":\"false\"},{\"Code\":\"12111L1002\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Nationality, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:00:59h\",\"Information\":\"false\"},{\"Code\":\"12111L1003\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Sex, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:01:00h\",\"Information\":\"false\"},{\"Code\":\"12111L1004\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Age groups (under 3 - 75 years and over),
+        Reference date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10
+        08:01:02h\",\"Information\":\"false\"},{\"Code\":\"12111L1005\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Age groups (under 18 - 65 years and over),
+        Reference date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10
+        08:01:04h\",\"Information\":\"false\"},{\"Code\":\"12111L1006\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Marital status, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:01:05h\",\"Information\":\"false\"},{\"Code\":\"12111L1007\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Nationality, Sex, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:01:07h\",\"Information\":\"false\"},{\"Code\":\"12111L1008\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Nationality, Age groups (under 3 - 75 years
+        and over), Reference date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10
+        08:01:09h\",\"Information\":\"false\"},{\"Code\":\"12111L1009\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Nationality, Marital status, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:01:10h\",\"Information\":\"false\"},{\"Code\":\"12111L1010\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Sex, Age groups (under 3 - 75 years and over),
+        Reference date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10
+        08:01:12h\",\"Information\":\"false\"},{\"Code\":\"12111L1011\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Sex, Marital status, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:01:16h\",\"Information\":\"false\"},{\"Code\":\"12111L1012\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Age groups (under 18 - 65 years and over),
+        Marital status, Reference date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10
+        08:01:14h\",\"Information\":\"false\"},{\"Code\":\"12211B4001\",\"Content\":\"Microcensus,
+        Population, Germany, Type of health insurance, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2020-09-15 12:00:02h\",\"Information\":\"false\"},{\"Code\":\"12211B4002\",\"Content\":\"Microcensus,
+        Population, Germany, Sex, Type of health insurance, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2020-09-15 12:00:01h\",\"Information\":\"false\"},{\"Code\":\"12211B4003\",\"Content\":\"Microcensus,
+        Population, Germany, Health insurance institutions, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2020-09-15 12:00:04h\",\"Information\":\"false\"},{\"Code\":\"12211B4004\",\"Content\":\"Microcensus,
+        Population, Germany, Sex, Health insurance institutions, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2020-09-15 12:00:05h\",\"Information\":\"false\"},{\"Code\":\"12211B4005\",\"Content\":\"Microcensus,
+        Average body height, Average body weight, Average Body-Mass-Index, Germany,
+        Year\",\"State\":\"complete with values\",\"Time\":\"2005 to 2017\",\"LatestUpdate\":\"2019-03-18
+        12:23:44h\",\"Information\":\"false\"},{\"Code\":\"12211B4006\",\"Content\":\"Microcensus,
+        Average body height, Average body weight, Average Body-Mass-Index, Germany,
+        Sex, Year\",\"State\":\"complete with values\",\"Time\":\"2005 to 2017\",\"LatestUpdate\":\"2019-03-18
+        12:23:44h\",\"Information\":\"false\"},{\"Code\":\"12211B4007\",\"Content\":\"Microcensus,
+        Average body height, Average body weight, Average Body-Mass-Index, Germany,
+        Age groups (18 - 75 years and over), Year\",\"State\":\"complete with values\",\"Time\":\"2005
+        to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:44h\",\"Information\":\"false\"},{\"Code\":\"12211B4008\",\"Content\":\"Microcensus,
+        Average body height, Average body weight, Average Body-Mass-Index, Germany,
+        Marital status, Year\",\"State\":\"complete with values\",\"Time\":\"2005
+        to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:44h\",\"Information\":\"false\"},{\"Code\":\"12211B4009\",\"Content\":\"Microcensus,
+        Average body height, Average body weight, Average Body-Mass-Index, Germany,
+        Sex, Age groups (18 - 75 years and over), Year\",\"State\":\"complete with
+        values\",\"Time\":\"2005 to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:44h\",\"Information\":\"false\"},{\"Code\":\"12211B4010\",\"Content\":\"Microcensus,
+        Average body height, Average body weight, Average Body-Mass-Index, Germany,
+        Sex, Marital status, Year\",\"State\":\"complete with values\",\"Time\":\"2005
+        to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:45h\",\"Information\":\"false\"},{\"Code\":\"12211B4011\",\"Content\":\"Microcensus,
+        Average body height, Average body weight, Average Body-Mass-Index, Germany,
+        Age groups (18 - 75 years and over), Marital status, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2005 to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:45h\",\"Information\":\"false\"},{\"Code\":\"12211B4012\",\"Content\":\"Microcensus,
+        Average body height, Average body weight, Average Body-Mass-Index, Germany,
+        Sex, Age groups (18 - 75 years and over), Marital status, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2005 to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:45h\",\"Information\":\"false\"},{\"Code\":\"12211B4013\",\"Content\":\"Microcensus,
+        Body-Mass-Index, Germany, Weight classification, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2005 to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:45h\",\"Information\":\"false\"},{\"Code\":\"12211B4014\",\"Content\":\"Microcensus,
+        Body-Mass-Index, Germany, Sex, Weight classification, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2005 to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:45h\",\"Information\":\"false\"},{\"Code\":\"12211B4015\",\"Content\":\"Microcensus,
+        Body-Mass-Index, Germany, Age groups (18 - 75 years and over), Weight classification,
+        Year\",\"State\":\"complete with values\",\"Time\":\"2005 to 2017\",\"LatestUpdate\":\"2019-03-18
+        12:23:45h\",\"Information\":\"false\"},{\"Code\":\"12211B4016\",\"Content\":\"Microcensus,
+        Body-Mass-Index, Germany, Marital status, Weight classification, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2005 to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:45h\",\"Information\":\"false\"},{\"Code\":\"12211B4017\",\"Content\":\"Microcensus,
+        Body-Mass-Index, Germany, Sex, Age groups (18 - 75 years and over), Weight
+        classification, Year\",\"State\":\"complete with values\",\"Time\":\"2005
+        to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:45h\",\"Information\":\"false\"},{\"Code\":\"12211B4018\",\"Content\":\"Microcensus,
+        Body-Mass-Index, Germany, Sex, Marital status, Weight classification, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2005 to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:45h\",\"Information\":\"false\"},{\"Code\":\"12211B4019\",\"Content\":\"Microcensus,
+        Body-Mass-Index, Germany, Age groups (18 - 75 years and over), Marital status,
+        Weight classification, Year\",\"State\":\"complete with values\",\"Time\":\"2005
+        to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:46h\",\"Information\":\"false\"},{\"Code\":\"12211B4020\",\"Content\":\"Microcensus,
+        Body-Mass-Index, Germany, Sex, Age groups (18 - 75 years and over), Marital
+        status, Weight classification, Year\",\"State\":\"complete with values\",\"Time\":\"2005
+        to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:46h\",\"Information\":\"false\"},{\"Code\":\"12211BJ001\",\"Content\":\"Microcensus,
+        Population (aged 15 to under 65), Economically active population, Persons
+        in employment, Unemployed persons, Economically inactive population, Germany,
+        Reference month\",\"State\":\"complete with values\",\"Time\":\"1959-10 to
+        2004-03\",\"LatestUpdate\":\"2016-03-08 16:36:56h\",\"Information\":\"false\"},{\"Code\":\"12211BJ002\",\"Content\":\"Microcensus,
+        Population (aged 15 to under 65), Economically active population, Persons
+        in employment, Unemployed persons, Economically inactive population, Germany,
+        Sex, Reference month\",\"State\":\"complete with values\",\"Time\":\"1959-10
+        to 2004-03\",\"LatestUpdate\":\"2016-03-08 16:37:17h\",\"Information\":\"false\"},{\"Code\":\"12211BJ003\",\"Content\":\"Microcensus,
+        Population, Economically active population, Persons in employment, Unemployed
+        persons, Economically inactive population, Germany, Age groups (under 15 -
+        65 years and over), Reference month\",\"State\":\"complete with values\",\"Time\":\"1991-04
+        to 2004-03\",\"LatestUpdate\":\"2005-03-22 11:46:06h\",\"Information\":\"false\"},{\"Code\":\"12211BJ004\",\"Content\":\"Microcensus,
+        Population, Persons in employment, Unemployed persons, Germany, Sex, Age groups
+        (under 15 - 65 years and over), Reference month\",\"State\":\"complete with
+        values\",\"Time\":\"1991-04 to 2004-03\",\"LatestUpdate\":\"2005-03-22 11:46:09h\",\"Information\":\"false\"},{\"Code\":\"12211BJ005\",\"Content\":\"Microcensus,
+        Population, Persons in employment, Unemployed persons, Economically inactive
+        population, Germany, Main source of livelihood, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1961-10 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:37:39h\",\"Information\":\"false\"},{\"Code\":\"12211BJ006\",\"Content\":\"Microcensus,
+        Population, Persons in employment, Unemployed persons, Economically inactive
+        population, Germany, Sex, Main source of livelihood, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1961-10 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:37:56h\",\"Information\":\"false\"},{\"Code\":\"12211BJ007\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, Age groups (under 15 - 65 years and over),
+        Occupational status, Reference month\",\"State\":\"complete with values\",\"Time\":\"1991-04
+        to 2004-03\",\"LatestUpdate\":\"2016-03-08 16:38:26h\",\"Information\":\"false\"},{\"Code\":\"12211BJ008\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, Occupational status, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1957-10 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:38:38h\",\"Information\":\"false\"},{\"Code\":\"12211BJ009\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, Sex, Occupational status, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1957-10 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:38:48h\",\"Information\":\"false\"},{\"Code\":\"12211BJ010\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, WZ2003: Economic subsectors of the microcensus,
+        Reference month\",\"State\":\"complete with values\",\"Time\":\"2003-05 to
+        2004-03\",\"LatestUpdate\":\"2011-12-07 16:20:00h\",\"Information\":\"false\"},{\"Code\":\"12211BJ011\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, WZ2003: Economic subsectors of the microcensus,
+        Sex, Reference month\",\"State\":\"complete with values\",\"Time\":\"2003-05
+        to 2004-03\",\"LatestUpdate\":\"2011-12-07 16:20:09h\",\"Information\":\"false\"},{\"Code\":\"12211BJ012\",\"Content\":\"Microcensus,
+        Persons in paid employment, Germany, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1985-06 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:39:11h\",\"Information\":\"false\"},{\"Code\":\"12211BJ013\",\"Content\":\"Microcensus,
+        Persons in paid employment, Germany, Sex, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1985-06 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:39:23h\",\"Information\":\"false\"},{\"Code\":\"12211BJ014\",\"Content\":\"Microcensus,
+        Persons in paid employment, Germany, Type of employment contract, Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"1985-06 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:39:33h\",\"Information\":\"false\"},{\"Code\":\"12211BJ015\",\"Content\":\"Microcensus,
+        Persons in paid employment, Germany, Sex, Type of employment contract, Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"1985-06 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:39:42h\",\"Information\":\"false\"},{\"Code\":\"12211BJ016\",\"Content\":\"Microcensus,
+        Persons in paid employment, Germany, Extent of employment, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1985-06 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:39:51h\",\"Information\":\"false\"},{\"Code\":\"12211BJ017\",\"Content\":\"Microcensus,
+        Persons in paid employment, Germany, Extent of employment, Sex, Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"1985-06 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:40:02h\",\"Information\":\"false\"},{\"Code\":\"12211BJ018\",\"Content\":\"Microcensus,
+        Self-employed persons, Germany, Number of persons employed, Sex, Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"1980-04 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:40:11h\",\"Information\":\"false\"},{\"Code\":\"12211BJ019\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, WZ2003: Economic subsectors of the microcensus,
+        Year\",\"State\":\"complete with values\",\"Time\":\"2005 to 2009\",\"LatestUpdate\":\"2011-12-07
+        16:20:20h\",\"Information\":\"false\"},{\"Code\":\"12211BJ020\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, WZ2003: Economic subsectors of the microcensus,
+        Sex, Year\",\"State\":\"complete with values\",\"Time\":\"2005 to 2009\",\"LatestUpdate\":\"2011-12-07
+        16:20:30h\",\"Information\":\"false\"},{\"Code\":\"12211BJ021\",\"Content\":\"Microcensus,
+        Households, Household members, Germany, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1961-06 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:27:34h\",\"Information\":\"false\"},{\"Code\":\"12211BJ022\",\"Content\":\"Microcensus,
+        Households, Household members, Germany, Municipality size classes, Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"1974-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:27:53h\",\"Information\":\"false\"},{\"Code\":\"12211BJ023\",\"Content\":\"Microcensus,
+        Households, Germany, Household size, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1961-06 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:28:08h\",\"Information\":\"false\"},{\"Code\":\"12211BJ024\",\"Content\":\"Microcensus,
+        Households, Germany, Household size, Municipality size classes, Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"1974-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:28:19h\",\"Information\":\"false\"},{\"Code\":\"12211BJ025\",\"Content\":\"Microcensus,
+        Households, Germany, Children under 18 years of age, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1968-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:28:31h\",\"Information\":\"false\"},{\"Code\":\"12211BJ026\",\"Content\":\"Microcensus,
+        Households, Germany, Household net income classes, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"2002-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:29:16h\",\"Information\":\"false\"},{\"Code\":\"12211BJ027\",\"Content\":\"Microcensus,
+        Households, Germany, Household net income classes, Sex, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"2002-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:29:26h\",\"Information\":\"false\"},{\"Code\":\"12211BJ028\",\"Content\":\"Microcensus,
+        Households, Germany, Household size, Household net income classes, Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"2002-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:29:37h\",\"Information\":\"false\"},{\"Code\":\"12211BJ029\",\"Content\":\"Microcensus,
+        Households, Germany, Household size, Household net income classes, Sex, Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"2002-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:29:49h\",\"Information\":\"false\"},{\"Code\":\"12211BJ030\",\"Content\":\"Microcensus,
+        Households, Germany, Age groups (under 25 - 65 years and over), Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"1968-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:30:00h\",\"Information\":\"false\"},{\"Code\":\"12211BJ031\",\"Content\":\"Microcensus,
+        Households, Germany, Household size, Age groups (under 25 - 65 years and over),
+        Reference month\",\"State\":\"complete with values\",\"Time\":\"1968-04 to
+        2004-03\",\"LatestUpdate\":\"2021-06-17 16:30:31h\",\"Information\":\"false\"},{\"Code\":\"12211BJ032\",\"Content\":\"Microcensus,
+        Households, Germany, Marital status, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1972-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:30:41h\",\"Information\":\"false\"},{\"Code\":\"12211BJ033\",\"Content\":\"Microcensus,
+        Households, Germany, Household size, Marital status, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1972-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:30:51h\",\"Information\":\"false\"},{\"Code\":\"12211BJ034\",\"Content\":\"Microcensus,
+        Households, Germany, Labour force participation, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1968-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:31:00h\",\"Information\":\"false\"},{\"Code\":\"12211BJ035\",\"Content\":\"Microcensus,
+        Households, Germany, Household size, Labour force participation, Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"1968-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:31:10h\",\"Information\":\"false\"},{\"Code\":\"12211BJ036\",\"Content\":\"Microcensus,
+        Households, Germany, Occupational status, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1968-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:31:20h\",\"Information\":\"false\"},{\"Code\":\"12211BJ037\",\"Content\":\"Microcensus,
+        Households, Germany, Household size, Occupational status, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1968-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:31:30h\",\"Information\":\"false\"},{\"Code\":\"12211BJ038\",\"Content\":\"Microcensus,
+        Households, Germany, Age groups (under 25 - 65 years and over), Marital status,
+        Sex, Reference month\",\"State\":\"complete with values\",\"Time\":\"1968-04
+        to 2004-03\",\"LatestUpdate\":\"2021-06-17 16:31:40h\",\"Information\":\"false\"},{\"Code\":\"12211BJ039\",\"Content\":\"Microcensus,
+        Households, Former territory of the Fed. Republic / New L\xE4nder, Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"1991-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:31:48h\",\"Information\":\"false\"},{\"Code\":\"12211BJ040\",\"Content\":\"Microcensus,
+        Households, Former territory of the Fed. Republic / New L\xE4nder, Household
+        size, Reference month\",\"State\":\"complete with values\",\"Time\":\"1991-04
+        to 2004-03\",\"LatestUpdate\":\"2021-06-17 16:31:58h\",\"Information\":\"false\"},{\"Code\":\"12211BJ041\",\"Content\":\"Microcensus,
+        Population in private households, Germany, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1972-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:32:07h\",\"Information\":\"false\"},{\"Code\":\"12211BJ042\",\"Content\":\"Microcensus,
+        Population in private households, Germany, Household size, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1972-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:32:16h\",\"Information\":\"false\"},{\"Code\":\"12211BJ043\",\"Content\":\"Microcensus,
+        Population in private households, Germany, Marital status, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1972-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:32:25h\",\"Information\":\"false\"},{\"Code\":\"12211BJ044\",\"Content\":\"Microcensus,
+        Population in private households, Germany, Household size, Marital status,
+        Reference month\",\"State\":\"complete with values\",\"Time\":\"1972-04 to
+        2004-03\",\"LatestUpdate\":\"2021-06-17 16:32:34h\",\"Information\":\"false\"},{\"Code\":\"12211BJ045\",\"Content\":\"Microcensus,
+        Population in private households, Germany, Age groups (under 20 - 75 years
+        and over), Reference month\",\"State\":\"complete with values\",\"Time\":\"1972-04
+        to 2004-03\",\"LatestUpdate\":\"2021-06-17 16:32:44h\",\"Information\":\"false\"},{\"Code\":\"12211BJ046\",\"Content\":\"Microcensus,
+        Population in private households, Germany, Age groups (under 20 - 75 years
+        and over), Household size, Reference month\",\"State\":\"complete with values\",\"Time\":\"1972-04
+        to 2004-03\",\"LatestUpdate\":\"2021-06-17 16:32:53h\",\"Information\":\"false\"},{\"Code\":\"12211BJ047\",\"Content\":\"Microcensus,
+        Population in private households, Germany, Age groups (under 20 - 75 years
+        and over), Sex, Reference month\",\"State\":\"complete with values\",\"Time\":\"1972-04
+        to 2004-03\",\"LatestUpdate\":\"2021-06-17 16:33:02h\",\"Information\":\"false\"},{\"Code\":\"12211BJ048\",\"Content\":\"Microcensus,
+        Population in private households, Germany, Household size, Sex, Age groups
+        (under 20 - 75 years and over), Reference month\",\"State\":\"complete with
+        values\",\"Time\":\"1972-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17 16:33:12h\",\"Information\":\"false\"},{\"Code\":\"12211BJ049\",\"Content\":\"Microcensus,
+        Population in private households, Germany, Age groups (under 20 - 75 years
+        and over), Marital status, Reference month\",\"State\":\"complete with values\",\"Time\":\"1972-04
+        to 2004-03\",\"LatestUpdate\":\"2021-06-17 16:33:24h\",\"Information\":\"false\"},{\"Code\":\"12211BJ050\",\"Content\":\"Microcensus,
+        Population in private households, Germany, Sex, Age groups (under 20 - 75
+        years and over), Marital status, Reference month\",\"State\":\"complete with
+        values\",\"Time\":\"1972-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17 16:33:34h\",\"Information\":\"false\"},{\"Code\":\"12211BJ051\",\"Content\":\"Microcensus,
+        Families, Germany, Reference month\",\"State\":\"complete with values\",\"Time\":\"1968-04
+        to 1995-04\",\"LatestUpdate\":\"2021-06-17 16:33:43h\",\"Information\":\"false\"},{\"Code\":\"12211BJ052\",\"Content\":\"Microcensus,
+        Families, Germany, Type of family, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1968-04 to 1995-04\",\"LatestUpdate\":\"2021-06-17
+        16:33:52h\",\"Information\":\"false\"},{\"Code\":\"12211BJ053\",\"Content\":\"Microcensus,
+        Families, Germany, Type of family, Number of children, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1968-04 to 1995-04\",\"LatestUpdate\":\"2021-06-17
+        16:34:03h\",\"Information\":\"false\"}],\"Copyright\":\"\xA9 Federal Statistical
+        Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Tue, 08 Aug 2023 22:06:44 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+      Transfer-Encoding:
+      - chunked
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/cubes?area=all&language=en&pagelength=20&selection=124%2A
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"cubes\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"124*\",\"area\":\"all\",\"pagelength\":\"20\",\"language\":\"en\"},\"List\":[{\"Code\":\"12411BJ001\",\"Content\":\"Current
+        updating of population figures, Population, Germany, Nationality, Sex, Marital
+        status, Age years (under 1 - 85 and over), Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"1991-12-31 to 2022-12-31\",\"LatestUpdate\":\"2023-06-20
+        08:00:30h\",\"Information\":\"false\"},{\"Code\":\"12411BJ002\",\"Content\":\"Current
+        updating of population figures, Population, Germany, Nationality, Sex, Marital
+        status, Reference date\",\"State\":\"complete with values\",\"Time\":\"1991-12-31
+        to 2022-12-31\",\"LatestUpdate\":\"2023-06-20 08:00:42h\",\"Information\":\"false\"},{\"Code\":\"12411BJ003\",\"Content\":\"Current
+        updating of population figures, Population, Germany, Nationality, Sex, Age
+        years (under 1 - 85 and over), Reference date\",\"State\":\"complete with
+        values\",\"Time\":\"1970-12-31 to 2022-12-31\",\"LatestUpdate\":\"2023-06-20
+        08:00:22h\",\"Information\":\"false\"},{\"Code\":\"12411BJ004\",\"Content\":\"Current
+        updating of population figures, Population, Germany, Nationality, Sex, Reference
+        date\",\"State\":\"complete with values\",\"Time\":\"1970-12-31 to 2022-12-31\",\"LatestUpdate\":\"2023-06-20
+        08:00:33h\",\"Information\":\"false\"},{\"Code\":\"12411BJ005\",\"Content\":\"Current
+        updating of population figures, Population, Germany, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"1950-12-31 to 2022-12-31\",\"LatestUpdate\":\"2023-06-20
+        08:00:38h\",\"Information\":\"false\"},{\"Code\":\"12411BJ010\",\"Content\":\"Current
+        updating of population figures, Average population, Germany, Year\",\"State\":\"complete
+        with values\",\"Time\":\"1990 to 2022\",\"LatestUpdate\":\"2023-06-29 08:13:21h\",\"Information\":\"false\"},{\"Code\":\"12411BJ011\",\"Content\":\"Current
+        updating of population figures, Average population, Germany, Sex, Year\",\"State\":\"complete
+        with values\",\"Time\":\"1990 to 2022\",\"LatestUpdate\":\"2023-06-29 08:12:42h\",\"Information\":\"false\"},{\"Code\":\"12411BJ012\",\"Content\":\"Current
+        updating of population figures, Average population, Germany, Age years (under
+        1 - 85 and over), Year\",\"State\":\"complete with values\",\"Time\":\"1990
+        to 2022\",\"LatestUpdate\":\"2023-06-29 08:13:18h\",\"Information\":\"false\"},{\"Code\":\"12411BJ013\",\"Content\":\"Current
+        updating of population figures, Average population, Germany, Nationality,
+        Year\",\"State\":\"complete with values\",\"Time\":\"2000 to 2022\",\"LatestUpdate\":\"2023-06-29
+        08:12:36h\",\"Information\":\"false\"},{\"Code\":\"12411BJ014\",\"Content\":\"Current
+        updating of population figures, Average population, Germany, Sex, Age years
+        (under 1 - 85 and over), Year\",\"State\":\"complete with values\",\"Time\":\"1990
+        to 2022\",\"LatestUpdate\":\"2023-06-29 08:13:15h\",\"Information\":\"false\"},{\"Code\":\"12411BJ015\",\"Content\":\"Current
+        updating of population figures, Average population, Germany, Nationality,
+        Sex, Year\",\"State\":\"complete with values\",\"Time\":\"2000 to 2022\",\"LatestUpdate\":\"2023-06-29
+        08:12:39h\",\"Information\":\"false\"},{\"Code\":\"12411BJ016\",\"Content\":\"Current
+        updating of population figures, Average population, Germany, Nationality,
+        Age years (under 1 - 85 and over), Year\",\"State\":\"complete with values\",\"Time\":\"2000
+        to 2022\",\"LatestUpdate\":\"2023-06-29 08:13:07h\",\"Information\":\"false\"},{\"Code\":\"12411BJ017\",\"Content\":\"Current
+        updating of population figures, Average population, Germany, Nationality,
+        Sex, Age years (under 1 - 85 and over), Year\",\"State\":\"complete with values\",\"Time\":\"2000
+        to 2022\",\"LatestUpdate\":\"2023-06-29 08:13:11h\",\"Information\":\"false\"},{\"Code\":\"12411BJ018\",\"Content\":\"Current
+        updating of population figures, Population, Germany, Sex, Age groups (under
+        3 - 65 years and over), Citizenship, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-12-31 to 2022-12-31\",\"LatestUpdate\":\"2023-06-20
+        08:01:06h\",\"Information\":\"false\"},{\"Code\":\"12411BV001\",\"Content\":\"Current
+        updating of population figures, Population, Germany, Sex, Reference date end-of-quarter\",\"State\":\"complete
+        with values\",\"Time\":\"1991-03-31 to 2023-03-31\",\"LatestUpdate\":\"2023-07-11
+        08:01:27h\",\"Information\":\"false\"},{\"Code\":\"12411BV002\",\"Content\":\"Current
+        updating of population figures, Population, Germany, Reference date end-of-quarter\",\"State\":\"complete
+        with values\",\"Time\":\"1991-03-31 to 2023-03-31\",\"LatestUpdate\":\"2023-07-11
+        08:01:34h\",\"Information\":\"false\"},{\"Code\":\"12411KJ001\",\"Content\":\"Current
+        updating of population figures, Population, Administrative districts, Age
+        groups (under 3 - 75 years and over), Sex, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"1995-12-31 to 2022-12-31\",\"LatestUpdate\":\"2023-06-29
+        08:14:01h\",\"Information\":\"false\"},{\"Code\":\"12411KJ002\",\"Content\":\"Current
+        updating of population figures, Population, Administrative districts, Reference
+        date\",\"State\":\"complete with values\",\"Time\":\"1995-12-31 to 2022-12-31\",\"LatestUpdate\":\"2023-06-29
+        08:14:08h\",\"Information\":\"false\"},{\"Code\":\"12411LJ001\",\"Content\":\"Current
+        updating of population figures, Population, L\xE4nder, Age years (under 1
+        - 90 and over), Sex, Reference date\",\"State\":\"complete with values\",\"Time\":\"1967-12-31
+        to 2022-12-31\",\"LatestUpdate\":\"2023-06-20 08:03:35h\",\"Information\":\"false\"},{\"Code\":\"12411LJ002\",\"Content\":\"Current
+        updating of population figures, Population, L\xE4nder, Age years (under 1
+        - 90 and over), Nationality, Sex, Reference date\",\"State\":\"complete with
+        values\",\"Time\":\"2000-12-31 to 2022-12-31\",\"LatestUpdate\":\"2023-06-20
+        08:03:01h\",\"Information\":\"false\"}],\"Copyright\":\"\xA9 Federal Statistical
+        Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '5575'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2023 14:01:10 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+    status:
+      code: 200
+      message: '200'
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www-genesis.destatis.de/genesisWS/rest/2020/catalogue/cubes?areaXYZ=all&language=en&pagelengthXYZ=20&selectionXYZ=124%2A
+  response:
+    body:
+      string: "{\"Ident\":{\"Service\":\"catalogue\",\"Method\":\"cubes\"},\"Status\":{\"Code\":0,\"Content\":\"successfull\",\"Type\":\"information\"},\"Parameter\":{\"username\":\"********************\",\"password\":\"********************\",\"selection\":\"\",\"area\":\"free\",\"pagelength\":\"100\",\"language\":\"en\"},\"List\":[{\"Code\":\"11111BJ001\",\"Content\":\"Recording
+        of territorial status, Size of territory, Germany, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"1995-12-31 to 2021-12-31\",\"LatestUpdate\":\"2023-07-05
+        15:02:25h\",\"Information\":\"false\"},{\"Code\":\"11111KJ001\",\"Content\":\"Recording
+        of territorial status, Size of territory, Administrative districts, Reference
+        date\",\"State\":\"complete with values\",\"Time\":\"1995-12-31 to 2021-12-31\",\"LatestUpdate\":\"2023-07-05
+        15:02:19h\",\"Information\":\"false\"},{\"Code\":\"11111LJ001\",\"Content\":\"Recording
+        of territorial status, Size of territory, L\xE4nder, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"1995-12-31 to 2021-12-31\",\"LatestUpdate\":\"2023-07-05
+        15:02:22h\",\"Information\":\"false\"},{\"Code\":\"12111B1001\",\"Content\":\"Census,
+        Population (Census), Germany, Reference date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2017-10-12
+        14:40:27h\",\"Information\":\"false\"},{\"Code\":\"12111B1002\",\"Content\":\"Census,
+        Population (Census), Germany, Nationality, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:01:20h\",\"Information\":\"false\"},{\"Code\":\"12111B1003\",\"Content\":\"Census,
+        Population (Census), Germany, Sex, Reference date\",\"State\":\"complete with
+        values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2018-03-02 14:22:34h\",\"Information\":\"false\"},{\"Code\":\"12111B1004\",\"Content\":\"Census,
+        Population (Census), Germany, Age groups (under 3 - 75 years and over), Reference
+        date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2018-03-02
+        14:18:48h\",\"Information\":\"false\"},{\"Code\":\"12111B1005\",\"Content\":\"Census,
+        Population (Census), Germany, Age groups (under 18 - 65 years and over), Reference
+        date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10
+        08:01:24h\",\"Information\":\"false\"},{\"Code\":\"12111B1006\",\"Content\":\"Census,
+        Population (Census), Germany, Marital status, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:01:26h\",\"Information\":\"false\"},{\"Code\":\"12111B1007\",\"Content\":\"Census,
+        Population (Census), Germany, Nationality, Sex, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:01:28h\",\"Information\":\"false\"},{\"Code\":\"12111B1008\",\"Content\":\"Census,
+        Population (Census), Germany, Nationality, Age groups (under 3 - 75 years
+        and over), Reference date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10
+        08:01:29h\",\"Information\":\"false\"},{\"Code\":\"12111B1009\",\"Content\":\"Census,
+        Population (Census), Germany, Nationality, Marital status, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:01:30h\",\"Information\":\"false\"},{\"Code\":\"12111B1010\",\"Content\":\"Census,
+        Population (Census), Germany, Sex, Age groups (under 3 - 75 years and over),
+        Reference date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10
+        08:01:17h\",\"Information\":\"false\"},{\"Code\":\"12111B1011\",\"Content\":\"Census,
+        Population (Census), Germany, Sex, Marital status, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:00:54h\",\"Information\":\"false\"},{\"Code\":\"12111B1012\",\"Content\":\"Census,
+        Population (Census), Germany, Age groups (under 18 - 65 years and over), Marital
+        status, Reference date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10
+        08:00:55h\",\"Information\":\"false\"},{\"Code\":\"12111L1001\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Reference date\",\"State\":\"complete with
+        values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:00:57h\",\"Information\":\"false\"},{\"Code\":\"12111L1002\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Nationality, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:00:59h\",\"Information\":\"false\"},{\"Code\":\"12111L1003\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Sex, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:01:00h\",\"Information\":\"false\"},{\"Code\":\"12111L1004\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Age groups (under 3 - 75 years and over),
+        Reference date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10
+        08:01:02h\",\"Information\":\"false\"},{\"Code\":\"12111L1005\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Age groups (under 18 - 65 years and over),
+        Reference date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10
+        08:01:04h\",\"Information\":\"false\"},{\"Code\":\"12111L1006\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Marital status, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:01:05h\",\"Information\":\"false\"},{\"Code\":\"12111L1007\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Nationality, Sex, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:01:07h\",\"Information\":\"false\"},{\"Code\":\"12111L1008\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Nationality, Age groups (under 3 - 75 years
+        and over), Reference date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10
+        08:01:09h\",\"Information\":\"false\"},{\"Code\":\"12111L1009\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Nationality, Marital status, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:01:10h\",\"Information\":\"false\"},{\"Code\":\"12111L1010\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Sex, Age groups (under 3 - 75 years and over),
+        Reference date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10
+        08:01:12h\",\"Information\":\"false\"},{\"Code\":\"12111L1011\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Sex, Marital status, Reference date\",\"State\":\"complete
+        with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10 08:01:16h\",\"Information\":\"false\"},{\"Code\":\"12111L1012\",\"Content\":\"Census,
+        Population (Census), L\xE4nder, Age groups (under 18 - 65 years and over),
+        Marital status, Reference date\",\"State\":\"complete with values\",\"Time\":\"2011-05-09\",\"LatestUpdate\":\"2014-04-10
+        08:01:14h\",\"Information\":\"false\"},{\"Code\":\"12211B4001\",\"Content\":\"Microcensus,
+        Population, Germany, Type of health insurance, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2020-09-15 12:00:02h\",\"Information\":\"false\"},{\"Code\":\"12211B4002\",\"Content\":\"Microcensus,
+        Population, Germany, Sex, Type of health insurance, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2020-09-15 12:00:01h\",\"Information\":\"false\"},{\"Code\":\"12211B4003\",\"Content\":\"Microcensus,
+        Population, Germany, Health insurance institutions, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2020-09-15 12:00:04h\",\"Information\":\"false\"},{\"Code\":\"12211B4004\",\"Content\":\"Microcensus,
+        Population, Germany, Sex, Health insurance institutions, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2007 to 2019\",\"LatestUpdate\":\"2020-09-15 12:00:05h\",\"Information\":\"false\"},{\"Code\":\"12211B4005\",\"Content\":\"Microcensus,
+        Average body height, Average body weight, Average Body-Mass-Index, Germany,
+        Year\",\"State\":\"complete with values\",\"Time\":\"2005 to 2017\",\"LatestUpdate\":\"2019-03-18
+        12:23:44h\",\"Information\":\"false\"},{\"Code\":\"12211B4006\",\"Content\":\"Microcensus,
+        Average body height, Average body weight, Average Body-Mass-Index, Germany,
+        Sex, Year\",\"State\":\"complete with values\",\"Time\":\"2005 to 2017\",\"LatestUpdate\":\"2019-03-18
+        12:23:44h\",\"Information\":\"false\"},{\"Code\":\"12211B4007\",\"Content\":\"Microcensus,
+        Average body height, Average body weight, Average Body-Mass-Index, Germany,
+        Age groups (18 - 75 years and over), Year\",\"State\":\"complete with values\",\"Time\":\"2005
+        to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:44h\",\"Information\":\"false\"},{\"Code\":\"12211B4008\",\"Content\":\"Microcensus,
+        Average body height, Average body weight, Average Body-Mass-Index, Germany,
+        Marital status, Year\",\"State\":\"complete with values\",\"Time\":\"2005
+        to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:44h\",\"Information\":\"false\"},{\"Code\":\"12211B4009\",\"Content\":\"Microcensus,
+        Average body height, Average body weight, Average Body-Mass-Index, Germany,
+        Sex, Age groups (18 - 75 years and over), Year\",\"State\":\"complete with
+        values\",\"Time\":\"2005 to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:44h\",\"Information\":\"false\"},{\"Code\":\"12211B4010\",\"Content\":\"Microcensus,
+        Average body height, Average body weight, Average Body-Mass-Index, Germany,
+        Sex, Marital status, Year\",\"State\":\"complete with values\",\"Time\":\"2005
+        to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:45h\",\"Information\":\"false\"},{\"Code\":\"12211B4011\",\"Content\":\"Microcensus,
+        Average body height, Average body weight, Average Body-Mass-Index, Germany,
+        Age groups (18 - 75 years and over), Marital status, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2005 to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:45h\",\"Information\":\"false\"},{\"Code\":\"12211B4012\",\"Content\":\"Microcensus,
+        Average body height, Average body weight, Average Body-Mass-Index, Germany,
+        Sex, Age groups (18 - 75 years and over), Marital status, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2005 to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:45h\",\"Information\":\"false\"},{\"Code\":\"12211B4013\",\"Content\":\"Microcensus,
+        Body-Mass-Index, Germany, Weight classification, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2005 to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:45h\",\"Information\":\"false\"},{\"Code\":\"12211B4014\",\"Content\":\"Microcensus,
+        Body-Mass-Index, Germany, Sex, Weight classification, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2005 to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:45h\",\"Information\":\"false\"},{\"Code\":\"12211B4015\",\"Content\":\"Microcensus,
+        Body-Mass-Index, Germany, Age groups (18 - 75 years and over), Weight classification,
+        Year\",\"State\":\"complete with values\",\"Time\":\"2005 to 2017\",\"LatestUpdate\":\"2019-03-18
+        12:23:45h\",\"Information\":\"false\"},{\"Code\":\"12211B4016\",\"Content\":\"Microcensus,
+        Body-Mass-Index, Germany, Marital status, Weight classification, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2005 to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:45h\",\"Information\":\"false\"},{\"Code\":\"12211B4017\",\"Content\":\"Microcensus,
+        Body-Mass-Index, Germany, Sex, Age groups (18 - 75 years and over), Weight
+        classification, Year\",\"State\":\"complete with values\",\"Time\":\"2005
+        to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:45h\",\"Information\":\"false\"},{\"Code\":\"12211B4018\",\"Content\":\"Microcensus,
+        Body-Mass-Index, Germany, Sex, Marital status, Weight classification, Year\",\"State\":\"complete
+        with values\",\"Time\":\"2005 to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:45h\",\"Information\":\"false\"},{\"Code\":\"12211B4019\",\"Content\":\"Microcensus,
+        Body-Mass-Index, Germany, Age groups (18 - 75 years and over), Marital status,
+        Weight classification, Year\",\"State\":\"complete with values\",\"Time\":\"2005
+        to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:46h\",\"Information\":\"false\"},{\"Code\":\"12211B4020\",\"Content\":\"Microcensus,
+        Body-Mass-Index, Germany, Sex, Age groups (18 - 75 years and over), Marital
+        status, Weight classification, Year\",\"State\":\"complete with values\",\"Time\":\"2005
+        to 2017\",\"LatestUpdate\":\"2019-03-18 12:23:46h\",\"Information\":\"false\"},{\"Code\":\"12211BJ001\",\"Content\":\"Microcensus,
+        Population (aged 15 to under 65), Economically active population, Persons
+        in employment, Unemployed persons, Economically inactive population, Germany,
+        Reference month\",\"State\":\"complete with values\",\"Time\":\"1959-10 to
+        2004-03\",\"LatestUpdate\":\"2016-03-08 16:36:56h\",\"Information\":\"false\"},{\"Code\":\"12211BJ002\",\"Content\":\"Microcensus,
+        Population (aged 15 to under 65), Economically active population, Persons
+        in employment, Unemployed persons, Economically inactive population, Germany,
+        Sex, Reference month\",\"State\":\"complete with values\",\"Time\":\"1959-10
+        to 2004-03\",\"LatestUpdate\":\"2016-03-08 16:37:17h\",\"Information\":\"false\"},{\"Code\":\"12211BJ003\",\"Content\":\"Microcensus,
+        Population, Economically active population, Persons in employment, Unemployed
+        persons, Economically inactive population, Germany, Age groups (under 15 -
+        65 years and over), Reference month\",\"State\":\"complete with values\",\"Time\":\"1991-04
+        to 2004-03\",\"LatestUpdate\":\"2005-03-22 11:46:06h\",\"Information\":\"false\"},{\"Code\":\"12211BJ004\",\"Content\":\"Microcensus,
+        Population, Persons in employment, Unemployed persons, Germany, Sex, Age groups
+        (under 15 - 65 years and over), Reference month\",\"State\":\"complete with
+        values\",\"Time\":\"1991-04 to 2004-03\",\"LatestUpdate\":\"2005-03-22 11:46:09h\",\"Information\":\"false\"},{\"Code\":\"12211BJ005\",\"Content\":\"Microcensus,
+        Population, Persons in employment, Unemployed persons, Economically inactive
+        population, Germany, Main source of livelihood, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1961-10 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:37:39h\",\"Information\":\"false\"},{\"Code\":\"12211BJ006\",\"Content\":\"Microcensus,
+        Population, Persons in employment, Unemployed persons, Economically inactive
+        population, Germany, Sex, Main source of livelihood, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1961-10 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:37:56h\",\"Information\":\"false\"},{\"Code\":\"12211BJ007\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, Age groups (under 15 - 65 years and over),
+        Occupational status, Reference month\",\"State\":\"complete with values\",\"Time\":\"1991-04
+        to 2004-03\",\"LatestUpdate\":\"2016-03-08 16:38:26h\",\"Information\":\"false\"},{\"Code\":\"12211BJ008\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, Occupational status, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1957-10 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:38:38h\",\"Information\":\"false\"},{\"Code\":\"12211BJ009\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, Sex, Occupational status, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1957-10 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:38:48h\",\"Information\":\"false\"},{\"Code\":\"12211BJ010\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, WZ2003: Economic subsectors of the microcensus,
+        Reference month\",\"State\":\"complete with values\",\"Time\":\"2003-05 to
+        2004-03\",\"LatestUpdate\":\"2011-12-07 16:20:00h\",\"Information\":\"false\"},{\"Code\":\"12211BJ011\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, WZ2003: Economic subsectors of the microcensus,
+        Sex, Reference month\",\"State\":\"complete with values\",\"Time\":\"2003-05
+        to 2004-03\",\"LatestUpdate\":\"2011-12-07 16:20:09h\",\"Information\":\"false\"},{\"Code\":\"12211BJ012\",\"Content\":\"Microcensus,
+        Persons in paid employment, Germany, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1985-06 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:39:11h\",\"Information\":\"false\"},{\"Code\":\"12211BJ013\",\"Content\":\"Microcensus,
+        Persons in paid employment, Germany, Sex, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1985-06 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:39:23h\",\"Information\":\"false\"},{\"Code\":\"12211BJ014\",\"Content\":\"Microcensus,
+        Persons in paid employment, Germany, Type of employment contract, Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"1985-06 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:39:33h\",\"Information\":\"false\"},{\"Code\":\"12211BJ015\",\"Content\":\"Microcensus,
+        Persons in paid employment, Germany, Sex, Type of employment contract, Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"1985-06 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:39:42h\",\"Information\":\"false\"},{\"Code\":\"12211BJ016\",\"Content\":\"Microcensus,
+        Persons in paid employment, Germany, Extent of employment, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1985-06 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:39:51h\",\"Information\":\"false\"},{\"Code\":\"12211BJ017\",\"Content\":\"Microcensus,
+        Persons in paid employment, Germany, Extent of employment, Sex, Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"1985-06 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:40:02h\",\"Information\":\"false\"},{\"Code\":\"12211BJ018\",\"Content\":\"Microcensus,
+        Self-employed persons, Germany, Number of persons employed, Sex, Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"1980-04 to 2004-03\",\"LatestUpdate\":\"2016-03-08
+        16:40:11h\",\"Information\":\"false\"},{\"Code\":\"12211BJ019\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, WZ2003: Economic subsectors of the microcensus,
+        Year\",\"State\":\"complete with values\",\"Time\":\"2005 to 2009\",\"LatestUpdate\":\"2011-12-07
+        16:20:20h\",\"Information\":\"false\"},{\"Code\":\"12211BJ020\",\"Content\":\"Microcensus,
+        Persons in employment, Germany, WZ2003: Economic subsectors of the microcensus,
+        Sex, Year\",\"State\":\"complete with values\",\"Time\":\"2005 to 2009\",\"LatestUpdate\":\"2011-12-07
+        16:20:30h\",\"Information\":\"false\"},{\"Code\":\"12211BJ021\",\"Content\":\"Microcensus,
+        Households, Household members, Germany, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1961-06 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:27:34h\",\"Information\":\"false\"},{\"Code\":\"12211BJ022\",\"Content\":\"Microcensus,
+        Households, Household members, Germany, Municipality size classes, Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"1974-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:27:53h\",\"Information\":\"false\"},{\"Code\":\"12211BJ023\",\"Content\":\"Microcensus,
+        Households, Germany, Household size, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1961-06 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:28:08h\",\"Information\":\"false\"},{\"Code\":\"12211BJ024\",\"Content\":\"Microcensus,
+        Households, Germany, Household size, Municipality size classes, Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"1974-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:28:19h\",\"Information\":\"false\"},{\"Code\":\"12211BJ025\",\"Content\":\"Microcensus,
+        Households, Germany, Children under 18 years of age, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1968-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:28:31h\",\"Information\":\"false\"},{\"Code\":\"12211BJ026\",\"Content\":\"Microcensus,
+        Households, Germany, Household net income classes, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"2002-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:29:16h\",\"Information\":\"false\"},{\"Code\":\"12211BJ027\",\"Content\":\"Microcensus,
+        Households, Germany, Household net income classes, Sex, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"2002-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:29:26h\",\"Information\":\"false\"},{\"Code\":\"12211BJ028\",\"Content\":\"Microcensus,
+        Households, Germany, Household size, Household net income classes, Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"2002-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:29:37h\",\"Information\":\"false\"},{\"Code\":\"12211BJ029\",\"Content\":\"Microcensus,
+        Households, Germany, Household size, Household net income classes, Sex, Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"2002-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:29:49h\",\"Information\":\"false\"},{\"Code\":\"12211BJ030\",\"Content\":\"Microcensus,
+        Households, Germany, Age groups (under 25 - 65 years and over), Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"1968-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:30:00h\",\"Information\":\"false\"},{\"Code\":\"12211BJ031\",\"Content\":\"Microcensus,
+        Households, Germany, Household size, Age groups (under 25 - 65 years and over),
+        Reference month\",\"State\":\"complete with values\",\"Time\":\"1968-04 to
+        2004-03\",\"LatestUpdate\":\"2021-06-17 16:30:31h\",\"Information\":\"false\"},{\"Code\":\"12211BJ032\",\"Content\":\"Microcensus,
+        Households, Germany, Marital status, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1972-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:30:41h\",\"Information\":\"false\"},{\"Code\":\"12211BJ033\",\"Content\":\"Microcensus,
+        Households, Germany, Household size, Marital status, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1972-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:30:51h\",\"Information\":\"false\"},{\"Code\":\"12211BJ034\",\"Content\":\"Microcensus,
+        Households, Germany, Labour force participation, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1968-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:31:00h\",\"Information\":\"false\"},{\"Code\":\"12211BJ035\",\"Content\":\"Microcensus,
+        Households, Germany, Household size, Labour force participation, Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"1968-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:31:10h\",\"Information\":\"false\"},{\"Code\":\"12211BJ036\",\"Content\":\"Microcensus,
+        Households, Germany, Occupational status, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1968-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:31:20h\",\"Information\":\"false\"},{\"Code\":\"12211BJ037\",\"Content\":\"Microcensus,
+        Households, Germany, Household size, Occupational status, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1968-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:31:30h\",\"Information\":\"false\"},{\"Code\":\"12211BJ038\",\"Content\":\"Microcensus,
+        Households, Germany, Age groups (under 25 - 65 years and over), Marital status,
+        Sex, Reference month\",\"State\":\"complete with values\",\"Time\":\"1968-04
+        to 2004-03\",\"LatestUpdate\":\"2021-06-17 16:31:40h\",\"Information\":\"false\"},{\"Code\":\"12211BJ039\",\"Content\":\"Microcensus,
+        Households, Former territory of the Fed. Republic / New L\xE4nder, Reference
+        month\",\"State\":\"complete with values\",\"Time\":\"1991-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:31:48h\",\"Information\":\"false\"},{\"Code\":\"12211BJ040\",\"Content\":\"Microcensus,
+        Households, Former territory of the Fed. Republic / New L\xE4nder, Household
+        size, Reference month\",\"State\":\"complete with values\",\"Time\":\"1991-04
+        to 2004-03\",\"LatestUpdate\":\"2021-06-17 16:31:58h\",\"Information\":\"false\"},{\"Code\":\"12211BJ041\",\"Content\":\"Microcensus,
+        Population in private households, Germany, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1972-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:32:07h\",\"Information\":\"false\"},{\"Code\":\"12211BJ042\",\"Content\":\"Microcensus,
+        Population in private households, Germany, Household size, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1972-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:32:16h\",\"Information\":\"false\"},{\"Code\":\"12211BJ043\",\"Content\":\"Microcensus,
+        Population in private households, Germany, Marital status, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1972-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17
+        16:32:25h\",\"Information\":\"false\"},{\"Code\":\"12211BJ044\",\"Content\":\"Microcensus,
+        Population in private households, Germany, Household size, Marital status,
+        Reference month\",\"State\":\"complete with values\",\"Time\":\"1972-04 to
+        2004-03\",\"LatestUpdate\":\"2021-06-17 16:32:34h\",\"Information\":\"false\"},{\"Code\":\"12211BJ045\",\"Content\":\"Microcensus,
+        Population in private households, Germany, Age groups (under 20 - 75 years
+        and over), Reference month\",\"State\":\"complete with values\",\"Time\":\"1972-04
+        to 2004-03\",\"LatestUpdate\":\"2021-06-17 16:32:44h\",\"Information\":\"false\"},{\"Code\":\"12211BJ046\",\"Content\":\"Microcensus,
+        Population in private households, Germany, Age groups (under 20 - 75 years
+        and over), Household size, Reference month\",\"State\":\"complete with values\",\"Time\":\"1972-04
+        to 2004-03\",\"LatestUpdate\":\"2021-06-17 16:32:53h\",\"Information\":\"false\"},{\"Code\":\"12211BJ047\",\"Content\":\"Microcensus,
+        Population in private households, Germany, Age groups (under 20 - 75 years
+        and over), Sex, Reference month\",\"State\":\"complete with values\",\"Time\":\"1972-04
+        to 2004-03\",\"LatestUpdate\":\"2021-06-17 16:33:02h\",\"Information\":\"false\"},{\"Code\":\"12211BJ048\",\"Content\":\"Microcensus,
+        Population in private households, Germany, Household size, Sex, Age groups
+        (under 20 - 75 years and over), Reference month\",\"State\":\"complete with
+        values\",\"Time\":\"1972-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17 16:33:12h\",\"Information\":\"false\"},{\"Code\":\"12211BJ049\",\"Content\":\"Microcensus,
+        Population in private households, Germany, Age groups (under 20 - 75 years
+        and over), Marital status, Reference month\",\"State\":\"complete with values\",\"Time\":\"1972-04
+        to 2004-03\",\"LatestUpdate\":\"2021-06-17 16:33:24h\",\"Information\":\"false\"},{\"Code\":\"12211BJ050\",\"Content\":\"Microcensus,
+        Population in private households, Germany, Sex, Age groups (under 20 - 75
+        years and over), Marital status, Reference month\",\"State\":\"complete with
+        values\",\"Time\":\"1972-04 to 2004-03\",\"LatestUpdate\":\"2021-06-17 16:33:34h\",\"Information\":\"false\"},{\"Code\":\"12211BJ051\",\"Content\":\"Microcensus,
+        Families, Germany, Reference month\",\"State\":\"complete with values\",\"Time\":\"1968-04
+        to 1995-04\",\"LatestUpdate\":\"2021-06-17 16:33:43h\",\"Information\":\"false\"},{\"Code\":\"12211BJ052\",\"Content\":\"Microcensus,
+        Families, Germany, Type of family, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1968-04 to 1995-04\",\"LatestUpdate\":\"2021-06-17
+        16:33:52h\",\"Information\":\"false\"},{\"Code\":\"12211BJ053\",\"Content\":\"Microcensus,
+        Families, Germany, Type of family, Number of children, Reference month\",\"State\":\"complete
+        with values\",\"Time\":\"1968-04 to 1995-04\",\"LatestUpdate\":\"2021-06-17
+        16:34:03h\",\"Information\":\"false\"}],\"Copyright\":\"\xA9 Federal Statistical
+        Office, Wiesbaden 2023\"}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2023 14:01:41 GMT
+      Keep-Alive:
+      - timeout=15, max=100
+      Server:
+      - Apache
+      Transfer-Encoding:
+      - chunked
+    status:
+      code: 200
+      message: '200'
+version: 1
