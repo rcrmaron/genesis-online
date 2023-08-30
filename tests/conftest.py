@@ -35,7 +35,7 @@ def session(credentials):
 
 cassette_dir = Path(__file__).parent / "cassettes"
 api_vcr = vcr.VCR(
-    record_mode="all",  # TODO: change to 'once'
+    record_mode="once",  # NOTE change to 'all' when developing tests
     path_transformer=vcr.VCR.ensure_suffix(".yaml"),
     filter_query_parameters=["username", "password"],
 )
