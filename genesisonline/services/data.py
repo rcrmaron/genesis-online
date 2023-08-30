@@ -1,3 +1,9 @@
+"""
+This module provides a service for downloading data.
+
+Classes:
+    DataService
+"""
 import requests
 import time
 import re
@@ -13,7 +19,15 @@ except ImportError:
 
 
 class DataService(BaseService):
-    """Service containing methods for downloading data."""
+    """Service containing methods for downloading data.
+
+    This service does not implement the following endpoints as they are
+    redundant (due to the way responses are standardized here):
+    - cubefile (call cube instead)
+    - resultfile (call result instead)
+    - tablefile (call table instead)
+    - timeseriesfile (call timeseries instead)
+    """
 
     _service = "data"
     endpoints = [
@@ -40,44 +54,81 @@ class DataService(BaseService):
     def load(self, result_id):
         return self._cache.get(
             result_id, f"No entry for result '{result_id}'"
-        )  # TODO save as file, custom error?
+        )  # TODO save as file
 
     def save(self, result_id, object):
         self._cache[result_id] = object
 
-    def chart2result(self, **api_params) -> dict:
-        return self._request(Endpoints.DATA_CHART2RESULT, **api_params)
+    def chart2result(self, name: str = None, area: str = None, **api_params) -> dict:
+        """Returns a chart related to results table `name` from `area`."""
+        return self._request(
+            Endpoints.DATA_CHART2RESULT, name=name, area=area, **api_params
+        )
 
-    def chart2table(self, **api_params) -> dict:
-        return self._request(Endpoints.DATA_CHART2TABLE, **api_params)
+    def chart2table(self, name: str = None, area: str = None, **api_params) -> dict:
+        """Returns a chart related to table `name` from `area`."""
+        return self._request(
+            Endpoints.DATA_CHART2TABLE, name=name, area=area, **api_params
+        )
 
-    def chart2timeseries(self, **api_params) -> dict:
-        return self._request(Endpoints.DATA_CHART2TIMESERIES, **api_params)
+    def chart2timeseries(
+        self, name: str = None, area: str = None, **api_params
+    ) -> dict:
+        """Returns a chart related to timeseries `name` from `area`."""
+        return self._request(
+            Endpoints.DATA_CHART2TIMESERIES, name=name, area=area, **api_params
+        )
 
-    def cube(self, **api_params) -> dict:
-        return self._request(Endpoints.DATA_CUBE, **api_params)
+    def cube(self, name: str = None, area: str = None, **api_params) -> dict:
+        """Returns cube `name` from `area` according to the parameters set."""
+        return self._request(Endpoints.DATA_CUBE, name=name, area=area, **api_params)
 
-    def map2result(self, **api_params) -> dict:
-        return self._request(Endpoints.DATA_MAP2RESULT, **api_params)
+    def map2result(self, name: str = None, area: str = None, **api_params) -> dict:
+        """Returns a map related to results table `name` from `area`."""
+        return self._request(
+            Endpoints.DATA_MAP2RESULT, name=name, area=area, **api_params
+        )
 
-    def map2table(self, **api_params) -> dict:
-        return self._request(Endpoints.DATA_MAP2TABLE, **api_params)
+    def map2table(self, name: str = None, area: str = None, **api_params) -> dict:
+        """Returns a map related to table `name` from `area`."""
+        return self._request(
+            Endpoints.DATA_MAP2TABLE, name=name, area=area, **api_params
+        )
 
-    def map2timeseries(self, **api_params) -> dict:
-        return self._request(Endpoints.DATA_MAP2TIMESERIES, **api_params)
+    def map2timeseries(self, name: str = None, area: str = None, **api_params) -> dict:
+        """Returns a map related to timeseries `name` from `area`."""
+        return self._request(
+            Endpoints.DATA_MAP2TIMESERIES, name=name, area=area, **api_params
+        )
 
-    def result(self, **api_params) -> dict:
-        return self._request(Endpoints.DATA_RESULT, **api_params)
+    def result(self, name: str = None, area: str = None, **api_params) -> dict:
+        """Returns results table `name` from `area` according to the parameters set."""
+        return self._request(Endpoints.DATA_RESULT, name=name, area=area, **api_params)
 
-    def table(self, wait_for_result: bool = True, **api_params) -> dict:
-        response = self._request(Endpoints.DATA_TABLE, job="true", **api_params)
+    def table(
+        self,
+        wait_for_result: bool = True,
+        name: str = None,
+        area: str = None,
+        **api_params,
+    ) -> dict:
+        """Returns table `name`from `area`according to the parameters set.
 
-        if response["Status"]["Code"] == ResponseStatus.BACKGROUND_RUN:
+        Async if `wait_for_result` = False.
+        """
+        response = self._request(
+            Endpoints.DATA_TABLE, name=name, area=area, job="true", **api_params
+        )
+
+        if response[JsonKeys.STATUS][JsonKeys.CODE] == ResponseStatus.BACKGROUND_RUN:
             return self._get_batch_job_result(response, wait_for_result)
         return response
 
-    def timeseries(self, **api_params) -> dict:
-        return self._request(Endpoints.DATA_TIMESERIES, **api_params)
+    def timeseries(self, name: str = None, area: str = None, **api_params) -> dict:
+        """Returns timeseries `name`from `area` according to the parameters set."""
+        return self._request(
+            Endpoints.DATA_TIMESERIES, name=name, area=area, **api_params
+        )
 
     def _request(self, endpoint: str, **api_params) -> dict:
         response = super().request(endpoint, **api_params)
@@ -99,6 +150,7 @@ class DataService(BaseService):
             raise StandardizationError(f"Standardization error occured: {e}") from e
 
     def _standardize_response(self, response: dict) -> dict:
+        """Standaridze response according to wrapper guidelines."""
         copyright = response.pop(JsonKeys.COPYRIGHT)
         response[JsonKeys.CONTENT] = response.pop(JsonKeys.OBJECT)
         response[JsonKeys.COPYRIGHT] = copyright

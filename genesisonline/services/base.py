@@ -32,7 +32,7 @@ class BaseService(ABC):
         pass
 
     def __init__(self, session: requests.Session) -> None:
-        """Constructor for the GenesisOnlineBase class.
+        """Initialize the service with a session.
 
         Parameters
         ----------

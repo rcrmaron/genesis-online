@@ -1,3 +1,10 @@
+"""
+This module provides a service for finding objects.
+
+Classes:
+    FindService
+"""
+
 import requests
 from genesisonline.services.base import BaseService
 from genesisonline.constants import Endpoints, JsonKeys
@@ -19,8 +26,14 @@ class FindService(BaseService):
     def __str__(self) -> str:
         return "Service containing methods for finding information on objects."
 
-    def find(self, term: str, **api_params) -> dict:
-        return self._request(Endpoints.FIND_FIND, term=term, **api_params)
+    def find(self, term: str, category: str = None, **api_params) -> dict:
+        """Returns lists of objects for a search `term`.
+
+        Objects can be cubes, statistics, tables, timeseries or variables.
+        """
+        return self._request(
+            Endpoints.FIND_FIND, term=term, category=category, **api_params
+        )
 
     def _request(self, endpoint: str, **api_params) -> dict:
         response = super().request(endpoint, **api_params)
@@ -31,6 +44,7 @@ class FindService(BaseService):
             raise StandardizationError(f"Standardization error occured: {e}") from e
 
     def _standardize_response(self, response: dict) -> dict:
+        """Standaridze response according to wrapper guidelines."""
         copyright = response.pop(JsonKeys.COPYRIGHT)
 
         response[JsonKeys.CONTENT] = {

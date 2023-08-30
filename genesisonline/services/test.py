@@ -13,51 +13,33 @@ from genesisonline.exceptions import StandardizationError
 
 
 class TestService(BaseService):
-    """Service containing methods for testing the API."""
+    """Service containing methods for testing the API.
+
+    This service is euqivalent to the 'HelloWorld' service from the GO-API.
+    """
 
     _service = "helloworld"
     endpoints = ["whoami", "logincheck"]
 
     def __init__(self, session: requests.Session) -> None:
-        """Initialize the service with a session.
-
-        Parameters
-        ----------
-        session : requests.Session
-            The session.params dictionary should contain:
-            - "username" (str): The username for authentication.
-            - "password" (str): The password for authentication.
-        """
         super().__init__(session)
 
     def __str__(self) -> str:
         return "Service containing methods for testing the API."
 
     def whoami(self, **api_params) -> dict:
-        """Check if API is online.
+        """Returns the IP address and the user agent of the caller.
 
-        Parameters
-        ----------
-        **api_params
-            Additional parameters for the API request.
-
-        Returns
-        -------
-        A JSON dict standardized according to wrapper guidelines.
+        This allows to perform first tests of using the interface, without
+        having to specify any parameters.
         """
         return self._request(Endpoints.TEST_WHOAMI, "whoami", **api_params)
 
     def logincheck(self, **api_params) -> dict:
-        """Check if login is valid.
+        """Returns whether or not login using the account data was successful.
 
-        Parameters
-        ----------
-        **api_params
-            Additional parameters for the API request.
-
-        Returns
-        -------
-        A JSON dict standardized according to wrapper guidelines.
+        This allows to perform first tests of using the interface, without
+        having to look deeper into the specification
         """
         return self._request(Endpoints.TEST_LOGINCHECK, "logincheck", **api_params)
 
@@ -69,20 +51,7 @@ class TestService(BaseService):
             raise StandardizationError(f"Standardization error occured: {e}") from e
 
     def _standardize_response(self, response: dict, calling_method: str) -> dict:
-        """Standaridze response according to wrapper guidelines
-
-        Parameters
-        ----------
-        response : dict
-            JSON dict as returned from the GO-API.
-
-        calling_method : str
-            Name of the method invoking this function.
-
-        Returns
-        -------
-        Contents of the original dict standardized according to wrapper guidelines.
-        """
+        """Standaridze response according to wrapper guidelines."""
         standardized_response = {
             JsonKeys.IDENT: {
                 JsonKeys.SERVICE: self._service,
