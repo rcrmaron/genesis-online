@@ -7,6 +7,7 @@ Classes:
 import requests
 import time
 import re
+import logging
 from threading import Thread
 from genesisonline.services.base import BaseService
 from genesisonline.constants import Endpoints, ResponseStatus, JsonKeys
@@ -16,6 +17,8 @@ try:
     from typing import Literal
 except ImportError:
     from typing_extensions import Literal
+
+logger = logging.getLogger(__name__)
 
 
 class DataService(BaseService):
@@ -228,6 +231,9 @@ class DataService(BaseService):
         None
         """
         while True:
+            logger.info(
+                f"Checking for result '{result_id}' every {self._timeout} second(s)."
+            )
             result = self.result(name=result_id, language=language)
             if result[JsonKeys.STATUS][JsonKeys.CODE] == ResponseStatus.MATCH:
                 self._cache[result_id][JsonKeys.CONTENT] = result[JsonKeys.CONTENT]
