@@ -4,6 +4,7 @@ from enum import IntEnum
 
 BASE_URL = "https://www-genesis.destatis.de/genesisWS/rest/2020/"
 API_VERSION = "4.3"
+PACKAGE_NAME = "genesisonline"
 
 
 class JsonKeys:
