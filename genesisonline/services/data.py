@@ -9,9 +9,12 @@ import time
 import re
 import logging
 from threading import Thread
+from typing import Union
+from pathlib import Path
 from genesisonline.services.base import BaseService
 from genesisonline.constants import Endpoints, ResponseStatus, JsonKeys
 from genesisonline.exceptions import StandardizationError
+from genesisonline.filemanager import FileManager
 
 try:
     from typing import Literal
@@ -45,22 +48,30 @@ class DataService(BaseService):
         "table",
         "timeseries",
     ]
-    _cache = dict()
 
-    def __init__(self, session: requests.Session) -> None:
+    def __init__(
+        self, session: requests.Session, directory: Union[Path, str] = None
+    ) -> None:
+        """
+        Parameters
+        ----------
+        directory : Path or str
+            Path were the results of large table operations are saved.
+        """
         super().__init__(session)
         self._timeout = 30
+        self.filemanager = FileManager(directory)
 
     def __str__(self) -> str:
         return "Service containing methods for downloading data."
 
     def load(self, result_id):
-        return self._cache.get(
-            result_id, f"No entry for result '{result_id}'"
-        )  # TODO save as file
+        file_name = f"{result_id}.json"
+        return self.filemanager.load(file_name)
 
-    def save(self, result_id, object):
-        self._cache[result_id] = object
+    def save(self, object, result_id):
+        file_name = f"{result_id}.json"
+        self.filemanager.save(object, file_name)
 
     def chart2result(self, name: str = None, area: str = None, **api_params) -> dict:
         """Returns a chart related to results table `name` from `area`."""
@@ -115,7 +126,7 @@ class DataService(BaseService):
         area: str = None,
         **api_params,
     ) -> dict:
-        """Returns table `name`from `area`according to the parameters set.
+        """Returns table `name` from `area`according to the parameters set.
 
         Async if `wait_for_result` = False.
         """
@@ -128,7 +139,7 @@ class DataService(BaseService):
         return response
 
     def timeseries(self, name: str = None, area: str = None, **api_params) -> dict:
-        """Returns timeseries `name`from `area` according to the parameters set."""
+        """Returns timeseries `name` from `area` according to the parameters set."""
         return self._request(
             Endpoints.DATA_TIMESERIES, name=name, area=area, **api_params
         )
@@ -191,6 +202,9 @@ class DataService(BaseService):
     def _get_batch_job_result(self, response: dict, wait_for_result: bool) -> dict:
         """Synchronously or asynchronously retrieve the result of a batch job.
 
+        Note that the intermediate and final results are always saved to disk
+        as a json file (as they can be quite large?).
+
         Parameters
         ----------
         response : dict
@@ -204,19 +218,22 @@ class DataService(BaseService):
         result_id = response[JsonKeys.STATUS][JsonKeys.CONTENT].split(" ")[-1]
         language = response[JsonKeys.PARAMETER]["language"]
 
-        self.save(result_id, response)
+        self.save(response, result_id)
         if wait_for_result:
             self._probe_for_result(result_id, language)
         else:
             thread = Thread(target=self._probe_for_result, args=(result_id, language))
             thread.start()
             response[JsonKeys.CONTENT] = result_id
+            self.save(response, result_id)
+
+        # load results as batch jobs are always saved as file
         return self.load(result_id)
 
     def _probe_for_result(self, result_id: str, language: Literal["de", "en"]) -> None:
         """Probe for the result of a batch job in set time intervals.
 
-        The response will be stored in the `_cache` attribute of the object.
+        The response will be stored as a json file.
 
         Parameters
         ----------
@@ -236,13 +253,15 @@ class DataService(BaseService):
             )
             result = self.result(name=result_id, language=language)
             if result[JsonKeys.STATUS][JsonKeys.CODE] == ResponseStatus.MATCH:
-                self._cache[result_id][JsonKeys.CONTENT] = result[JsonKeys.CONTENT]
-                self._cache[result_id][JsonKeys.STATUS] = {
+                primary_result = self.load(result_id)
+                primary_result[JsonKeys.CONTENT] = result[JsonKeys.CONTENT]
+                primary_result[JsonKeys.STATUS] = {
                     JsonKeys.CODE: ResponseStatus.MATCH.value,
                     JsonKeys.CONTENT: "successfull"
                     if language == "en"
                     else "erfolgreich",
                     JsonKeys.TYPE: "information" if language == "en" else "Information",
                 }
+                self.save(primary_result, result_id)
                 return
             time.sleep(self._timeout)  # TODO: parametrize?
