@@ -1,9 +1,12 @@
+import os
 import pytest
 import configparser
 import vcr
 import requests
 from pathlib import Path
-from genesisonline.constants import JsonKeys, ResponseStatus
+from genesisonline.constants import JsonKeys, ResponseStatus, PACKAGE_NAME
+
+TEST_DIR = Path(os.path.expanduser("~")) / PACKAGE_NAME
 
 
 @pytest.fixture
@@ -83,3 +86,10 @@ def assert_background_task_found(response):
     status = response[JsonKeys.STATUS][JsonKeys.CODE]
     assert status == ResponseStatus.BACKGROUND_RUN
     assert response[JsonKeys.CONTENT] is not None
+
+
+def delete_dir(directory: Path) -> None:
+    """Utility function for deleting a directory includign files"""
+    for file in directory.iterdir():
+        file.unlink()
+    directory.rmdir()

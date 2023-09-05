@@ -1,5 +1,5 @@
 import pytest
-from .conftest import api_vcr, cassette_dir
+from .conftest import api_vcr, cassette_dir, delete_dir, TEST_DIR
 from genesisonline import GenesisOnline
 from genesisonline.constants import JsonKeys
 from genesisonline.services import (
@@ -84,3 +84,9 @@ def test_language_change(api_client):
     assert isinstance(response, dict)
     assert response[JsonKeys.STATUS] == "Sie wurden erfolgreich an- und abgemeldet!"
     assert response["Username"] == api_client.username
+
+
+@pytest.fixture(scope="session", autouse=True)
+def cleanup_after_tests():
+    yield
+    delete_dir(TEST_DIR)

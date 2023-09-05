@@ -2,12 +2,14 @@ import pytest
 from genesisonline.services import DataService
 from genesisonline.services.base import UnexpectedParameterWarning
 from ..conftest import (
+    TEST_DIR,
     api_vcr,
     cassette_dir,
     assert_match_found,
     assert_valid_json_structure,
     assert_no_match_found,
     assert_background_task_found,
+    delete_dir,
 )
 
 cassette_subdir = str(cassette_dir / __name__.split(".")[-1])
@@ -175,3 +177,9 @@ def test_table_params_misspelled(service):
     api_params = {"name": "12411-0001", "selectionXYZ": "all"}
     with pytest.warns(UnexpectedParameterWarning):
         response = service.table(**api_params)
+
+
+@pytest.fixture(scope="session", autouse=True)
+def cleanup_after_tests():
+    yield
+    delete_dir(TEST_DIR)
