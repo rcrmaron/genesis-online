@@ -42,3 +42,9 @@ class StandardizationError(GenesisOnlineError):
     """Exception for"""
 
     pass
+
+
+class ValueError(GenesisOnlineError):
+    """Exception for invalid/unexpected value"""
+
+    pass

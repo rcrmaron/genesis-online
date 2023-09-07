@@ -3,6 +3,7 @@ import os
 from pathlib import Path
 from .conftest import TEST_DIR, delete_dir
 from genesisonline.filemanager import FileManager
+from genesisonline import exceptions
 
 
 @pytest.fixture
@@ -40,6 +41,16 @@ def test_save_and_load(file_manager, file_name, content):
     loaded_data = file_manager.load(file_name)
 
     assert loaded_data == content
+
+
+def test_save_value_error(file_manager):
+    with pytest.raises(exceptions.ValueError):
+        file_manager.save({"test": "test"}, "file.invalid")
+
+
+def test_load_value_error(file_manager):
+    with pytest.raises(exceptions.ValueError):
+        file_manager.load({"test": "test"}, "file.invalid")
 
 
 @pytest.fixture(scope="session", autouse=True)
