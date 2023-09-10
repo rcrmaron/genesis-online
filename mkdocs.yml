@@ -1,0 +1,50 @@
+site_name: genesisonline
+
+theme:
+  name: "material"
+  features:
+    - content.code.copy
+  font:
+    code: Roboto Mono
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: deep purple
+      accent: teal
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+      primary: deep purple
+      accent: teal
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
+      python:
+        docstring_style: google
+        inherit: true
+
+nav:
+  - Welcome to genesisonline: index.md
+  - Quick start: quick_start.md
+  - Central interface: client.md
+  - Services:
+    - Overview: services/overview.md
+    - Test: services/test.md
+    - Find: services/find.md
+    - Catalogue: services/catalogue.md
+    - Data: services/data.md
+    - Metadata: services/metadata.md
+
+
+
