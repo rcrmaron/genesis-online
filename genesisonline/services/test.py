@@ -1,10 +1,4 @@
-"""
-This module provides a service for testing the API.
-
-It contains methods for checking the API's availability and verifying login credentials.
-
-Classes:
-    TestService
+"""Functionality for interacting with the GENESIS-Online HelloWorld service.
 """
 import requests
 from genesisonline.services.base import BaseService

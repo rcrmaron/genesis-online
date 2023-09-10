@@ -1,8 +1,4 @@
-"""
-This module provides a service for downloading data.
-
-Classes:
-    DataService
+"""Functionality for interacting with the GENESIS-Online Data service.
 """
 import requests
 import time
@@ -27,12 +23,15 @@ logger = logging.getLogger(__name__)
 class DataService(BaseService):
     """Service containing methods for downloading data.
 
+    This class offers methods to retrieve various data-related information,
+    including charts, cubes, maps, and more, from the GENESIS-Online database.
+
     This service does not implement the following endpoints as they are
-    redundant (due to the way responses are standardized here):
-    - cubefile (call cube instead)
-    - resultfile (call result instead)
-    - tablefile (call table instead)
-    - timeseriesfile (call timeseries instead)
+    redundant (due to the way responses are standardized here):<br>
+    - cubefile (call `cube` instead)<br>
+    - resultfile (call `result` instead)<br>
+    - tablefile (call `table` instead)<br>
+    - timeseriesfile (call `timeseries` instead)
     """
 
     _service = "data"
@@ -50,17 +49,16 @@ class DataService(BaseService):
     ]
 
     def __init__(
-        self, session: requests.Session, directory: Union[Path, str] = None
+        self, session: requests.Session, cache: Union[Path, str] = None
     ) -> None:
         """
-        Parameters
-        ----------
-        directory : Path or str
-            Path were the results of large table operations are saved.
+        Args:
+            cache: path to where the results of large table operations are saved.
+                If `None`, results are stored in the user's home directory.
         """
         super().__init__(session)
         self._timeout = 30
-        self.filemanager = FileManager(directory)
+        self.filemanager = FileManager(cache)
 
     def __str__(self) -> str:
         return "Service containing methods for downloading data."
@@ -205,15 +203,13 @@ class DataService(BaseService):
         Note that the intermediate and final results are always saved to disk
         as a json file (as they can be quite large?).
 
-        Parameters
-        ----------
-        response : dict
-            The response object containing the status and content of the initial request.
-            This response object is already formatted to wrapper guidelines.
-
-        wait_for_result : bool
-            If True, the method waits for the result before returning.
-            If False, a thread is started to probe for the result asynchronously.
+        Args:
+            response: the response object containing the status and content of
+                the initial request. This response object is already formatted
+                to wrapper guidelines.
+            wait_for_result: if True, the method waits for the result before
+                returning. If False, a thread is started to probe for the
+                result asynchronously.
         """
         result_id = response[JsonKeys.STATUS][JsonKeys.CONTENT].split(" ")[-1]
         language = response[JsonKeys.PARAMETER]["language"]
@@ -235,17 +231,9 @@ class DataService(BaseService):
 
         The response will be stored as a json file.
 
-        Parameters
-        ----------
-        result_id : str
-            The unique identifier for the result.
-
-        language : Literal['de', 'en'], default "en"
-            Language the user wants the response to be in.
-
-        Returns
-        -------
-        None
+        Args:
+            result_id: the unique identifier for the result.
+            language: language the user wants the response to be in.
         """
         while True:
             logger.info(

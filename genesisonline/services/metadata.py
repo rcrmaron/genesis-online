@@ -1,8 +1,4 @@
-"""
-This module provides a service for downloading metadata.
-
-Classes:
-    MetadataService
+"""Functionality for interacting with the GENESIS-Online Metadata service.
 """
 import requests
 from genesisonline.services.base import BaseService

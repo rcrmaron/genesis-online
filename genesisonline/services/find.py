@@ -1,8 +1,4 @@
-"""
-This module provides a service for finding objects.
-
-Classes:
-    FindService
+"""Functionality for interacting with the GENESIS-Online Find service.
 """
 
 import requests

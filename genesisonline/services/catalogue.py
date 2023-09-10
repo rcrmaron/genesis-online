@@ -1,8 +1,4 @@
-"""
-This module provides a service for listing object.
-
-Classes:
-    CatalogueService
+"""Functionality for interacting with the GENESIS-Online Catalogue service.
 """
 import requests
 from genesisonline.services.base import BaseService
