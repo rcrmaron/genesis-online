@@ -50,7 +50,7 @@ def test_save_value_error(file_manager):
 
 def test_load_value_error(file_manager):
     with pytest.raises(exceptions.ValueError):
-        file_manager.load({"test": "test"}, "file.invalid")
+        file_manager.load("file.invalid")
 
 
 @pytest.fixture(scope="session", autouse=True)
