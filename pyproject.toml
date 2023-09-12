@@ -13,7 +13,7 @@ classifiers = [
 ]
 dynamic = ["version", "description"]
 keywords = ["GENESIS-Online"]
-requires-python = ">=3.5"
+requires-python = ">=3.8"
 
 dependencies = ["requests >=2.0,<3"]
 
@@ -26,7 +26,6 @@ dev = [
     "mkdocs >=1.0,<2",
     "mkdocs-material >=9.0,<10",
     "mkdocstrings[python] >=1.0, <2",
-    "flit >=3.9, <4",
 ]
 
 [project.urls]
