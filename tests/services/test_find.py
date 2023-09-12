@@ -1,4 +1,5 @@
 import pytest
+import warnings
 from genesisonline.services import FindService
 from genesisonline.exceptions import UnexpectedParameterWarning
 from ..conftest import (
@@ -23,7 +24,7 @@ def test_endpoints(service):
 @api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
 def test_find(service):
     api_params = {"term": "waste", "category": "cubes", "pagelength": "1"}
-    with pytest.warns(None) as warning_list:
+    with warnings.catch_warnings(record=True) as warning_list:
         response = service.find(**api_params)
 
     assert len(warning_list) == 0, f"Unexpected warning raised."

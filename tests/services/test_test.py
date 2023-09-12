@@ -1,4 +1,5 @@
 import pytest
+import warnings
 from genesisonline.services import TestService
 from genesisonline.exceptions import UnexpectedParameterWarning
 from ..conftest import (
@@ -22,7 +23,7 @@ def test_endpoints(service):
 
 @api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
 def test_whoami(service):
-    with pytest.warns(None) as warning_list:
+    with warnings.catch_warnings(record=True) as warning_list:
         response = service.whoami()
 
     assert len(warning_list) == 0, f"Unexpected warning raised."
@@ -32,7 +33,7 @@ def test_whoami(service):
 
 @api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
 def test_logincheck(service):
-    with pytest.warns(None) as warning_list:
+    with warnings.catch_warnings(record=True) as warning_list:
         response = service.logincheck()
 
     assert len(warning_list) == 0, f"Unexpected warning raised."

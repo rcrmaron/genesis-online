@@ -1,4 +1,5 @@
 import pytest
+import warnings
 from genesisonline.services import MetadataService
 from genesisonline.exceptions import UnexpectedParameterWarning
 from ..conftest import (
@@ -23,7 +24,7 @@ def test_endpoints(service):
 @api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
 def test_cube(service):
     api_params = {"name": "12411BJ001", "area": "all"}
-    with pytest.warns(None) as warning_list:
+    with warnings.catch_warnings(record=True) as warning_list:
         response = service.cube(**api_params)
 
     assert len(warning_list) == 0, f"Unexpected warning raised."
@@ -34,7 +35,7 @@ def test_cube(service):
 @api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
 def test_statistic(service):
     api_params = {"name": "12411", "area": "all"}
-    with pytest.warns(None) as warning_list:
+    with warnings.catch_warnings(record=True) as warning_list:
         response = service.statistic(**api_params)
 
     assert len(warning_list) == 0, f"Unexpected warning raised."
@@ -45,7 +46,7 @@ def test_statistic(service):
 @api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
 def test_table(service):
     api_params = {"name": "12411-0001", "area": "all"}
-    with pytest.warns(None) as warning_list:
+    with warnings.catch_warnings(record=True) as warning_list:
         response = service.table(**api_params)
 
     assert len(warning_list) == 0, f"Unexpected warning raised."
@@ -56,7 +57,7 @@ def test_table(service):
 @api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
 def test_timeseries(service):
     api_params = {"name": "12411BJ001", "area": "all"}
-    with pytest.warns(None) as warning_list:
+    with warnings.catch_warnings(record=True) as warning_list:
         response = service.timeseries(**api_params)
 
     assert len(warning_list) == 0, f"Unexpected warning raised."
@@ -67,7 +68,7 @@ def test_timeseries(service):
 @api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
 def test_value(service):
     api_params = {"name": "LEDIG", "area": "all"}
-    with pytest.warns(None) as warning_list:
+    with warnings.catch_warnings(record=True) as warning_list:
         response = service.value(**api_params)
 
     assert len(warning_list) == 0, f"Unexpected warning raised."
@@ -78,7 +79,7 @@ def test_value(service):
 @api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
 def test_variable(service):
     api_params = {"name": "FAMSTD", "area": "all"}
-    with pytest.warns(None) as warning_list:
+    with warnings.catch_warnings(record=True) as warning_list:
         response = service.variable(**api_params)
 
     assert len(warning_list) == 0, f"Unexpected warning raised."
