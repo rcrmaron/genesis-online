@@ -12,6 +12,8 @@ class TestService(BaseService):
     This service is euqivalent to the 'HelloWorld' service from the GO-API.
     """
 
+    __test__ = False  # mark for pytest (not a test class)
+
     _service = "helloworld"
     endpoints = ["whoami", "logincheck"]
 
