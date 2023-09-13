@@ -1,7 +1,9 @@
 import pytest
 import warnings
+import time
 from genesisonline.services import DataService
 from genesisonline.services.base import UnexpectedParameterWarning
+from genesisonline.constants import JsonKeys, ResponseStatus
 from ..conftest import (
     TEST_DIR,
     api_vcr,
@@ -136,8 +138,8 @@ def test_table_small_not_found(service):
 
 
 @api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
-def test_table_large_synchronous(service):
-    # reduce timeout to avoid RemoteDisconnectd area during testing
+def test_table_large_foreground(service):
+    # reduce timeout to avoid RemoteDisconnectd error during testing
     service._timeout = 10
     api_params = {"name": "51000-0013"}
     with warnings.catch_warnings(record=True) as warning_list:
@@ -146,20 +148,25 @@ def test_table_large_synchronous(service):
     assert len(warning_list) == 0, f"Unexpected warning raised."
     assert_valid_json_structure(response)
     assert_match_found(response)
-    # assert not response["Content"].startswith("Result not yet available.")
 
 
 @api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
-def test_table_large_asynchronous(service):
+def test_table_large_background(service):
     api_params = {"name": "51000-0013"}
     with warnings.catch_warnings(record=True) as warning_list:
-        response = service.table(wait_for_result=False, **api_params)
+        intermediate_response = service.table(wait_for_result=False, **api_params)
 
     assert len(warning_list) == 0, f"Unexpected warning raised."
-    assert_valid_json_structure(response)
-    # assert_match_found(response)
-    assert_background_task_found(response)
-    # assert response["Content"].startswith("Result not yet available.")
+    assert_valid_json_structure(intermediate_response)
+    assert_background_task_found(intermediate_response)
+
+    while True:
+        response = service.load(intermediate_response[JsonKeys.CONTENT])
+        if response[JsonKeys.STATUS][JsonKeys.CODE] == ResponseStatus.MATCH:
+            assert_valid_json_structure(response)
+            assert_match_found(response)
+            break
+        time.sleep(30)
 
 
 @api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
