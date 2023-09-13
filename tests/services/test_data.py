@@ -187,7 +187,7 @@ def test_table_params_misspelled(service):
         response = service.table(**api_params)
 
 
-@pytest.fixture(scope="session", autouse=True)
+@pytest.fixture(scope="module", autouse=True)
 def cleanup_after_tests():
     yield
     delete_dir(TEST_DIR)

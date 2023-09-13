@@ -53,7 +53,7 @@ def test_load_value_error(file_manager):
         file_manager.load("file.invalid")
 
 
-@pytest.fixture(scope="session", autouse=True)
+@pytest.fixture(scope="module", autouse=True)
 def cleanup_after_tests():
     yield
     delete_dir(TEST_DIR)

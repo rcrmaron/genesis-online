@@ -86,7 +86,7 @@ def test_language_change(api_client):
     assert response["Username"] == api_client.username
 
 
-@pytest.fixture(scope="session", autouse=True)
+@pytest.fixture(scope="module", autouse=True)
 def cleanup_after_tests():
     yield
     delete_dir(TEST_DIR)
