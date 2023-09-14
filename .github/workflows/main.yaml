@@ -1,0 +1,55 @@
+name: CI/CD
+
+on: [push, pull_request]
+
+jobs:
+  run-tests:
+    name: Run Tests on ${{ matrix.os }} with Python ${{ matrix.python-version }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: [3.8]
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install flit
+      run: pip install flit
+
+    - name: Install dependencies
+      run: flit install --deps develop
+
+    - name: Run tests
+      run: pytest
+
+  build_docs:
+    # This condition ensures the job runs only for the main branch
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
+    - name: Install flit
+      run: pip install flit
+
+    - name: Install dependencies
+      run: flit install --deps develop
+
+    - name: Build documentation
+      run: mkdocs build
+
+    #- name: Deploy documentation
+    #  run: mkdocs gh-deploy --force
