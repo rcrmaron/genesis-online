@@ -60,7 +60,7 @@ def test_chart2timeseries(service):
     assert_match_found(response)
 
 
-@api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
+# @api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
 def test_cube(service):
     api_params = {"name": "11111BJ001"}
     with warnings.catch_warnings(record=True) as warning_list:
@@ -82,6 +82,7 @@ def test_cube(service):
 #     assert_match_found(response)
 
 
+@api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
 def test_map2table(service):
     api_params = {"name": "11111-0001"}
     with warnings.catch_warnings(record=True) as warning_list:
