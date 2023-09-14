@@ -1,3 +1,4 @@
+import re
 import pytest
 import requests
 import responses
@@ -29,9 +30,14 @@ def service(session):
 
 @pytest.fixture
 def dummy_endpoint(session):
-    un, pw = session.params["username"], session.params["password"]
+    """Dummy endpoint without parameters.
+
+    Parameters like password and username cause a 'requests.exceptions.ConnectionError'
+    due to github (CI) censoring secrets as ***, which results in the call not matching
+    any registered mocks.
+    """
     url = urljoin(BASE_URL, "dummy_endpoint")
-    return f"{url}?username={un}&password={pw}&language=en"
+    return re.compile(rf"{url}*")
 
 
 @api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
@@ -42,15 +48,14 @@ def test_request(service):
 
 @responses.activate
 def test_request_http_error(service, dummy_endpoint):
-    url = urljoin(BASE_URL, "http_error")
     responses.add(responses.GET, dummy_endpoint, status=500)
+    service
     with pytest.raises(exceptions.HTTPError):
         response = service.request("dummy_endpoint")
 
 
 @responses.activate
 def test_request_connection_error(service, dummy_endpoint):
-    url = urljoin(BASE_URL, "http_error")
     responses.add(
         responses.GET, dummy_endpoint, body=requests.exceptions.ConnectionError()
     )
@@ -60,7 +65,6 @@ def test_request_connection_error(service, dummy_endpoint):
 
 @responses.activate
 def test_request_timeout_error(service, dummy_endpoint):
-    url = urljoin(BASE_URL, "http_error")
     responses.add(responses.GET, dummy_endpoint, body=requests.exceptions.Timeout())
     with pytest.raises(exceptions.TimeoutError):
         response = service.request("dummy_endpoint")
@@ -68,7 +72,6 @@ def test_request_timeout_error(service, dummy_endpoint):
 
 @responses.activate
 def test_request_error(service, dummy_endpoint):
-    url = urljoin(BASE_URL, "http_error")
     responses.add(
         responses.GET, dummy_endpoint, body=requests.exceptions.RequestException()
     )
