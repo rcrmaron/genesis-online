@@ -16,7 +16,7 @@ def credentials():
     password = os.environ.get("GENESIS_ONLINE_PASSWORD")
 
     # If not available in environment, then read from auth.ini
-    if not username or password:
+    if not username or not password:
         config_path = Path(__file__).parent.parent / "auth.ini"
         if not config_path.exists():
             raise FileNotFoundError(f"The config file '{config_path}' does not exist.")
