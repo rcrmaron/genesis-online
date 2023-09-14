@@ -67,7 +67,7 @@ def test_check_login_invalid_credentials(api_client):
     assert response["Username"] == api_client.username
 
 
-@api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
+# @api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
 def test_check_login(api_client):
     response = api_client.check_login()
 
@@ -76,7 +76,7 @@ def test_check_login(api_client):
     assert response["Username"] == api_client.username
 
 
-@api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
+# @api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
 def test_language_change(api_client):
     api_client.language = "de"
     response = api_client.check_login()

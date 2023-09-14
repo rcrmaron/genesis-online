@@ -207,3 +207,4 @@ pyrightconfig.json
 .vscode/launch.json
 .vscode/settings.json
 auth.ini
+playground.ipynb

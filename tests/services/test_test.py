@@ -21,7 +21,7 @@ def test_endpoints(service):
     assert len(service.endpoints) == 2
 
 
-@api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
+# @api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
 def test_whoami(service):
     with warnings.catch_warnings(record=True) as warning_list:
         response = service.whoami()
@@ -31,7 +31,7 @@ def test_whoami(service):
     assert_match_found(response)
 
 
-@api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
+# @api_vcr.use_cassette(cassette_library_dir=cassette_subdir)
 def test_logincheck(service):
     with warnings.catch_warnings(record=True) as warning_list:
         response = service.logincheck()
