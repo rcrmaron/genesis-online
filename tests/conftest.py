@@ -11,14 +11,20 @@ TEST_DIR = Path(os.path.expanduser("~")) / PACKAGE_NAME
 
 @pytest.fixture
 def credentials():
-    config_path = Path(__file__).parent.parent / "auth.ini"
-    if not config_path.exists():
-        raise FileNotFoundError(f"The config file '{config_path}' does not exist.")
+    # First, try to get credentials from environment variables
+    username = os.environ.get("GENESIS_ONLINE_USERNAME")
+    password = os.environ.get("GENESIS_ONLINE_PASSWORD")
 
-    config = configparser.ConfigParser()
-    config.read(config_path)
-    username = config.get("Credentials", "username")
-    password = config.get("Credentials", "password")
+    # If not available in environment, then read from auth.ini
+    if not username or password:
+        config_path = Path(__file__).parent.parent / "auth.ini"
+        if not config_path.exists():
+            raise FileNotFoundError(f"The config file '{config_path}' does not exist.")
+
+        config = configparser.ConfigParser()
+        config.read(config_path)
+        username = config.get("Credentials", "username")
+        password = config.get("Credentials", "password")
 
     return username, password
 
