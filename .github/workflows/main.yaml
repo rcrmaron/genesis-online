@@ -28,6 +28,9 @@ jobs:
 
     - name: Run tests
       run: pytest
+      env:
+        GENESIS_ONLINE_USERNAME: ${{ secrets.GENESIS_ONLINE_USERNAME }}
+        GENESIS_ONLINE_PASSWORD: ${{ secrets.GENESIS_ONLINE_PASSWORD }}
 
   build_docs:
     # This condition ensures the job runs only for the main branch
