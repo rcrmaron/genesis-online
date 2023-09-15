@@ -1,4 +1,4 @@
-name: CI/CD
+name: Testing
 
 on: [push, pull_request]
 
@@ -24,7 +24,7 @@ jobs:
       run: pip install flit
 
     - name: Install dependencies
-      run: flit install --deps develop
+      run: flit install --deps test
 
     - name: Run tests
       run: pytest
@@ -32,27 +32,4 @@ jobs:
         GENESIS_ONLINE_USERNAME: ${{ secrets.GENESIS_ONLINE_USERNAME }}
         GENESIS_ONLINE_PASSWORD: ${{ secrets.GENESIS_ONLINE_PASSWORD }}
 
-  build_docs:
-    # This condition ensures the job runs only for the main branch
-    if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
 
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.8
-
-    - name: Install flit
-      run: pip install flit
-
-    - name: Install dependencies
-      run: flit install --deps develop
-
-    - name: Build documentation
-      run: mkdocs build
-
-    #- name: Deploy documentation
-    #  run: mkdocs gh-deploy --force

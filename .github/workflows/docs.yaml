@@ -1,0 +1,53 @@
+  name: Documentation
+
+  on:
+    push:
+      branches:
+        - main
+    pull_request:
+      branches:
+        - main
+  
+  jobs:
+    build_docs:
+      # This condition ensures the job runs only for the main branch
+      if: github.ref == 'refs/heads/main'
+      runs-on: ubuntu-latest
+      steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install flit
+        run: pip install flit
+
+      - name: Install dependencies
+        run: flit install --deps docs
+
+      - name: Build documentation
+        run: mkdocs build
+
+      #- name: Deploy documentation
+      #  run: mkdocs gh-deploy --force
+
+    # update_readme:
+    #   runs-on: ubuntu-latest
+    #   needs: build_docs
+    #   steps:
+    #   - name: Checkout code
+    #     uses: actions/checkout@v2
+
+    #   - name: Copy index.md to README.md
+    #     run: cp docs/index.md README.md
+
+    #   - name: Commit and push changes
+    #     run: |
+    #       git config user.name "GitHub Actions Bot"
+    #       git config user.email "<rcrmaron@gmail.com>"
+    #       git add README.md
+    #       git commit -m "Update README from index.md"
+    #       git push
