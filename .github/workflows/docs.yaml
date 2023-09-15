@@ -47,7 +47,7 @@
       - name: Commit and push changes
         run: |
           git config user.name "GitHub Actions Bot"
-          git config user.email "<rcrmaron@gmail.com>"
+          git config user.email "rcrmaron@gmail.com"
           git add README.md
           git commit -m "Update README from index.md"
           git push
