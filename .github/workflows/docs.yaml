@@ -51,4 +51,6 @@
           git add README.md
           git commit -m "Update README from index.md"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
