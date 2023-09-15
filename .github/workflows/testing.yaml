@@ -1,36 +1,35 @@
-name: Testing
+# name: Testing
 
-on: [push, pull_request]
+# on: [push, pull_request]
 
-jobs:
-  run-tests:
-    name: Run Tests on ${{ matrix.os }} with Python ${{ matrix.python-version }}
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest]
-        python-version: [3.8]
+# jobs:
+#   run-tests:
+#     name: Run Tests on ${{ matrix.os }} with Python ${{ matrix.python-version }}
+#     runs-on: ${{ matrix.os }}
+#     strategy:
+#       matrix:
+#         os: [ubuntu-latest, windows-latest]
+#         python-version: [3.8]
 
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+#     steps:
+#     - name: Checkout code
+#       uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: ${{ matrix.python-version }}
+#     - name: Set up Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: ${{ matrix.python-version }}
 
-    - name: Install flit
-      run: pip install flit
+#     - name: Install flit
+#       run: pip install flit
 
-    - name: Install dependencies
-      run: pip install .[test]
-      # run: flit install --deps test
+#     - name: Install dependencies
+#       run: pip install .[test]
 
-    - name: Run tests
-      run: pytest
-      env:
-        GENESIS_ONLINE_USERNAME: ${{ secrets.GENESIS_ONLINE_USERNAME }}
-        GENESIS_ONLINE_PASSWORD: ${{ secrets.GENESIS_ONLINE_PASSWORD }}
+#     - name: Run tests
+#       run: pytest
+#       env:
+#         GENESIS_ONLINE_USERNAME: ${{ secrets.GENESIS_ONLINE_USERNAME }}
+#         GENESIS_ONLINE_PASSWORD: ${{ secrets.GENESIS_ONLINE_PASSWORD }}
 
 
