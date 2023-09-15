@@ -26,7 +26,8 @@
         run: pip install flit
 
       - name: Install dependencies
-        run: flit install --deps docs
+        run: pip install .[docs]
+        # run: flit install --deps docs
 
       - name: Build documentation
         run: mkdocs build

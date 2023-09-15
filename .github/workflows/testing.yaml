@@ -24,7 +24,8 @@ jobs:
       run: pip install flit
 
     - name: Install dependencies
-      run: flit install --deps test
+      run: pip install .[test]
+      # run: flit install --deps test
 
     - name: Run tests
       run: pytest
