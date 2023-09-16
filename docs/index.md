@@ -1,5 +1,5 @@
 # Welcome to genesisonline
-> *an interface to interact with the public GENESIS-Online API*
+*a python wrapper for interacting with the public GENESIS-Online API*
 
 ![tests workflow](https://github.com/rcrmaron/genesis-online/actions/workflows/testing.yaml/badge.svg)
 ![docs workflow](https://github.com/rcrmaron/genesis-online/actions/workflows/docs.yaml/badge.svg)
@@ -10,7 +10,7 @@
 
 
 ## About genesisonline
-***
+
 The **genesisonline** package is a lightweight python wrapper around the [GENESIS-Online API](https://www-genesis.destatis.de/genesis/online?operation=sprachwechsel&language=en) which provides access to the database of the German Federal Statistical Office. Its primary function is to:
 
 - provide a one-to-one mapping of the RESTful/JSON web services specified in the
@@ -40,7 +40,7 @@ pip install -e .[dev]
 
 ## Example usage
 
-Set up and test the wrapper via:
+Set up wrapper and verify it is working correctly:
 
 ```python
 from genesisonline import GenesisOnline
@@ -57,10 +57,16 @@ go.check_login()
 >>> {'Status': 'You have been logged in and out successfully!', 'Username': 'your_username'}
 ```
 
-Fetch data for:
+Fetch data from various services and endpoints:
 
 ```python
-response = go.data.table("234")
+# data/table/ endpoint
+response = go.data.table(name="51000-0012")
 
+# find/find endpoint
+response = go.find.find(term="waste", category="cubes", pagelength="1")
+
+# metadata/cube endpoint
+response = go.metadata.cube(name="12411BJ001", area="all")
 ```
 
