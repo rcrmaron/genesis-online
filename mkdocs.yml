@@ -37,7 +37,7 @@ plugins:
 nav:
   - Welcome to genesisonline: index.md
   - Quick start: quick_start.md
-  - Central interface: client.md
+  - Wrapper: client.md
   - Services:
     - Overview: services/overview.md
     - Test: services/test.md
