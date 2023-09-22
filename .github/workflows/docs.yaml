@@ -49,6 +49,10 @@
           git config user.name "GitHub Actions Bot"
           git config user.email "rcrmaron@gmail.com"
           git add README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
           git commit -m "Update README from index.md"
           git push
         env:
