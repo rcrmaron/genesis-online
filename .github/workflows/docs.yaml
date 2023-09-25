@@ -10,8 +10,7 @@
   
   jobs:
     build_docs:
-      # This condition ensures the job runs only for the main branch
-      if: github.ref == 'refs/heads/main'
+
       runs-on: ubuntu-latest
       steps:
       - name: Checkout code
@@ -31,8 +30,15 @@
       - name: Build documentation
         run: mkdocs build
 
-      #- name: Deploy documentation
-      #  run: mkdocs gh-deploy --force
+      - name: Configure git
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "rcrmaron@gmail.com"
+          
+      - name: Deploy documentation to GitHub Pages
+        run: mkdocs gh-deploy --force
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     update_readme:
       runs-on: ubuntu-latest
